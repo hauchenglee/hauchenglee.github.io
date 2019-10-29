@@ -11,7 +11,7 @@
           content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href='{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}'>
 
     <!-- Third-Party CSS -->
     <link rel="stylesheet" href="http://favorites.ren/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="http://favorites.ren/assets/css/syntax.css">
     <link rel="stylesheet" href="http://favorites.ren/assets/css/gitalk.css">
 
-    
 
     <!-- My CSS -->
     <link rel="stylesheet" href="http://favorites.ren/assets/css/common.css">
