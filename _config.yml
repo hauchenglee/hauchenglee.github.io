@@ -13,7 +13,10 @@ email: hauchenglee@gmail.com
 description: 本站是吹雪的技術分享博客。内容涵盖生活故事與知識分享。
 keywords: hauchenglee,吹雪,生活故事,編程,Developer,Programmer,Coder,Geek,Java,
 encoding: "utf-8"
-favicon: favicon.ico
+favicon: favicon.ico.png
+line_id: hauchenglee
+line_qr_pic: line_qrcode.jpg
+line_qr_url: http://www.hauchenglee.com/assets/images/line_qrcode.jpg
 
 repository: hauchenglee/hauchenglee.github.io
 github_url: https://github.com/hauchenglee
@@ -96,7 +99,7 @@ navs:
     label: Bookmark
     target: _self
 
-  - href: /open-Source
+  - href: /open-source
     label: Open-Source
     target: _self
 

@@ -1,17 +1,18 @@
 # Hauchenglee Jekyll Theme
+
 (Description)
 
-go to my site: [http://www.hauchenglee.com/](http://www.hauchenglee.com/)
+Go to my site: [http://www.hauchenglee.com/](http://www.hauchenglee.com/)
 
 
-### Contributor
+## Thank for
 
-[Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
+- [Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
+- [ityouknow](https://github.com/ityouknow/ityouknow.github.io)
 
-[ityouknow](https://github.com/ityouknow/ityouknow.github.io)
 
+## Contact me
 
-### Contact us
 ![]()
 
 
