@@ -14,14 +14,14 @@ description: 本站是吹雪的技術分享博客。内容涵盖生活故事與�
 keywords: hauchenglee,吹雪,生活故事,編程,Developer,Programmer,Coder,Geek,Java,
 encoding: "utf-8"
 favicon: favicon.ico.png
-line_id: hauchenglee
-line_qr_pic: line_qrcode.jpg
-line_qr_url: http://www.hauchenglee.com/assets/images/line_qrcode.jpg
 
 repository: hauchenglee/hauchenglee.github.io
 github_url: https://github.com/hauchenglee
 url: http://www.hauchenglee.com
 enforce_ssl: hauchenglee.com
+line_id: hauchenglee
+line_qr_pic: line_qrcode.jpg
+line_qr_url: http://www.hauchenglee.com/assets/images/line_qrcode.jpg
 
 ## Gem
 plugins:
