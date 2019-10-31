@@ -5,9 +5,11 @@ category: java
 tags: [java]
 ---
 
-## Primitive data type
+## 基本數值運算
 
 ### byte
+
+bytes (2^n) → 字节（位元組） / bit → 字元（位元）
 
 type|desc
 ---|---|
@@ -51,23 +53,65 @@ int x = b.intValue();
 int y = b;
 ```
 
-## Operator
+## 操作符
 
-### unary operator
+### 算數運算符
 
-- 算數運算符
 
-操作符|描述
----|---
-+|加法<br>字串相加的情況<br>`"3 + 5 = " + 3 + 5` / console: `3 + 5  = 35` （字串相加）<br>`3 + 5 + " = 5 + 5"` / console: `8 = 5 + 5` （先數值相加再字串相加）
--|減法
-*|乘法
-/|除法
-%|餘法
+* 加法 +
+   * 字串相加的情況
+   ```
+   string  + string = string:
+       "3 + 5 = " + 3 + 5 // console: 3 + 5  = 35
+   integer + string = string:
+       3 + 5 + " = 5 + 5" // console: 8 = 5 + 5
+   ```
+* 減法 -
+* 乘法 *
+* 除法 /
+* 餘法 %
+   * 先不考慮兩個運算元的正負號，直接做餘數運算
+   * 被除數的正負號，就是最終結果的正負號
+    ```
+     17 %  5 =  2
+    -17 %  5 = -2
+     17 % -5 =  2
+    -17 % -5 = -2
+    ```
+* 自增 ++
+   * a++: evaluates a, then increments it (post-incrementation).
+   * ++a: increments a, then evaluates it (pre-incrementation).
+    ```
+    int a = 1;
+    int b = a++; // b = 1, a = 2
+    
+    a = 1;
+    b = ++a; // b = 2, a = 2
+    ```
+    ```
+    int x = 5, y = 5;
+    System.out.println(++x); // console 6
+    System.out.println(x);   // console 6
+    System.out.println(y++); // console 5
+    System.out.println(y);   // console 6
+    ```
+* 自減 --
 
-- 關係運算符
-- 位運算符
-- 邏輯運算符
-- 賦值運算符
-- 其他運算符
+### 關係運算符
 
+* 相等 ==
+* 不相等 !=
+* 大於 >
+* 小於 <
+* 大於或等於 >=
+* 小於或等於 <=
+
+### 位運算符
+
+### 邏輯運算符
+
+### 賦值運算符
+
+### 其他運算符
+
+---
