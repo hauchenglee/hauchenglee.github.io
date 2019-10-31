@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Link
-titlebar: Link
 subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource link
 menu: Link
 permalink: /link
@@ -19,7 +18,7 @@ permalink: /link
 ## 个人链接
 
 - [hauchenglee](http://www.hauchenglee.com/) - my blog
-- [github](https://github.com/hauchenglee) -  my github
+- [github](https://github.com/hauchenglee) - my github
 
 ## 其它  
 

@@ -15,6 +15,7 @@ keywords: hauchenglee,吹雪,生活故事,編程,Developer,Programmer,Coder,Geek
 encoding: "utf-8"
 favicon: favicon.ico.png
 
+# Link
 repository: hauchenglee/hauchenglee.github.io
 github_url: https://github.com/hauchenglee
 url: http://www.hauchenglee.com
@@ -59,30 +60,13 @@ paginate_path: 'page:num'
 # not use
 menus:
 
-  - href: /python.html
-    label: Python
+  - href: /empty
+    label: Empty
     target: _self
 
-  - href: /it.html
-    label: IT
+  - href: /link
+    label: Link
     target: _self
-
-  - href: /zsxq.html
-    label: 星球
-    target: _self
-
-  - href: /life.html
-    label: 故事
-    target: _self
-
-  - href: /arch.html
-    label: 架构
-    target: _self
-
-  - href: /link.html
-    label: 友链
-    target: _self
-
 
 
 # Navigation. main menu list
@@ -91,16 +75,16 @@ navs:
   - href: /
     label: Home
 
-  - href: /blog
-    label: Blog
-    target: _self
-
-  - href: /bookmark
-    label: Bookmark
+  - href: /tech
+    label: Tech
     target: _self
 
   - href: /open-source
     label: Open-Source
+    target: _self
+
+  - href: /blog
+    label: Blog
     target: _self
 
   - href: /archives
@@ -132,16 +116,16 @@ labels:
 classes:
 
   - href: /
-    name: name a
-    describe: desc a
+    name: article a
+    describe: describe a
 
   - href: /
-    name: name b
+    name: article b
     describe: describe b
 
   - href: /
-    name: name c
-    describe: desc c
+    name: article c
+    describe: describe c
 
 
 # ---------------- #
