@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java筆記-基礎
+title: java筆記-基礎語法
 category: java
 tags: [java]
 ---
@@ -84,11 +84,10 @@ int y = b;
     ```
     int a = 1;
     int b = a++; // b = 1, a = 2
-    
+
     a = 1;
     b = ++a; // b = 2, a = 2
-    ```
-    ```
+
     int x = 5, y = 5;
     System.out.println(++x); // console 6
     System.out.println(x);   // console 6
@@ -108,10 +107,49 @@ int y = b;
 
 ### 位運算符
 
+> Java定义了位运算符，应用于整数类型(int)，长整型(long)，短整型(short)，字符型(char)，和字节型(byte)等类型。
+>
+> 位运算符作用在所有的位上，并且按位运算。假设a = 60，b = 13;它们的二进制格式表示将如下：
+> ```
+> A = 0011 1100
+> B = 0000 1101
+> -----------------
+> A&B = 0000 1100
+> A | B = 0011 1101
+> A ^ B = 0011 0001
+> ~A= 1100 0011
+> ```
+
 ### 邏輯運算符
+
+* and or：
+   * and 成立在前後條件式都要成立（true），結果才會為真
+   * or  成立在前後條件式只要一個成立（true），結果就會為真
+* 短路（&&、||）與非短路（&、|、^）：
+   * 短路：The Conditional Operators which exhibit "short-circuiting" behavior.
+   * 非短路：The bitwise Operator which is not short-circuiting.
+* MySQL AND OR NOT<br>
+![](http://www.hauchenglee/assets/images/tech/MySQL_AND_OR_NOT.jpg)
 
 ### 賦值運算符
 
-### 其他運算符
+* =
+* +=
+* -=
+* *=
+* /=
+* %=
+* <<=
+* \>\>=
+* &=
+* ^=
+* |=
+
+### 條件運算符
+
+`variable = booleanExpression ? valueWhenTrue : valueWhenFalse`
+
+### instanceof 運算
+
 
 ---
