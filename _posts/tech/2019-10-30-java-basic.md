@@ -5,9 +5,9 @@ category: java
 tags: [java]
 ---
 
-## 基本數值運算
+# 基本數值
 
-### byte
+## byte
 
 bytes (2^n) → 字节（位元組） / bit → 字元（位元）
 
@@ -22,7 +22,7 @@ long|8
 double|8
 string|depend on charset like ASCII of UTF-8 lead to different bytes
 
-### conversion
+## conversion
 
 - 小 &rarr; 大：隱性轉型，大 &rarr; 小：強制轉型
 
@@ -53,9 +53,9 @@ int x = b.intValue();
 int y = b;
 ```
 
-## 操作符
+# 操作符
 
-### 算數運算符
+## 算數運算符
 
 
 * 加法 +
@@ -96,7 +96,7 @@ int y = b;
     ```
 * 自減 --
 
-### 關係運算符
+## 關係運算符
 
 * 相等 ==
 * 不相等 !=
@@ -105,7 +105,7 @@ int y = b;
 * 大於或等於 >=
 * 小於或等於 <=
 
-### 位運算符
+## 位運算符
 
 > Java定义了位运算符，应用于整数类型(int)，长整型(long)，短整型(short)，字符型(char)，和字节型(byte)等类型。
 >
@@ -120,18 +120,52 @@ int y = b;
 > ~A= 1100 0011
 > ```
 
-### 邏輯運算符
+## 邏輯運算符
 
 * and or：
    * and 成立在前後條件式都要成立（true），結果才會為真
    * or  成立在前後條件式只要一個成立（true），結果就會為真
-* 短路（&&、||）與非短路（&、|、^）：
+* 短路（&&、\|\|）與非短路（&、\|、^）：
    * 短路：The Conditional Operators which exhibit "short-circuiting" behavior.
    * 非短路：The bitwise Operator which is not short-circuiting.
-* MySQL AND OR NOT<br>
-![](http://www.hauchenglee/assets/images/tech/MySQL_AND_OR_NOT.jpg)
+* MySQL and or not：
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th colspan=4 style="text-align: center">b</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>A</td>
+            <td></td>
+            <td>true</td>
+            <td>false</td>
+            <td>null</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>t</td>
+            <td>f</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>f</td>
+            <td>f</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td>null</td>
+            <td>n</td>
+            <td>f</td>
+            <td>n</td>
+        </tr>
+    </tbody>
+</table>
 
-### 賦值運算符
+## 賦值運算符
 
 * =
 * +=
@@ -145,11 +179,33 @@ int y = b;
 * ^=
 * |=
 
-### 條件運算符
+## 條件運算符
 
 `variable = booleanExpression ? valueWhenTrue : valueWhenFalse`
 
-### instanceof 運算
+## instanceof 運算符
 
+使用格式：
+
+`(object reference variable) instanceof (class/interface type)`
+
+簡單例子：
+
+```
+String name = "miku"
+boolean result = name instanceof String; // console: true
+```
+
+詳細例子：
+```java
+class Vehicle {}
+
+public class Car extends Vehicle {
+    public static void main(String[] args){
+        Vehicle a = new Car();
+        boolean result =  a instanceof Car; // console: true
+    }
+}
+```
 
 ---
