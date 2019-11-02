@@ -5,9 +5,9 @@ category: java
 tags: [java]
 ---
 
-# 基本數值
+## Variable
 
-## byte
+### byte
 
 bytes (2^n) → 字节（位元組） / bit → 字元（位元）
 
@@ -22,7 +22,7 @@ long|8
 double|8
 string|depend on charset like ASCII of UTF-8 lead to different bytes
 
-## conversion
+### conversion
 
 - 小 &rarr; 大：隱性轉型，大 &rarr; 小：強制轉型
 
@@ -53,59 +53,67 @@ int x = b.intValue();
 int y = b;
 ```
 
-# 操作符
+### 作用域（scope）
 
-## 算數運算符
+\\|in method|in block
+---|---|---
+static variable|can access|can access
+instance variable|can access|can access
+local variable|can access|can access until block need inside in method
+local variable in block|N/A|this variable only live within the block. Example: if, for loop's block
 
+## Operator
 
-* 加法 +
-   * 字串相加的情況
+### 算數運算符
+
+- 加法 +
+   - 字串相加的情況
    ```
    string  + string = string:
        "3 + 5 = " + 3 + 5 // console: 3 + 5  = 35
    integer + string = string:
        3 + 5 + " = 5 + 5" // console: 8 = 5 + 5
    ```
-* 減法 -
-* 乘法 *
-* 除法 /
-* 餘法 %
-   * 先不考慮兩個運算元的正負號，直接做餘數運算
-   * 被除數的正負號，就是最終結果的正負號
+- 減法 -
+- 乘法 *
+- 除法 /
+- 餘法 %
+   - 先不考慮兩個運算元的正負號，直接做餘數運算
+   - 被除數的正負號，就是最終結果的正負號
     ```
      17 %  5 =  2
     -17 %  5 = -2
      17 % -5 =  2
     -17 % -5 = -2
     ```
-* 自增 ++
-   * a++: evaluates a, then increments it (post-incrementation).
-   * ++a: increments a, then evaluates it (pre-incrementation).
+- 自增 ++
+   - a++: evaluates a, then increments it (post-incrementation).
+   - ++a: increments a, then evaluates it (pre-incrementation).
+- 自減 \-\-
     ```
     int a = 1;
     int b = a++; // b = 1, a = 2
-
+  
     a = 1;
     b = ++a; // b = 2, a = 2
-
+  
     int x = 5, y = 5;
     System.out.println(++x); // console 6
     System.out.println(x);   // console 6
     System.out.println(y++); // console 5
     System.out.println(y);   // console 6
     ```
-* 自減 --
 
-## 關係運算符
+### 關係運算符
 
-* 相等 ==
-* 不相等 !=
-* 大於 >
-* 小於 <
-* 大於或等於 >=
-* 小於或等於 <=
+- 相等 ==
+- 不相等 !=
+- 大於 >
+- 小於 <
+- 大於或等於 >=
+- 小於或等於 <=
 
-## 位運算符
+### 位運算符
 
 > Java定义了位运算符，应用于整数类型(int)，长整型(long)，短整型(short)，字符型(char)，和字节型(byte)等类型。
 >
@@ -120,15 +128,15 @@ int y = b;
 > ~A= 1100 0011
 > ```
 
-## 邏輯運算符
+### 邏輯運算符
 
-* and or：
-   * and 成立在前後條件式都要成立（true），結果才會為真
-   * or  成立在前後條件式只要一個成立（true），結果就會為真
-* 短路（&&、\|\|）與非短路（&、\|、^）：
-   * 短路：The Conditional Operators which exhibit "short-circuiting" behavior.
-   * 非短路：The bitwise Operator which is not short-circuiting.
-* MySQL and or not：
+- and or：
+   - and 成立在前後條件式都要成立（true），結果才會為真
+   - or  成立在前後條件式只要一個成立（true），結果就會為真
+- 短路（&&、\|\|）與非短路（&、\|、^）：
+   - 短路：The Conditional Operators which exhibit "short-circuiting" behavior.
+   - 非短路：The bitwise Operator which is not short-circuiting.
+- MySQL and or not：
 <table>
     <thead>
         <tr>
@@ -165,25 +173,25 @@ int y = b;
     </tbody>
 </table>
 
-## 賦值運算符
+### 賦值運算符
 
-* =
-* +=
-* -=
-* *=
-* /=
-* %=
-* <<=
-* \>\>=
-* &=
-* ^=
-* |=
+- =
+- +=
+- -=
+- *=
+- /=
+- %=
+- <<=
+- \>\>=
+- &=
+- ^=
+- |=
 
-## 條件運算符
+### 條件運算符
 
 `variable = booleanExpression ? valueWhenTrue : valueWhenFalse`
 
-## instanceof 運算符
+### instanceof 運算符
 
 使用格式：
 
@@ -207,5 +215,13 @@ public class Car extends Vehicle {
     }
 }
 ```
+
+## Iterators
+
+### 時間複雜度（time complexity）
+
+### 遞歸（recursive function）
+
+## Array
 
 ---
