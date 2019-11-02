@@ -8,12 +8,69 @@ permalink: /tech
 
 ## Java
 
-- [Java 基礎語法](http://hauchenglee.com/tech/2019/10/30/java-basic.html) - Java基礎語法
+- [Java Basic](http://hauchenglee.com/tech/2019/10/30/java-basic.html) - Java 基礎語法
+- [Java OOP](http://hauchenglee.com/tech/2019/11/02/java-oop.html) - Java 面向對象
+
+## Servlet
+
+- []()
+
+## Spring
+
+- []()
+
+## Spring MVC
+
+- []()
+
+## Kotlin
+
+- []()
 
 ## Hibernate
 
+- []()
+
+## Tomcat
+
+- []()
+
+## JBoss
+
+- []()
+
+## Algorithms
+
+- []()
+
+## Database
+
+### MySQL
+
+- []()
+
+### Microsoft SQL Server
+
+- []()
+
+### MongoDB
+
+- []()
+
+## Linux
+
+- []()
+
+## Design Pattern
+
+- []()
+
 ## Git
 
-- [GitHub Pages教程](http://hauchenglee.com/tech/2019/11/02/github-pages.html) - 使用 GitHub Pages + Jekyll 建立個人博客
+- []()
+
+## Exception History
+
+- []()
 
 ---
