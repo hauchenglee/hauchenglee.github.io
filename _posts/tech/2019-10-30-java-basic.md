@@ -55,12 +55,37 @@ int y = b;
 
 ### 作用域（scope）
 
-\\|in method|in block
----|---|---
-static variable|can access|can access
-instance variable|can access|can access
-local variable|can access|can access until block need inside in method
-local variable in block|N/A|this variable only live within the block. Example: if, for loop's block
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>in method</th>
+            <th>in block</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>static variable</td>
+            <td>can access</td>
+            <td>can access</td>
+        </tr>
+        <tr>
+            <td>instance variable</td>
+            <td>can access</td>
+            <td>can access</td>
+        </tr>
+        <tr>
+            <td>local variable</td>
+            <td>can access</td>
+            <td>can access until block need inside in method</td>
+        </tr>
+        <tr>
+            <td>local variable in block</td>
+            <td>N/A</td>
+            <td>this variable only live within the block. example: if, for block</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Operator
 
@@ -69,10 +94,8 @@ local variable in block|N/A|this variable only live within the block. Example: i
 - 加法 +
    - 字串相加的情況
    ```
-   string  + string = string:
-       "3 + 5 = " + 3 + 5 // console: 3 + 5  = 35
-   integer + string = string:
-       3 + 5 + " = 5 + 5" // console: 8 = 5 + 5
+   string  + string = string: "3 + 5 = " + 3 + 5 // console: 3 + 5 = 35
+   integer + string = string: 3 + 5 + " = 5 + 5" // console: 8 = 5 + 5
    ```
 - 減法 -
 - 乘法 *
@@ -81,10 +104,8 @@ local variable in block|N/A|this variable only live within the block. Example: i
    - 先不考慮兩個運算元的正負號，直接做餘數運算
    - 被除數的正負號，就是最終結果的正負號
     ```
-     17 %  5 =  2
-    -17 %  5 = -2
-     17 % -5 =  2
-    -17 % -5 = -2
+    17 % 5 = 2
+    -17 % 5 = -2
     ```
 - 自增 ++
    - a++: evaluates a, then increments it (post-incrementation).
@@ -205,7 +226,7 @@ boolean result = name instanceof String; // console: true
 ```
 
 詳細例子：
-```java
+```
 class Vehicle {}
 
 public class Car extends Vehicle {
@@ -220,8 +241,67 @@ public class Car extends Vehicle {
 
 ### 時間複雜度（time complexity）
 
+- see: [algorithms]() - （未完成）
+
 ### 遞歸（recursive function）
 
+```
+// 1. sum of 1 + 2 + 3 + 4 + .... + 18 + 19 + 20
+// 2. sum of 1 + 3 + 5 + .... + 17 + 19
+// 3. sum of 2 + 4 + 6 + .... + 18 + 20
+
+public class Recursive {
+    private static int incrementRecursive(int x) {
+        if (x == 1) {
+            return 1;
+        }
+        return incrementRecursive(x - 1) + x;
+    }
+
+    private static int oddRecursive(int x) {
+        if (x == 1) {
+            return 1;
+        }
+        return oddRecursive(x - 2) + x;
+    }
+
+    private static int evenRecursion(int x) {
+        if (x == 2) {
+            return 2;
+        }
+        return evenRecursion(x -2) + x;
+    }
+}
+```
+
 ## Array
+
+### 一維數組
+
+- 基本語法：
+`type[] array_name = new type[]`
+
+- Array → List：
+```
+Integer[] array = new Integer[] {1, 2, 3};
+List<Integer> list = new Arrays.asList(array);
+```
+
+- List → Array：
+```
+List<String> list = new ArrayList<>();
+list.add("element1");
+list.add("element2");
+String[] array = new String[list.size()];
+array = list.toArray(array);
+```
+
+### 二維數組
+
+- 基本語法：
+`type[][] array_name = new type[row][column]`
+- 二維數組：
+   - 優點：簡單、易懂，在二維關係比較滿的時候省空間
+   - 缺點：在二維關係不滿的時候，浪費空間
 
 ---
