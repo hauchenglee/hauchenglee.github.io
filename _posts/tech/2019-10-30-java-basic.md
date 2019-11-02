@@ -1,7 +1,7 @@
 ---
 layout: post
 title: java筆記-基礎語法
-category: java
+category: tech
 tags: [java]
 ---
 
