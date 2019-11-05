@@ -123,7 +123,7 @@ Pictorial Representation of the above Program
 ## string in memory
 
 JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**.
- (See more information in java-oop [where storage lives](http://hauchenglee.com/tech/2019/11/05/java-string.html#where-storage-lives))
+ (See more information in java-oop: [where storage lives](http://hauchenglee.com/tech/2019/11/05/java-oop.html#where-storage-lives))
  Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some
  memory specially meant for string literals. This part of the heap memory is called **String Constant Pool**.
 
@@ -156,10 +156,38 @@ In the other hand:
 This is how String Constant Pool looks like in the memory:
 ![](http://www.hauchenglee.com/assets/images/tech/string-in-memory-allotment.png)
 
+> When you create a string object using string literal, JVM first checks the content of be created object. If there exist an
+> object in the pool with the same content, then the reference of that object. It does not create new object. If the content
+> is different from the existing objects then only it creates new objects.
+>
+> But, when you create string objects using new keyword, a new object is created whether the content is same or not.
+>
+> --[How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/)
+
+See another information: [Guide to Java String Pool | Baeldung](https://www.baeldung.com/java-string-pool)
+
+Prove:
+```
+public static void main(String[] args) {
+    String s1 = "abc";
+    String s2 = "abc";
+    System.out.println(s1 == s2);
+
+    String s3 = new String("abc");
+    String s4 = new String("abc");
+    System.out.println(s3 == s4);
+}
+```
+
+The console is:
+```
+true
+false
+```
 
 ## string in concurrency
 
-see: [Java Concurrency]()
+See: [Java Concurrency]()
 
 ## scanner
 
