@@ -71,7 +71,7 @@ public static int f(int value) {
 
 后用先关，先用后关
 
-## override
+## override exception
 
 - 父類別`throws`例外範圍 >= 子類別`throws`例外範圍
 - 子類別可以丢`IOException`，但子類別不可以丢`Exception`，因為`Exception` > `IOException`
