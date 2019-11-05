@@ -11,6 +11,7 @@ permalink: /tech
 - [Java Basic](http://hauchenglee.com/tech/2019/10/30/java-basic.html) - Java 基礎語法
 - [Java OOP](http://hauchenglee.com/tech/2019/11/02/java-oop.html) - Java 面向對象
 - [Java Exception](http://hauchenglee.com/tech/2019/11/03/java-except.html) - Java Exception
+- [Java String](http://hauchenglee.com/tech/2019/11/05/java-string.html) - Java String
 
 ## Servlet
 
