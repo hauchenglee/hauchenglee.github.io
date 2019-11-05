@@ -8,7 +8,7 @@ tags: [java]
 ## what is string
 
 Here is Oracle's description:
-> -- [String (Java Platform SE 7 )](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+> -- [String (Java Platform SE 7 )](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html){:target="_blank"}
 
 > ```
 > public final class String
@@ -114,16 +114,16 @@ Pictorial Representation of the above Program
 
 ![](http://www.hauchenglee.com/assets/images/tech/final-vs-immutability.png)
 
-> -- [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/)
+> -- [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/){:target="_blank"}
 
 ### why string is final
 
-> -- [Why String is Immutable or Final in Java](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html)
+> -- [Why String is Immutable or Final in Java](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html){:target="_blank"}
 
 ## string in memory
 
 JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**.
- (See more information in java-oop: [where storage lives](http://hauchenglee.com/tech/2019/11/05/java-oop.html#where-storage-lives))
+ (See more information in [java-oop: where storage lives](http://hauchenglee.com/tech/2019/11/02/java-oop.html#where-storage-lives))
  Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some
  memory specially meant for string literals. This part of the heap memory is called **String Constant Pool**.
 
@@ -162,9 +162,9 @@ This is how String Constant Pool looks like in the memory:
 >
 > But, when you create string objects using new keyword, a new object is created whether the content is same or not.
 >
-> --[How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/)
+> --[How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/){:target="_blank"}
 
-See another information: [Guide to Java String Pool | Baeldung](https://www.baeldung.com/java-string-pool)
+See another information: [Guide to Java String Pool | Baeldung](https://www.baeldung.com/java-string-pool){:target="_blank"}
 
 Prove:
 ```
