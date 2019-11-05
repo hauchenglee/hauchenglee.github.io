@@ -95,19 +95,15 @@ Here is differences between final and immutability:
 For example:
 
 ```
-class Final {
-    public static void main(String[] args){
-        final StringBuffer sb = new StringBuffer("Hello");
-        
-        // Even though reference variable sb is final
-        // We can perform any changes
-        sb.append("GFG");
-        
-        // Here we will get compile time error
-        // Because reassignment is not possible for final variable
-        sb = new StringBuffer("Hello World");
-    }
-}
+final StringBuffer sb = new StringBuffer("Hello");
+
+// Even though reference variable sb is final
+// We can perform any changes
+sb.append("GFG");
+
+// Here we will get compile time error
+// Because reassignment is not possible for final variable
+sb = new StringBuffer("Hello World");
 ```
 
 Pictorial Representation of the above Program
@@ -164,19 +160,17 @@ This is how String Constant Pool looks like in the memory:
 >
 > --[How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/){:target="_blank"}
 
-See another information: [Guide to Java String Pool | Baeldung](https://www.baeldung.com/java-string-pool){:target="_blank"}
+See another information: [Guide to Java String Pool - Baeldung](https://www.baeldung.com/java-string-pool){:target="_blank"}
 
 Prove:
 ```
-public static void main(String[] args) {
-    String s1 = "abc";
-    String s2 = "abc";
-    System.out.println(s1 == s2);
+String s1 = "abc";
+String s2 = "abc";
+System.out.println(s1 == s2);
 
-    String s3 = new String("abc");
-    String s4 = new String("abc");
-    System.out.println(s3 == s4);
-}
+String s3 = new String("abc");
+String s4 = new String("abc");
+System.out.println(s3 == s4);
 ```
 
 The console is:
@@ -190,5 +184,81 @@ false
 See: [Java Concurrency]()
 
 ## scanner
+
+### the scanner bug
+
+Problem:
+
+The following code fragment asks users for their name and age:
+
+```
+System.out.print("What is your name? ");
+name = in.nextLine();
+System.out.print("What is your age? ");
+age = in.nextInt();
+Sysout.out.printf("Hello %s, age %d\n", name, age);
+```
+
+The output might look something like this:
+
+`Hello Grace Hopper, age 45`
+
+When you read a `String` followed by an `int`, everything works just fine. But when you read
+ an `int` followed by a `String`, something strange happens.
+
+```
+System.out.print("What is your age? ");
+age = in.nextInt();
+System.out.print("What is your name? ");
+name = in.nextLine();
+Sysout.out.printf("Hello %s, age %d\n", name, age);
+```
+
+Try running this example code. It doesn't let tou input name, and it immediately displays the
+ output:
+
+`What is you name? Hello , age 45`
+
+To understand what is happening, you have to understand that the `Scanner` doesn't see input
+ as multiple lines, like we do.
+
+![](http://www.hauchenglee.com/assets/images/tech/the-scanner-bug.png)
+
+When you call `nextInt`, it reads characters until it gets to a non-digit. At this point,
+ `nextInt` return 45. The program then displays the prompt "`What is you name? `" and calls
+ `nextLine`, which reads characters until it gets to a **newline**. But since the next
+ character is already a newline, `nextLine` returns the empty string "".
+
+To solve this problem, you need an extra `nextLine` after `nextInt`.
+
+```
+System.out.print("What is your age? ");
+age = in.nextInt();
+in.nextLine(); // read the newLine
+System.out.print("What is your name? ");
+name = in.nextLine();
+Sysout.out.printf("Hello %s, age %d\n", name, age);
+```
+
+This technique is common when reading `int` or `double` values that appear on their own line.
+ First you read the number, and then you read the rest of the line, which is just a newline
+ character.
+
+> --Think Java / by Allen B. Downey and Chris Mayfield
+
+### next and nextLine
+
+next():
+- only reads the characters until it encounters a blank space.
+- `next()` places the cursor in the same line after reading the input.
+
+`"Hello World"` → `"Hello"`
+
+nextLine():
+- reads input including space between the words till end of line \n.
+- once the input is read, `nextLine()` positions the cursor in the next line.
+- for reading the entire line, it is better to use `nextLine()`
+
+`"Hello World!"` → `"Hello World"`
 
 ---
