@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-String
+title: Java筆記-String 字符串
 category: tech
 tags: [java]
 ---
@@ -52,6 +52,8 @@ Above all, there have some emphasis about string, such as:
 3. different between char and string?
 4. how about string append to other string?
 5. different between `StringBuilder` and `StringBuffer`?
+
+## final string in java
 
 ### final vs immutability
 
@@ -114,12 +116,45 @@ Pictorial Representation of the above Program
 
 > -- [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/)
 
-### final string
+### why string is final
 
-
+> -- [Why String is Immutable or Final in Java](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html)
 
 ## string in memory
 
+JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**.
+ (See more information in java-oop [where storage lives](http://hauchenglee.com/tech/2019/11/05/java-string.html#where-storage-lives))
+ Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some
+ memory specially meant for string literals. This part of the heap memory is called **String Constant Pool**.
+
+In the other hand:
+- create a string object using string literal: object is stored in the **string constant pool**.
+- create a string object using new keyword: object is stored in the **heap memory**.
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>string literal</th>
+            <th>new keyword</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>stored in</td>
+            <td>string constant pool</td>
+            <td>heap memory</td>
+        </tr>
+        <tr>
+            <td>exapmle</td>
+            <td>String s1 = "abc"</td>
+            <td>String s2 = new String("def");</td>
+        </tr>
+    </tbody>
+</table>
+
+This is how String Constant Pool looks like in the memory:
+![](http://www.hauchenglee.com/assets/images/tech/string-in-memory-allotment.png)
 
 
 ## string in concurrency

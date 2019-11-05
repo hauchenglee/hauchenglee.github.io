@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-算法分析
+title: Java筆記-Collection 集合
 category: tech
 tags: [java]
 ---

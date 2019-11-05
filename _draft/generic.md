@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Algorithms筆記-算法分析
+title: Java筆記-Generic 泛型
 category: tech
 tags: [java]
+---
+
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-Exception
+title: Java筆記-Exception 異常處理
 category: tech
 tags: [java]
 ---
