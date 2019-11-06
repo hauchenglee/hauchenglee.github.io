@@ -31,11 +31,15 @@ API 中的示例：
 
 ### 泛型方法
 
-> -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated))](https://docs.oracle.com/javase/tutorial/java/generics/methods.html)
-> -- [Generic Methods (The Java™ Tutorials > Bonus > Generics)](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
-> -- [The Basics of Java Generics | Baeldung](https://www.baeldung.com/java-generics)
+> -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated))](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){:target="_blank"}
+>
+> -- [Generic Methods (The Java™ Tutorials > Bonus > Generics)](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html){:target="_blank"}
+>
+> -- [The Basics of Java Generics | Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
+>
 > -- [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
-> -- [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091)
+>
+> -- [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091){:target="_blank"}
 
 ### 泛型接口
 
@@ -115,7 +119,7 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 ## 泛型通配符
 
 以下資料整理自：
-> --![聊一聊 JAVA 泛型中的通配符 T，E，K，V，？ - 知乎](https://zhuanlan.zhihu.com/p/79162771){:target="_blank"}
+> -- [聊一聊 JAVA 泛型中的通配符 T，E，K，V，？ - 知乎](https://zhuanlan.zhihu.com/p/79162771){:target="_blank"}
 
 ### 常用的T, E, K, V, ?
 
