@@ -31,31 +31,11 @@ API 中的示例：
 
 ### 泛型方法
 
-```
-class FanXing<T> {
-    public void a1() { }
-
-    public void a2(T a) { }
-
-    public void a3(T[] a) { }
-
-    public <BB> void b(BB b) { }
-
-    public static <BB> void s1(BB a) { }
-
-    // FanXing.this cannot be referenced from a static content
-    public static void s2(T a) { }
-
-    public <BB> BB[] arr1(BB... r) { return r; }
-}
-```
-
-說明：
-> d方法，e方法 都是静态方法，但是一个可以一个不可以，为啥呢？因为静态方法在类被加载的时候就会被放入方法区了，
-> e方法的BB参数，在类加载的时候也没有确定，无所谓的。但是d方法的AA参数，在这个方法被加载的时候，很可能还没有创建对象，
-> 那么AA的类型还没有确定呢!所以直接写肯定是不行
-
-> --[java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
+> -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated))](https://docs.oracle.com/javase/tutorial/java/generics/methods.html)
+> -- [Generic Methods (The Java™ Tutorials > Bonus > Generics)](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
+> -- [The Basics of Java Generics | Baeldung](https://www.baeldung.com/java-generics)
+> -- [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
+> -- [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091)
 
 ### 泛型接口
 
@@ -127,9 +107,20 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 ## 泛型界限
 
 `List <? extends Fruit>`：`List`中所有元素都是`Fruit`的子类（包含本身）
-![](http://www.hauchenglee.com/assets/images/tech/generic-extends.png)
+![](http://www.hauchenglee.com/assets/images/tech/generic-extends.jpg)
 
 `List <? super Fruit>`：List中所有元素都是Fruit的父类（包含本身）
-![](http://www.hauchenglee.com/assets/images/tech/generic-super.png)
+![](http://www.hauchenglee.com/assets/images/tech/generic-super.jpg)
+
+## 泛型通配符
+
+以下資料整理自：
+> --![聊一聊 JAVA 泛型中的通配符 T，E，K，V，？ - 知乎](https://zhuanlan.zhihu.com/p/79162771){:target="_blank"}
+
+### 常用的T, E, K, V, ?
+
+### \<T\> <?>
+
+### Class\<T\> 和 Class<?> 區別
 
 ---
