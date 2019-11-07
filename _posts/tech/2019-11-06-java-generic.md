@@ -81,8 +81,6 @@ It is worth noting that Oracle recommendation is to use an uppercase letter to r
 
 Here have more generics information:
 
-> -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated))](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){:target="_blank"}
->
 > -- [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
 >
 > -- [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091){:target="_blank"}
