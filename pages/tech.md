@@ -13,7 +13,7 @@ permalink: /tech
 - [Java Exception](http://hauchenglee.com/tech/2019/11/03/java-except.html) - Java Exception 異常處理
 - [Java String](http://hauchenglee.com/tech/2019/11/05/java-string.html) - Java String 字符串
 - [Java Generic](http://hauchenglee.com/tech/2019/11/06/java-generic.html) - Java Generic 泛型
-- [Java Generic - Oracle](http://hauchenglee.com/tech/2019/11/07/java-generic-oracle.html) - Java Generic 泛型 - Oracle Tutorial
+- [Java Collections - Introduction](http://hauchenglee.com/tech/2019/11/08/java-collections-introduction.html) - Java Collections 集合 - Introduction
 
 ## Servlet
 
