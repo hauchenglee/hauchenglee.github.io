@@ -12,6 +12,8 @@ permalink: /tech
 - [Java OOP](http://hauchenglee.com/tech/2019/11/02/java-oop.html) - Java 面向對象
 - [Java Exception](http://hauchenglee.com/tech/2019/11/03/java-except.html) - Java Exception 異常處理
 - [Java String](http://hauchenglee.com/tech/2019/11/05/java-string.html) - Java String 字符串
+- [Java Generic](http://hauchenglee.com/tech/2019/11/06/java-generic.html) - Java Generic 泛型
+- [Java Generic - Oracle](http://hauchenglee.com/tech/2019/11/07/java-generic-oracle.html) - Java Generic 泛型 - Oracle Tutorial
 
 ## Servlet
 
