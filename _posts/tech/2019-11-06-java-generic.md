@@ -31,11 +31,57 @@ API 中的示例：
 
 ### 泛型方法
 
+Generic methods are those that are written with a single method declaration and can be called with arguments of different types.
+ The compiler will ensure the correctness of whichever type is used. These are some properties of generic methods:
+
+- Generic methods have a type parameter (the diamond operator enclosing the type) before the return type of the method declaration
+- Type parameters can be bounded
+- Generic methods can have different type parameters separated by commas in the method signature
+- Method body for a generic method is just like a normal method
+
+An example of defining a generic method to convert an array to a list
+```
+public <T> List<T> fromArrayToList(T[] a) {
+    return Arrays.stream(a).collect(Collectors.toList());
+}
+```
+
+In the previous example, the `<T>` in the method signature implies that the method will be dealing with generic type `T`. This is
+ needed even if the method is returning void.
+
+As mentioned above, the method can deal with more than one generic type, where this is the case, all generic types muse be added
+ to the method signature, for example, if we want to modify the above method to deal with type `T` and type `G`, it should be
+ written like this:
+
+```
+public static <T, G> List<G> fromArrayToList(T[] a, Function<T, G> mapperFunction) {
+    return Arrays.stream(a)
+      .map(mapperFunction)
+      .collect(Collectors.toList());
+}
+```
+
+We're passing a function that converts an array with the elements of type `T` to list with elements of type `G`. An example would be
+ to convert `Integer` to its `String` representation:
+
+```
+@Test
+public void givenArrayOfIntegers_thanListOfStringReturnOK() {
+    Integer[] intArray = {1, 2, 3, 4, 5};
+    List<String> stringList = Generics.fromArrayToList(intArray, Object::toString);
+    
+    assertThat(stringList, hasItems("1", "2", "3", "4", "5"));
+}
+```
+
+It is worth noting that Oracle recommendation is to use an uppercase letter to represent a generic type and to choose a more
+ descriptive letter to represent formal types, for example in Java Collections `T` is used for type, `K` for key, `V` for value.
+
+> -- [The Basics of Java Generics - Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
+
+Here have more generics information:
+
 > -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated))](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){:target="_blank"}
->
-> -- [Generic Methods (The Java™ Tutorials > Bonus > Generics)](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html){:target="_blank"}
->
-> -- [The Basics of Java Generics | Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
 >
 > -- [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
 >
@@ -123,7 +169,7 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 
 ### 常用的T, E, K, V, ?
 
-### \<T\> <?>
+### T ?
 
 ### Class\<T\> 和 Class<?> 區別
 
