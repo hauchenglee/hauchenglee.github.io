@@ -163,7 +163,7 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 `List <? super Fruit>`：List中所有元素都是Fruit的父类（包含本身）
 ![](http://www.hauchenglee.com/assets/images/tech/generic-super.jpg)
 
-> -- [Java 泛型 <? super T> 中 super 怎么 理解？与 extends 有何不同？ - 知乎](https://www.zhihu.com/question/20400700)
+> -- [Java 泛型 <? super T> 中 super 怎么 理解？与 extends 有何不同？ - 知乎](https://www.zhihu.com/question/20400700){:target="_blank"}
 
 ## 泛型通配符
 
@@ -342,7 +342,7 @@ Pair<String, String> p2 = new OrderedPair<String, String>("hello", "world");
 ```
 
 The code, `new OrderedPair<String, Integer>`, instantiated `K` as a `String` and `V` as a `Integer`. Therefore, the parameter types of `OrderedPair`'s constructor
- are `String` and `Integer`, respectively. Due to [autoboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html), it is valid to pass a `String`
+ are `String` and `Integer`, respectively. Due to [autoboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html){:target="_blank"}, it is valid to pass a `String`
  and an `int` to the class.
 
 As mentioned in [The Diamond](#the-diamond), because a Java compiler can infer the `K` and `V` types from the declaration `OrderedPair<String, Integer>`, there
