@@ -15,7 +15,7 @@ tags: [java]
     <thead>
         <tr>
             <th>Concrete Class / Map</th>
-            <th>Inteface</th>
+            <th>Interface</th>
             <th>Duplicate Elements</th>
             <th>Ordered</th>
             <th>Sorted</th>
@@ -131,7 +131,7 @@ tags: [java]
 - **Map**: Map, as said does not extend *collection* Interface so represent separately. Boxes in blue are the classes that are used for programming. It contains Key-Value
  pair. Key will be unique. No class extending Map preserves the order accept TreeMap class.
 
-> -- [JAVA COLLECTION FRAMEWORK - Java User Group Albania](https://jugalbania.wordpress.com/2018/01/09/java-collection-framework/)
+> -- [JAVA COLLECTION FRAMEWORK - Java User Group Albania](https://jugalbania.wordpress.com/2018/01/09/java-collection-framework/){:target="_blank"}
 
 ### List
 
