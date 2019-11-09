@@ -137,7 +137,43 @@ tags: [java]
 
 ArrayList vs LinkedList:
 
-
+<table>
+    <thead>
+        <tr>
+            <th>ArrayList</th>
+            <th>LinkedList</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ArrayList internally uses a "dynamic array" to store the elements</td>
+            <td>LinkedList internally uses a "doubly inked list" to store the elements</td>
+        </tr>
+        <tr>
+            <td>Manipulation with ArrayList is "slow"
+             because it internally uses an array. If any
+             element is removed from the array, all the bits
+             are shifted in memory.</td>
+            <td>Manipulation with LinkedList is "faster"
+             than ArrayList because it uses a doubly
+             linked list, so no bit shifting is required
+             in memory.</td>
+        </tr>
+        <tr>
+            <td>An ArrayList class can "act as a list" only
+             because it implements List only.</td>
+            <td>LinkedList class can "act as a list and
+             queue" both because it implements list
+             and Deque interfaces.</td>
+        </tr>
+        <tr>
+            <td>ArrayList is "better for storing and
+             accessing" data.</td>
+            <td>LinkedList is "better for manipulating"
+             data</td>
+        </tr>     
+    </tbody>
+</table>
 
 ### Set
 
