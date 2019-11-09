@@ -5,6 +5,8 @@ category: tech
 tags: [java]
 ---
 
+> -- [Date-Time Design Principles (The Java™ Tutorials > Date Time > Date-Time Overview)](https://docs.oracle.com/javase/tutorial/datetime/overview/design.html){:target="_blank"}
+
 ## Date-Time Design Principles
 
 The Date-Time API was developed using several design principles.
@@ -22,8 +24,6 @@ The Date-Time API provides a fluent interface, making the code easy to read. Bec
 LocalDate today = LocalDate.now();
 LocalDate payDay = today.with(TemporalAdjusters.lastDayOfMonth()).minusDays(2);
 ```
-
-> -- [Date-Time Design Principles (The Java™ Tutorials > Date Time > Date-Time Overview)](https://docs.oracle.com/javase/tutorial/datetime/overview/design.html){:target="_blank"}
 
 ### Immutable
 
