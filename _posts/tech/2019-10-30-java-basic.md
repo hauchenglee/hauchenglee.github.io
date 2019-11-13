@@ -241,7 +241,7 @@ public class Car extends Vehicle {
 
 ### 時間複雜度（time complexity）
 
-- see: [algorithms]() - （未完成）
+- see: [algorithms time complexity](http://hauchenglee.com/tech/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
 
 ### 遞歸（recursive function）
 
