@@ -131,18 +131,6 @@ public class LinkedStackOfStrings {
 }
 ```
 
-### Stack: linked-list implementation performance
-
-**Proposition.** Every operation takes constant time in the worst case.
-
-**Proposition.** A stack with *N* items uses ~ 40 *N* bytes.
-
-![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-performance.png)
-
-**Remark.** This accounts for the memory for the stack
-<br>
-(but not the memory for strings themselves, which the client owns).
-
 ### Stack: array implementation
 
 **Array implementation of a stack.**
@@ -150,7 +138,7 @@ public class LinkedStackOfStrings {
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-array-implementation.png)
+![](http://www.hauchenglee.com/assets/images/tech/algs4-fixed-array.png)
 
 **Defect.** Stack overflows when N exceeds capacity. [stay tuned]
 
@@ -188,7 +176,7 @@ public class FixedCapacityStackOfStrings {
 }
 ```
 
-### Stack considerations
+### Stack considerations with array implementation
 
 <span style="color:lightblue">**Overflow and underflow.**</span>
 - Underflow: throw exception if pop from an empty stack.
@@ -220,15 +208,30 @@ public String pop() {
 <br>garbage collector can reclaim memory
 <br>only if no outstanding references</span>
 
-## resizing arrays
+> *We need to pass the size of the array. This violates the idea of the stack which
+>  says it should be able to grow and shrink at any size. That's why stacks not
+>  usually implement using a fixed size array.*
 
-## queues
+### Stack analysis — linked list vs arrays
 
-## generics
+**Proposition.** Every operation takes constant time in the worst case.
 
-## iterators
+**Proposition.** A stack with *N* items uses ~ 40 *N* bytes.
 
-## applications
+![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-performance.png)
+
+**Time →** With linked List, the methods takes constant time, but it's still not that efficient due to object declaration and dealing with links.
+ While with arrays, accessing the arrays is much faster; It takes `O(1)`
+
+**Memory →** Linked Lists requires more memory because of the size of node objects. While with arrays it requires less memory space.
+
+## Queues
+
+## Generics
+
+## Iterators
+
+## Applications
 
 
 ---
