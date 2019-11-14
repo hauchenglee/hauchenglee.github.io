@@ -49,6 +49,7 @@ permalink: /tech
 
 - [algorithms analysis](http://hauchenglee.com/tech/2019/11/12/algorithms-analysis.html) - 算法分析
 - [algorithms time complexity](http://hauchenglee.com/tech/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
+- [algorithms stack and queue](http://hauchenglee.com/tech/2019/11/14/algorithms-stacks-and-queues.html) - Stacks and Queues
 
 ## Database
 
@@ -77,6 +78,10 @@ permalink: /tech
 - []()
 
 ## Exception History
+
+- []()
+
+## Project Event
 
 - []()
 
