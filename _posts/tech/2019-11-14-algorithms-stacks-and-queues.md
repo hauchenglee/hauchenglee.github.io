@@ -6,8 +6,10 @@ tags: [algorithms]
 ---
 
 以下資料整理自：
+<br>
 **Algorithms, Part I by Princeton University. Week 2: Stacks and Queues**
-[Lecture Slides - Coursera](https://www.coursera.org/learn/algorithms-part1/supplement/UAJbP/lecture-slides){:target="_blank"}
+<br>
+-- [Lecture Slides - Coursera](https://www.coursera.org/learn/algorithms-part1/supplement/UAJbP/lecture-slides){:target="_blank"}
 
 其他參看資料：
 - [Stacks and Queues - OmarElGabry's Blog - Medium](https://medium.com/omarelgabrys-blog/stacks-and-queues-d96c6f35fae3){:target="_blank"}
@@ -24,9 +26,9 @@ Fundamental data types:
 
 ![](http://www.hauchenglee.com/assets/images/tech/algs4-stacks-and-queues.png)
 
-**Stack.** Examine the item most recently added. ← **LIFO = "last in first out"**
+**Stack.** Examine the item most recently added. <span style="color:brown">**← LIFO = "last in first out"**</span>
 <br>
-**Queue.** Examine the item most recently added. ← **FIFO = "first in first out"**
+**Queue.** Examine the item most recently added. <span style="color:brown">**← FIFO = "first in first out"**</span>
 
 ### Client, implementation, interface
 
@@ -148,9 +150,75 @@ public class LinkedStackOfStrings {
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
+![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-array-implementation.png)
+
+**Defect.** Stack overflows when N exceeds capacity. [stay tuned]
+
 ### Stack: array implementation
 
+```
+public class FixedCapacityStackOfStrings {
+    private String[] s;
+    private int N = 0;
+
+    /**
+     * constructor
+     *
+     * @param capacity a cheat (stay tuned)
+     */
+    public FixedCapacityStackOfStrings(int capacity) {
+        s = new String[capacity];
+    }
+
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public void push(String item) {
+        // use to index into array;
+        // then increment N
+        s[N++] = item;
+    }
+
+    public String pop() {
+        // decrement N;
+        // then use to index into array 
+        return s[--N];
+    }
+}
+```
+
 ### Stack considerations
+
+<span style="color:lightblue">**Overflow and underflow.**</span>
+- Underflow: throw exception if pop from an empty stack.
+- Overflow: use resizing array for array implementation. [stay tuned]
+
+<span style="color:lightblue">**Null items.**</span> We allow null item to be inserted.
+
+<span style="color:lightblue">**Loitering.**</span> Holding a reference to an object when it is no longer needed.
+
+```
+public String pop() {
+    return s[--N];
+}
+```
+
+<span style="color:brown">loitering</span>
+
+<br>
+
+```
+public String pop() {
+    String item = s[--N];
+    s[N] = null;
+    return item;
+}
+```
+
+<span style="color:brown">this version avoids "loitering":
+<br>garbage collector can reclaim memory
+<br>only if no outstanding references</span>
 
 ## resizing arrays
 
