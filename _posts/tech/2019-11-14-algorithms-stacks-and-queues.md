@@ -18,7 +18,7 @@ tags: [algorithms]
 
 ### Stacks and Queues
 
-Fundamental data types:
+<span style="color:lightblue">**Fundamental data types.**</span>
 - Value: collection of objects.
 - Operations: **insert**, **remove**, **iterate**, test if empty.
 - Intent is clear when we insert.
@@ -26,33 +26,33 @@ Fundamental data types:
 
 ![](http://www.hauchenglee.com/assets/images/tech/algs4-stacks-and-queues.png)
 
-**Stack.** Examine the item most recently added. <span style="color:brown">**← LIFO = "last in first out"**</span>
+<span style="color:lightblue">**Stack.**</span> Examine the item most recently added. <span style="color:brown">**← LIFO = "last in first out"**</span>
 <br>
-**Queue.** Examine the item most recently added. <span style="color:brown">**← FIFO = "first in first out"**</span>
+<span style="color:lightblue">**Queue.**</span> Examine the item most recently added. <span style="color:brown">**← FIFO = "first in first out"**</span>
 
 ### Client, implementation, interface
 
-Separate interface and implementation.
+<span style="color:lightblue">**Separate interface and implementation.**</span>
 <br>
 Ex: stack, queue, bag, priority queue, symbol table, union-find, ....
 
-Benefits.
+<span style="color:lightblue">**Benefits.**</span>
 - Client can't know details of implementation → client has many implementation from which to choose.
 - Implementation can't know details of client needs → many clients can re-use the same implementation.
 - **Design:** creates modular, reusable libraries.
 - **Performance:** use optimized implementation where it matters.
 
 > **Client:** program using operations defined interface.
-><br>
+>
 > **Implementation:** actual code implementing operation.
-><br>
+>
 > **Interface:** description of data type, basic operations.
 
 ## stacks
 
 ### Stack API
 
-**Warmup API.** Stack of strings data type.
+<span style="color:lightblue">**Warmup API.**</span> Stack of strings data type.
 
 ```
 publci class StackOfStrings
@@ -64,7 +64,7 @@ boolean isEmpty() // is the stack empty?
 int size() // number of strings on the stack
 ```
 
-**Warmup client.** Reverse sequence of strings from standard input.
+<span style="color:lightblue">**Warmup client.**</span> Reverse sequence of strings from standard input.
 
 ### Stack test client
 
@@ -133,14 +133,14 @@ public class LinkedStackOfStrings {
 
 ### Stack: array implementation
 
-**Array implementation of a stack.**
+<span style="color:lightblue">**Array implementation of a stack.**</span>
 - Use array s[] to store N items on stack
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
 ![](http://www.hauchenglee.com/assets/images/tech/algs4-fixed-array.png)
 
-**Defect.** Stack overflows when N exceeds capacity. [stay tuned]
+<span style="color:lightblue">**Defect.**</span> Stack overflows when N exceeds capacity. [stay tuned]
 
 ### Stack: array implementation
 
@@ -208,20 +208,24 @@ public String pop() {
 <br>garbage collector can reclaim memory
 <br>only if no outstanding references</span>
 
+<br>
+
 > *We need to pass the size of the array. This violates the idea of the stack which
 >  says it should be able to grow and shrink at any size. That's why stacks not
 >  usually implement using a fixed size array.*
 
 ### Stack analysis — linked list vs arrays
 
-**Proposition.** Every operation takes constant time in the worst case.
+<span style="color:lightblue">**Proposition.**</span> Every operation takes constant time in the worst case.
 
-**Proposition.** A stack with *N* items uses ~ 40 *N* bytes.
+<span style="color:lightblue">**Proposition.**</span> A stack with *N* items uses ~ 40 *N* bytes.
 
 ![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-performance.png)
 
+<br>
+
 **Time →** With linked List, the methods takes constant time, but it's still not that efficient due to object declaration and dealing with links.
- While with arrays, accessing the arrays is much faster; It takes `O(1)`
+ While with arrays, accessing the arrays is much faster; It takes `O(1)`.
 
 **Memory →** Linked Lists requires more memory because of the size of node objects. While with arrays it requires less memory space.
 
