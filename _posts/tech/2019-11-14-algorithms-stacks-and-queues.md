@@ -131,7 +131,7 @@ public class LinkedStackOfStrings {
 }
 ```
 
-### Stack: array implementation
+### Stack array implementation
 
 <span style="color:lightblue">**Array implementation of a stack.**</span>
 - Use array s[] to store N items on stack
@@ -141,8 +141,6 @@ public class LinkedStackOfStrings {
 ![](http://www.hauchenglee.com/assets/images/tech/algs4-fixed-array.png)
 
 <span style="color:lightblue">**Defect.**</span> Stack overflows when N exceeds capacity. [stay tuned]
-
-### Stack: array implementation
 
 ```
 public class FixedCapacityStackOfStrings {
@@ -214,7 +212,7 @@ public String pop() {
 >  says it should be able to grow and shrink at any size. That's why stacks not
 >  usually implement using a fixed size array.*
 
-### Stack analysis — linked list vs arrays
+### Stack analysis - linked list vs arrays
 
 <span style="color:lightblue">**Proposition.**</span> Every operation takes constant time in the worst case.
 
