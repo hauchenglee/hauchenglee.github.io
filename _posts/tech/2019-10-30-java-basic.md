@@ -162,12 +162,12 @@ int y = b;
     <thead>
         <tr>
             <th></th>
-            <th colspan=4 style="text-align: center">b</th>
+            <th colspan="4" style="text-align:center">b</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>A</td>
+            <td rowspan="4" style="font-weight:bold">A</td>
             <td></td>
             <td>true</td>
             <td>false</td>
