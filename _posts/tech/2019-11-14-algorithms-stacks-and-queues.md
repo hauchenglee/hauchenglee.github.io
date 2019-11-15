@@ -57,11 +57,11 @@ Ex: stack, queue, bag, priority queue, symbol table, union-find, ....
 ```
 publci class StackOfStrings
 ---
-StackOfStrings() // create an empty stack
+StackOfStrings()       // create an empty stack
 void push(String item) // insert a new string onto stack
-String pop() // remove and return the string most recently added
-boolean isEmpty() // is the stack empty?
-int size() // number of strings on the stack
+String pop()           // remove and return the string most recently added
+boolean isEmpty()      // is the stack empty?
+int size()             // number of strings on the stack
 ```
 
 <span style="color:lightblue">**Warmup client.**</span> Reverse sequence of strings from standard input.
@@ -138,7 +138,7 @@ public class LinkedStackOfStrings {
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-fixed-array.png)
+![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-fixed-array.png)
 
 <span style="color:lightblue">**Defect.**</span> Stack overflows when N exceeds capacity. [stay tuned]
 
@@ -229,11 +229,176 @@ public String pop() {
 
 ## Queues
 
-## Generics
+### Queue API
 
-## Iterators
+```
+public class QueueOfStrings
+---
+QueueOfStrings()          // create an empty queue
+void enqueue(String item) // insert a new string onto queue
+String dequeue()          // remove and return the string least recently added
+boolean isEmpty()         // is the queue empty?
+int size()                // number of strigns on the queue
+```
+
+![](http://www.hauchenglee.com/assets/images/tech/queue.jpg)
+
+### Queue: linked-list representation
+
+- enqueue
+
+![](http://www.hauchenglee.com/assets/images/tech/algs4-enqueue.png)
+
+- dequeue
+
+![](http://www.hauchenglee.com/assets/images/tech/algs4-dequeue.png)
+
+### Queue: linked-list implementation in Java
+
+```
+public class LinkedQueueOfStrings {
+    private Node first, last;
+
+    private class Node {
+        String item;
+        Node next;
+    }
+
+    public boolean isEmpty() {
+        return first == null;
+    }
+
+    public void enqueue(String item) {
+        Node oldlast = last;
+        last = new Node();
+        last.item = item;
+        last.next = null;
+        if (isEmpty()) first = last;
+        else           oldlast.next = last;
+    }
+    
+    public String dequeue() {
+        String item = first.item;
+        first       = first.next;
+        if (isEmpty()) last = null;
+        return item;
+    }
+}
+```
+
+### Queue array implementation
+
+The queue class has an array of values (maybe integers, strings, ...), an integer N that represents the number of items in the array.
+
+In addition to two integers, "head" (or first); points to the first inserted node in the array, and "tail" (or last); points to after the last inserted node.
+
+Initially "head" and "tail" points to the first item in the array.
+
+![](http://www.hauchenglee.com/assets/images/tech/algs4-queue-fixed-array.png)
+
+```
+public class ArrayQueue {
+    private String[] queue;
+    private int N = 0, head = 0, tail = 0;
+    
+    public ArrayQueue(int capacity) {
+        queue = new String[capacity]; // a cheat to keep it simple for now
+    }
+    
+    // enqueue an item
+    public void enqueue(String item) {
+        queue[tail++] = item;
+        N++;
+    }
+    
+    // dequeue (and return) the first inserted item
+    public String dequeue() {
+        String item = queue[head++];
+        N--;
+        return item;
+    }
+    
+    // is the array empty
+    public boolean isEmpty() {
+        return N == 0;
+    }
+}
+```
+
+<br>
+
+> *We need to pass the size of the array. This also violates the idea of the queue (same as with stacks)*
+
+### Queue wrap-around array
+
+What if "tail" point to the end of the array, while array still have some null values (head is at index 6 for example). The next time we *enqueue* an item "tail" pointer wil overflow!
+The same goes for "head" pointer. Both can overflow (as they move to the right), although array may still have empty slots.
+
+So, one way to solve **wrap-around**, meaning, whenever any pointer overflow (equals to array size), we reset it (point it to the first item in the array).
+
+![](http://www.hauchenglee.com/assets/images/tech/algs4-queue-wrap-arround-array.png)
+
+```
+public void enqueue(String item) {
+    queue[tail++] = item;
+    N++;
+    if (tail == queue.length) tail = 0; // wrap-around
+}
+
+public String dequeue() {
+    String item = queue[head++];
+    N--;
+    if (head == queue.length) head = 0; // wrap-around
+    return item;
+}
+```
+
+### Queue consideration with array implementation
+
+It's the same consideration already mentioned with Stack.
+
+- **Overflow & Underflow:** We did not consider the situation when we insert in an item in a full queue, or remove an item from an empty queue.
+- **Null items:** In this case, we allow user to insert null items.
+- **Loitering:** We did not clear reference to objects that are no longer needed.
+
+```
+public String dequeue() {
+    String item = queue[head];
+    queue[head++] = null;       // avoid loitering
+    N--;
+    if (head = queue.length) head = 0;
+    return item;
+}
+```
+
+### Queue analysis - linked list vs arrays
+
+**Time →** It's same as with Stack using Linked Lists and Arrays.
+
+**Memory →** It's also same as with Stack using Linked Lists and Arrays. It just requires additional memory for the two pointers.
+
+## Resizing Arrays
 
 ## Applications
 
+Stack Applications
+1. Parsing in a compiler.
+2. Java virtual machine.
+3. Undo in a word processor.
+4. Back button in a Web browser.
+5. PostScript language for printers.
+6. Implementing function calls in a compiler.
+
+<br>
+
+> -- [Valid Parentheses - LeetCode](https://leetcode.com/problems/valid-parentheses/){:target="_blank"}
+
+> Given a string containing just the characters ( ), { }, [ ], determine if the input string is valid.
+> 
+> An input string is valid if:
+> 
+> Open brackets must be closed by the same type of brackets.
+> Open brackets must be closed in the correct order.
+> Note that an empty string is also considered valid.
 
 ---
