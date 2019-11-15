@@ -11,6 +11,8 @@ tags: [algorithms]
 
 Source: [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms){:target="_blank"}
 
+<br>
+
 ![](http://www.hauchenglee.com/assets/images/tech/algorithms-analysis-data-structures.jpeg)
 
 Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
