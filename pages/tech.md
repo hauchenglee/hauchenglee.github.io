@@ -16,10 +16,12 @@ permalink: /tech
 - [Java Collections](http://hauchenglee.com/tech/2019/11/08/java-collections.html) - Java Collections 集合
 - [Java Date Time](http://hauchenglee.com/tech/2019/11/09/java-datetime.html) - Java Date Time 日期時間
 - [Java IO](http://hauchenglee.com/tech/2019/11/10/java-io.html) - Java IO File 處理
+- [Java Generic Oracle](http://hauchenglee.com/tech/2019/11/16/java-generic-oracle.html) - Java Generic 泛型 Oracle
 
 ## Servlet
 
-- []()
+- [servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - servlet
+- [jsp](http://hauchenglee.com/tech/2019/11/17/jsp.html) - jsp
 
 ## Spring
 
@@ -64,6 +66,10 @@ permalink: /tech
 ### MongoDB
 
 - []()
+
+## System
+
+- [Path]() - Path 路徑
 
 ## Linux
 
