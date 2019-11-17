@@ -20,8 +20,8 @@ permalink: /tech
 
 ## Servlet
 
-- [servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - servlet
-- [jsp](http://hauchenglee.com/tech/2019/11/17/jsp.html) - jsp
+- [servlet]() - servlet (hiding)
+- [jsp]() - jsp (hiding)
 
 ## Spring
 
