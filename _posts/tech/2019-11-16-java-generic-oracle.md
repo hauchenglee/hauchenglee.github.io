@@ -250,7 +250,7 @@ boolean same = Util.compare(p1, p2);
 ```
 
 This feature, known as *type inference*, allows you to invoke a generic method as an ordinary method, without specifying a type between angel brackets. This topic is further discussed in the following
- section, [Type Inference]().
+ section, [Type Inference](#type-inference).
 
 ## Bounded Type Parameters
 
