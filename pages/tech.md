@@ -36,7 +36,7 @@ permalink: /tech
 
 ## Web Server and Application Server
 
--[]() 
+- []()
 
 ### Servlet
 
@@ -74,10 +74,6 @@ permalink: /tech
 ### MongoDB
 
 - []()
-
-## System
-
-- [Path]() - Path 路徑
 
 ## Linux
 
