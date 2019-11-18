@@ -18,11 +18,6 @@ permalink: /tech
 - [Java IO](http://hauchenglee.com/tech/2019/11/10/java-io.html) - Java IO File 處理
 - [Java Generic Oracle](http://hauchenglee.com/tech/2019/11/16/java-generic-oracle.html) - Java Generic 泛型 Oracle
 
-## Servlet
-
-- [servlet]() - servlet (hiding)
-- [jsp]() - jsp (hiding)
-
 ## Spring
 
 - []()
@@ -39,11 +34,24 @@ permalink: /tech
 
 - []()
 
-## Tomcat
+## Web Server and Application Server
+
+-[]() 
+
+### Servlet
+
+- [servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - servlet
+- [jsp](http://hauchenglee.com/tech/2019/11/18/jsp.html) - jsp
+
+### Tomcat
 
 - []()
 
-## JBoss
+### JBoss
+
+- []()
+
+### Nginx
 
 - []()
 
