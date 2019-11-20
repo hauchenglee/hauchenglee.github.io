@@ -36,12 +36,12 @@ permalink: /tech
 
 ## Web Server and Application Server
 
-- []()
+- [Web Server and Application Server](http://hauchenglee.com/tech/2019/11/20/web-app-server.html)
 
 ### Servlet
 
-- [servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - servlet
-- [jsp](http://hauchenglee.com/tech/2019/11/18/jsp.html) - jsp
+- [Servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - Servlet
+- [JSP](http://hauchenglee.com/tech/2019/11/18/jsp.html) - JSP
 
 ### Tomcat
 
