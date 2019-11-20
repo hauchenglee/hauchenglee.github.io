@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Web Server and Application Server
+title: Web Server and Application Server Compare
 category: tech
 tags: [server]
 ---
 
-## Web Server and Application Server
-
-### Compare
+## Compare between Web Server and Application Server
 
 In fact, this is Religious War: different between web server and app server.
 
@@ -69,7 +67,7 @@ servlet container = web container <= web server != application server
 
 <br>
 
-### Tomcat is web server or app server?
+## Tomcat is Web Server or Application Server?
 
 如果依照上面[第一個](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server){:target="_blank"}的結論，
 tomcat應該歸類在app server，這是以功能為分類依據（因為可以運行應用程序服務器），當然也有人認為應該算是web server，因為tomcat沒有嚴格符合J2EE標準規範（無法部署ear文件）
@@ -136,9 +134,5 @@ tomcat應該歸類在app server，這是以功能為分類依據（因為可以�
 
 - [关于J2EE和Spring目前到底是怎样的关系，以及未来这两者的发展是怎样的，是否存在竞争市场的情况？ - 知乎](https://www.zhihu.com/question/268742981/answer/341770209){:target="_blank"}
 - [Understanding Web Applications, Servlets, and JSPs](https://docs.oracle.com/cd/E14571_01/web.1111/e13712/basics.htm#WBAPP117){:target="_blank"} - 對於servlet container的官方說明
-
-## Path
-
-
 
 ---
