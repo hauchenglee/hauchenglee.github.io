@@ -16,13 +16,15 @@ encoding: "utf-8"
 favicon: favicon.ico.jpg
 
 # Link
-repository: hauchenglee/hauchenglee.github.io
-github_url: https://github.com/hauchenglee
 url: http://www.hauchenglee.com
 enforce_ssl: hauchenglee.com
+repository: hauchenglee/hauchenglee.github.io
+github_url: https://github.com/hauchenglee
 line_id: hauchenglee
 line_qr_pic: line_qrcode.jpg
 line_qr_url: http://www.hauchenglee.com/assets/images/line_qrcode.jpg
+pixiv_url: https://www.pixiv.net/member.php?id=18488925
+twitter_url: https://twitter.com/hauchenglee
 
 ## Gem
 plugins:
@@ -60,8 +62,8 @@ paginate_path: 'page:num'
 # not use
 menus:
 
-  - href: /empty
-    label: Empty
+  - href: /open-source
+    label: Open-Source
     target: _self
 
   - href: /link
@@ -79,8 +81,8 @@ navs:
     label: Tech
     target: _self
 
-  - href: /open-source
-    label: Open-Source
+  - href: /lang
+    label: Language
     target: _self
 
   - href: /blog
