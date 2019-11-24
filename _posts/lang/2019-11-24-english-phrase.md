@@ -17,9 +17,9 @@ tags: [english]
 <table>
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>範例</th>
+            <th>片語</th>
+            <th>說明</th>
         </tr>
     </thead>
     <tbody>
@@ -55,9 +55,8 @@ tags: [english]
 <table>
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>範例</th>
+            <th>片語</th>
         </tr>
     </thead>
     <tbody>
@@ -100,9 +99,8 @@ tags: [english]
 <table>
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>片語</th>
+            <th>範例</th>
         </tr>
     </thead>
     <tbody>
@@ -144,9 +142,8 @@ tags: [english]
 <table>
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>片語</th>
+            <th>範例</th>
         </tr>
     </thead>
     <tbody>
