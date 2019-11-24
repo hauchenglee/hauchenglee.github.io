@@ -118,10 +118,10 @@ Pictorial Representation of the above Program
 
 ## string in memory
 
-JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**.
- (See more information in [java-oop: where storage lives](http://hauchenglee.com/tech/2019/11/02/java-oop.html#where-storage-lives))
- Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some
- memory specially meant for string literals. This part of the heap memory is called **String Constant Pool**.
+JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**. 
+(See more information in [java-oop: where storage lives](http://hauchenglee.com/tech/2019/11/02/java-oop.html#where-storage-lives)) 
+Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some memory specially 
+meant for string literals. This part of the heap memory is called **String Constant Pool**.
 
 In the other hand:
 - create a string object using string literal: object is stored in the **string constant pool**.
@@ -203,8 +203,8 @@ The output might look something like this:
 
 `Hello Grace Hopper, age 45`
 
-When you read a `String` followed by an `int`, everything works just fine. But when you read
- an `int` followed by a `String`, something strange happens.
+When you read a `String` followed by an `int`, everything works just fine. But when you read an `int` followed by a `String`, 
+something strange happens.
 
 ```
 System.out.print("What is your age? ");
@@ -214,20 +214,17 @@ name = in.nextLine();
 Sysout.out.printf("Hello %s, age %d\n", name, age);
 ```
 
-Try running this example code. It doesn't let tou input name, and it immediately displays the
- output:
+Try running this example code. It doesn't let tou input name, and it immediately displays the output:
 
 `What is you name? Hello , age 45`
 
-To understand what is happening, you have to understand that the `Scanner` doesn't see input
- as multiple lines, like we do.
+To understand what is happening, you have to understand that the `Scanner` doesn't see input as multiple lines, like we do.
 
 ![](http://www.hauchenglee.com/assets/images/tech/the-scanner-bug.png)
 
-When you call `nextInt`, it reads characters until it gets to a non-digit. At this point,
- `nextInt` return 45. The program then displays the prompt "`What is you name? `" and calls
- `nextLine`, which reads characters until it gets to a **newline**. But since the next
- character is already a newline, `nextLine` returns the empty string "".
+When you call `nextInt`, it reads characters until it gets to a non-digit. At this point, `nextInt` return 45. 
+The program then displays the prompt "`What is you name? `" and calls `nextLine`, which reads characters until it gets to a **newline**. 
+But since the next character is already a newline, `nextLine` returns the empty string "".
 
 To solve this problem, you need an extra `nextLine` after `nextInt`.
 
@@ -240,9 +237,8 @@ name = in.nextLine();
 Sysout.out.printf("Hello %s, age %d\n", name, age);
 ```
 
-This technique is common when reading `int` or `double` values that appear on their own line.
- First you read the number, and then you read the rest of the line, which is just a newline
- character.
+This technique is common when reading `int` or `double` values that appear on their own line. First you read the number, 
+and then you read the rest of the line, which is just a newline character.
 
 > --Think Java / by Allen B. Downey and Chris Mayfield
 

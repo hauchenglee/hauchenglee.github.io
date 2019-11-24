@@ -31,8 +31,8 @@ API 中的示例：
 
 ### 泛型方法
 
-Generic methods are those that are written with a single method declaration and can be called with arguments of different types.
- The compiler will ensure the correctness of whichever type is used. These are some properties of generic methods:
+Generic methods are those that are written with a single method declaration and can be called with arguments of different types. 
+The compiler will ensure the correctness of whichever type is used. These are some properties of generic methods:
 
 - Generic methods have a type parameter (the diamond operator enclosing the type) before the return type of the method declaration
 - Type parameters can be bounded
@@ -46,12 +46,12 @@ public <T> List<T> fromArrayToList(T[] a) {
 }
 ```
 
-In the previous example, the `<T>` in the method signature implies that the method will be dealing with generic type `T`. This is
- needed even if the method is returning void.
+In the previous example, the `<T>` in the method signature implies that the method will be dealing with generic type `T`. 
+This is needed even if the method is returning void.
 
-As mentioned above, the method can deal with more than one generic type, where this is the case, all generic types muse be added
- to the method signature, for example, if we want to modify the above method to deal with type `T` and type `G`, it should be
- written like this:
+As mentioned above, the method can deal with more than one generic type, where this is the case, all generic types muse be added 
+to the method signature, for example, if we want to modify the above method to deal with type `T` and type `G`, it should be 
+written like this:
 
 ```
 public static <T, G> List<G> fromArrayToList(T[] a, Function<T, G> mapperFunction) {
@@ -61,8 +61,8 @@ public static <T, G> List<G> fromArrayToList(T[] a, Function<T, G> mapperFunctio
 }
 ```
 
-We're passing a function that converts an array with the elements of type `T` to list with elements of type `G`. An example would be
- to convert `Integer` to its `String` representation:
+We're passing a function that converts an array with the elements of type `T` to list with elements of type `G`. An example would be 
+to convert `Integer` to its `String` representation:
 
 ```
 @Test
@@ -74,8 +74,8 @@ public void givenArrayOfIntegers_thanListOfStringReturnOK() {
 }
 ```
 
-It is worth noting that Oracle recommendation is to use an uppercase letter to represent a generic type and to choose a more
- descriptive letter to represent formal types, for example in Java Collections `T` is used for type, `K` for key, `V` for value.
+It is worth noting that Oracle recommendation is to use an uppercase letter to represent a generic type and to choose a more descriptive letter 
+to represent formal types, for example in Java Collections `T` is used for type, `K` for key, `V` for value.
 
 > -- [The Basics of Java Generics - Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
 

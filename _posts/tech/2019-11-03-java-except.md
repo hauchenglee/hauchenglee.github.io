@@ -11,9 +11,8 @@ tags: [java]
 
 - `Error`：程序無法處理的錯誤。
 - `Exception`：程序本身可以處理的異常。
-   - unchecked (`RuntimeException`): All exception types that are direct or indirect subclasses
-     of RuntimeException are unchecked exceptions.
-   - checked: Java compiler enforces special requirements for checked exceptions (discussed momentarily).
+   - unchecked (`RuntimeException`): All exception types that are direct or indirect subclasses of RuntimeException are unchecked exceptions.
+   - checked: Java compiler enforces special requirements for checked exceptions (discussed momentarily). 
      An exception's type determines whether it's checked or unchecked.
 
 <table>
@@ -50,8 +49,7 @@ try-catch-finally 用法：
 - catch：用以處理`try`捕獲的異常，可以接零個或多個`catch`塊
 - finally：
    - 無論是否捕獲或處理異常，`finally`塊里的語句都會被執行
-   - 當在`try`塊或`catch`塊遇到`return`語句時，`finally`語句將在**方法返回之前**執行，
-     並且`finally`語句的返回值將會覆蓋原始的返回值
+   - 當在`try`塊或`catch`塊遇到`return`語句時，`finally`語句將在**方法返回之前**執行，並且`finally`語句的返回值將會覆蓋原始的返回值
 
 ```
 public static int f(int value) {
@@ -75,7 +73,6 @@ public static int f(int value) {
 
 - 父類別`throws`例外範圍 >= 子類別`throws`例外範圍
 - 子類別可以丢`IOException`，但子類別不可以丢`Exception`，因為`Exception` > `IOException`
-
 
 ## exception message
 

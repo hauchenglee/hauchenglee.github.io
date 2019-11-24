@@ -222,8 +222,8 @@ public String pop() {
 
 <br>
 
-**Time →** With linked List, the methods takes constant time, but it's still not that efficient due to object declaration and dealing with links.
- While with arrays, accessing the arrays is much faster; It takes `O(1)`.
+**Time →** With linked List, the methods takes constant time, but it's still not that efficient due to object declaration and dealing with links. 
+While with arrays, accessing the arrays is much faster; It takes `O(1)`.
 
 **Memory →** Linked Lists requires more memory because of the size of node objects. While with arrays it requires less memory space.
 
