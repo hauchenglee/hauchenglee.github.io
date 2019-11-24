@@ -7,12 +7,6 @@ tags: [english]
 
 ## Clause
 
-> -- [實用基礎文法 - 子句](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=64){:target="_blank"}
->
-> -- [【老師救救我】英文子句的正確用法](https://www.hopenglish.com/different-types-of-clauses){:target="_blank"}
-
-<br>
-
 **子句**是由一群相關並含有[主詞](http://hauchenglee.com/lang/2019/11/21/english-grammar.html)與[動詞](http://hauchenglee.com/lang/2019/11/21/english-grammar.html#verb)的字所組成。
 子句有兩種：[獨立子句](#independent-clause)與[從屬子句](#dependent-clause)。
 
@@ -202,5 +196,9 @@ tags: [english]
 > <div style="color:DarkGrey;">After he left 說明了他發現他掉錢包的時間</div>
 
 <br>
+
+> -- [實用基礎文法 - 子句](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=64){:target="_blank"}
+>
+> -- [【老師救救我】英文子句的正確用法](https://www.hopenglish.com/different-types-of-clauses){:target="_blank"}
 
 ---
