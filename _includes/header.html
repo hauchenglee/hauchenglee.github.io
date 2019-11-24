@@ -1,6 +1,23 @@
 <header class="site-header">
-    <div class="container">
+    <!--menu-->
+    <div class="site-header-topbar">
+        <div class="container">
+            <div class="topbar-menu">
+                {% for menu in site.menus %}
+                <div class="item">
+                    <a href="{{ menu.href }}"
+                       target="{{ menu.target | default: _self }}"
+                       title="{{ menu.label }}">
+                        {{ menu.label }}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
+    <!--nav-->
+    <div class="container">
         <a id="site-header-brand" href="/" title="{{ site.name }}">
             <span class="octicon octicon-mark-github"></span>
             {{ site.name }}
@@ -16,6 +33,5 @@
             </a>
             {% endfor %}
         </nav>
-
     </div>
 </header>
