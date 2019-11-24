@@ -19,7 +19,6 @@ permalink: /tech
 - [Java Generic Oracle](http://hauchenglee.com/tech/2019/11/16/java-generic-oracle.html) - Java Generic 泛型 Oracle
 - [Java Concurrency]() - Java 多線程（未完成）
 - [Java Reflection]() - Java Reflection 反射（未完成）
-- [Java Enumerate]() - Java Enumerate 列舉（未完成）
 - [Java JDBC]() - Java JDBC（未完成）
 - [Java JNDI]() - Java JNDI（未完成）
 
@@ -46,11 +45,11 @@ permalink: /tech
 
 - []()
 
-## Web Server and Application Server
+## Web App Server
 
-- [Web App Server Compare](http://hauchenglee.com/tech/2019/11/20/web-app-server.html) - Web App Server 兩者比較
-- [Web App Server Path]() - Web App Server Path 路徑關聯（未完成）
-- [Web App Server Deploy]()  - Web App Server Deploy 部署（未完成）
+- [Web App Server Compare](http://hauchenglee.com/tech/2019/11/20/web-app-server-compare.html) - Web App Server 兩者比較
+- [Web App Server Path](http://hauchenglee.com/tech/2019/11/25/web-app-server-path.html) - Web App Server Path 路徑關聯
+- [Web App Server Deploy](http://hauchenglee.com/tech/2019/11/26/web-app-server-deploy.html)  - Web App Server Deploy 部署
 
 ## Servlet
 
@@ -70,7 +69,7 @@ permalink: /tech
 - [Algorithms Analysis](http://hauchenglee.com/tech/2019/11/12/algorithms-analysis.html) - 算法分析
 - [Algorithms Time Complexity](http://hauchenglee.com/tech/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
 - [Algorithms Stack and Queue](http://hauchenglee.com/tech/2019/11/14/algorithms-stacks-and-queues.html) - Stacks and Queues
-- [Algorithms Sort]() - 算法排序（未完成）
+- [Algorithms Sort](http://hauchenglee.com/tech/2019/11/27/algorithms-sort.html) - 算法排序
 - [Algorithms Binary Search Tree]() - 算法 二分法查找樹（未完成）
 - [Algorithms Red Black Tree]() - 算法 紅黑樹（未完成）
 - [Algorithms B Tree]() - 算法 B樹（未完成）
