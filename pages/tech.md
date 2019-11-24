@@ -19,6 +19,7 @@ permalink: /tech
 - [Java Generic Oracle](http://hauchenglee.com/tech/2019/11/16/java-generic-oracle.html) - Java Generic 泛型 Oracle
 - [Java Concurrency]() - Java 多線程（未完成）
 - [Java Reflection]() - Java Reflection 反射（未完成）
+- [Java Bean]() - Java Bean（未完成）
 - [Java JDBC]() - Java JDBC（未完成）
 - [Java JNDI]() - Java JNDI（未完成）
 
