@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Link
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource link
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource Link
 menu: Link
 permalink: /link
 ---
 
 ## Recommend
 
-- [Google](https://www.google.com){:target="_blank"} - google
-- [Fa Icons](http://www.fontawesome.com.cn/faicons/){:target="_blank"} - Change your fa icons
+- [Fa Icons](http://www.fontawesome.com.cn/faicons/){:target="_blank"} - change your fa icons
 
 ## My Link
 
