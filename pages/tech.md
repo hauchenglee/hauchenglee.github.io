@@ -30,11 +30,7 @@ permalink: /tech
 - [Java 8 Optional]() - Java 8 Optional（未完成）
 - [Java 8 New Date]() - Java 8 New Date 新日期（未完成）
 
-## Spring
-
-- []()
-
-## Spring MVC
+## Spring & Spring MVC
 
 - []()
 
@@ -67,11 +63,7 @@ permalink: /tech
 
 ## JBoss
 
-- [JBoss]() - JBoss 安裝 & 配置文件（未完成）
-
-## Nginx
-
-- []()
+- [JBoss Install Config]() - JBoss 安裝 & 配置文件（未完成）
 
 ## Algorithms
 
@@ -82,6 +74,10 @@ permalink: /tech
 - [Algorithms Binary Search Tree]() - 算法 二分法查找樹（未完成）
 - [Algorithms Red Black Tree]() - 算法 紅黑樹（未完成）
 - [Algorithms B Tree]() - 算法 B樹（未完成）
+
+## Database
+
+- [DB ETL]() - Database ETL（未完成）
 
 ## MySQL
 

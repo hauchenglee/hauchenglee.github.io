@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lang
+title: Language
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Make your dream come true
 menu: lang
 permalink: /lang
