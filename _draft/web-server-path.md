@@ -95,6 +95,10 @@ d → c: ..\ c.txt
 
 <br>
 
+`http://hostname.com/contextPath/servletPath/pathInfo`
+
+<br>
+
 下圖筆記出自**吳東錚**【MVC的環境部署、程式轉移路徑和規則-筆記分享】
 
 ![](http://www.hauchenglee.com/assets/images/tech/dong-web-app-path.jpg)
@@ -157,7 +161,7 @@ request.getRequestDispatcher("a.jsp);
 
 其絕對地址就是：`http://192.168.0.1/webappname/user/a.jsp`
 
-參考：
+Reference:
 - [Servlet的相对路径与绝对路径的详解 - 重心开始，重新开始 - CSDN博客](https://blog.csdn.net/qq_33642117/article/details/51851433){:target="_blank"}
 - [JAVA 取得当前目录的路径/Servlet/class/文件路径/web路径/url地址 - 拂晓风起-Kenko - 博客园](https://www.cnblogs.com/kenkofox/archive/2011/04/13/2014419.html){:target="_blank"}
 
