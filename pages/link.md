@@ -8,12 +8,20 @@ permalink: /link
 
 ## Recommend
 
-- [Fa Icons](http://www.fontawesome.com.cn/faicons/){:target="_blank"} - change your fa icons
+- [IBM developerWorks](https://www.ibm.com/developerworks/cn/java/){:target="_blank"} - IBM developerWorks 中国 : Java 开发 - IBM Developer（原 developerWorks 中国）
+
+## Layout
+
+- [Fa Icons](http://www.fontawesome.com.cn/faicons/){:target="_blank"} - 很多的fa icons
+- [Flat Icons](https://www.flaticon.com/){:target="_blank"} - 很多的flat icons
+- [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget){:target="_blank"} - 把萌萌哒的看板娘抱回家 \| Live2D widget for web platform
+- [网页添加 Live2D 看板娘](https://www.fghrsh.net/post/123.html){:target="_blank"} - 没错我也加上了，好萌啊  ⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ 
 
 ## My Link
 
-- [hauchenglee](http://www.hauchenglee.com/) - my blog
-- [github](https://github.com/hauchenglee) - my github
+- [github](https://github.com/hauchenglee) - 有一些小作品
+- [github pages](http://www.hauchenglee.com/) - 個人小空間
+- [my pixiv](https://www.pixiv.net/member.php?id=18488925) - 我的二次元創作
 
 [//]: <>## 其它  
 [//]: <>
