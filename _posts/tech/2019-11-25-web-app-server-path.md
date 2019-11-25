@@ -51,23 +51,22 @@ C:\AppServer\azole\auto\save\ d.txt
 ```
 
 a 想要引用 b → 
+- 前方文件夾資源，調用后方文件夾資源：相同層級直接寫，不管之後資料夾
+- 后方文件夾資源，調用前方文件夾資源：相同層級點幾層，外加前檔資料夾
 
-a → b: images\ b.txt
-a → c: auto\ c.txt
-a → d: auto\save\ d.txt
-b → a: ..\ a.txt
-b → c: ..\auto\ c.txt
-b → d: ..\auto\save\ d.txt
-c → a: ..\ a.txt
-c → b: ..\images\ b.txt
-c → d: save\ d.txt
-d → a: ..\..\ a.txt
-d → b: ..\..\images\ b.txt
-d → c: ..\ c.txt
-
-結論：
-前方文件夾資源，調用后方文件夾資源：相同層級直接寫，不管之後資料夾
-后方文件夾資源，調用前方文件夾資源：相同層級點幾層，外加前檔資料夾
+refer|path
+---|---
+a → b|images\ b.txt
+a → c|auto\ c.txt
+a → d|auto\save\ d.txt
+b → a|..\ a.txt
+b → c|..\auto\ c.txt
+b → d|..\auto\save\ d.txt
+c → a|..\ a.txt
+c → b|..\images\ b.txt
+c → d|save\ d.txt
+d → a|..\..\ a.txt
+d → b|..\..\images\ b.txt
 
 <br>
 
