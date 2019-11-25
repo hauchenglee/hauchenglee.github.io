@@ -1,7 +1,7 @@
 ---
 layout: page
 title: All articles are here
-subtitle:
+subtitle: <span class="mega-octicon octicon-calendar"></span>&nbsp;&nbsp; Have a good time
 menu: archives
 css: ['blog-page.css']
 permalink: /archives.html
