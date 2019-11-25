@@ -23,8 +23,9 @@ github_url: https://github.com/hauchenglee
 line_id: hauchenglee
 line_qr_pic: line_qrcode.jpg
 line_qr_url: http://www.hauchenglee.com/assets/images/line_qrcode.jpg
-pixiv_url: https://www.pixiv.net/member.php?id=18488925
+linkedin_url: https://www.linkedin.com/in/hauchenglee/
 twitter_url: https://twitter.com/hauchenglee
+pixiv_url: https://www.pixiv.net/member.php?id=18488925
 
 ## Gem
 plugins:
