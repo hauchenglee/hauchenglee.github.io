@@ -36,7 +36,7 @@ Reference:
 
 <br>
 
-### convert to zip
+## convert to zip
 
 In summary, **EAR, JAR, and WAR files are all simply zip files** that contain the various images, XML files,
 property files and pieces of Java code that make up a Java application. If the .ear, .war or .jar extension or any of 
@@ -101,22 +101,24 @@ Reference: [Chapter 5. Configuring Contexts](http://www.eclipse.org/jetty/docu
 
 ## webapp directory
 
-![](http://www.hauchenglee.com/assets/images/tech/web-app-directory.png)
+![](http://www.hauchenglee.com/assets/images/tech/webapp-intellij-directory.png)
 
 <br>
 
-![](http://www.hauchenglee.com/assets/images/tech/web-app-intellij-directory.png)
+![](http://www.hauchenglee.com/assets/images/tech/webapp-directory-structure.png)
+
+Source: [Advanced Tutorial on Tomcat 7](https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html){:target="_blank"}
 
 <br>
 
 - `webapp`：工程發佈文件夾，每個war包都可以視為`webapp`的壓縮包
 - `META-INF`：
-   - 用於存放工程自身相關的一些信息、元文件信息，通常由開發工具環境自動生成
+   - 用於存放工程自身相關的一些信息、元文件信息，通常由開發工具環境自動生成（配置清单文件）
    - 若要執行**jar**檔的元數據文件，此為必須。如果將jar中的`META-INF`文件夾刪除，那麼jar文件裡邊就沒有`MANIFEST.MF`文件，java-jar就找不到main class
 - `WEB-INF`：
    - Java web應用的安全目錄，客戶端無法訪問，只有服務端可以訪問的目錄
    - 此目錄包含一個層次結構，**是webapp的必要配置信息**，沒有它無法運行webapp，以及jsp、servlet、和類的所有文件（e.g. classes, libs）
-- `/WEB/classes`：存放程式所需要的所有Java class文件
+- `/WEB/classes`：存放程序所需要的所有Java class文件
 - `/WEB/lib`：存放程序所需要的所有jar文件
 - `/WEB/web.xml`：web應用的部署配置文件。它是工程中最重要的配置文件，它描述了servlet和組成應用的其他組件，以及應用初始化參數、安全管理約束等
 
@@ -130,16 +132,9 @@ p.s. `META-INF`文件的相關資料：[META-INF文件夹是干啥的，META-INF
 
 maven項目的目錄結構：
 
-├───**src**<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───**main**<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───**java**<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───controller...<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───**test**<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───controller...<br>
-└───**target**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───classes<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───controller<br>
+![](http://www.hauchenglee.com/assets/images/tech/maven-dirctory-structure.png)
+
+source: [Maven Directory Structure - Dinesh on Java](https://www.dineshonjava.com/maven-directory-structure/){:target="_blank"}
 
 注意上面帶粗體的目錄名，maven項目採用"約定優於配置"的原則，
 - `src/main/java` 約定用於存放源代碼

@@ -90,10 +90,9 @@ d → b|..\..\images\ b.txt
 
 一個請求URI是由三個部份所組成，可以使用`HttpServletRequest`的`getRequestURI()`來取得：
 
-`requestURI = contextPath + servletPath + pathInfo`
+`requestURI = contextPath + servletPath + pathInfo`<br>
 
-<br>
-
+也就是：<br>
 `http://hostname.com/contextPath/servletPath/pathInfo`
 
 <br>
