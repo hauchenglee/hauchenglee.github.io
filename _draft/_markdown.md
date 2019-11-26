@@ -1,6 +1,14 @@
-## Line
+## Link
 
 [](){:target="_blank"}
+
+## Youtube
+
+[Embed youtube to markdown, GitLab, GitHub](http://embedyoutube.org/){:target="_blank"}
+
+<br>
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0HTAKT-JIaA/0.jpg)](https://www.youtube.com/watch?v=0HTAKT-JIaA){:target="_blank"}
 
 ## Image
 
