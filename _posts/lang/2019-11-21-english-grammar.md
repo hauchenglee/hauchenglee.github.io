@@ -53,30 +53,80 @@ tags: [english]
 
 ## verb
 
-動詞詞組：
-- 助動詞 + 動詞
-- be 動詞 + 過去分詞
+### auxiliary verb
+
+- 助動詞本身並沒有詞義，它是用來幫助主要動詞（main verb）形成各種時態、語氣、語態、疑問句、或否定句。
+- 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考[動詞片語](http://hauchenglee.com/lang/2019/11/24/english-phrase.html)。
+- 若是[被動語態](#participle)，則動詞片語的助動詞還可以多大四個。
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>助動詞</th>
+            <th>功能</th>
+            <th>例句</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">be</td>
+            <td rowspan="2">
+            is, am, are<br>
+            was, were<br>
+            be, being, been
+            </td>
+            <td>進行式</td>
+            <td>He is watching TV.</td>
+        </tr>
+        <tr>
+            <td>被動語態</td>
+            <td>His car was stolen.</td>
+        </tr>
+        <tr>
+            <td>have</td>
+            <td>have, has, had</td>
+            <td>完成式</td>
+            <td>I have finished my homework.</td>
+        </tr>
+        <tr>
+            <td rowspan="4">do</td>
+            <td rowspan="4">do, does, did</td>
+            <td>疑問句</td>
+            <td>Does it cost a lot?</td>
+        </tr>
+        <tr>
+            <td>否定句</td>
+            <td>I don't like apple.</td>
+        </tr>
+        <tr>
+            <td>加強語氣</td>
+            <td>I do want you to be successful.</td>
+        </tr>
+        <tr>
+            <td>代替前面的主要動詞</td>
+            <td>He speaks faster than she does.</td>
+        </tr>
+        <tr>
+            <td>情態助動詞</td>
+            <td>
+            will, would<br>
+            shall, should<br>
+            can, could<br>
+            may, might<br>
+            must, ought to
+            </td>
+            <td>放在主要動詞前，改變主要動詞的意義</td>
+            <td>I will go on vacation next month.</td>
+        </tr>
+    </tbody>
+</table>
+
+Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=83){:target="_blank"}
 
 <br>
 
-助動詞 aux.
-- can could
-- may might
-- must should
-- will would
-- **have** **has**
-- do does
-
-<br>
-
-be v 動詞
-- is am are
-- was were
-- bing been
-
-<br>
-
-動名詞、現在分詞、過去分詞：
+### participle
 
 <table>
     <thead>
