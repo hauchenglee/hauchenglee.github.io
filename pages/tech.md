@@ -30,9 +30,27 @@ permalink: /tech
 - [Java 8 Optional]() - Java 8 Optional（未完成）
 - [Java 8 New Date]() - Java 8 New Date 新日期（未完成）
 
-## Spring & Spring MVC
+## Algorithms
 
-- []()
+- [Algorithms Analysis](http://hauchenglee.com/tech/2019/11/12/algorithms-analysis.html) - 算法分析
+- [Algorithms Time Complexity](http://hauchenglee.com/tech/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
+- [Algorithms Stack and Queue](http://hauchenglee.com/tech/2019/11/14/algorithms-stacks-and-queues.html) - Stacks and Queues
+- [Algorithms Sort](http://hauchenglee.com/tech/2019/11/27/algorithms-sort.html) - 排序
+- [Algorithms Symbol Table](http://hauchenglee.com/tech/2019/11/30/algorithms-symbol-table.html) - 符號表（未完成）
+- [Algorithms Hash Table]() - 哈希表（未完成）
+- [Algorithms Binary Search Tree]() - 二分法查找樹（未完成）
+- [Algorithms Red Black Tree]() - 紅黑樹（未完成）
+- [Algorithms B Tree]() - B樹（未完成）
+
+## Servlet & JSP
+
+- [Servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - Servlet
+- [JSP](http://hauchenglee.com/tech/2019/11/18/jsp.html) - JSP
+
+## Spring
+
+- [Spring IoC]() Spring Inversion of Control 控制反轉（未完成）
+- [Spring AOP]() Spring Aspect Oriented Programming 面向切面編程（未完成）
 
 ## Spring Boot
 
@@ -52,41 +70,15 @@ permalink: /tech
 - [Web App Server Path](http://hauchenglee.com/tech/2019/11/25/web-app-server-path.html) - Web App Server Path 路徑關聯
 - [Web App Server Deploy](http://hauchenglee.com/tech/2019/11/26/web-app-server-deploy.html)  - Web App Server Deploy 部署
 
-## Servlet
-
-- [Servlet](http://hauchenglee.com/tech/2019/11/17/servlet.html) - Servlet
-- [JSP](http://hauchenglee.com/tech/2019/11/18/jsp.html) - JSP
-
-## Tomcat
-
-- [Tomcat Install Config]() - Tomcat 安裝 & 配置文件（未完成）
-
-## JBoss
-
-- [JBoss Install Config]() - JBoss 安裝 & 配置文件（未完成）
-
-## Algorithms
-
-- [Algorithms Analysis](http://hauchenglee.com/tech/2019/11/12/algorithms-analysis.html) - 算法分析
-- [Algorithms Time Complexity](http://hauchenglee.com/tech/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
-- [Algorithms Stack and Queue](http://hauchenglee.com/tech/2019/11/14/algorithms-stacks-and-queues.html) - Stacks and Queues
-- [Algorithms Sort](http://hauchenglee.com/tech/2019/11/27/algorithms-sort.html) - 算法排序
-- [Algorithms Binary Search Tree]() - 算法 二分法查找樹（未完成）
-- [Algorithms Red Black Tree]() - 算法 紅黑樹（未完成）
-- [Algorithms B Tree]() - 算法 B樹（未完成）
-
 ## Database
 
+- [DB Install Config]() - Database 安裝 & 配置文件（未完成）
 - [DB ETL]() - Database ETL（未完成）
 
 ## MySQL
 
 - [MySQL InnoDB]() - MySQL InnoDB 引擎（未完成）
 - [MySQL Index]() - MySQL Index 索引（未完成）
-
-## Microsoft SQL Server
-
-- []()
 
 ## MongoDB
 
@@ -107,16 +99,6 @@ permalink: /tech
 ## JavaScript
 
 - [JS JSON]() - JavaScript JSON（未完成）
-- [JS Primitive Type]() - JavaScript Primitive Type 基本數據類型（未完成）
-- [JS Reference Type]() - JavaScript Reference Type 引用數據類型（未完成）
-
-## JavaScript ES6
-
-- []()
-
-## Project Event
-
-- [Project Schedule]() - Project Schedule 項目排程（未完成）
 
 ## Exception History
 
