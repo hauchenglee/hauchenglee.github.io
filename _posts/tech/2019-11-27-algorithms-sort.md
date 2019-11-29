@@ -7,7 +7,7 @@ tags: [algorithms]
 
 ## overview
 
-![](http://www.hauchenglee.com/assets/images/tech/sort-complexity)
+![](http://www.hauchenglee.com/assets/images/tech/sort-complexity.png)
 
 source: [十大经典排序算法（动图演示） - 一像素 - 博客园](https://www.cnblogs.com/onepixel/p/7674659.html){:target="_blank"}
 
