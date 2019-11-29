@@ -17,13 +17,15 @@ permalink: /link
 - [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget){:target="_blank"} - 把萌萌哒的看板娘抱回家 \| Live2D widget for web platform
 - [网页添加 Live2D 看板娘](https://www.fghrsh.net/post/123.html){:target="_blank"} - 没错我也加上了，好萌啊  ⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ 
 - [给博客添加能动的看板娘(Live2D)-将其添加到网页上吧 - 猫与向日葵](https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02){:target="_blank"} - 如何利用WebGL SDK将其添加到网页上
+- [embed youtube video to markdown file · Sergei Sviridov's Blog](http://sviridovserg.com/2017/05/22/embed-youtube-to-markdown/){:target="_blank"} - 镶嵌油管到markdown
 
 ## Github Pages
 
 - [my pages](http://www.hauchenglee.com/){:target="_blank"} - 個人小空間
 - [DONGChuan](https://github.com/DONGChuan/DONGChuan.github.io){:target="_blank"} - DONGChuan 主站
 - [DONGChuan/Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll){:target="_blank"} - DONGChuan/Yummy-Jekyll 模板
-- [ityouknow](https://github.com/ityouknow/ityouknow.github.io){:target="_blank"} - ityouknow
+- [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"} - ityouknow
+- [今、情热が岚になって · wu-kan](https://wu-kan.github.io/){:target="_blank"} - wu-kan
 
 ## My Link
 
