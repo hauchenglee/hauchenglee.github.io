@@ -5,7 +5,62 @@ category: tech
 tags: [algorithms]
 ---
 
-## Definition
+## Binary tree
+
+### full binary tree
+
+A binary tree in which each node has exactly zero or two children is called a **full binary tree**. In a full tree, there are no nodes with exactly one child.
+
+> [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
+
+![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-tree.jpg)
+
+<br>
+
+如果二叉樹中除了葉子節點（leaf node），每個節點的度都為2，則此二叉樹稱為**滿二叉樹**。
+
+> [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
+
+![](http://www.hauchenglee.com/assets/images/tech/bt-full-tree.png)
+
+
+### complete binary tree
+
+A **complete binary tree** is a tree, which is complete filled, with the possible exception of the bottom level, which is filled from left to right. 
+A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` nodes.
+
+> [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
+
+![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-tree.jpg)
+
+<br>
+
+如果二叉樹中除去最後一層節點為滿二叉樹，且最後一層的節點依次從左到右分佈，則此二叉樹稱為**完全二叉樹**。
+
+> [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
+
+![](http://www.hauchenglee.com/assets/images/tech/bt-complete-tree.png)
+
+### perfect binary tree
+
+- 滿二叉樹（Full binary tree）：除去葉節點，每個節點都有兩個子節點。
+- 完全二叉樹（Complete binary tree）：除去最深一層之外，其餘所有層的節點都必須有兩個子節點，且最深一層的節點均集中在左邊，即左對齊。
+- 完美二叉樹（Perfect binary tree）：滿足完全二叉樹性質，樹的葉子節點均在最後一層（形成一個完美的三角形）
+
+![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-perfect-tree.png)
+
+滿二叉樹、完全二叉樹、完美二叉樹並不總是互斥的：
+
+- 完美二叉樹**必然**是滿二叉樹和完全二叉樹：
+   - 完美二叉樹正好有`2^k-1`個節點，其中`k`是樹的最深一層（從1開始）。
+- 完全二叉樹並不總是滿二叉樹：
+   - 正如上面的完全二叉樹例子，最右側的灰色節點是它父子點僅有的一個子節點。如果移除掉它，這棵樹就既是完全二叉樹，也是滿二叉樹。
+     （注：其實有了那個灰色節點的話，這棵樹不能算是完全二叉樹，因為滿二叉樹需要左對齊）
+- 滿二叉樹並不一定是完全二叉樹與完美二叉樹。
+
+> [[译文] 初学者应该了解的数据结构： Tree - 掘金](https://juejin.im/post/5b66d987e51d4519475f764c#heading-2){:target="_blank"}
+
+## Binary search tree
 
 ![](http://www.hauchenglee.com/assets/images/tech/bst.png)
 
@@ -634,7 +689,7 @@ private Node put(Node x, Key key, Value val) {
 
 ![](http://www.hauchenglee.com/assets/images/tech/bst-time.png)
 
-## Order-based methods and deletion
+## Order-based methods
 
 ### minimum and maximum
 
@@ -706,10 +761,202 @@ private void inorder(Node x, Queue<Key> q) {
 
 ![](http://www.hauchenglee.com/assets/images/tech/bst-operations-summary.png)
 
+## LeetCode
+
+花花酱 LeetCode Binary Trees 二叉树 - 刷题找工作 SP12
+
+[![](http://img.youtube.com/vi/PbGl8_-bZxI/0.jpg)](http://www.youtube.com/watch?v=PbGl8_-bZxI){:target="_blank"}
+
+### create a BST
+
+```java
+public class TreeNode {
+    private int val;
+    private TreeNode left;
+    private TreeNode right;
+    private TreeNode root;
+
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
+
+    public TreeNode(TreeNode node, int val) {
+        this.val = val;
+        node.left = null;
+        node.right = null;
+    }
+
+    public TreeNode createBST(List<Integer> nums) {
+        root = new TreeNode();
+        for (Integer num : nums)
+            root = insert(root, num);
+
+        return root;
+    }
+
+    public TreeNode insert(TreeNode root, int val) {
+        if (root == null) return new TreeNode(val);
+
+        if (val <= root.val) root.left = insert(root.left, val);
+        else               root.right = insert(root.right, val);
+
+        return root;
+    }
+
+    public boolean search(TreeNode root, int x) {
+        if (root == null) return false;
+        if (root.val == x) return true;
+
+        if (root.val < x) return search(root.left, x);
+        else            return search(root.right, x);
+    }
+
+    public boolean balanced(TreeNode root) {
+        if (root == null) return true;
+        return Math.abs(height(root.left) - height(root.right)) <= 1 && balanced(root.left) && balanced(root.right);
+    }
+
+    public int height(TreeNode root) {
+        if (root == null) return 0;
+
+        int l = height(root.left);
+        int r = height(root.right);
+        return Math.max(l, r) + 1;
+    }
+
+    public void preOrder(TreeNode root) {
+        if (root == null) return;
+
+        print(root.val);
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    public void inOrder(TreeNode root) {
+        if (root == null) return;
+
+        inOrder(root.left);
+        print(root.val);
+        inOrder(root.right);
+    }
+
+    public void postOrder(TreeNode root) {
+        if (root == null) return;
+
+        postOrder(root.left);
+        postOrder(root.right);
+        print(root.val);
+    }
+
+    public int maxVal(TreeNode root) {
+        if (root == null) return 0;
+
+        int maxLeft = maxVal(root.left);
+        int maxRight = maxVal(root.right);
+        int maxLR = Math.max(maxLeft, maxRight);
+        return Math.max(root.val, maxLR);
+    }
+
+    public void print(int val) {
+        System.out.print(val + "\t");
+    }
+}
+```
+
+### recursion key
+
+Example: find the max val of a tree
+
+- Traditional way:
+```
+ans = -inf
+func maxVal(root):
+  ans = -inf;
+  traverse(root)
+  return ans
+
+func traverse(root):
+  if not root: return
+  ans = max(ans, root.val)
+  traverse(root.left)
+  traverse(root.right)
+```
+
+- Recursive way:
+```
+func maxVal(root):
+  if not root: return -inf
+  max_left = max(root.left)
+  max_right = max(root.right)
+  return max(root.val, max_left, max_right)
+```
+
+### templates
+
+- Template 1: one root
+```
+func sovle(root):
+  if not root: return ...
+  if f(root): rturn ...
+  
+  l = solve(root.left)
+  r = solve(root.right)
+  
+  return g(root, l, r)
+```
+
+- LC 104. Maximum Depth of Binary Tree
+```
+func maxDepth(root):
+  if not root: return 0
+  
+  l = maxeDepth(root.left)
+  r = maxeDepth(root.right)
+  
+  return max(l, r) + 1
+```
+
+- LC 111. Mimimum Depth of Binary Tree
+```
+func minDpeth(root):
+  // if tree is empty (null)
+  if not root: return 0
+  
+  // both left tree and right tree are empty
+  if not root.left and not root.right: return 1
+  
+  l = minDepth(root.left)
+  r = minDepth(root.right)
+  
+  // if left or right tree encounter null node, return current value + 1 (root)
+  if not root.left return 1 + r
+  if not root.right return 1 + l
+  
+  return max(l, r) + 1
+```
+
+- LC 112. Path Sum
+```
+func pathSum(root, sum):
+  if not root： return false
+  if not root.left and not root.right: return root.val == sum
+  l = pathSum(root.left, sum - root.val)
+  r = pathSum(root.right, sum - root.val)
+  return l or r
+```
+
+## Applications
+
+refer: [二叉树及其拓展可以解决什么问题？ - 知乎](https://www.zhihu.com/question/37381035){:target="_blank"}
+
 ## Reference
 
 - [Binary Search Trees](https://algs4.cs.princeton.edu/32bst/){:target="_blank"}
 - [《 常见算法与数据结构》符号表ST（3）——二叉查找树 （附动画） - Voidsky - CSDN博客](https://blog.csdn.net/hk2291976/article/details/51407287){:target="_blank"}
 - [《 常见算法与数据结构》符号表ST（4）——二叉查找树删除 （附动画） - Voidsky - CSDN博客](https://blog.csdn.net/hk2291976/article/details/51407569){:target="_blank"}
+- [[Data Structure] 数据结构中各种树 - Poll的笔记 - 博客园](https://www.cnblogs.com/maybe2030/p/4732377.html){:target="_blank"}
 
 ---

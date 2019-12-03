@@ -24,10 +24,38 @@ tags: [algorithms]
 
 > 14AnalysisOfAlgorithms.pdf page40
 
+or
+
+![](http://www.hauchenglee.com/assets/images/tech/classifications.png)
+
+<br>
+
 更詳細的時間複雜度分析表：
 > -- [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/){:target="_blank"}
 
-## 常見的時間複雜度
+## Binary vs Linear Search
+
+- Side by Side look
+
+![](http://www.hauchenglee.com/assets/images/tech/binary-and-linear-search-animations.gif)
+
+<br>
+
+- Best Case Binary
+
+![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-best-case.gif)
+
+<br>
+
+- Worst Case Binary
+
+![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-worst-case.gif)
+
+<br>
+
+refer: [Binary Vs Linear Search Animated Gifs](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php){:target="_blank"}
+
+## Usually time complexity
 
 以下筆記整理自：
 > -- [如何清晰的理解算法中的时间复杂度？ - 知乎](https://www.zhihu.com/question/20196775/answer/693388880){:target="_blank"}
@@ -125,7 +153,7 @@ void nlogn() {
 }
 ```
 
-## recursive algorithm time complexity
+## Recursive algorithm
 
 如果遞歸函數中，只進行一次遞歸調用，遞歸深度為depth；在每個遞歸的遞歸的函數中，時間複雜度為T，則總體的時間複雜度為`O(T * depth)`。
 
@@ -158,7 +186,7 @@ void nlogn() {
     </tbody>
 </table>
 
-## advanced time complexity
+## Advanced time complexity
 
 以下筆記整理自：
 > -- [算法复杂度分析（下）：最好、最坏、平均、均摊等时间复杂度概述 - Jonins - 博客园](https://www.cnblogs.com/jonins/p/9956752.html){:target="_blank"}
@@ -187,7 +215,7 @@ int find(int[] array, int n, int x) {
 - 平均時間的時間複雜度 average case time complexity
 - 均攤時間複雜度 amortized time complexity
 
-### best and worse case time complexity
+### best and worse case
 
 最好、最壞情況時間複雜度指的是特殊情況下的時間複雜度。
 
@@ -199,7 +227,7 @@ int find(int[] array, int n, int x) {
 
 而當數組中最後一個元素才是`x`時，時間複雜度是`O(n)`，也就是`n < x`
 
-### average case time complexity
+### average case
 
 最好、最壞時間複雜度反應的是極端條件下的複雜度，發生的概率不大，不能代表平均水平。那麼，為了更好的表示平均情況下的算法複雜度，就需要引入平均時間複雜度。
 平均情況時間複雜度可用代碼再所有可能情況下執行次數的加權平均值表示。
@@ -218,7 +246,7 @@ int find(int[] array, int n, int x) {
 
 多數情況下，我們**不需要**區分最好、最壞、平均情況的時間複雜度，只有同一塊代碼在**不同情況下時間複雜度有量級差距**，我們才會區分3種情況，為了是**更有效的描述**代碼的時間複雜度。
 
-### amortized time
+### amortized time complexity
 
 > 均摊复杂度是一个更加高级的概念，它是一种特殊的情况，应用的场景也更加特殊和有限。
 
