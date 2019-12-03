@@ -33,28 +33,6 @@ or
 更詳細的時間複雜度分析表：
 > -- [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/){:target="_blank"}
 
-## Binary vs Linear Search
-
-- Side by Side look
-
-![](http://www.hauchenglee.com/assets/images/tech/binary-and-linear-search-animations.gif)
-
-<br>
-
-- Best Case Binary
-
-![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-best-case.gif)
-
-<br>
-
-- Worst Case Binary
-
-![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-worst-case.gif)
-
-<br>
-
-refer: [Binary Vs Linear Search Animated Gifs](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php){:target="_blank"}
-
 ## Usually time complexity
 
 以下筆記整理自：

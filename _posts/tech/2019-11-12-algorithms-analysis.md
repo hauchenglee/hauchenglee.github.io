@@ -17,6 +17,28 @@ Source: [Khan Academy](https://www.khanacademy.org/computing/computer-science/al
 
 Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
 
+## Binary vs Linear Search
+
+- Side by Side look
+
+![](http://www.hauchenglee.com/assets/images/tech/binary-and-linear-search-animations.gif)
+
+<br>
+
+- Best Case Binary
+
+![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-best-case.gif)
+
+<br>
+
+- Worst Case Binary
+
+![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-worst-case.gif)
+
+<br>
+
+refer: [Binary Vs Linear Search Animated Gifs](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php){:target="_blank"}
+
 ## links:
 
 what is algorithms:
