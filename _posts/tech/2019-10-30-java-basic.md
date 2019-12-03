@@ -214,6 +214,11 @@ int y = b;
 
 ### instanceof 運算符
 
+說明：
+
+`object instanceof class` → return object is-a the class or not
+
+
 使用格式：
 
 `(object reference variable) instanceof (class/interface type)`
@@ -237,7 +242,7 @@ public class Car extends Vehicle {
 }
 ```
 
-## Iterators
+## Traversal
 
 ### 時間複雜度（time complexity）
 
