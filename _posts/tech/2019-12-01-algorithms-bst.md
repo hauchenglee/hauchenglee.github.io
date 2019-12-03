@@ -871,6 +871,7 @@ public class TreeNode {
 Example: find the max val of a tree
 
 - Traditional way:
+
 ```
 ans = -inf
 func maxVal(root):
@@ -886,6 +887,7 @@ func traverse(root):
 ```
 
 - Recursive way:
+
 ```
 func maxVal(root):
   if not root: return -inf
@@ -897,6 +899,7 @@ func maxVal(root):
 ### templates
 
 - Template 1: one root
+
 ```
 func sovle(root):
   if not root: return ...
@@ -909,6 +912,7 @@ func sovle(root):
 ```
 
 - LC 104. Maximum Depth of Binary Tree
+
 ```
 func maxDepth(root):
   if not root: return 0
@@ -919,7 +923,8 @@ func maxDepth(root):
   return max(l, r) + 1
 ```
 
-- LC 111. Mimimum Depth of Binary Tree
+- LC 111. Minimum Depth of Binary Tree
+
 ```
 func minDpeth(root):
   // if tree is empty (null)
@@ -939,6 +944,7 @@ func minDpeth(root):
 ```
 
 - LC 112. Path Sum
+
 ```
 func pathSum(root, sum):
   if not root： return false
