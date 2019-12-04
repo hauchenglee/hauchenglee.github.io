@@ -12,7 +12,7 @@ tags: [english]
 
 常見的**片語**有名詞片語、介係詞片語、動名詞片語、不定詞片語、分詞片語。
 
-片語有別於[子句](http://hauchenglee.com/lang/2019/11/23/english-plause.html)，子句是由一群相關並含有主詞與動詞的字所組成。
+片語有別於[子句](http://www.hauchenglee.com/lang/2019/11/23/english-plause.html)，子句是由一群相關並含有主詞與動詞的字所組成。
 
 <table>
     <thead>

@@ -28,7 +28,7 @@ tags: [server]
         </tr>
         <tr>
             <td></td>
-            <td>http://hauchenglee.com/tech</td>
+            <td>http://www.hauchenglee.com/tech</td>
             <td>./ 表示當前文件所在目錄（可以省略）</td>
         </tr>
         <tr>

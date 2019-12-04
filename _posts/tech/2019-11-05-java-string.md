@@ -119,7 +119,7 @@ Pictorial Representation of the above Program
 ## string in memory
 
 JVM divides the allocated memory to a Java program into two parts. One is **stack** and another one is **heap**. 
-(See more information in [java-oop: where storage lives](http://hauchenglee.com/tech/2019/11/02/java-oop.html#where-storage-lives)) 
+(See more information in [java-oop: where storage lives](http://www.hauchenglee.com/tech/2019/11/02/java-oop.html#where-storage-lives)) 
 Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some memory specially 
 meant for string literals. This part of the heap memory is called **String Constant Pool**.
 
