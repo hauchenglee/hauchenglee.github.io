@@ -69,7 +69,7 @@ var _unlock = function() {
 var _detect = function() {
 	console.log('Detecting Token', token);
 	$.ajax({
-		url : 'http://hauchenglee.com/jfinal/wx/',
+		url : 'http://www.hauchenglee.com/jfinal/wx/',
 		method : 'GET',
 		data : {
 			token : token
