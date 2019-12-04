@@ -17,8 +17,10 @@ permalink: /tech
 - [Java Date Time](http://hauchenglee.com/tech/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
 - [Java IO](http://hauchenglee.com/tech/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
 - [Java Generic Oracle](http://hauchenglee.com/tech/2019/11/16/java-generic-oracle.html){:target="_blank"} - Java Generic 泛型 Oracle
+- [Java Memory Allocation](http://hauchenglee.com/tech/2019/12/04/java-memroy-allocation.html){:target="_blank"} - Java Memory Allocation 內存分配
+- [Java Reflection](http://hauchenglee.com/tech/2019/12/07/java-relfection.html){:target="_blank"} - Java Reflection 反射（未完成）
 - [Java Concurrency](){:target="_blank"} - Java 多線程（未完成）
-- [Java Reflection](){:target="_blank"} - Java Reflection 反射（未完成）
+- [Java Concurrency Oracle](){:target="_blank"} - Java 多線程 Oracle（未完成）
 - [Java Hash](){:target="_blank"} - Java Hash 哈希（未完成）
 - [Java Bean](){:target="_blank"} - Java Bean（未完成）
 - [Java JDBC](){:target="_blank"} - Java JDBC（未完成）
@@ -39,7 +41,6 @@ permalink: /tech
 - [Algorithms Sort](http://hauchenglee.com/tech/2019/11/27/algorithms-sort.html){:target="_blank"} - 排序
 - [Algorithms Symbol Table](http://hauchenglee.com/tech/2019/11/30/algorithms-symbol-table.html){:target="_blank"} - 符號表
 - [Algorithms Binary Search Tree](http://hauchenglee.com/tech/2019/12/01/algorithms-bst.html){:target="_blank"} - 二叉查找樹
-- [Algorithms Binary Search Tree LeetCode](http://hauchenglee.com/tech/2019/12/xx/algorithms-bst-leetcode.html){:target="_blank"} - 二叉查找樹 LeetCode 刷題（未完成）
 - [Algorithms Two Three Tree](){:target="_blank"} - 23查找樹（未完成）
 - [Algorithms Red Black Tree](){:target="_blank"} - 紅黑樹（未完成）
 - [Algorithms B Tree](){:target="_blank"} - B樹（未完成）
@@ -51,20 +52,25 @@ permalink: /tech
 
 ## Spring
 
-- [Spring IoC](){:target="_blank"} Spring Inversion of Control 控制反轉（未完成）
+- [Spring IOC](){:target="_blank"} Spring Inversion of Control 控制反轉（未完成）
 - [Spring AOP](){:target="_blank"} Spring Aspect Oriented Programming 面向切面編程（未完成）
 
 ## Spring Boot
 
-- [](){:target="_blank"}
+- [Spring Boot Resource](){:target="_blank"} - Spring Boot 學習資料匯總（未完成）
 
 ## Kotlin
 
-- [](){:target="_blank"}
+- [Kotlin Resource](){:target="_blank"} - Kotlin 學習資料匯總（未完成）
+- [Kotlin Basic](){:target="_blank"} - Kotlin 基礎語法（未完成）
+- [Kotlin Class](){:target="_blank"} - Kotlin 類的聲明與使用（未完成）
 
 ## Hibernate
 
-- [](){:target="_blank"}
+- [Hibernate Session Factory](){:target="_blank"} - Hibernate Session Factory 工廠（未完成）
+- [Hibernate Life Cycle](){:target="_blank"} - Hibernate 生命週期（未完成）
+- [Hibernate Mapping Relationship](){:target="_blank"} - Hibernate 映射關係（未完成）
+- [Hibernate HQL](){:target="_blank"} - Hibernate HQL（未完成）
 
 ## Web App Server
 
@@ -96,10 +102,8 @@ permalink: /tech
 
 ## Git
 
-- [](){:target="_blank"}
-
-## Exception History
-
-- [](){:target="_blank"}
+- [Git Command](){:target="_blank"} - Git 指令（未完成）
+- [Git Branch Management](){:target="_blank"} - Git 分支管理（未完成）
+- [Git GitHub Pages](){:target="_blank"} - 使用GitHub Pages與Jekyll建立個人網站（未完成）
 
 ---
