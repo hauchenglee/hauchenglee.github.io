@@ -51,6 +51,95 @@ tags: [java]
 
 ## Stack and Heap
 
+my summary:
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Stack memory</th>
+            <th>Heap space</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>storage</td>
+            <td>local variables and function call</td>
+            <td>instance variables and objects</td>
+        </tr>
+        <tr>
+            <td>static or dymatic</td>
+            <td>static memory</td>
+            <td>dynamic memory</td>
+        </tr>        
+        <tr>
+            <td>memory error</td>
+            <td>java.lang.StackOverFlowError</td>
+            <td>java.lang.OutOfMemoryError</td>
+        </tr>
+        <tr>
+            <td>threads</td>
+            <td>stack is kind of private memroy of Java Threads (threadsafe)</td>
+            <td>heap memory is shared among all threads (not threadsafe)</td>
+        </tr>
+    </tbody>
+</table>
+
+> - [Difference between Stack and Heap memory in Java](https://javarevisited.blogspot.com/2013/01/difference-between-stack-and-heap-java.html){:target="_blank"}
+
+baeldung summary:
+
+<table>
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Stack memory</th>
+            <th>Heap Space</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Application</td>
+            <td>Stack in used in parts, one at a time during execution of a thread</td>
+            <td>THe entire application uses Heap space during runtime</td>
+        </tr>
+        <tr>
+            <td>Size</td>
+            <td>Stack has size limits depending upon OS and is usually smaller then Heap</td>
+            <td>THere is no size limit on Heap</td>
+        </tr>
+        <tr>
+            <td>Storage</td>
+            <td>Stores only primitive variables and references to objects that are created in Heap Space</td>
+            <td>All the newly created objects are stored here</td>
+        </tr>
+        <tr>
+            <td>Order</td>
+            <td>It is acessed using Last-in First-out (LIFO) memory allocation system</td>
+            <td>This memroy is accessed via complex memory management techniques that include Young Generation, Old Generation or Tenured Generation, and Permanent Generation.</td>
+        </tr>
+        <tr>
+            <td>Life</td>
+            <td>Stack memory only exists as long as the current methods is running</td>
+            <td>Heap space exists as long as the application runs</td>
+        </tr>
+        <tr>
+            <td>Efficiency</td>
+            <td>Comparatively much faster to allocate when compared to heap</td>
+            <td>Slower to allocate when compared to stack</td>
+        </tr>
+        <tr>
+            <td>Allocation/<br>Deallocation</td>
+            <td>This Memory is automatically allocated and deallocated when a method is called and returned respectively</td>
+            <td>Heap space is allocated when new objects are created and deallocated by Garbage Collector when they are on longer referenced</td>
+        </tr>
+    </tbody>
+</table>
+
+> - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
+
+### method invoking
+
 - **Instance variables and Objects lie on Heap**
 
 Remember this is where the state is maintained and when you get *[memory leaks](https://en.wikipedia.org/wiki/Memory_leak){:target="_blank"}* this is where your profiler helps you to find the allocation of memory.
@@ -71,18 +160,6 @@ Stack would have references to objects on the Heap.
 ![](http://www.hauchenglee.com/assets/images/tech/stacknheap.png)
 
 > - [Difference Between Stack and Heap - Java Question](https://www.erpgreat.com/java/difference-between-stack-and-heap.htm){:target="_blank"}
-
-## Memory exception and error
-
-`StackOverFlowError`
-
-`OutOfMemoryError`
-
-`MemoryLeak`
-
-> - [java - What is the difference between an OutOfMemoryError and a memory leak - Stack Overflow](https://stackoverflow.com/questions/4943518/what-is-the-difference-between-an-outofmemoryerror-and-a-memory-leak){:target="_blank"}
-
-## Memory allocation in Java
 
 ### Java objects stored in memory
 
@@ -164,96 +241,17 @@ This allocation is explained in this diagram:
 
 > - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
 
-## Summary
+## Memory exception and error
 
-my summary:
+### StackOverFlowError
 
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>Stack memory</th>
-            <th>Heap space</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>storage</td>
-            <td>local variables and function call</td>
-            <td>instance variables and objects</td>
-        </tr>
-        <tr>
-            <td>static or dymatic</td>
-            <td>static memory</td>
-            <td>dynamic memory</td>
-        </tr>        
-        <tr>
-            <td>memory error</td>
-            <td>java.lang.StackOverFlowError</td>
-            <td>java.lang.OutOfMemoryError</td>
-        </tr>
-        <tr>
-            <td>threads</td>
-            <td>stack is kind of private memroy of Java Threads (threadsafe)</td>
-            <td>heap memory is shared among all threads (not threadsafe)</td>
-        </tr>
-    </tbody>
-</table>
+### OutOfMemoryError
 
-> - [Difference between Stack and Heap memory in Java](https://javarevisited.blogspot.com/2013/01/difference-between-stack-and-heap-java.html){:target="_blank"}
+### Memory leak
 
-<br>
+> - [java - What is the difference between an OutOfMemoryError and a memory leak - Stack Overflow](https://stackoverflow.com/questions/4943518/what-is-the-difference-between-an-outofmemoryerror-and-a-memory-leak){:target="_blank"}
 
-baeldung summary:
-
-<table>
-    <thead>
-        <tr>
-            <th>Parameter</th>
-            <th>Stack memory</th>
-            <th>Heap Space</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Application</td>
-            <td>Stack in used in parts, one at a time during execution of a thread</td>
-            <td>THe entire application uses Heap space during runtime</td>
-        </tr>
-        <tr>
-            <td>Size</td>
-            <td>Stack has size limits depending upon OS and is usually smaller then Heap</td>
-            <td>THere is no size limit on Heap</td>
-        </tr>
-        <tr>
-            <td>Storage</td>
-            <td>Stores only primitive variables and references to objects that are created in Heap Space</td>
-            <td>All the newly created objects are stored here</td>
-        </tr>
-        <tr>
-            <td>Order</td>
-            <td>It is acessed using Last-in First-out (LIFO) memory allocation system</td>
-            <td>This memroy is accessed via complex memory management techniques that include Young Generation, Old Generation or Tenured Generation, and Permanent Generation.</td>
-        </tr>
-        <tr>
-            <td>Life</td>
-            <td>Stack memory only exists as long as the current methods is running</td>
-            <td>Heap space exists as long as the application runs</td>
-        </tr>
-        <tr>
-            <td>Efficiency</td>
-            <td>Comparatively much faster to allocate when compared to heap</td>
-            <td>Slower to allocate when compared to stack</td>
-        </tr>
-        <tr>
-            <td>Allocation/<br>Deallocation</td>
-            <td>This Memory is automatically allocated and deallocated when a method is called and returned respectively</td>
-            <td>Heap space is allocated when new objects are created and deallocated by Garbage Collector when they are on longer referenced</td>
-        </tr>
-    </tbody>
-</table>
-
-> - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
+## Garbage Collection
 
 ## Reference
 
