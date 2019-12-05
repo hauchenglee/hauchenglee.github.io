@@ -17,8 +17,9 @@ permalink: /tech
 - [Java Date Time](http://www.hauchenglee.com/tech/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
 - [Java IO](http://www.hauchenglee.com/tech/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
 - [Java Generic Oracle](http://www.hauchenglee.com/tech/2019/11/16/java-generic-oracle.html){:target="_blank"} - Java Generic 泛型 Oracle
-- [Java Memory Allocation](http://www.hauchenglee.com/tech/2019/12/04/java-memroy-allocation.html){:target="_blank"} - Java Memory Allocation 內存分配
-- [Java Reflection](http://www.hauchenglee.com/tech/2019/12/07/java-relfection.html){:target="_blank"} - Java Reflection 反射（未完成）
+- [Java Memory](http://www.hauchenglee.com/tech/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存管理與分配
+- [Java JVM](http://www.hauchenglee.com/tech/2019/12/06/java-jvm.html){:target="_blank"} - Java Virtual Machine（Java 虛擬機）
+- [Java Reflection](){:target="_blank"} - Java Reflection 反射（未完成）
 - [Java Concurrency](){:target="_blank"} - Java 多線程（未完成）
 - [Java Concurrency Oracle](){:target="_blank"} - Java 多線程 Oracle（未完成）
 - [Java Hash](){:target="_blank"} - Java Hash 哈希（未完成）
