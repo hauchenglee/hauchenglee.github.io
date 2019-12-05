@@ -49,7 +49,7 @@ tags: [java]
 
 > -- *Thinking in Java 4th edition page 42*
 
-## Stack and Heap
+## Stack vs Heap
 
 my summary:
 
@@ -138,33 +138,12 @@ baeldung summary:
 
 > - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
 
-### method invoking
+## Memory allocation in Java
 
-- **Instance variables and Objects lie on Heap**
+### init object
 
-Remember this is where the state is maintained and when you get *[memory leaks](https://en.wikipedia.org/wiki/Memory_leak){:target="_blank"}* this is where your profiler helps you to find the allocation of memory.
-
-- **Local variables and methods lie on the Stack**<br>
-
-So if we have a main method which calls the `go()` method which calls the `gone()` method then the stack from top to bottom would consist of:
-
-```
-gone()
-go()
-main()
-```
-
-as soon as `gone()` has been processed, it would be removed from the stack. Any corresponding local variables which are used in `gone()` would also would also be removed from the stack.
-Stack would have references to objects on the Heap.
-
-![](http://www.hauchenglee.com/assets/images/tech/stacknheap.png)
-
-> - [Difference Between Stack and Heap - Java Question](https://www.erpgreat.com/java/difference-between-stack-and-heap.htm){:target="_blank"}
-
-### Java objects stored in memory
-
-In Java, all objects are dynamically allocated on Heap. This is different from C++ where objects can be allocated memory either on Stack or on Heap. In C++, when 
-we allocate the object using `new()`, the object is allocated on Heap, otherwise on Stack if not global or static.
+In Java, all objects are dynamically allocated on Heap. This is different from C++ where objects can be allocated memory either on Stack or on Heap. 
+In C++, when we allocate the object using `new()`, the object is allocated on Heap, otherwise on Stack if not global or static.
 
 In Java, when we only declare a variable of a class type, only a reference is created (memory is not allocated for the object). To allocate memory to an object, we must 
 use `new()`. So the object is always allocated memory on heap. 
@@ -187,7 +166,6 @@ Allocating memory using `new()` makes above program work.
 
 ```
 public class Main {
-    // Driver Code
     public static void main(String[] args) {
         // all objects are dynamically allocated
         Test t = new Test();
@@ -199,7 +177,32 @@ public class Main {
 
 > [How are Java objects stored in memory? - GeeksforGeeks](https://www.geeksforgeeks.org/g-fact-46/){:target="_blank"}
 
+### invoke method
+
+- **Instance variables and Objects lie on Heap**
+
+Remember this is where the state is maintained and when you get *[memory leaks](https://en.wikipedia.org/wiki/Memory_leak){:target="_blank"}* this is where your profiler helps you to find the allocation of memory.
+
+- **Local variables and methods lie on the Stack**<br>
+
+So if we have a main method which calls the `go()` method which calls the `gone()` method then the stack from top to bottom would consist of:
+
+```
+gone()
+go()
+main()
+```
+
+as soon as `gone()` has been processed, it would be removed from the stack. Any corresponding local variables which are used in `gone()` would also would also be removed from the stack.
+Stack would have references to objects on the Heap.
+
+![](http://www.hauchenglee.com/assets/images/tech/stacknheap.png)
+
+> - [Difference Between Stack and Heap - Java Question](https://www.erpgreat.com/java/difference-between-stack-and-heap.htm){:target="_blank"}
+
 ### memory managed
+
+Let's analyze a simple Java code and let's assess how memory is managed here:
 
 ```
 class Person {
@@ -230,7 +233,7 @@ Let's analyze this step by step:
    - The `this` object reference of the calling object in stack memory
    - The primitive value `id` in the stack memory
    - The reference variable of `String` argument `personName` which will point to the actual string from string pool in heap memory 
-   (See [string in memory](http://www.hauchenglee.com/tech/2019/11/05/java-string.html#string-in-memory))
+     (See [string in memory](http://www.hauchenglee.com/tech/2019/11/05/java-string.html#string-in-memory))
 3. This default constructor is further calling `setPersonName()` method, for which further allocation will take place in stack memory on top of previous one. 
 This will again store variables in the manner described above.
 4. However, for the newly created object `p` of type `Person`, all instance variables will be stored in heap memory.
@@ -240,18 +243,6 @@ This allocation is explained in this diagram:
 ![](http://www.hauchenglee.com/assets/images/tech/Stack-Memory-vs-Heap-Space-in-Java.jpg)
 
 > - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
-
-## Memory exception and error
-
-### StackOverFlowError
-
-### OutOfMemoryError
-
-### Memory leak
-
-> - [java - What is the difference between an OutOfMemoryError and a memory leak - Stack Overflow](https://stackoverflow.com/questions/4943518/what-is-the-difference-between-an-outofmemoryerror-and-a-memory-leak){:target="_blank"}
-
-## Garbage Collection
 
 ## Reference
 
