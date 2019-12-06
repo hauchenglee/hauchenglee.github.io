@@ -248,6 +248,6 @@ This allocation is explained in this diagram:
 
 more resource:
 
-> - [QuickTip: Java Basics: Stack and Heap](https://vikashazrati.wordpress.com/2007/10/01/quicktip-java-basics-stack-and-heap/){:target="_blank"}
+- [QuickTip: Java Basics: Stack and Heap](https://vikashazrati.wordpress.com/2007/10/01/quicktip-java-basics-stack-and-heap/){:target="_blank"}
 
 ---
