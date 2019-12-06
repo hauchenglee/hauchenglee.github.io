@@ -175,7 +175,7 @@ public class Main {
 }
 ```
 
-> [How are Java objects stored in memory? - GeeksforGeeks](https://www.geeksforgeeks.org/g-fact-46/){:target="_blank"}
+> - [How are Java objects stored in memory? - GeeksforGeeks](https://www.geeksforgeeks.org/g-fact-46/){:target="_blank"}
 
 ### invoke method
 
