@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Java
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
+subtitle:
 menu: java
 permalink: /java
 ---
+
+[//]: <>subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
 
 ## Basics
 
@@ -44,10 +46,13 @@ permalink: /java
 - [Java 8 Optional](){:target="_blank"} - Java 8 Optional（未完成）
 - [Java 8 New Date](){:target="_blank"} - Java 8 New Date 新日期（未完成）
 
-## Servlet
+## Java Web
 
 - [Servlet](http://www.hauchenglee.com/java/2019/11/17/servlet.html){:target="_blank"} - Servlet
 - [JSP](http://www.hauchenglee.com/java/2019/11/18/jsp.html){:target="_blank"} - JSP
+- [Web App Server Compare](http://www.hauchenglee.com/java/2019/11/20/web-app-server-compare.html){:target="_blank"} - Web App Server 兩者比較
+- [Web App Server Path](http://www.hauchenglee.com/java/2019/11/25/web-app-server-path.html){:target="_blank"} - Web App Server Path 路徑關聯
+- [Web App Server Deploy](http://www.hauchenglee.com/java/2019/11/26/web-app-server-deploy.html){:target="_blank"}  - Web App Server Deploy 部署
 
 ## Spring Framework
 
