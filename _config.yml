@@ -63,6 +63,10 @@ paginate_path: 'page:num'
 # not use
 menus:
 
+  - href: /algorithms
+    label: Algorithms
+    target: _self
+
   - href: /tech
     label: Tech
     target: _self
