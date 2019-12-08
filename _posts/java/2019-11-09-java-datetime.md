@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java筆記-Date Time 日期時間
-category: tech
+category: java
 tags: [java]
 ---
 

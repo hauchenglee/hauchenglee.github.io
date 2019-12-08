@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java筆記-Generic 泛型 Oracle
-category: tech
+category: java
 tags: [java]
 ---
 

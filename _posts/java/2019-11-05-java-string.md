@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java筆記-String 字符串
-category: tech
+category: java
 tags: [java]
 ---
 

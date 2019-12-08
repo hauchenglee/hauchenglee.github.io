@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java筆記-Memory Allocation 內存分配
-category: tech
+category: java
 tags: [java]
 ---
 
@@ -115,8 +115,8 @@ baeldung summary:
         </tr>
         <tr>
             <td>Order</td>
-            <td>It is acessed using Last-in First-out (LIFO) memory allocation system</td>
-            <td>This memroy is accessed via complex memory management techniques that include Young Generation, Old Generation or Tenured Generation, and Permanent Generation.</td>
+            <td>It is accessed using Last-in First-out (LIFO) memory allocation system</td>
+            <td>This memory is accessed via complex memory management techniques that include Young Generation, Old Generation or Tenured Generation, and Permanent Generation.</td>
         </tr>
         <tr>
             <td>Life</td>

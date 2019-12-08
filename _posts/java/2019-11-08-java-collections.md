@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java筆記-Collections 集合
-category: tech
+category: java
 tags: [java]
 ---
 
