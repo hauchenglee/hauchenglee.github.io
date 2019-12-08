@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms筆記-Stacks and Queues
-category: tech
+category: algorithms
 tags: [algorithms]
 ---
 
@@ -9,10 +9,10 @@ tags: [algorithms]
 <br>
 **Algorithms, Part I by Princeton University. Week 2: Stacks and Queues**
 <br>
--- [Lecture Slides - Coursera](https://www.coursera.org/learn/algorithms-part1/supplement/UAJbP/lecture-slides){:target="_blank"}
+> - [Lecture Slides - Coursera](https://www.coursera.org/learn/algorithms-part1/supplement/UAJbP/lecture-slides){:target="_blank"}
 
 其他參看資料：
-- [Stacks and Queues - OmarElGabry's Blog - Medium](https://medium.com/omarelgabrys-blog/stacks-and-queues-d96c6f35fae3){:target="_blank"}
+> - [Stacks and Queues - OmarElGabry's Blog - Medium](https://medium.com/omarelgabrys-blog/stacks-and-queues-d96c6f35fae3){:target="_blank"}
 
 ## BAGS, QUEUES, AND STACKS
 
@@ -24,7 +24,7 @@ tags: [algorithms]
 - Intent is clear when we insert.
 - Which item do we remove?
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-stacks-and-queues.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-stacks-and-queues.png)
 
 <span style="color:lightblue">**Stack.**</span> Examine the item most recently added. <span style="color:brown">**← LIFO = "last in first out"**</span>
 <br>
@@ -95,11 +95,11 @@ to be not that or be
 
 - push
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-push-on-stack.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-push-on-stack.png)
 
 - pop
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-pop-from-stack.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-pop-from-stack.png)
 
 ### Stack: linked-list implementation in Java
 
@@ -138,7 +138,7 @@ public class LinkedStackOfStrings {
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-fixed-array.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-stack-fixed-array.png)
 
 <span style="color:lightblue">**Defect.**</span> Stack overflows when N exceeds capacity. [stay tuned]
 
@@ -218,7 +218,7 @@ public String pop() {
 
 <span style="color:lightblue">**Proposition.**</span> A stack with *N* items uses ~ 40 *N* bytes.
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-stack-performance.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-stack-performance.png)
 
 <br>
 
@@ -241,17 +241,17 @@ boolean isEmpty()         // is the queue empty?
 int size()                // number of strigns on the queue
 ```
 
-![](http://www.hauchenglee.com/assets/images/tech/queue.jpg)
+![](http://www.hauchenglee.com/assets/images/algorithms/queue.jpg)
 
 ### Queue: linked-list representation
 
 - enqueue
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-enqueue.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-enqueue.png)
 
 - dequeue
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-dequeue.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-dequeue.png)
 
 ### Queue: linked-list implementation in Java
 
@@ -294,7 +294,7 @@ In addition to two integers, "head" (or first); points to the first inserted nod
 
 Initially "head" and "tail" points to the first item in the array.
 
-![](http://www.hauchenglee.com/assets/images/tech/algs4-queue-fixed-array.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/algs4-queue-fixed-array.png)
 
 ```
 public class ArrayQueue {
@@ -391,7 +391,7 @@ Stack Applications
 
 <br>
 
-> -- [Valid Parentheses - LeetCode](https://leetcode.com/problems/valid-parentheses/){:target="_blank"}
+> - [Valid Parentheses - LeetCode](https://leetcode.com/problems/valid-parentheses/){:target="_blank"}
 
 > Given a string containing just the characters ( ), { }, [ ], determine if the input string is valid.
 > 

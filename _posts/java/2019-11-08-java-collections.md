@@ -125,7 +125,7 @@ first.
 - **Map**: Map, as said does not extend *collection* Interface so represent separately. Boxes in blue are the classes that are used for programming. It contains Key-Value pair. 
 Key will be unique. No class extending Map preserves the order accept TreeMap class.
 
-> -- [JAVA COLLECTION FRAMEWORK - Java User Group Albania](https://jugalbania.wordpress.com/2018/01/09/java-collection-framework/){:target="_blank"}
+> - [JAVA COLLECTION FRAMEWORK - Java User Group Albania](https://jugalbania.wordpress.com/2018/01/09/java-collection-framework/){:target="_blank"}
 
 ### List
 
@@ -169,7 +169,7 @@ ArrayList vs LinkedList:
     </tbody>
 </table>
 
-> -- [Difference between ArrayList and LinkedList - javatpoint](https://www.javatpoint.com/difference-between-arraylist-and-linkedlist){:target="_blank"}
+> - [Difference between ArrayList and LinkedList - javatpoint](https://www.javatpoint.com/difference-between-arraylist-and-linkedlist){:target="_blank"}
 
 ### Set
 
@@ -193,7 +193,7 @@ The Java platform contains three general-purpose `Map` implements: `HashMap`, `T
 
 ## Algorithms
 
-see [Algorithms Analysis](http://www.hauchenglee.com/tech/2019/11/12/algorithms-analysis.html) - 算法分析
+see [Algorithms Analysis](http://www.hauchenglee.com/algorithms/2019/11/12/algorithms-analysis.html) - 算法分析
 
 ## Ordering
 

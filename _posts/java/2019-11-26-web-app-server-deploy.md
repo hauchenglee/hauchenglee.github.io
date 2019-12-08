@@ -10,7 +10,7 @@ tags: [server]
 - JAR: Java ARchive
 - WAR: Web application ARchive
 
-![](http://www.hauchenglee.com/assets/images/tech/jar-war-ear.png)
+![](http://www.hauchenglee.com/assets/images/java/jar-war-ear.png)
 
 <br>
 
@@ -24,11 +24,11 @@ The .war file **contains jsp, html, javascript** and other files for necessary f
 - .ear files: The .ear file contains the EJB modules of the applications.
 
 Official Sun/Oracle description:
-- [The J2EE Tutorial: Web Application Archives](https://web.archive.org/web/20120626020019/http://java.sun.com/j2ee/tutorial/1_3-fcs/doc/WCC3.html){:target="_blank"}
-- [The Java Archive (JAR) File Format: The Basics](https://web.archive.org/web/20120626012843/http://java.sun.com/developer/Books/javaprogramming/JAR/basics){:target="_blank"}
+> - [The J2EE Tutorial: Web Application Archives](https://web.archive.org/web/20120626020019/http://java.sun.com/j2ee/tutorial/1_3-fcs/doc/WCC3.html){:target="_blank"}
+> - [The Java Archive (JAR) File Format: The Basics](https://web.archive.org/web/20120626012843/http://java.sun.com/developer/Books/javaprogramming/JAR/basics){:target="_blank"}
 
 Reference:
-- [Difference between jar and war in Java - Stack Overflow](https://stackoverflow.com/questions/5871053/difference-between-jar-and-war-in-java){:target="_blank"}
+> - [Difference between jar and war in Java - Stack Overflow](https://stackoverflow.com/questions/5871053/difference-between-jar-and-war-in-java){:target="_blank"}
 
 <br>
 
@@ -44,9 +44,8 @@ these files is changed to .zip, it can be opened with any standard decompression
 
 Tip: Some files have unique folder structure and requirements (e.g. some stuff needs to be in a `WEB-INF` directory).
 
-Reference:
-- [What are the differences between EAR, JAR and WAR files?](https://www.theserverside.com/feature/What-are-the-differences-between-EAR-JAR-and-WAR-files){:target="_blank"}
-- [What's the difference between the .war and .zip file formats? - Super User](https://superuser.com/questions/274229/whats-the-difference-between-the-war-and-zip-file-formats){:target="_blank"}
+> - [What are the differences between EAR, JAR and WAR files?](https://www.theserverside.com/feature/What-are-the-differences-between-EAR-JAR-and-WAR-files){:target="_blank"}
+> - [What's the difference between the .war and .zip file formats? - Super User](https://superuser.com/questions/274229/whats-the-difference-between-the-war-and-zip-file-formats){:target="_blank"}
 
 ## naming war file
 
@@ -58,7 +57,7 @@ a.war > localhost:8080/a
 b.war > localhost:8080/b
 ```
 
-Reference: [java - Rename war file to change the context path of an webapplication - Stack Overflow](https://stackoverflow.com/questions/33958635/rename-war-file-to-change-the-context-path-of-an-webapplication){:target="_blank"}
+> - [java - Rename war file to change the context path of an webapplication - Stack Overflow](https://stackoverflow.com/questions/33958635/rename-war-file-to-change-the-context-path-of-an-webapplication){:target="_blank"}
 
 <br>
 
@@ -76,7 +75,7 @@ Reference: [java - Rename war file to change the context path of an webapplicati
 > Finally, if no **context root** specification exists, the context root will be **the base name of the WAR file**. For `web-
 > client.war`, the context root would default to `web-client`. The only special case to this naming special name **ROOT**.
 
-Reference: [Setting the context root of a web application](https://docs.jboss.org/jbossas/guides/webguide/r2/en/html/ch06.html){:target="_blank"}
+> - [Setting the context root of a web application](https://docs.jboss.org/jbossas/guides/webguide/r2/en/html/ch06.html){:target="_blank"}
 
 <br>
 
@@ -86,7 +85,7 @@ Reference: [Setting the context root of a web application](https://docs.jboss.or
 > that define(s) the web application**. Consequently, the context path **may not** be defined in a `META-INF/context.xml` embedded in the application and there is a **close 
 > relation** between the *context name*, *context path*, *context version* and the *base file name* (the name minus any `.war` or `.xml` extension) of the file.
 
-Reference: [Apache Tomcat 7 Configuration Reference (7.0.96) - The Context Container](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Naming){:target="_blank"}
+> - [Apache Tomcat 7 Configuration Reference (7.0.96) - The Context Container](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Naming){:target="_blank"}
 
 <br>
 
@@ -101,13 +100,13 @@ Reference: [Chapter 5. Configuring Contexts](http://www.eclipse.org/jetty/docu
 
 ## webapp directory
 
-![](http://www.hauchenglee.com/assets/images/tech/webapp-intellij-directory.png)
+![](http://www.hauchenglee.com/assets/images/java/webapp-intellij-directory.png)
 
 <br>
 
-![](http://www.hauchenglee.com/assets/images/tech/webapp-directory-structure.png)
+![](http://www.hauchenglee.com/assets/images/java/webapp-directory-structure.png)
 
-Source: [Advanced Tutorial on Tomcat 7](https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html){:target="_blank"}
+> - [Advanced Tutorial on Tomcat 7](https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html){:target="_blank"}
 
 <br>
 
@@ -132,7 +131,7 @@ p.s. `META-INF`文件的相關資料：[META-INF文件夹是干啥的，META-INF
 
 maven項目的目錄結構：
 
-![](http://www.hauchenglee.com/assets/images/tech/maven-dirctory-structure.png)
+![](http://www.hauchenglee.com/assets/images/java/maven-dirctory-structure.png)
 
 source: [Maven Directory Structure - Dinesh on Java](https://www.dineshonjava.com/maven-directory-structure/){:target="_blank"}
 
@@ -141,7 +140,7 @@ source: [Maven Directory Structure - Dinesh on Java](https://www.dineshonjava.co
 - `src/main/test` 約定用於存放單元測試代碼
 - `src/target` 約定用於存放編譯、打包後的輸出文件
 
-Reference: [maven学习（上）- 基本入门用法 - 菩提树下的杨过 - 博客园](https://www.cnblogs.com/yjmyzz/p/3495762.html){:target="_blank"}
+> - [maven学习（上）- 基本入门用法 - 菩提树下的杨过 - 博客园](https://www.cnblogs.com/yjmyzz/p/3495762.html){:target="_blank"}
 
 ### maven fields
 
@@ -150,7 +149,7 @@ Reference: [maven学习（上）- 基本入门用法 - 菩提树下的杨过 - �
 - packaging：artifactId打包的方式，表示項目最終產生何種extension的打包文件，如`jar`、`maven-plugin`、`ejb`、`war`、`ear`、`rar`。如果沒有聲明packaging，則預設包裝為`jar`
 
 Reference:
-- [Maven – POM Reference](http://maven.apache.org/pom.html#Maven_Coordinates){:target="_blank"}
-- [介绍maven的作用、核心概念(Pom、Repositories、Artifact、Goal)、用法、常用参数和命令以及简单故障排除、扩展及配置](https://www.trinea.cn/android/maven/){:target="_blank"}
+> - [Maven – POM Reference](http://maven.apache.org/pom.html#Maven_Coordinates){:target="_blank"}
+> - [介绍maven的作用、核心概念(Pom、Repositories、Artifact、Goal)、用法、常用参数和命令以及简单故障排除、扩展及配置](https://www.trinea.cn/android/maven/){:target="_blank"}
 
 ---

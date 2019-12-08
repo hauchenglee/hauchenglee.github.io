@@ -5,7 +5,7 @@ category: java
 tags: [java]
 ---
 
-> -- [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics](https://docs.oracle.com/javase/tutorial/java/generics/types.html){:target="_blank"}
+> - [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics](https://docs.oracle.com/javase/tutorial/java/generics/types.html){:target="_blank"}
 
 ## why use generics?
 

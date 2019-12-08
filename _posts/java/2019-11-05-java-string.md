@@ -8,7 +8,7 @@ tags: [java]
 ## what is string
 
 Here is Oracle's description:
-> -- [String (Java Platform SE 7 )](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html){:target="_blank"}
+> - [String (Java Platform SE 7 )](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html){:target="_blank"}
 
 > ```
 > public final class String
@@ -108,13 +108,13 @@ sb = new StringBuffer("Hello World");
 
 Pictorial Representation of the above Program
 
-![](http://www.hauchenglee.com/assets/images/tech/final-vs-immutability.png)
+![](http://www.hauchenglee.com/assets/images/java/final-vs-immutability.png)
 
-> -- [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/){:target="_blank"}
+> - [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/){:target="_blank"}
 
 ### why string is final
 
-> -- [Why String is Immutable or Final in Java](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html){:target="_blank"}
+> - [Why String is Immutable or Final in Java](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html){:target="_blank"}
 
 ## string in memory
 
@@ -122,7 +122,7 @@ JVM divides the allocated memory to a Java program into two parts. One is **stac
 Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some memory specially meant for string literals. 
 This part of the heap memory is called **String Constant Pool**.
 
-(See more information in [java-memory](http://www.hauchenglee.com/tech/2019/12/04/java-memory.html) 
+(See more information in [java-memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html) 
 
 In the other hand:
 - create a string object using string literal: object is stored in the **string constant pool**.
@@ -151,7 +151,7 @@ In the other hand:
 </table>
 
 This is how String Constant Pool looks like in the memory:
-![](http://www.hauchenglee.com/assets/images/tech/string-in-memory-allotment.png)
+![](http://www.hauchenglee.com/assets/images/java/string-in-memory-allotment.png)
 
 > When you create a string object using string literal, JVM first checks the content of be created object. If there exist an
 > object in the pool with the same content, then the reference of that object. It does not create new object. If the content
@@ -159,9 +159,9 @@ This is how String Constant Pool looks like in the memory:
 >
 > But, when you create string objects using new keyword, a new object is created whether the content is same or not.
 >
-> --[How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/){:target="_blank"}
+> - [How The Strings Are Stored In The Memory?](https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/){:target="_blank"}
 
-See another information: [Guide to Java String Pool - Baeldung](https://www.baeldung.com/java-string-pool){:target="_blank"}
+See more information: [Guide to Java String Pool - Baeldung](https://www.baeldung.com/java-string-pool){:target="_blank"}
 
 Prove:
 ```
@@ -221,7 +221,7 @@ Try running this example code. It doesn't let tou input name, and it immediately
 
 To understand what is happening, you have to understand that the `Scanner` doesn't see input as multiple lines, like we do.
 
-![](http://www.hauchenglee.com/assets/images/tech/the-scanner-bug.png)
+![](http://www.hauchenglee.com/assets/images/java/the-scanner-bug.png)
 
 When you call `nextInt`, it reads characters until it gets to a non-digit. At this point, `nextInt` return 45. 
 The program then displays the prompt "`What is you name? `" and calls `nextLine`, which reads characters until it gets to a **newline**. 
@@ -241,7 +241,7 @@ Sysout.out.printf("Hello %s, age %d\n", name, age);
 This technique is common when reading `int` or `double` values that appear on their own line. First you read the number, 
 and then you read the rest of the line, which is just a newline character.
 
-> --Think Java / by Allen B. Downey and Chris Mayfield
+> - Think Java / by Allen B. Downey and Chris Mayfield
 
 ### next and nextLine
 

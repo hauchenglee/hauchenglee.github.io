@@ -25,7 +25,7 @@ list.add(1); // error
 
 API 中的示例：
 
-![](http://www.hauchenglee.com/assets/images/tech/arraylist-oracle.png)
+![](http://www.hauchenglee.com/assets/images/java/arraylist-oracle.png)
 
 `ArrayList`就是一個泛型類，`E`就是一個泛型，具體的類型在創建集合對象的時候才確定。
 
@@ -77,13 +77,12 @@ public void givenArrayOfIntegers_thanListOfStringReturnOK() {
 It is worth noting that Oracle recommendation is to use an uppercase letter to represent a generic type and to choose a more descriptive letter 
 to represent formal types, for example in Java Collections `T` is used for type, `K` for key, `V` for value.
 
-> -- [The Basics of Java Generics - Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
+> - [The Basics of Java Generics - Baeldung](https://www.baeldung.com/java-generics){:target="_blank"}
 
 Here have more generics information:
 
-> -- [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
->
-> -- [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091){:target="_blank"}
+> - [java泛型理解和深入 - 知乎](https://zhuanlan.zhihu.com/p/40925435){:target="_blank"}
+> - [java 泛型详解 - s10461的博客 - CSDN博客](https://blog.csdn.net/s10461/article/details/53941091){:target="_blank"}
 
 ### 泛型接口
 
@@ -155,20 +154,19 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 ## 泛型界限
 
 `List <? extends Fruit>`：`List`中所有元素都是`Fruit`的子类（包含本身）
-![](http://www.hauchenglee.com/assets/images/tech/generic-extends.jpg)
+![](http://www.hauchenglee.com/assets/images/java/generic-extends.jpg)
 
-<br>
 <br>
 
 `List <? super Fruit>`：List中所有元素都是Fruit的父类（包含本身）
-![](http://www.hauchenglee.com/assets/images/tech/generic-super.jpg)
+![](http://www.hauchenglee.com/assets/images/java/generic-super.jpg)
 
-> -- [Java 泛型 <? super T> 中 super 怎么 理解？与 extends 有何不同？ - 知乎](https://www.zhihu.com/question/20400700){:target="_blank"}
+> - [Java 泛型 <? super T> 中 super 怎么 理解？与 extends 有何不同？ - 知乎](https://www.zhihu.com/question/20400700){:target="_blank"}
 
 ## 泛型通配符
 
 以下資料整理自：
-> -- [聊一聊 JAVA 泛型中的通配符 T，E，K，V，？ - 知乎](https://zhuanlan.zhihu.com/p/79162771){:target="_blank"}
+> - [聊一聊 JAVA 泛型中的通配符 T，E，K，V，？ - 知乎](https://zhuanlan.zhihu.com/p/79162771){:target="_blank"}
 
 ### 常用的T, E, K, V, ?
 

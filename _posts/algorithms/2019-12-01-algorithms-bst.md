@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms筆記-Binary Search Tree 二叉查找樹
-category: tech
+category: algorithms
 tags: [algorithms]
 ---
 
@@ -11,9 +11,9 @@ tags: [algorithms]
 
 A binary tree in which each node has exactly zero or two children is called a **full binary tree**. In a full tree, there are no nodes with exactly one child.
 
-> [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
+> - [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
 
-![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-tree.jpg)
+![](http://www.hauchenglee.com/assets/images/algorithms/bt-full-complete-tree.jpg)
 
 <br>
 
@@ -21,7 +21,7 @@ A binary tree in which each node has exactly zero or two children is called a **
 
 > [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
 
-![](http://www.hauchenglee.com/assets/images/tech/bt-full-tree.png)
+![](http://www.hauchenglee.com/assets/algorithms/tech/bt-full-tree.png)
 
 
 ### complete binary tree
@@ -31,7 +31,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 
 > [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
 
-![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-tree.jpg)
+![](http://www.hauchenglee.com/assets/images/algorithms/bt-full-complete-tree.jpg)
 
 <br>
 
@@ -39,7 +39,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 
 > [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
 
-![](http://www.hauchenglee.com/assets/images/tech/bt-complete-tree.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bt-complete-tree.png)
 
 ### perfect binary tree
 
@@ -47,7 +47,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 - 完全二叉樹（Complete binary tree）：除去最深一層之外，其餘所有層的節點都必須有兩個子節點，且最深一層的節點均集中在左邊，即左對齊。
 - 完美二叉樹（Perfect binary tree）：滿足完全二叉樹性質，樹的葉子節點均在最後一層（形成一個完美的三角形）
 
-![](http://www.hauchenglee.com/assets/images/tech/bt-full-complete-perfect-tree.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bt-full-complete-perfect-tree.png)
 
 滿二叉樹、完全二叉樹、完美二叉樹並不總是互斥的：
 
@@ -58,20 +58,20 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
      （注：其實有了那個灰色節點的話，這棵樹不能算是完全二叉樹，因為滿二叉樹需要左對齊）
 - 滿二叉樹並不一定是完全二叉樹與完美二叉樹。
 
-> [[译文] 初学者应该了解的数据结构： Tree - 掘金](https://juejin.im/post/5b66d987e51d4519475f764c#heading-2){:target="_blank"}
+> - [[译文] 初学者应该了解的数据结构： Tree - 掘金](https://juejin.im/post/5b66d987e51d4519475f764c#heading-2){:target="_blank"}
 
 ## Binary search tree
 
-![](http://www.hauchenglee.com/assets/images/tech/bst.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst.png)
 
 A *binary search tree* (BST) is a binary tree where each node has a `Comparable` key 
 (and an associated value) and satisfies the restriction that the key in any node is larger than 
 the keys in all nodes in that node's left subtree and smaller than the keys in all nodes in that 
 node's right subtree.
 
-![](http://www.hauchenglee.com/assets/images/tech/binary-tree-anatomy.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/binary-tree-anatomy.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-anatomy.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-anatomy.png)
 
 ## Basic implementation
 
@@ -579,7 +579,7 @@ Source: [BST.java](https://algs4.cs.princeton.edu/32bst/BST.java.html){:target="
 > takes a node (root of a subtree) as first argument and a key as second argument, 
 > starting with the root of the tree and the search key.
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-search.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-search.png)
 
 <br>
 
@@ -620,7 +620,7 @@ private Value get(Node x, Key key) {
 > - if the search key is less than the key at the root, we set the left link to the result of inserting the key into the left subtree; 
 > - otherwise, we set the right link to the result of inserting the key into the right subtree.
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-insert.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-insert.png)
 
 思路：
  
@@ -666,28 +666,28 @@ private Node put(Node x, Key key, Value val) {
 
 動畫演示：
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-insert-animation.gif)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-insert-animation.gif)
 
 ## Analysis
 
 根據不同的插入順序，二叉樹會呈現出不同的形狀，最好的狀態當然是完全平衡的狀態，這個時候搜索效率最高，
 最壞的形式就是插入的序列有序，這個時候二叉樹的搜索效率就是N了。
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-case.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-case.png)
 
 <br>
 
 這個隨機插入的效果：
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-insert-random.gif)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-insert-random.gif)
 
 <br>
 
 研究表明，如果插入是隨機的情況下，二叉樹的平均深度都不深。所以通常二叉樹的效率還是很高的。
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-research.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-research.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-time.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-time.png)
 
 ## Order-based methods
 
@@ -697,14 +697,14 @@ private Node put(Node x, Key key, Value val) {
 
 p.s. 搜索到意思就代表用遞歸算法來實現
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-min-max.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-min-max.png)
 
 ### floor and ceiling
 
 `floor`：找到比key小的最大key<br>
 `ceiling`：找到比key大的最小key
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-floor-ceiling.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-floor-ceiling.png)
 
 ### selection
 
@@ -718,7 +718,7 @@ p.s. 搜索到意思就代表用遞歸算法來實現
 如果左子樹中的鍵數t大於k，我們將（遞歸）尋找左子樹中等級k的鍵；如果t等於k，則返回根的鍵；
 如果t小於k，我們（遞歸）在右邊的子樹中尋找等級k-t-1的關鍵字。
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-select.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-select.png)
 
 ### rank
 
@@ -727,7 +727,7 @@ p.s. 搜索到意思就代表用遞歸算法來實現
 - root < key：左孩子`count` + 1（自己）+ 右孩子繼續找
 - root > key：左孩子繼續找（給定key還沒找到比自己小的）
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-rank.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-rank.png)
 
 ### delete
 
@@ -759,7 +759,7 @@ private void inorder(Node x, Queue<Key> q) {
 
 用二叉樹實現的符號表操作，其時間複雜度要遠遠小於其他方式。
 
-![](http://www.hauchenglee.com/assets/images/tech/bst-operations-summary.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/bst-operations-summary.png)
 
 ## LeetCode
 
@@ -956,7 +956,7 @@ func pathSum(root, sum):
 
 ## Applications
 
-refer: [二叉树及其拓展可以解决什么问题？ - 知乎](https://www.zhihu.com/question/37381035){:target="_blank"}
+> - [二叉树及其拓展可以解决什么问题？ - 知乎](https://www.zhihu.com/question/37381035){:target="_blank"}
 
 ## Reference
 

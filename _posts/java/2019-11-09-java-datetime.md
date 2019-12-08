@@ -5,7 +5,7 @@ category: java
 tags: [java]
 ---
 
-> -- [Date-Time Design Principles (The Java™ Tutorials > Date Time > Date-Time Overview)](https://docs.oracle.com/javase/tutorial/datetime/overview/design.html){:target="_blank"}
+> - [Date-Time Design Principles (The Java™ Tutorials > Date Time > Date-Time Overview)](https://docs.oracle.com/javase/tutorial/datetime/overview/design.html){:target="_blank"}
 
 ## Date-Time Design Principles
 
@@ -46,13 +46,13 @@ The Date-Time API is extensible wherever possible. For example, you can define y
 
 ## Excel
 
-- Rule of excel datetime:
+- Rule of excel datetime:<br>
 [Excel: convert text to date and number to date](https://www.ablebits.com/office-addins-blog/2015/03/26/excel-convert-text-date/){:target="_blank"}
 
-- Deal with read excel datetime value problem by Java POI:
+- Deal with read excel datetime value problem by Java POI:<br>
 [Java處理Excel中的日期格式 - IT閱讀](https://www.itread01.com/content/1549318509.html){:target="_blank"}
 
-- How to fix:
+- How to fix:<br>
 [Converting Number representation of Date in excel to Date in java - Stack Overflow](https://stackoverflow.com/questions/19028192/converting-number-representation-of-date-in-excel-to-date-in-java){:target="_blank"}
 
 ---

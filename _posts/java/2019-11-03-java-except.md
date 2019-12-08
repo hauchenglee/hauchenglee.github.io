@@ -7,7 +7,7 @@ tags: [java]
 
 ## exception architecture
 
-![](http://www.hauchenglee.com/assets/images/tech/throwable.png)
+![](http://www.hauchenglee.com/assets/images/java/throwable.png)
 
 - `Error`：程序無法處理的錯誤。
 - `Exception`：程序本身可以處理的異常。

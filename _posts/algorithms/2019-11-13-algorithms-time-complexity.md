@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms筆記-時間複雜度
-category: tech
+category: algorithms
 tags: [algorithms]
 ---
 
@@ -26,17 +26,17 @@ tags: [algorithms]
 
 or
 
-![](http://www.hauchenglee.com/assets/images/tech/classifications.png)
+![](http://www.hauchenglee.com/assets/images/algorithms/classifications.png)
 
 <br>
 
 更詳細的時間複雜度分析表：
-> -- [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/){:target="_blank"}
+> - [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/){:target="_blank"}
 
 ## Usually time complexity
 
 以下筆記整理自：
-> -- [如何清晰的理解算法中的时间复杂度？ - 知乎](https://www.zhihu.com/question/20196775/answer/693388880){:target="_blank"}
+> - [如何清晰的理解算法中的时间复杂度？ - 知乎](https://www.zhihu.com/question/20196775/answer/693388880){:target="_blank"}
 
 ### O(1)
 
@@ -114,7 +114,7 @@ int binarySearch(int arr[], int n, int target) {
 ```
 
 更詳細的公式推導過程：
-> -- [时间复杂度 O(log n) 意味着什么？ - 后端 - 掘金](https://juejin.im/entry/593f56528d6d810058a355f4){:target="_blank"}
+> - [时间复杂度 O(log n) 意味着什么？ - 后端 - 掘金](https://juejin.im/entry/593f56528d6d810058a355f4){:target="_blank"}
 
 ### O(n log n)
 
@@ -167,7 +167,7 @@ void nlogn() {
 ## Advanced time complexity
 
 以下筆記整理自：
-> -- [算法复杂度分析（下）：最好、最坏、平均、均摊等时间复杂度概述 - Jonins - 博客园](https://www.cnblogs.com/jonins/p/9956752.html){:target="_blank"}
+> - [算法复杂度分析（下）：最好、最坏、平均、均摊等时间复杂度概述 - Jonins - 博客园](https://www.cnblogs.com/jonins/p/9956752.html){:target="_blank"}
 
 在數組`array`中尋找變量`x`第一次出現的位置，若沒有找到，則返回-1，否則返回位置下標。
 
@@ -210,15 +210,14 @@ int find(int[] array, int n, int x) {
 最好、最壞時間複雜度反應的是極端條件下的複雜度，發生的概率不大，不能代表平均水平。那麼，為了更好的表示平均情況下的算法複雜度，就需要引入平均時間複雜度。
 平均情況時間複雜度可用代碼再所有可能情況下執行次數的加權平均值表示。
 
-還是以上述[`find`](#best-and-worse-case-time-complexity)函數為例，從概率的角度看，`x`在數組中每一個位置的可能性是相同的，為`1 / n`，那麼平均情況時間複雜度就可以用下面的方式計算：
+還是以上述[`find`](#best-and-worse-case)函數為例，從概率的角度看，`x`在數組中每一個位置的可能性是相同的，為`1 / n`，那麼平均情況時間複雜度就可以用下面的方式計算：
 
 `((1 + 2 + 3 + ... + n) / n + n) / 2 = (3n + 1) / 4`
 
 因此，`find`函數的平均時間複雜度為`O(n)`。
 
-> 更詳細的公式推導過程：
->
-> -- [算法复杂度分析（下）：最好、最坏、平均、均摊等时间复杂度概述 - Jonins - 博客园](https://www.cnblogs.com/jonins/p/9956752.html){:target="_blank"}
+更詳細的公式推導過程：
+> - [算法复杂度分析（下）：最好、最坏、平均、均摊等时间复杂度概述 - Jonins - 博客园](https://www.cnblogs.com/jonins/p/9956752.html){:target="_blank"}
 
 <br>
 

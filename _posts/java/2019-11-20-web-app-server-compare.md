@@ -51,15 +51,15 @@ For example:
 <br>
 
 我比較認同的文章：
-- [What is the difference between application server and web server? - Stack Overflow](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server){:target="_blank"}
+> - [What is the difference between application server and web server? - Stack Overflow](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server){:target="_blank"}
 
 另一個觀點的文章（主要以能不能實現EJB支持當作分別）：
-- [5 Difference between Application Server and Web Server in Java](https://javarevisited.blogspot.com/2012/05/5-difference-between-application-server.html){:target="_blank"}
+> - [5 Difference between Application Server and Web Server in Java](https://javarevisited.blogspot.com/2012/05/5-difference-between-application-server.html){:target="_blank"}
 
 <br>
 
 web container：
-[java ee - Difference between web server, web container and application server - Stack Overflow](https://stackoverflow.com/questions/12689910/difference-between-web-server-web-container-and-application-server){:target="_blank"}
+> - [java ee - Difference between web server, web container and application server - Stack Overflow](https://stackoverflow.com/questions/12689910/difference-between-web-server-web-container-and-application-server){:target="_blank"}
 
 ```
 servlet container = web container <= web server != application server
@@ -76,7 +76,7 @@ tomcat應該歸類在app server，這是以功能為分類依據（因為可以�
 
 不過這篇對於tomcat server有更清楚的論述：
 
-- [Is Tomcat An Application Server Or A Web Server?](https://javapipe.com/blog/tomcat-application-server/){:target="_blank"}
+> - [Is Tomcat An Application Server Or A Web Server?](https://javapipe.com/blog/tomcat-application-server/){:target="_blank"}
 
 上述文章所說：
 
@@ -132,7 +132,7 @@ tomcat應該歸類在app server，這是以功能為分類依據（因為可以�
 
 補充額外知識：
 
-- [关于J2EE和Spring目前到底是怎样的关系，以及未来这两者的发展是怎样的，是否存在竞争市场的情况？ - 知乎](https://www.zhihu.com/question/268742981/answer/341770209){:target="_blank"}
-- [Understanding Web Applications, Servlets, and JSPs](https://docs.oracle.com/cd/E14571_01/web.1111/e13712/basics.htm#WBAPP117){:target="_blank"} - 對於servlet container的官方說明
+> - [关于J2EE和Spring目前到底是怎样的关系，以及未来这两者的发展是怎样的，是否存在竞争市场的情况？ - 知乎](https://www.zhihu.com/question/268742981/answer/341770209){:target="_blank"}
+> - [Understanding Web Applications, Servlets, and JSPs](https://docs.oracle.com/cd/E14571_01/web.1111/e13712/basics.htm#WBAPP117){:target="_blank"} - 對於servlet container的官方說明
 
 ---

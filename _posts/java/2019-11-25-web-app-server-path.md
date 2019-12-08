@@ -76,15 +76,15 @@ d → b|..\..\images\ b.txt
 > 1. **E:\book\网页布局\代码**设为虚拟目录，那么“/img/bg.jpg”的真实路径为**E:\book\网页布局\代码**\img\bg.jpg”；
 > 2. **E:\book\网页布局\代码\第2章**设为虚拟目录，那么“/img/bg.jpg”的真实路径为**E:\book\网页布局\代码\第2章**\img\bg.jpg”
 >
-> -- [相对路径和绝对路径的区别 - 夏雪冬日 - 博客园](https://www.cnblogs.com/heyonggang/archive/2013/03/01/2938984.html){:target="_blank"}
+> - [相对路径和绝对路径的区别 - 夏雪冬日 - 博客园](https://www.cnblogs.com/heyonggang/archive/2013/03/01/2938984.html){:target="_blank"}
 
 <br>
 
 在路徑中使用通配符（Wildcard）：
-- [使用通配符](https://www.ibm.com/support/knowledgecenter/zh/SSFKSJ_8.0.0/com.ibm.wmqfte.doc/wildcards.htm){:target="_blank"}
-- [windows - Two asterisks in file path - Stack Overflow](https://stackoverflow.com/questions/8532929/two-asterisks-in-file-path){:target="_blank"}
-- [Spring：/ **和/ *与路径的区别 - 代码日志](https://codeday.me/bug/20170909/69684.html){:target="_blank"}
-- [/lib、/lib/**/ 两个路径有什么差别 · Ruby China](https://ruby-china.org/topics/6497){:target="_blank"}
+> - [使用通配符](https://www.ibm.com/support/knowledgecenter/zh/SSFKSJ_8.0.0/com.ibm.wmqfte.doc/wildcards.htm){:target="_blank"}
+> - [windows - Two asterisks in file path - Stack Overflow](https://stackoverflow.com/questions/8532929/two-asterisks-in-file-path){:target="_blank"}
+> - [Spring：/ **和/ *与路径的区别 - 代码日志](https://codeday.me/bug/20170909/69684.html){:target="_blank"}
+> - [/lib、/lib/**/ 两个路径有什么差别 · Ruby China](https://ruby-china.org/topics/6497){:target="_blank"}
 
 ## Web App path
 
@@ -99,7 +99,7 @@ d → b|..\..\images\ b.txt
 
 下圖筆記出自**吳東錚**【MVC的環境部署、程式轉移路徑和規則-筆記分享】
 
-![](http://www.hauchenglee.com/assets/images/tech/dong-web-app-path.jpg)
+![](http://www.hauchenglee.com/assets/images/java/dong-web-app-path.jpg)
 
 ### server path
 
@@ -160,8 +160,8 @@ request.getRequestDispatcher("a.jsp);
 其絕對地址就是：`http://192.168.0.1/webappname/user/a.jsp`
 
 Reference:
-- [Servlet的相对路径与绝对路径的详解 - 重心开始，重新开始 - CSDN博客](https://blog.csdn.net/qq_33642117/article/details/51851433){:target="_blank"}
-- [JAVA 取得当前目录的路径/Servlet/class/文件路径/web路径/url地址 - 拂晓风起-Kenko - 博客园](https://www.cnblogs.com/kenkofox/archive/2011/04/13/2014419.html){:target="_blank"}
+> - [Servlet的相对路径与绝对路径的详解 - 重心开始，重新开始 - CSDN博客](https://blog.csdn.net/qq_33642117/article/details/51851433){:target="_blank"}
+> - [JAVA 取得当前目录的路径/Servlet/class/文件路径/web路径/url地址 - 拂晓风起-Kenko - 博客园](https://www.cnblogs.com/kenkofox/archive/2011/04/13/2014419.html){:target="_blank"}
 
 ### api
 

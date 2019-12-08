@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Algorithms筆記-算法分析
-category: tech
+category: algorithms
 tags: [algorithms]
 ---
 
 ## what is algorithms
 
-![](http://www.hauchenglee.com/assets/images/tech/what-is-algorithms.jpg)
+![](http://www.hauchenglee.com/assets/images/algorithms/what-is-algorithms.jpg)
 
 Source: [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms){:target="_blank"}
 
 <br>
 
-![](http://www.hauchenglee.com/assets/images/tech/algorithms-analysis-data-structures.jpeg)
+![](http://www.hauchenglee.com/assets/images/algorithms/algorithms-analysis-data-structures.jpeg)
 
 Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
 
@@ -21,23 +21,23 @@ Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
 
 - Side by Side look
 
-![](http://www.hauchenglee.com/assets/images/tech/binary-and-linear-search-animations.gif)
+![](http://www.hauchenglee.com/assets/images/algorithms/binary-and-linear-search-animations.gif)
 
 <br>
 
 - Best Case Binary
 
-![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-best-case.gif)
+![](http://www.hauchenglee.com/assets/images/algorithms/linear-vs-binary-search-best-case.gif)
 
 <br>
 
 - Worst Case Binary
 
-![](http://www.hauchenglee.com/assets/images/tech/linear-vs-binary-search-worst-case.gif)
+![](http://www.hauchenglee.com/assets/images/algorithms/linear-vs-binary-search-worst-case.gif)
 
 <br>
 
-refer: [Binary Vs Linear Search Animated Gifs](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php){:target="_blank"}
+> - [Binary Vs Linear Search Animated Gifs](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php){:target="_blank"}
 
 ## links:
 
