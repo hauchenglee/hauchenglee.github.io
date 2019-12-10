@@ -8,6 +8,10 @@ permalink: /java
 
 [//]: <>subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
 
+## Mind map
+
+
+
 ## Basics
 
 - [Java Basic](http://www.hauchenglee.com/java/2019/10/30/java-basic.html){:target="_blank"} - Java 基礎語法
@@ -28,16 +32,16 @@ permalink: /java
 
 - [Java Collections](http://www.hauchenglee.com/java/2019/11/08/java-collections.html){:target="_blank"} - Java Collections 集合
 
+## Concurrency
+
+- [Java Concurrency](http://www.hauchenglee.com/java/2019/12/08/java-garbage-collection.html){:target="_blank"} - Java 多線程（未完成）
+- [Java Concurrency Oracle](){:target="_blank"} - Java 多線程 Oracle（未完成）
+
 ## JVM
 
 - [Java Memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
 - [Java JVM](http://www.hauchenglee.com/java/2019/12/06/java-jvm.html){:target="_blank"} - Java 虛擬機
 - [Java Garbage Collection](http://www.hauchenglee.com/java/2019/12/08/java-garbage-collection.html){:target="_blank"} - Java 垃圾回收
-
-## Concurrency
-
-- [Java Concurrency](http://www.hauchenglee.com/java/2019/12/08/java-garbage-collection.html){:target="_blank"} - Java 多線程（未完成）
-- [Java Concurrency Oracle](){:target="_blank"} - Java 多線程 Oracle（未完成）
 
 ## Java 8
 
