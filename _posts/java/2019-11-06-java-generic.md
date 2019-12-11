@@ -174,4 +174,8 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 
 ### Class\<T\> 和 Class<?>
 
+## Reference
+
+> - [8. Generics - Learning Java, 4th Edition [Book]](https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch08.html){:target="_blank"}
+
 ---
