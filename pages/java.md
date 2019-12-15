@@ -11,17 +11,23 @@ permalink: /java
 ## Language Basics
 
 - [Java Basic](http://www.hauchenglee.com/java/2019/10/30/java-basic.html){:target="_blank"} - Java 基礎語法
-- [Java String](http://www.hauchenglee.com/java/2019/11/05/java-string.html){:target="_blank"} - Java String 字符串
-- [Java Exception](http://www.hauchenglee.com/java/2019/11/03/java-except.html){:target="_blank"} - Java Exception 異常處理
+- [Java String](http://www.hauchenglee.com/java/2019/11/06/java-string.html){:target="_blank"} - Java String 字符串
+- [Java Exception](http://www.hauchenglee.com/java/2019/11/05/java-except.html){:target="_blank"} - Java Exception 異常處理
 
 ## Object Oriented Programming
 
-- [Java OOP](http://www.hauchenglee.com/java/2019/11/02/java-oop.html){:target="_blank"} - Java 面向對象
+### Class and Object
 
-## Generic
-
-- [Java Generic](http://www.hauchenglee.com/java/2019/11/06/java-generic.html){:target="_blank"} - Java Generic 泛型
+- [Java Class and Object](http://www.hauchenglee.com/java/2019/11/01/java-class-and-object.html) - Java Class and Object 面向對象
+- [Java Memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
+- [Java Generic](http://www.hauchenglee.com/java/2019/11/07/java-generic.html){:target="_blank"} - Java Generic 泛型
 - [Java Generic Oracle](http://www.hauchenglee.com/java/2019/11/16/java-generic-oracle.html){:target="_blank"} - Java Generic 泛型 Oracle
+
+### Characteristics
+
+- [Java Encapsulation](http://www.hauchenglee.com/java/2019/11/02/java-oop.html){:target="_blank"} - Java 面向對象 封裝
+- [Java Inheritance](http://www.hauchenglee.com/java/2019/11/03/java-oop.html){:target="_blank"} - Java 面向對象 繼承
+- [Java Polymorphism](http://www.hauchenglee.com/java/2019/11/04/java-oop.html){:target="_blank"} - Java 面向對象 多態
 
 ## APIs
 
@@ -66,7 +72,6 @@ permalink: /java
 
 ## JVM
 
-- [Java Memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
 - [Java JVM](http://www.hauchenglee.com/java/2019/12/06/java-jvm.html){:target="_blank"} - Java 虛擬機
 - [Java Garbage Collection](){:target="_blank"} - Java 垃圾回收（未完成）
 
@@ -91,7 +96,7 @@ permalink: /java
 - [Web App Server Path](http://www.hauchenglee.com/java/2019/11/25/web-app-server-path.html){:target="_blank"} - Web App Server Path 路徑關聯
 - [Web App Server Deploy](http://www.hauchenglee.com/java/2019/11/26/web-app-server-deploy.html){:target="_blank"}  - Web App Server Deploy 部署
 
-### Web
+### Java Web
 
 - [Servlet](http://www.hauchenglee.com/java/2019/11/17/servlet.html){:target="_blank"} - Servlet
 - [JSP](http://www.hauchenglee.com/java/2019/11/18/jsp.html){:target="_blank"} - JSP
