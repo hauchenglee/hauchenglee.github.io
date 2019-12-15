@@ -67,10 +67,6 @@ menus:
     label: Algorithms
     target: _self
 
-  - href: /tech
-    label: Tech
-    target: _self
-
   - href: /lang
     label: Language
     target: _self
@@ -102,8 +98,8 @@ navs:
     label: Database
     target: _self
 
-  - href: /design
-    label: Design Pattern
+  - href: /tech
+    label: Tech
     target: _self
 
   - href: /blog
