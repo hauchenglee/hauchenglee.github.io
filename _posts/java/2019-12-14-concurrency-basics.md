@@ -121,10 +121,10 @@ class Demo2 implements Runnable {
 
 架構：
 
+- [Lesson: Concurrency (The Java™ Tutorials > Essential Classes)](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html){:target="_blank"}
 - [Java Concurrency / Multithreading Basics - CalliCoder](https://www.callicoder.com/java-concurrency-multithreading-basics/){:target="_blank"}
 - [Java多线程学习（一）Java多线程入门 - 掘金](https://juejin.im/post/5ab116875188255561411b8a){:target="_blank"}
 - [Java初学有必要深入多线程编程吗？ - 知乎](https://www.zhihu.com/question/60148851/answer/670934093){:target="_blank"}
-- [Java多线程学习（吐血超详细总结） - Evankaka的专栏](https://blog.csdn.net/evankaka/article/details/44153709){:target="_blank"}
 - [《Java并发编程实战》高清PDF电子书 百度云网盘免费下载 - Java SE免费电子书 - Java电子书大全 - Powered by Discuz!](https://www.ebook23.com/thread-78-1-1.html){:target="_blank"}
 
 基礎：
