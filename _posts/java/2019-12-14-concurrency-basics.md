@@ -29,6 +29,22 @@ tags: [java]
 
 線程安全的優先級 > 性能。
 
+Source: [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
+
+## 並發與並行
+
+並發，指的是多個事情，在同一時間段內同時發生。<br>
+並行，指的是多個事情，在同一時間點上同時發生。<br>
+
+並發的多個任務之間是互相搶佔資源。<br>
+並行的多個任務之間是不互相搶佔資源。<br>
+
+只有在多cpu的情況中，才會發生並行。否則，看似同時發生的事情，其實都是並發執行的。
+
+![](http://www.hauchenglee.com/assets/images/java/concurrent-parallel.png)
+
+Source: [面试必考的：并发和并行有什么区别？](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485178&idx=1&sn=0fc0fd1bb7e8b41ec8770ac5a62f8287&chksm=ebd747fbdca0ceedc6e0dab24d449ecdfa5b4e582d2acdc62c234b299c5828abe047f76196f4&token=1230572157&lang=zh_CN###rd){:target="_blank"}
+
 ## 進程與線程
 
 進程：
@@ -52,7 +68,8 @@ tags: [java]
 > 出筷子，结果伸到的时候已经被夹走菜了。。。此时就必须等一个人夹一口之后，在还给另外一个
 > 人夹菜，也就是说资源共享就会发生冲突争抢。
 >
-> - [多线程有什么用？ - 知乎](https://www.zhihu.com/question/19901763){:target="_blank"}
+
+Source: [多线程有什么用？ - 知乎](https://www.zhihu.com/question/19901763){:target="_blank"}
 
 ## Java與多線程關係
 
@@ -115,7 +132,6 @@ class Demo2 implements Runnable {
 - [多线程初级（上） - 知乎](https://zhuanlan.zhihu.com/p/56518031){:target="_blank"}
 - [多线程初级（中） - 知乎](https://zhuanlan.zhihu.com/p/57482990){:target="_blank"}
 - [Java 程序中的多线程](https://www.ibm.com/developerworks/cn/java/multithreading/){:target="_blank"}
-- [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
 
 線程池：
 
