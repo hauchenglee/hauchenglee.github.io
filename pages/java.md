@@ -17,10 +17,6 @@ permalink: /java
 ## Object Oriented Programming
 
 - [Java OOP](http://www.hauchenglee.com/java/2019/11/02/java-oop.html){:target="_blank"} - Java 面向對象
-- [Java Class and Object](http://www.hauchenglee.com/java/20xx/xx/xx/java-oop.html){:target="_blank"}
-- [Java Encapsulation](http://www.hauchenglee.com/java/20xx/xx/xx/java-oop.html){:target="_blank"}
-- [Java Polymorphism](http://www.hauchenglee.com/java/20xx/xx/xx/java-oop.html){:target="_blank"}
-- [Java Inheritance](http://www.hauchenglee.com/java/20xx/xx/xx/java-oop.html){:target="_blank"}
 
 ## Generic
 
@@ -43,14 +39,36 @@ permalink: /java
 
 ## Concurrency
 
-- [Java Concurrency](http://www.hauchenglee.com/java/2019/12/08/java-garbage-collection.html){:target="_blank"} - Java 多線程（未完成）
-- [Java Concurrency Oracle](){:target="_blank"} - Java 多線程 Oracle（未完成）
+### Basic
+
+- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - 並發編程基礎
+- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - 線程安全
+- [Thread and Runnable](http://www.hauchenglee.com/java/2019/12/18/thread-and-runnable.html){:target="_blank"} - Thread and Runnable（未完成）
+- [Thread Status](){:target="_blank"} - 線程狀態（未完成）
+
+### Executor and Thread Pool
+
+- [Concurrency](){:target="_blank"} - （未完成）
+- [Concurrency](){:target="_blank"} - （未完成）
+- [Concurrency](){:target="_blank"} - （未完成）
+
+### Synchronization
+
+
+
+### Locks
+
+
+
+### Atomic
+
+
 
 ## JVM
 
 - [Java Memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
 - [Java JVM](http://www.hauchenglee.com/java/2019/12/06/java-jvm.html){:target="_blank"} - Java 虛擬機
-- [Java Garbage Collection](http://www.hauchenglee.com/java/2019/12/08/java-garbage-collection.html){:target="_blank"} - Java 垃圾回收
+- [Java Garbage Collection](){:target="_blank"} - Java 垃圾回收（未完成）
 
 ## Java 8
 
