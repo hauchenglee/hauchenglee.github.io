@@ -14,8 +14,6 @@ tags: [java]
 - 進程間的通訊很不方便，因為大多數操作系統不允許進程訪問其他進程的內存空間
 - 因為多線程程序是亂序執行，每次執行的結果都是隨機的。因此，只有亂序執行的代碼才有必要設計為多線程。
 
-<br>
-
 關於線程的一些概念：
 
 - cpu時間片：我們操作系統看起來可以多個程序同時運行，分時操作系統，將系統劃分成相同的時間區域，並分配給一個線程使用。
@@ -31,8 +29,6 @@ tags: [java]
 
 線程安全的優先級 > 性能。
 
-> - [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
-
 ## 進程與線程
 
 進程：
@@ -46,7 +42,7 @@ tags: [java]
 線程與進程相似，但線程是一個比進程更小的執行單位，一個進程在其執行的過程中可以產生多個線程。與進程不同的是同類的多個線
 程共享同一塊內存空間和一組系統資源，所以系統在產生一個線程，或是在各個線程之間作切換工作時，負擔要比進程小得多。
 
-<br>
+用比喻的方式說明：
 
 > 1。单进程单线程：一个人在一个桌子上吃菜。<br>
 > 2。单进程多线程：多个人在同一个桌子上一起吃菜。<br>
@@ -108,28 +104,24 @@ class Demo2 implements Runnable {
 
 架構：
 
-> - [Java Concurrency / Multithreading Basics - CalliCoder](https://www.callicoder.com/java-concurrency-multithreading-basics/){:target="_blank"}
-> - [Java多线程学习（一）Java多线程入门 - 掘金](https://juejin.im/post/5ab116875188255561411b8a){:target="_blank"}
-> - [Java多线程学习（吐血超详细总结） - Evankaka的专栏](https://blog.csdn.net/evankaka/article/details/44153709){:target="_blank"}
+- [Java Concurrency / Multithreading Basics - CalliCoder](https://www.callicoder.com/java-concurrency-multithreading-basics/){:target="_blank"}
+- [Java多线程学习（一）Java多线程入门 - 掘金](https://juejin.im/post/5ab116875188255561411b8a){:target="_blank"}
+- [Java初学有必要深入多线程编程吗？ - 知乎](https://www.zhihu.com/question/60148851/answer/670934093){:target="_blank"}
+- [Java多线程学习（吐血超详细总结） - Evankaka的专栏](https://blog.csdn.net/evankaka/article/details/44153709){:target="_blank"}
+- [《Java并发编程实战》高清PDF电子书 百度云网盘免费下载 - Java SE免费电子书 - Java电子书大全 - Powered by Discuz!](https://www.ebook23.com/thread-78-1-1.html){:target="_blank"}
 
 基礎：
 
-> - [多线程初级（上） - 知乎](https://zhuanlan.zhihu.com/p/56518031){:target="_blank"}
-> - [多线程初级（中） - 知乎](https://zhuanlan.zhihu.com/p/57482990){:target="_blank"}
-> - [Java 程序中的多线程](https://www.ibm.com/developerworks/cn/java/multithreading/){:target="_blank"}
-> - [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
+- [多线程初级（上） - 知乎](https://zhuanlan.zhihu.com/p/56518031){:target="_blank"}
+- [多线程初级（中） - 知乎](https://zhuanlan.zhihu.com/p/57482990){:target="_blank"}
+- [Java 程序中的多线程](https://www.ibm.com/developerworks/cn/java/multithreading/){:target="_blank"}
+- [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
 
 線程池：
 
-> - [理解ThreadPoolExecutor线程池的corePoolSize、maximumPoolSize和poolSize - FrankYou - 博客园](https://www.cnblogs.com/frankyou/p/10135212.html){:target="_blank"}
-> - [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
-> - [当面试官问线程池时，你应该知道些什么？ - 知乎](https://zhuanlan.zhihu.com/p/62132884){:target="_blank"}
-> - [Java多线程学习（八）线程池与Executor 框架 - 知乎](https://zhuanlan.zhihu.com/p/37524061){:target="_blank"}
-
-
-
-> - [](){:target="_blank"}
-> - [](){:target="_blank"}
-> - [](){:target="_blank"}
+- [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
+- [理解ThreadPoolExecutor线程池的corePoolSize、maximumPoolSize和poolSize - FrankYou - 博客园](https://www.cnblogs.com/frankyou/p/10135212.html){:target="_blank"}
+- [当面试官问线程池时，你应该知道些什么？ - 知乎](https://zhuanlan.zhihu.com/p/62132884){:target="_blank"}
+- [Java多线程学习（八）线程池与Executor 框架 - 知乎](https://zhuanlan.zhihu.com/p/37524061){:target="_blank"}
 
 ---
