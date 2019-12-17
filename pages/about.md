@@ -7,4 +7,6 @@ css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon
 permalink: /about
 ---
 
+[//]: <>https://www.callicoder.com/about/
+
 {% include about.html %}
