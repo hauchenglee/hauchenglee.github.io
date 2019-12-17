@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-Concurrency 並發編程
+title: Java筆記 - Concurrency 並發編程
 category: java
 tags: [java]
 ---
@@ -123,9 +123,13 @@ class Demo2 implements Runnable {
 
 - [Lesson: Concurrency (The Java™ Tutorials > Essential Classes)](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html){:target="_blank"}
 - [Java Concurrency / Multithreading Basics - CalliCoder](https://www.callicoder.com/java-concurrency-multithreading-basics/){:target="_blank"}
-- [Java多线程学习（一）Java多线程入门 - 掘金](https://juejin.im/post/5ab116875188255561411b8a){:target="_blank"}
-- [Java初学有必要深入多线程编程吗？ - 知乎](https://www.zhihu.com/question/60148851/answer/670934093){:target="_blank"}
 - [《Java并发编程实战》高清PDF电子书 百度云网盘免费下载 - Java SE免费电子书 - Java电子书大全 - Powered by Discuz!](https://www.ebook23.com/thread-78-1-1.html){:target="_blank"}
+
+思維導圖：
+
+- [java并发编程思维导图 - 简书](https://www.jianshu.com/p/5b60f89ad7fd){:target="_blank"}
+- [Java初学有必要深入多线程编程吗？ - 知乎](https://www.zhihu.com/question/60148851/answer/670934093){:target="_blank"}
+- [JavaGuide/多线程系列.md at master · Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%B3%BB%E5%88%97.md){:target="_blank"}
 
 基礎：
 
@@ -139,5 +143,9 @@ class Demo2 implements Runnable {
 - [理解ThreadPoolExecutor线程池的corePoolSize、maximumPoolSize和poolSize - FrankYou - 博客园](https://www.cnblogs.com/frankyou/p/10135212.html){:target="_blank"}
 - [当面试官问线程池时，你应该知道些什么？ - 知乎](https://zhuanlan.zhihu.com/p/62132884){:target="_blank"}
 - [Java多线程学习（八）线程池与Executor 框架 - 知乎](https://zhuanlan.zhihu.com/p/37524061){:target="_blank"}
+
+面試題目：
+
+- [《面试-多线程》 - java思维导图社区](https://www.java-mindmap.com/view/71){:target="_blank"}
 
 ---
