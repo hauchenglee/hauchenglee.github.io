@@ -54,13 +54,13 @@ permalink: /java
 
 ### Thread Safe
 
-- [Concurrency issues](){:target="_blank"} - 並發問題（未完成）
+- [Concurrency Issues](){:target="_blank"} - 並發問題（未完成）
 - [Atomic](){:target="_blank"} - 原子性（未完成）
 - [Synchronized](){:target="_blank"} - 同步鎖（未完成）
 - [Volatile](){:target="_blank"} - 可見性（未完成）
 - [Immutable](){:target="_blank"} - 不變性（未完成）
 - [Stateless](){:target="_blank"} - 無狀態（未完成）
-- [Delegating thread safety](){:target="_blank"} - 委託線程安全（未完成）
+- [Delegating Thread Safety](){:target="_blank"} - 委託線程安全（未完成）
 
 ### Liveness
 
