@@ -50,7 +50,6 @@ permalink: /java
 - [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
 - [Thread Objects](http://www.hauchenglee.com/java/2019/12/17/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
 - [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
-- [Thread State](){:target="_blank"} - 線程狀態（未完成）
 
 ### Thread Safe
 
@@ -71,8 +70,9 @@ permalink: /java
 
 ### Applications
 
-- [Task Execution](){:target="_blank"} - 任務執行（未完成）
-- [Executor](){:target="_blank"} - Executor 框架（未完成）
+- [Thread Lifecycle](){:target="_blank"} - 線程生命週期（未完成）
+- [Thread Task](){:target="_blank"} - 任務執行（未完成）
+- [Thread Executor](){:target="_blank"} - Executor 框架（未完成）
 - [Thread Pool](){:target="_blank"} - 線程池（未完成）
 - [Thread Pool Size](){:target="_blank"} - 線程池大小（未完成）
 
