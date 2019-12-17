@@ -8,7 +8,7 @@ tags: [java]
 Data (or properties or attributes) and behaviour (the "methods" that operate on the data) are encapsulated into objects; moreover, 
 the data is *hidden* from the external world.
 
-access modifier:
+## Access Modifier:
 
 <table style="text-align: center">
     <thead>
