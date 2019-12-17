@@ -179,7 +179,6 @@ public interface Runnable {
      */
     public abstract void run();
 }
-
 ```
 
 目的：
@@ -324,7 +323,8 @@ thread.start();
 - 執行`thread.start()`後將會調用`Thread`自家的`run()`方法
 
 > Thread的有參構造函數**只允許**接受Runnable的實現類對象，包括Thread子類對象<br>
-> 因為觀察源碼，我們發現Thread也實現了Runnable
+>
+> 觀察源碼，我們發現Thread也實現了Runnable
 
 ![](http://www.hauchenglee.com/assets/images/java/thread-03.jpg)
 
@@ -358,20 +358,80 @@ thread.start();
 
 來解讀上面那段話：
 
+> 如果這個線程由`Runnable`建立，則調用`Runnable`對象的`run`方法；
+>
+> 否則（如果是`Thread`建立的線程），則`override`父類的`run`方法
 
+結合圖片以及說明，可以發現在上編程時，執行線程的包裹只有黃色虛線框內的代碼，當線程被`start()`喚醒後，只會去調用`Thread`的`run()`：
+- 這個`run()`可能來自`Thread`類（方式2）
+- 也可能來自`Thread`的子類對象（方式1）
 
+換言之，`Thread`類（及其子類）是線程運行的入口，沒了`Thread`以後，`Runnable`及其實現類（`implement class`）就無法調用`run`方法。
 
 ![](http://www.hauchenglee.com/assets/images/java/thread-05.jpg)
 
-
-
-![](http://www.hauchenglee.com/assets/images/java/thread-06.jpg)
-
-
+> `Thread`类及其子类永远是入口，方式2写在`Runnable`实现类中代码之所以能被执行到，仅仅是因为`Thread`的`run()`中调用了`target.run()`。
 
 ## Compare
 
+所以說，該如何選擇呢？
+
+1. 通過`Thread`類來擴展（`extends`）線程沒有充分運用面向對象的思想，因為一旦從`Thead`繼承了，就無法再繼承其他類（Java不允許多重繼承）。
+
+2. 如果遵循良好的設計規範，繼承（`extends`）是用於擴展父類的功能，但是當我們創建線程時，我們不會去擴展`Thread`類的功能，而只是使用提供的`run()`方法的實現。
+
+3. 解耦執行者（`thread`）與被執行者（`run()`）兩者，將【待執行代碼】移到`Runnable`實現類中，達到【資源共享】的目的。
+
+![](http://www.hauchenglee.com/assets/images/java/thread-06.jpg)
+
+> 注意，继承`Thread`方式並沒有做到资源共享，因为每个子类对象都有各自的一份`run()`，各玩各的。
+
+<br>
+
+多個線程共享資源：
+
+```java
+public class ThreadForIncrease {
+    private static int cnt = 0; // public data
+
+    public static void main(String[] args) throws InterruptedException {
+        Runnable runnable = () -> {
+            int n = 10000;
+            while (n > 0) {
+                cnt++;
+                n--;
+            }
+        };
+
+        Thread thread1 = new Thread(runnable);
+        Thread thread2 = new Thread(runnable);
+        Thread thread3 = new Thread(runnable);
+        Thread thread4 = new Thread(runnable);
+        Thread thread5 = new Thread(runnable);
+        thread1.start();
+        thread2.start();
+        thread3.start();
+        thread4.start();
+        thread5.start();
+
+        Thread.sleep(1000);
+        System.out.println(cnt);
+    }
+}
+```
+
+```
+# Output
+第一次執行：17727
+第二次執行：16156
+第三次執行：16290
+第四次執行：15378
+第五次執行：17358
+```
 
 ## Reference
+
+- [Java Thread and Runnable Tutorial - CalliCoder](https://www.callicoder.com/java-multithreading-thread-and-runnable-tutorial/){:target="_blank"}
+- [多线程初级（上） - 知乎](https://zhuanlan.zhihu.com/p/56518031){:target="_blank"}
 
 ---
