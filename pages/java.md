@@ -18,21 +18,22 @@ permalink: /java
 
 ### Class and Object
 
-- [Java Class and Object](http://www.hauchenglee.com/java/2019/11/01/java-class-and-object.html) - Java Class and Object 面向對象
+- [Java Class and Object](http://www.hauchenglee.com/java/2019/11/01/java-class-and-object.html){:target="_blank"} - Java Class and Object 面向對象
 - [Java Memory](http://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
 - [Java Generic](http://www.hauchenglee.com/java/2019/11/07/java-generic.html){:target="_blank"} - Java Generic 泛型
 - [Java Generic Oracle](http://www.hauchenglee.com/java/2019/11/16/java-generic-oracle.html){:target="_blank"} - Java Generic 泛型 Oracle
 
 ### Characteristics
 
-- [Java Encapsulation](http://www.hauchenglee.com/java/2019/11/02/java-oop.html){:target="_blank"} - Java 面向對象 封裝
-- [Java Inheritance](http://www.hauchenglee.com/java/2019/11/03/java-oop.html){:target="_blank"} - Java 面向對象 繼承
-- [Java Polymorphism](http://www.hauchenglee.com/java/2019/11/04/java-oop.html){:target="_blank"} - Java 面向對象 多態
+- [Java Encapsulation](http://www.hauchenglee.com/java/2019/11/02/java-encapsulation.html){:target="_blank"} - Java 面向對象 封裝
+- [Java Inheritance](http://www.hauchenglee.com/java/2019/11/03/java-inheritance.html){:target="_blank"} - Java 面向對象 繼承
+- [Java Polymorphism](http://www.hauchenglee.com/java/2019/11/04/java-polymorphism.html){:target="_blank"} - Java 面向對象 多態
 
 ## APIs
 
 - [Java IO](http://www.hauchenglee.com/java/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
 - [Java Date Time](http://www.hauchenglee.com/java/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
+- [Java JSONObject](){:target="_blank"} - Java JSONObject 用法（未完成）
 
 ## Collection
 
@@ -41,32 +42,45 @@ permalink: /java
 - [Java Set](){:target="_blank"} - Java Set（未完成）
 - [Java Map](){:target="_blank"} - Java Map（未完成）
 - [Java Hash](){:target="_blank"} - Java Hash 哈希（未完成）
-- [Java Collection Synchronized](){:target="_blank"} - Java Hash 哈希（未完成）
 
 ## Concurrency
 
 ### Basic
 
-- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - 並發編程基礎
-- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - 線程安全
-- [Thread and Runnable](http://www.hauchenglee.com/java/2019/12/18/thread-and-runnable.html){:target="_blank"} - Thread and Runnable（未完成）
-- [Thread Status](){:target="_blank"} - 線程狀態（未完成）
+- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
+- [Thread Objects](http://www.hauchenglee.com/java/2019/12/17/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
+- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
+- [Thread State](){:target="_blank"} - 線程狀態（未完成）
 
-### Executor and Thread Pool
+### Thread Safe
 
-- [Concurrency](){:target="_blank"} - （未完成）
-- [Concurrency](){:target="_blank"} - （未完成）
-- [Concurrency](){:target="_blank"} - （未完成）
+- [Concurrency issues](){:target="_blank"} - 並發問題（未完成）
+- [Atomic](){:target="_blank"} - 原子性（未完成）
+- [Synchronized](){:target="_blank"} - 同步鎖（未完成）
+- [Volatile](){:target="_blank"} - 可見性（未完成）
+- [Immutable](){:target="_blank"} - 不變性（未完成）
+- [Stateless](){:target="_blank"} - 無狀態（未完成）
+- [Delegating thread safety](){:target="_blank"} - 委託線程安全（未完成）
 
-### Synchronization
+### Liveness
+
+- [Liveness](){:target="_blank"} - 活躍度（未完成）
+- [Deadlock](){:target="_blank"} - 死鎖（未完成）
+- [Starvation](){:target="_blank"} - 飢餓（未完成）
+- [Livelock](){:target="_blank"} - 活鎖（未完成）
+
+### Applications
+
+- [Task Execution](){:target="_blank"} - 任務執行（未完成）
+- [Executor](){:target="_blank"} - Executor 框架（未完成）
+- [Thread Pool](){:target="_blank"} - 線程池（未完成）
+- [Thread Pool Size](){:target="_blank"} - 線程池大小（未完成）
+
+### Collections, Queue and Pattern
 
 
 
-### Locks
-
-
-
-### Atomic
+### Advanced Topics
 
 
 
