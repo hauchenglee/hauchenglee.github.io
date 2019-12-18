@@ -63,16 +63,9 @@ paginate_path: 'page:num'
 # not use
 menus:
 
-  - href: /algorithms
-    label: Algorithms
-    target: _self
-
-  - href: /lang
-    label: Language
-    target: _self
 
   - href: /open-source
-    label: Open-Source
+    label: Source
     target: _self
 
   - href: /link
@@ -94,13 +87,26 @@ navs:
     label: Java
     target: _self
 
-  - href: /database
-    label: Database
+  - href: /arch
+    label: Arch
     target: _self
 
   - href: /tech
     label: Tech
     target: _self
+    subnav:
+
+      - subHref: /algorithms
+        subLabel: Algorithms
+        target: _self
+
+      - subHref: /database
+        subLabel: Database
+        target: _self
+
+      - subHref: /tech
+        subLabel: Technology
+        target: _self
 
   - href: /blog
     label: Blog
