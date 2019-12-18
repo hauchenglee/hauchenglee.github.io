@@ -6,6 +6,14 @@ menu: tech
 permalink: /tech
 ---
 
+## Design Pattern
+
+- [](){:target="_blank"}
+
+## Http
+
+- [](){:target="_blank"}
+
 ## Linux
 
 - [Linux Install](){:target="_blank"} - Linux Install 安裝（未完成）

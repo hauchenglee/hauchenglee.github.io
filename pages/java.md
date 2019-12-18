@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Java
-subtitle:
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
 menu: java
 permalink: /java
 ---
-
-[//]: <>subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
 
 ## Language Basics
 
@@ -45,18 +43,17 @@ permalink: /java
 ### Basic
 
 - [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
-- [Thread Objects](http://www.hauchenglee.com/java/2019/12/17/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
-- [Thread Risks](http://www.hauchenglee.com/java/2019/12/18/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
+- [Thread Objects](http://www.hauchenglee.com/java/2019/12/15/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
+- [Thread Risks](http://www.hauchenglee.com/java/2019/12/16/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
 
 ### Thread Safe
 
-- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
-- [Atomic](){:target="_blank"} - 原子性（未完成）
-- [Synchronized](){:target="_blank"} - 同步鎖（未完成）
-- [Volatile](){:target="_blank"} - 可見性（未完成）
+- [Thread Safe](http://www.hauchenglee.com/java/2019/12/17/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
+- [Synchronization](http://www.hauchenglee.com/java/2019/12/18/thread-synchronization.html){:target="_blank"} - 線程同步機制
 - [Immutable](){:target="_blank"} - 不變性（未完成）
 - [Stateless](){:target="_blank"} - 無狀態（未完成）
 - [Delegating Thread Safety](){:target="_blank"} - 委託線程安全（未完成）
+- [Publication and escape](){:target="_blank"} - 對象的發佈與逸出（未完成）
 
 ### Liveness
 
@@ -77,9 +74,7 @@ permalink: /java
 
 
 
-### Advanced Topics
-
-
+[//]: <>### Advanced Topics
 
 ## JVM
 
