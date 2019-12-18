@@ -25,9 +25,9 @@ permalink: /java
 
 ### Characteristics
 
-- [Java Encapsulation](http://www.hauchenglee.com/java/2019/11/02/java-encapsulation.html){:target="_blank"} - Java 面向對象 封裝
-- [Java Inheritance](http://www.hauchenglee.com/java/2019/11/03/java-inheritance.html){:target="_blank"} - Java 面向對象 繼承
-- [Java Polymorphism](http://www.hauchenglee.com/java/2019/11/04/java-polymorphism.html){:target="_blank"} - Java 面向對象 多態
+- [Java Encapsulation](http://www.hauchenglee.com/java/2019/11/02/java-encapsulation.html){:target="_blank"} - Java 封裝
+- [Java Inheritance](http://www.hauchenglee.com/java/2019/11/03/java-inheritance.html){:target="_blank"} - Java 繼承
+- [Java Polymorphism](http://www.hauchenglee.com/java/2019/11/04/java-polymorphism.html){:target="_blank"} - Java 多態
 
 ## APIs
 
@@ -38,9 +38,6 @@ permalink: /java
 ## Collection
 
 - [Java Collections](http://www.hauchenglee.com/java/2019/11/08/java-collections.html){:target="_blank"} - Java Collections 集合
-- [Java List](){:target="_blank"} - Java List（未完成）
-- [Java Set](){:target="_blank"} - Java Set（未完成）
-- [Java Map](){:target="_blank"} - Java Map（未完成）
 - [Java Hash](){:target="_blank"} - Java Hash 哈希（未完成）
 
 ## Concurrency
@@ -49,11 +46,11 @@ permalink: /java
 
 - [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
 - [Thread Objects](http://www.hauchenglee.com/java/2019/12/17/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
-- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
+- [Thread Risks](http://www.hauchenglee.com/java/2019/12/18/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
 
 ### Thread Safe
 
-- [Concurrency Issues](){:target="_blank"} - 並發問題（未完成）
+- [Thread Safe](http://www.hauchenglee.com/java/2019/12/15/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
 - [Atomic](){:target="_blank"} - 原子性（未完成）
 - [Synchronized](){:target="_blank"} - 同步鎖（未完成）
 - [Volatile](){:target="_blank"} - 可見性（未完成）
@@ -100,7 +97,6 @@ permalink: /java
 
 ### Resource
 
-- [Java Bean](){:target="_blank"} - Java Bean（未完成）
 - [Java JDBC](){:target="_blank"} - Java JDBC（未完成）
 - [Java JNDI](){:target="_blank"} - Java JNDI（未完成）
 
@@ -115,20 +111,27 @@ permalink: /java
 - [Servlet](http://www.hauchenglee.com/java/2019/11/17/servlet.html){:target="_blank"} - Servlet
 - [JSP](http://www.hauchenglee.com/java/2019/11/18/jsp.html){:target="_blank"} - JSP
 
-## Framework
+[//]: <>## Hibernate
+[//]: <>
+[//]: <>- [Hibernate Session Factory](){:target="_blank"} - Hibernate 工廠（未完成）
+[//]: <>- [Hibernate Connection Pool](){:target="_blank"} - Hibernate 連線池（未完成）
+[//]: <>- [Hibernate Life Cycle](){:target="_blank"} - Hibernate 生命週期（未完成）
+[//]: <>- [Hibernate Mapping Relationship](){:target="_blank"} - Hibernate 映射關係（未完成）
+[//]: <>- [Hibernate HQL](){:target="_blank"} - Hibernate HQL（未完成）
+
+## Spring Framework
 
 ### Spring
 
 - [Spring IOC](){:target="_blank"} Spring Inversion of Control 控制反轉（未完成）
 - [Spring AOP](){:target="_blank"} Spring Aspect Oriented Programming 面向切面編程（未完成）
+
+### Spring Boot
+
 - [Spring Boot Resource](){:target="_blank"} - Spring Boot 學習資料匯總（未完成）
 
-### Hibernate
+### Spring Cloud
 
-- [Hibernate Session Factory](){:target="_blank"} - Hibernate 工廠（未完成）
-- [Hibernate Connection Pool](){:target="_blank"} - Hibernate 連線池（未完成）
-- [Hibernate Life Cycle](){:target="_blank"} - Hibernate 生命週期（未完成）
-- [Hibernate Mapping Relationship](){:target="_blank"} - Hibernate 映射關係（未完成）
-- [Hibernate HQL](){:target="_blank"} - Hibernate HQL（未完成）
+
 
 ---
