@@ -29,7 +29,7 @@ tags: [java]
 
 線程安全的優先級 > 性能。
 
-Source: [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
+Ref: [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a/1190000014543489){:target="_blank"}
 
 ## 並發與並行
 
@@ -43,7 +43,7 @@ Source: [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.co
 
 ![](http://www.hauchenglee.com/assets/images/java/concurrent-parallel.png)
 
-Source: [面试必考的：并发和并行有什么区别？](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485178&idx=1&sn=0fc0fd1bb7e8b41ec8770ac5a62f8287&chksm=ebd747fbdca0ceedc6e0dab24d449ecdfa5b4e582d2acdc62c234b299c5828abe047f76196f4&token=1230572157&lang=zh_CN###rd){:target="_blank"}
+Ref: [面试必考的：并发和并行有什么区别？](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485178&idx=1&sn=0fc0fd1bb7e8b41ec8770ac5a62f8287&chksm=ebd747fbdca0ceedc6e0dab24d449ecdfa5b4e582d2acdc62c234b299c5828abe047f76196f4&token=1230572157&lang=zh_CN###rd){:target="_blank"}
 
 ## 進程與線程
 
@@ -69,7 +69,15 @@ Source: [面试必考的：并发和并行有什么区别？](https://mp.weixin.
 > 人夹菜，也就是说资源共享就会发生冲突争抢。
 >
 
-Source: [多线程有什么用？ - 知乎](https://www.zhihu.com/question/19901763){:target="_blank"}
+Ref: [多线程有什么用？ - 知乎](https://www.zhihu.com/question/19901763){:target="_blank"}
+
+## 同步與異步
+
+消息通信機制：
+- 同步（synchronous communication）：需要等待request回調
+- 異步（asynchronous communication）：不需等待request回調
+
+Ref: [怎样理解阻塞非阻塞与同步异步的区别？ - 知乎](https://www.zhihu.com/question/19732473){:target="_blank"}
 
 ## Java與多線程關係
 
