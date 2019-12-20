@@ -31,7 +31,7 @@ permalink: /java
 
 - [Java IO](http://www.hauchenglee.com/java/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
 - [Java Date Time](http://www.hauchenglee.com/java/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
-- [Java JSONObject](){:target="_blank"} - Java JSONObject 用法（未完成）
+- [Java JSON](http://www.hauchenglee.com/java/2019/12/xx/java-json.html){:target="_blank"} - Java JSON 用法（未完成）
 
 ## Collection
 
@@ -44,16 +44,16 @@ permalink: /java
 
 - [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
 - [Thread Objects](http://www.hauchenglee.com/java/2019/12/15/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
-- [Thread Risks](http://www.hauchenglee.com/java/2019/12/16/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
+- [Thread Risks](http://www.hauchenglee.com/java/2019/12/17/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
 
 ### Thread Safe
 
-- [Thread Safe](http://www.hauchenglee.com/java/2019/12/17/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
-- [Synchronization](http://www.hauchenglee.com/java/2019/12/18/thread-synchronization.html){:target="_blank"} - 線程同步機制
-- [Immutable](){:target="_blank"} - 不變性（未完成）
-- [Stateless](){:target="_blank"} - 無狀態（未完成）
-- [Delegating Thread Safety](){:target="_blank"} - 委託線程安全（未完成）
-- [Publication and escape](){:target="_blank"} - 對象的發佈與逸出（未完成）
+- [Thread Safe](http://www.hauchenglee.com/java/2019/12/18/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
+- [Synchronization](http://www.hauchenglee.com/java/2019/12/20/thread-synchronization.html){:target="_blank"} - 線程同步機制
+- [Immutable](http://www.hauchenglee.com/java/2019/12/21/thread-immutable.html){:target="_blank"} - 不變性
+- [Stateless](http://www.hauchenglee.com/java/2019/12/22/thread-stateless.html){:target="_blank"} - 無狀態
+- [Delegating Thread Safety](http://www.hauchenglee.com/java/2019/12/xx/thread-synchronization.html){:target="_blank"} - 委託線程安全
+- [Publication and escape](http://www.hauchenglee.com/java/2019/12/xx/thread-pub-and-esc.html){:target="_blank"} - 對象的發佈與逸出
 
 ### Liveness
 
@@ -90,10 +90,10 @@ permalink: /java
 
 ## JavaEE
 
-### Resource
-
-- [Java JDBC](){:target="_blank"} - Java JDBC（未完成）
-- [Java JNDI](){:target="_blank"} - Java JNDI（未完成）
+[//]: <>### Resource
+[//]: <>
+[//]: <>- [Java JDBC](){:target="_blank"} - Java JDBC（未完成）
+[//]: <>- [Java JNDI](){:target="_blank"} - Java JNDI（未完成）
 
 ### Packaging
 
