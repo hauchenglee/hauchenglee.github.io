@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記 - Synchronization 線程同步機制
+title: Java - Synchronization 線程同步機制
 category: java
 tags: [java]
 ---

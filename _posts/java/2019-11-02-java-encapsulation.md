@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記- Encapsulation 封裝
+title: Java - Encapsulation 封裝
 category: java
 tags: [java]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-時間複雜度
+title: Algorithms - 時間複雜度
 category: algorithms
 tags: [algorithms]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-Binary Search Tree 二叉查找樹
+title: Algorithms - Binary Search Tree 二叉查找樹
 category: algorithms
 tags: [algorithms]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記 - Concurrency 並發編程
+title: Java - Concurrency 並發編程
 category: java
 tags: [java]
 ---

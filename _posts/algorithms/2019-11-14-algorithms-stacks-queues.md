@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-Stacks and Queues
+title: Algorithms - Stacks and Queues
 category: algorithms
 tags: [algorithms]
 ---

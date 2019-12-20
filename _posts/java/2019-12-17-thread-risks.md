@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記 - Risks of Thread 線程的風險
+title: Java - Risks of Thread 線程的風險
 category: java
 tags: [java]
 ---

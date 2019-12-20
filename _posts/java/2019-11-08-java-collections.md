@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-Collections 集合
+title: Java - Collections 集合
 category: java
 tags: [java]
 ---

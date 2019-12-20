@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-基礎語法
+title: Java - 基礎語法
 category: java
 tags: [java]
 ---

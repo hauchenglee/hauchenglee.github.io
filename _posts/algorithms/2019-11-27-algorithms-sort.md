@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-排序
+title: Algorithms - 排序
 category: algorithms
 tags: [algorithms]
 ---

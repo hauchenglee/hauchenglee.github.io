@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記- Class and Object 面向對象
+title: Java - Class and Object 面向對象
 category: java
 tags: [java]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-Generic 泛型
+title: Java - Generic 泛型
 category: java
 tags: [java]
 ---

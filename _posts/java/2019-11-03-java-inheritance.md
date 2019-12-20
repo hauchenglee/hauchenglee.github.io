@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記- Inheritance 繼承
+title: Java - Inheritance 繼承
 category: java
 tags: [java]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記 - Thread Safe 線程安全
+title: Java - Thread Safe 線程安全
 category: java
 tags: [java]
 ---

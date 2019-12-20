@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms筆記-算法分析
+title: Algorithms - 算法分析
 category: algorithms
 tags: [algorithms]
 ---

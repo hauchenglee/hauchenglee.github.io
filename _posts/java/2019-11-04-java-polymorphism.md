@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記- Polymorphism 多態
+title: Java - Polymorphism 多態
 category: java
 tags: [java]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記 - Thread Objects 線程對象
+title: Java - Thread Objects 線程對象
 category: java
 tags: [java]
 ---

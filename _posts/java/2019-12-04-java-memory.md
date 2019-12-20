@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java筆記-Memory Allocation 內存分配
+title: Java - Memory Allocation 內存分配
 category: java
 tags: [java]
 ---
