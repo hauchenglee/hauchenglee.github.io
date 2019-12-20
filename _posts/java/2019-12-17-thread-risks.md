@@ -13,7 +13,7 @@ tags: [java]
 
 下面的程序在單線程中運行是沒有問題的。
 
-```
+```java
 import org.apache.http.annotation.NotThreadSafe;
 
 @NotThreadSafe
@@ -56,7 +56,7 @@ class UnSafeSequence {
 
 為了使多線程程序的行為可預見性，訪問共享資源必須經過合理的協調，才不會造成線程相互干擾。
 
-```
+```java
 import org.apache.http.annotation.GuardedBy;
 import org.apache.http.annotation.ThreadSafe;
 
@@ -81,7 +81,7 @@ class Sequence {
 
 一樣舉個例子：
 
-```
+```java
 import javax.servlet.*;
 import java.io.IOException;
 
@@ -101,7 +101,7 @@ class UnsafeCountingServlet extends GenericServlet implements Servlet {
 
 依照上面說過的，上面這個類是線程不安全的。最簡單的方式：在`service`方法上加上內置鎖（synchronized），就可以實現線程安全。
 
-```
+```java
 import javax.servlet.*;
 import java.io.IOException;
 

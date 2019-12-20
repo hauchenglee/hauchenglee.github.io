@@ -28,7 +28,7 @@ tags: [java]
 
 ### 同步用法
 
- 
+
 
 
 ### 實現原理
@@ -208,18 +208,35 @@ C:\java>
 
 Ref:
 - [深入理解多线程（一）——Synchronized的实现原理-HollisChuang's Blog](http://www.hollischuang.com/archives/1883){:target="_blank"}
-- [深入理解多线程（四）—— Moniter的实现原理-HollisChuang's Blog](http://www.hollischuang.com/archives/2030)
+- [深入理解多线程（四）—— Moniter的实现原理-HollisChuang's Blog](http://www.hollischuang.com/archives/2030){:target="_blank"}
 - [Chapter 2. The Structure of the Java Virtual Machine](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-2.html#jvms-2.11.10){:target="_blank"}
 
 ### synchronized & 原子性
 
+被`synchronized`修飾過的代碼片段，在進入之前加了鎖，只要它沒有執行完，其他線程是無法獲得執行這段代碼片段的，就可以保證它內部的代碼可以全部被執行，進而保證原子性。
 
+> 线程1在执行`monitorenter`指令的时候，会对Monitor进行加锁，加锁后其他线程无法获得锁，
+> 除非线程1主动解锁。即使在执行过程中，由于某种原因，比如CPU时间片用完，线程1放弃了
+> CPU，但是，他并没有进行解锁。而由于`synchronized`的锁是可重入的，下一个时间片还是只能
+> 被他自己获取到，还是会继续执行代码。直到所有代码执行完。这就保证了原子性。
 
 ### synchronized & 可見性
 
+`synchronized`可以保證可見性。
 
+> Because the happens-before relation is transitive, all actions of a thread prior to unlocking happen-before all actions subsequent to any thread locking that monitor.
+
+翻譯一下：
+
+> 由於事前發生關係是可傳遞的，因此在解鎖之前，線程的所有操作都發生在監視該線程的所有線程之後的所有操作之前。
+
+Ref:
+- [java - Does synchronization allows visibility to all variables after synchronized method call? - Stack Overflow](https://bit.ly/2Zel3mH){:target="_blank"}
+- [java.util.concurrent (Java Platform SE 7 )](https://bit.ly/35DeEns){:target="_blank"}
 
 ### synchronized & 有序性
+
+`synchronized`不可以保證【線程有序性】，也不可以保證【指令有序性（）】。
 
 
 
@@ -250,6 +267,6 @@ Ref:
 - [Java线程(二)：线程同步synchronized和volatile · Java线程 · 看云](https://www.kancloud.cn/digest/java-thread/107457){:target="_blank"}
 - [内存可见性和原子性：Synchronized和Volatile的比较 - pan_jinquan的博客](https://blog.csdn.net/guyuealian/article/details/52525724){:target="_blank"}
 - [既然synchronized是"万能"的，为什么还需要volatile呢？ - 掘金](https://juejin.im/post/5d5c9fbce51d4561cd246641){:target="_blank"}
-- [](){:target="_blank"}
+- [从多线程的三个特性理解多线程开发 - bigfan - 博客园](https://www.cnblogs.com/dafanjoy/p/10020225.html){:target="_blank"}
 
 ---

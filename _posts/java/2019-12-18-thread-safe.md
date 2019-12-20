@@ -160,6 +160,101 @@ Say Bye..
 
 解決辦法：可以使用`volatile`來避免內存一致性錯誤。
 
+## 多線程三個特性
+
+總結：
+- 可見性 → 緩存一致性
+- 原子性 → 處理器優化
+- 有序性 → 指令重排
+
+Ref:
+- [Java的并发编程中的多线程问题到底是怎么回事儿？-HollisChuang's Blog](http://www.hollischuang.com/archives/2618){:target="_blank"}
+
+### 原子性
+
+原子性（Atomicity）：指操作是否具有一致性、不可分割性，像原子一樣，既不被中斷操作，要不執行完成，要不就不執行。
+
+例如，之前舉的例子：
+
+```java
+import org.apache.http.annotation.NotThreadSafe;
+
+@NotThreadSafe
+class UnSafeSequence {
+    private int value;
+    
+    public int getNext() {
+        return value++;
+    }
+}
+```
+
+我們可以這樣說：
+- `count++`不是原子操作，這是一個讀-改-寫（read-modify-write）的操作
+- `a = 1`是原子操作，已經是不可分割的狀態
+
+原子性是有背後的原理在的。
+
+之前提到過【時間片】的概念，這裡貼過來：
+
+> cpu時間片：我們操作系統看起來可以多個程序同時運行，分時操作系統，將系統劃分成相同的時間區域，並分配給一個線程使用。
+  當線程還沒有結束，時間片已經過去，該線程只有先停止，等待下一個時間片。cpu運行很快，中間的停頓感覺不出來。
+
+如下如所示：
+
+![](http://www.hauchenglee.com/assets/images/java/thread-time-slice.png)
+
+所以在多線程場景下，由於時間片在線程間輪換，就會發生原子性的問題。
+
+> 假設有操作A和B，如果從執行A的線程的角度看，當其他線程執行B時，要麼B全部執行完成，要麼一點都沒有執行，這樣A和B互為**原子**操作。
+>
+> 一個原子操作是指：該操作對於所有的操作，包括它自己，都是滿足前面描述的狀態。
+>
+> 【Java并发编程实战】頁22
+
+<br>
+
+另外，在【Java并发编程实战】頁21也有提到其他例子：惰性初始化（lazy initialization）
+
+以下是`@NotThreadSafe`的寫法：
+
+```java
+import org.apache.http.annotation.NotThreadSafe;
+
+import java.util.ArrayList;
+
+@NotThreadSafe
+class LazyInitRace {
+    private ArrayList instance = null;
+
+    public ArrayList getInstance() {
+        if (instance == null) {
+            instance = new ArrayList();
+        }
+        return instance;
+    }
+}
+```
+
+發生原因在於【競爭條件】，也就是後線程的操作，必須依賴於前線程的時序操作，如果後線程檢查`instance`為`null`，兩個`getInstance()`的調用者會得到不同的結果。
+
+<br>
+
+更深入的內容：
+- [再有人问你Java内存模型是什么，就把这篇文章发给他。-HollisChuang's Blog](http://www.hollischuang.com/archives/2550){:target="_blank"}
+
+### 可見性
+
+可見性（Visibility）：指當多個線程訪問同一個變量時，一個線程修改了這個變量的值，其他線程能夠立即看得到修改的值。
+
+
+
+### 有序性
+
+有序性（Ordering）：指程序執行的順序按照代碼的先後順序執行。
+
+
+
 ## 解決線程安全的問題
 
 使用多線程就一定要保證我們的線程是安全的，這是最重要的地方！
@@ -205,7 +300,7 @@ JDK中有`atomic`包提供給我們實現原子性操作。
 - 該變量不會納入到不變性條件中（該變量是可變的）
 - 在訪問變量的時候不需要加鎖（加鎖就沒必要使用`vocatile`這種輕量級同步機制了）
 
-参考资料：
+Ref:
 - [http://www.cnblogs.com/Mainz/p/3556430.html](http://www.cnblogs.com/Mainz/p/3556430.html){:target="_blank"}
 - [https://www.cnblogs.com/Mainz/p/3546347.html](https://www.cnblogs.com/Mainz/p/3546347.html){:target="_blank"}
 - [http://www.dataguru.cn/java-865024-1-1.html](http://www.dataguru.cn/java-865024-1-1.html){:target="_blank"}
