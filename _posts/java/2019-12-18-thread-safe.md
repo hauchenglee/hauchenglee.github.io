@@ -26,7 +26,12 @@ tags: [java]
 以及最重要的：
 - 在任何訪問狀態變量的時候使用**同步**機制
 
-Java中受邀的同步機制是`synchronized`關鍵字，它提供了獨佔鎖。除此之外，術語【同步】還包括`volatile`變量、顯示鎖和原子變量的使用。```
+Java中受邀的同步機制是`synchronized`關鍵字，它提供了獨佔鎖。除此之外，術語【同步】還包括`volatile`變量、顯示鎖和原子變量的使用。
+
+總結下，保護線程安全的本質（方法）：
+- 不在線程之間共享該狀態變量
+- 將狀態變量修改為不可變的變量
+- 在訪問狀態變量時使用同步
 
 <br>
 
@@ -35,12 +40,126 @@ Java中受邀的同步機制是`synchronized`關鍵字，它提供了獨佔鎖�
 - 共享：指一個變量可以被多個線程訪問
 - 可變：指變量的值在其生命週期內可以改變的
 
-## 線程特性
+## 線程安全危險
 
-- 原子性
-- 可見性
-- 有序性
-   
+### 線程干擾錯誤
+
+線程干擾錯誤（Thread interference errors / Race Conditions）
+
+簡單來說就是多線程操作共享資源，造成數據錯誤。用簡單代碼舉例：
+
+這是簡單`class`：
+
+```java
+class Counter {
+    int count = 0;
+
+    public void increment() {
+        count = count + 1;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+```
+
+現在我們使用多線程調用`increment()`：
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+class RaceConditionExample {
+    public static void main(String[] args) throws InterruptedException {
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+        Counter counter = new Counter();
+
+        for (int i = 0; i < 1000; i++) {
+            executorService.submit(() -> counter.increment());
+        }
+        
+        executorService.shutdown();
+        executorService.awaitTermination(60, TimeUnit.SECONDS);
+
+        System.out.println("Final count is : " + counter.getCount());
+    }
+}
+```
+
+看起來最後`count`計算後應該是1000，然而每次運行時，它都給出不一致的結果，例如992、996和993。
+
+解法有：
+- 加上同步鎖
+- 原子性操作
+
+### 內存一致性錯誤
+
+內存一致性錯誤（Memory consistency errors）
+
+說明：
+
+程序在操作數據時是有先後順序的。當一個線程操作更新完共享數據時，此時的操作結果並沒有一併更新到其他線程，導致該線程讀取到舊的數據值，造成錯誤。
+
+發生這個情況有很多複雜原因。除了編譯器對程序進行優化，以提高效能外，它還可能對指令操作進行重排序，達到更好的效能。
+例如，處理器可能會從寄存器（包含變量的最後讀取值）而不是主內存器（具有變量的最新值）讀取變量的當前值。
+
+```java
+class MemoryConsistencyErrorExample {
+    private static boolean sayHello = false;
+
+    public static void main(String[] args) throws InterruptedException {
+
+        Thread thread = new Thread(() -> {
+            while (!sayHello) {
+            }
+
+            System.out.println("Hello World!");
+
+            while (sayHello) {
+            }
+
+            System.out.println("Good Bye!");
+        });
+
+        thread.start();
+
+        Thread.sleep(1000);
+        System.out.println("Say Hello..");
+        sayHello = true;
+
+        Thread.sleep(1000);
+        System.out.println("Say Bye..");
+        sayHello = false;
+    }
+}
+```
+
+正常情況下，我們預期出現的結果是：
+
+```
+# Ideal Output
+Say Hello..
+Hello World!
+Say Bye..
+Good Bye!
+```
+
+然而，實際上輸出結果卻是：
+```
+# Actual Output
+Say Hello..
+Say Bye..
+```
+
+除此之外，還可以發現程序一直在運行，無法終止。
+
+原因就是：第一個線程不知道主線程對`sayHello`變量所做的更改。
+
+解決辦法：可以使用`volatile`來避免內存一致性錯誤。
+
 ## 解決線程安全的問題
 
 使用多線程就一定要保證我們的線程是安全的，這是最重要的地方！
@@ -153,6 +272,8 @@ Java提供了`final`修飾符給我們使用，但值得說明的是：`final`�
 
 ## Reference
 
+- [Java Concurrency issues and Thread Synchronization - CalliCoder](https://www.callicoder.com/java-concurrency-issues-and-thread-synchronization/){:target="_blank"}
+- [JVM中内存模型里的『主内存』是不是就是指『堆』，而『工作内存』是不是就是指『栈』？ - 知乎](https://www.zhihu.com/question/43519009){:target="_blank"}
 - [多线程基础必要知识点！看了学习多线程事半功倍](https://bit.ly/2RRZ57q){:target="_blank"}
 
 ---
