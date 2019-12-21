@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technology
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
+subtitle:
 menu: tech
 permalink: /tech
 ---

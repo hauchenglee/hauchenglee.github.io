@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Architecture
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
+subtitle:
 menu: blog
 css: ['blog-page.css']
 permalink: /arch
