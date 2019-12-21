@@ -5,7 +5,12 @@ category: java
 tags: [java]
 ---
 
-## 同步
+同步是一種概念，用於防止多個線程輸入代碼的特定部分，這又是避免線程問題的最基本概念。
+
+> Synchronization is a concept to prevent more than one thread from entering a specific part of code, 
+> which is - again - the most basic concept of avoiding threading issues.）
+>
+> Ref: [multithreading - Synchronization in java - Can we set priority to a synchronized access in java? - Stack Overflow](https://bit.ly/2PGluTv){:target="_blank"}
 
 同步，用最基本生活中的話來說，就是將每個人要操作前的狀態都同步到最新。<br>
 （想想A、B倆對象的交易行為就明白了）
@@ -13,25 +18,135 @@ tags: [java]
 同步的含義：
 - 原子性（行為不可分割）
 - 內存可見性（一個線程修改對象的狀態後，其他線程可看到狀態的改變）
-- 有序性（在本線程內的所有操作都是天然有序的）
+- 重排序（有些文章叫作有序性）
 
-## Atomic 原子性
+## synchronized
 
+### synchronized usage
 
+The `synchronized` keyword can be used on different levels:
+- Instance methods
+- Static methods
+- Code blocks
 
-## synchronized 同步鎖
+The default method and test:
 
-### 何謂鎖
+```
+import org.junit.jupiter.api.Test;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.IntStream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+public class SynchronizedMethods {
 
-### 同步用法
+    private int sum = 0;
 
+    public void calculate() {
+        setSum(getSum() + 1);
+    }
 
+    // standard setters and getters
+    public int getSum() {
+        return sum;
+    }
 
+    public void setSum(int sum) {
+        this.sum = sum;
+    }
 
-### 實現原理
+    @Test
+    public void givenMultiThread_whenNonSyncMethod() throws InterruptedException {
+        ExecutorService service = Executors.newFixedThreadPool(3);
+        SynchronizedMethods summation = new SynchronizedMethods();
+
+        IntStream.range(0, 1000)
+                .forEach(count -> service.submit(summation::calculate));
+
+        service.awaitTermination(1000, TimeUnit.MILLISECONDS);
+        assertEquals(1000, summation.getSum());
+    }
+}
+```
+
+<br>
+
+*Synchronized Instance Methods*
+
+we add `synchronized` in the method declaration:
+
+```
+public synchronized void synchronisedCalculate() {
+    setSum(getSum() + 1);
+}
+```
+
+<br>
+
+*Synchronized Static Methods*
+
+```
+public static synchronized void syncStaticCalculate() {
+    setSum(getSum() + 1);
+}
+```
+
+These methods are `synchronized` on the `Class` object associated with the class and since only 
+one `Class` object exists per JVM per class, only one thread can execute inside a `static synchronized` 
+method per class, irrespective of the number of instances it has.
+
+翻譯一下：
+
+> 這些方法在與該類關聯的Class對像上同步，並且由於每個JVM每個類僅存在一個Class對象，因此每個類
+> 在一個靜態同步方法內只能執行一個線程，而不管它有多少實例。
+
+<br>
+
+*Synchronized Blocks Within Methods*
+
+Sometimes we do not want to synchronized the entire method but only some instructions within it.
+
+```
+public void performSynchrinisedTask() {
+    synchronized (this) {
+        setSum(getSum() + 1);
+    }
+}
+```
+
+Notice, that we passed a parameter `this` to the `synchronized` block. This is the monitor object, the 
+code inside the block get synchronized on the monitor object. Simply put, only one thread per monitor 
+object can execute inside that block of code.
+
+In case the method is `static`, we would pass class name in place of the object reference. And the class 
+would be a monitor for synchronization of the block:
+
+翻譯一下：
+
+> 注意，我們將參數`this`傳遞給了同步塊。這是監視對象，塊內的代碼在監視對像上同步。
+> 簡而言之，每個監視對像只有一個線程可以在該代碼塊內執行。
+>
+> 如果方法是靜態的，我們將傳遞類名代替對象引用。該類將成為該塊同步的監視器：
+
+```
+public static void performStaticSyncTask() {
+    synchronized (SynchroniseBlocks.class) {
+        setStaticCount(getStaticCount() + 1);
+    }
+}
+```
+
+<br>
+
+Ref:
+- [Guide to the Synchronized Keyword in Java - Baeldung](https://www.baeldung.com/java-synchronized){:target="_blank"}
+- [Java Synchronization Tutorial : What, How and Why?](https://javarevisited.blogspot.com/2011/04/synchronization-in-java-synchronized.html){:target="_blank"}
+- [Synchronized in Java - GeeksforGeeks](https://www.geeksforgeeks.org/synchronized-in-java/){:target="_blank"}
+
+### implementation principle
 
 在Java中，`synchronized`有兩種使用形式，同步方法和同步代碼塊：
 
@@ -224,27 +339,52 @@ Ref:
 
 `synchronized`可以保證可見性。
 
+從[java.util.concurrent (Java Platform SE 7 )](https://bit.ly/35DeEns){:target="_blank"}官方文件中說明了怎樣的操作才能保證【Memory Consistency Properties】，其中有一段文字：
+
 > Because the happens-before relation is transitive, all actions of a thread prior to unlocking happen-before all actions subsequent to any thread locking that monitor.
 
 翻譯一下：
 
-> 由於事前發生關係是可傳遞的，因此在解鎖之前，線程的所有操作都發生在監視該線程的所有線程之後的所有操作之前。
+> 由於事前發生關係是可傳遞的，因此在解鎖之前，線程的所有操作都發生在監視該線程的所有線程之後的所有操作之前
 
-Ref:
-- [java - Does synchronization allows visibility to all variables after synchronized method call? - Stack Overflow](https://bit.ly/2Zel3mH){:target="_blank"}
-- [java.util.concurrent (Java Platform SE 7 )](https://bit.ly/35DeEns){:target="_blank"}
+這個翻譯太玄幻，我也看不懂在翻譯什麼 - -
+
+我修飾一下：
+
+> 由於先行發生原則的關係具有傳遞性，因此【該線程在解鎖之前的所有操作】都發生在【監視器執行監控全部線程的所有操作】之前
+
+<br>
+
+其他多線程保證可見性（Memory Consistency Properties）的方法還包括：
+- 使用`volatile`關鍵字，但不要求互斥鎖定（but do *not* mutual exclusion locking）
+- 在啟動執行線程中任何操作之前（*happens-before*），都確保`Thread.start()`對線程的調用
+- 在`join`返回（`return`）之前，執行線程中的所有操作
+- 使用`java.util.concurrent`提供更高級別的同步（higher-level synchronization）
 
 ### synchronized & 有序性
 
-`synchronized`不可以保證【線程有序性】，也不可以保證【指令有序性（）】。
+`synchronized`不可以保證【線程訪問有序性】，同步將以任何亂數次序（random order, or who is the fastest to grab the Lock）訪問，如何訪問取決於JVM的實現，在某些情況甚至會發生**飢餓**（starve）。
 
+Ref: [multithreading - Ensure Java synchronized locks are taken in order? - Stack Overflow](https://bit.ly/34HixGL){:target="_blank"}
 
+<br>
 
-### 缺失
+`synchronized`【無法對訪問設置優先權（priority）】，僅提供基於公平（fairness）的同步。
 
+Ref: [multithreading - Synchronization in java - Can we set priority to a synchronized access in java? - Stack Overflow](https://bit.ly/34FUB6K){:target="_blank"}
 
+<br>
 
-## volatile 可見性
+`synchronized`關於【重排序（reordering）】的規則：
+- 當且僅當所有順序一致的執行都沒有數據爭用時，程序才能正確同步。（A program is *correctly synchronized* if and only if all sequentially consistent executions are free of data races.）
+- 如果程序正確同步，則該程序的所有執行將看起來是順序一致的。（If a program is correctly synchronized, then all executions of the program will appear to be sequentially consistent.）
+
+Ref:
+- [Chapter 17. Threads and Locks](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html#jls-17.4.5){:target="_blank"}
+- [multithreading - Does synchronized keyword prevent reordering in Java? - Stack Overflow](https://bit.ly/2SbYZYl){:target="_blank"}
+- [multithreading - Synchronized and Code reorder in java - Stack Overflow](https://bit.ly/34DO3W1){:target="_blank"}
+
+## volatile
 
 ### volatile & 有序性
 
@@ -256,17 +396,19 @@ Ref:
 
 ### volatile & 原子性
 
+
+
 ## synchronized vs volatile
 
 
 
+Ref:
+- [既然synchronized是"万能"的，为什么还需要volatile呢？ - 掘金](https://juejin.im/post/5d5c9fbce51d4561cd246641){:target="_blank"}
 
 ## Reference
 
-- [Java多線程-同步與鎖機制 - 每日頭條](https://kknews.cc/code/4k64rvx.html){:target="_blank"}
 - [Java线程(二)：线程同步synchronized和volatile · Java线程 · 看云](https://www.kancloud.cn/digest/java-thread/107457){:target="_blank"}
 - [内存可见性和原子性：Synchronized和Volatile的比较 - pan_jinquan的博客](https://blog.csdn.net/guyuealian/article/details/52525724){:target="_blank"}
 - [既然synchronized是"万能"的，为什么还需要volatile呢？ - 掘金](https://juejin.im/post/5d5c9fbce51d4561cd246641){:target="_blank"}
-- [从多线程的三个特性理解多线程开发 - bigfan - 博客园](https://www.cnblogs.com/dafanjoy/p/10020225.html){:target="_blank"}
 
 ---
