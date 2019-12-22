@@ -341,9 +341,9 @@ Ref:
 
 ### 線程封閉
 
-在多線程的環境下，只要我們不使用共享數據，那麼就不會出現線程安全的問題。
+在多線程的環境下，只要我們【不使用共享數據】，那麼就不會出現線程安全的問題。
 
-以`Servlet`為例，每個線程都擁有自己的變量，互不干擾，並且沒有共享變量，只要保證不在棧（方法）上發佈對象，那麼就是線程安全的。
+以`Servlet`為例，每個線程都擁有自己的變量，互不干擾，並且沒有共享變量，只要保證不在棧（方法）上發佈對象，確保線程限制對象不會從它所在的線程中逃逸，那麼就是線程安全的。
 
 ```
 import javax.servlet.ServletException;
@@ -367,6 +367,29 @@ class MyServlet extends HttpServlet {
     }
 }
 ```
+
+<br>
+
+在【Java并发编程实战】頁43提到其它線程封閉例子：
+
+> 另一種常見的使用線程限制的應用程序是JDBC（Java Database Connectivity）Connection對象，雖然在JDBC的規範中並沒有要求Connection對象是線程安全的，
+> 然而在典型的webapp server中，線程總是從池中獲取一個Connection對象，並且用它處理一個單一的請求，最後把它歸還。
+>
+> 在每個線程都會同步地處理許多請求（request），而且在Connection對象被歸還前，池不會將它再分配給其他線程。因此，這種連接管理模式隱式地將Connection對象限制在處於
+> 請求（request）處理期間的線程中。
+
+其實用另一方面想，連接池在多現充訪問時必須的，所以一個非線程安全的實現是毫無意義。
+
+<br>
+
+一種維護線程限制的更加規範的方法是使用`ThreadLocal`。
+
+參考【Java并发编程实战】頁45的說明，我理解而言，就是每個線程在操作的變量是各自獨立的實例副本，且該副本只能自己使用，
+所以不存在多線程間【共享資源】的問題，也無關【同步】問題（因為同步是處理共享資源產生的線程安全問題）。
+
+提供幾個關於`ThreadLocal`優秀的網上資料：
+- [（基础系列）ThreadLocal的用法、原理和用途 - 猿空间 - SegmentFault 思否](https://segmentfault.com/a/1190000011264294){:target="_blank"}
+- [这才是 Thread Local 的正确原理与适用场景 根本没有内存泄漏 - 郭俊 Jason](http://www.jasongj.com/java/threadlocal/){:target="_blank"}
 
 ### 不變性
 
