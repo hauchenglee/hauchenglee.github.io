@@ -100,10 +100,6 @@ navs:
         subLabel: Algorithms
         target: _self
 
-      - subHref: /database
-        subLabel: Database
-        target: _self
-
       - subHref: /tech
         subLabel: Technology
         target: _self
