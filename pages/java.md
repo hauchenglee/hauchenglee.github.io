@@ -50,9 +50,8 @@ permalink: /java
 
 - [Thread Safe](http://www.hauchenglee.com/java/2019/12/18/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
 - [Synchronization](http://www.hauchenglee.com/java/2019/12/20/thread-synchronization.html){:target="_blank"} - 線程同步機制
-- [Immutable](http://www.hauchenglee.com/java/2019/12/27/thread-immutable.html){:target="_blank"} - 不變性
-- [Stateless](http://www.hauchenglee.com/java/2019/12/28/thread-stateless.html){:target="_blank"} - 無狀態
-- [Publication and Escape](http://www.hauchenglee.com/java/2019/12/29/thread-pub-and-esc.html){:target="_blank"} - 對象的發佈與逸出
+- [Immutable](http://www.hauchenglee.com/java/2019/12/21/thread-immutable.html){:target="_blank"} - 不變性
+- [Publication and Escape](http://www.hauchenglee.com/java/2019/12/22/thread-pub-and-esc.html){:target="_blank"} - 對象的發佈與逸出
 
 ### Liveness
 
