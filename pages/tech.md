@@ -24,7 +24,7 @@ permalink: /tech
 
 - [](){:target="_blank"}
 
-## Http
+## Network
 
 - [](){:target="_blank"}
 

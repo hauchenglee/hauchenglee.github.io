@@ -28,23 +28,6 @@ permalink: /link
 - [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"} - ityouknow
 - [今、情热が岚になって · wu-kan](https://wu-kan.github.io/){:target="_blank"} - wu-kan
 
-## 程序員職業分享
-
-- [面试感悟----一名3年工作经验的程序员应该具备的技能 - 五月的仓颉 - 博客园](https://www.cnblogs.com/xrq730/p/5260294.html){:target="_blank"}
-- [回答阿里社招面试如何准备，顺便谈谈对于Java程序猿学习当中各个阶段的建议 - 左潇龙 - 博客园](https://www.cnblogs.com/zuoxiaolong/p/life51.html){:target="_blank"}
-- [左潇龙个人博客-记录走过的Java之路](http://www.zuoxiaolong.com/){:target="_blank"}
-- [一个十几年程序员给所有新老程序员的忠告 - 掘金](https://juejin.im/post/5a30f52451882559e225a654){:target="_blank"}
-- [我的十年程序员之路 - ChaosYang1987 - 博客园](https://www.cnblogs.com/chaosyang/p/10924248.html){:target="_blank"}
-- [](){:target="_blank"}
-
-## 簡歷
-
-- [程序员的职业规划之路 - 简书](https://www.jianshu.com/p/7af47a140dc2){:target="_blank"} - 【简历优化】很實用
-
-## 面試題目
-
-- [Snailclimb/JavaGuide: 【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。](https://github.com/Snailclimb/JavaGuide){:target="_blank"}
-
 ## My Link
 
 - [github](https://github.com/hauchenglee){:target="_blank"} - 有一些小作品
