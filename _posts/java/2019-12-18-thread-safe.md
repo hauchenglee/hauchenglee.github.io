@@ -177,7 +177,7 @@ Ref:
 例如，之前舉的例子：
 
 ```java
-import org.apache.http.annotation.NotThreadSafe;
+import net.jcip.annotations.NotThreadSafe;
 
 @NotThreadSafe
 class UnSafeSequence {
@@ -219,7 +219,7 @@ class UnSafeSequence {
 以下是`@NotThreadSafe`的寫法：
 
 ```java
-import org.apache.http.annotation.NotThreadSafe;
+import net.jcip.annotations.NotThreadSafe;
 
 import java.util.ArrayList;
 
@@ -345,7 +345,7 @@ Ref:
 
 以`Servlet`為例，每個線程都擁有自己的變量，互不干擾，並且沒有共享變量，只要保證不在棧（方法）上發佈對象，確保線程限制對象不會從它所在的線程中逃逸，那麼就是線程安全的。
 
-```
+```java
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

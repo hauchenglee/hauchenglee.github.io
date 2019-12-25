@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java - Publication and escape 對象的發佈與逸出
+title: Java - Thread Publication and Escape 對象的發佈與逸出
 category: java
 tags: [java]
 ---

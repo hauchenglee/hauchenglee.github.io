@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java - Synchronization 線程同步機制
+title: Java - Thread Synchronization 線程同步機制
 category: java
 tags: [java]
 ---
@@ -148,7 +148,7 @@ Ref:
 
 ### implementation principle
 
-在Java中，`synchronized`有兩種使用形式，同步方法和同步代碼塊：
+以下為`synchronized`同步方法和同步代碼塊：
 
 ```java
 public class SynchronizedDemo {

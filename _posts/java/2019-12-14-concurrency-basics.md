@@ -139,6 +139,11 @@ class Demo2 implements Runnable {
 - [Java初学有必要深入多线程编程吗？ - 知乎](https://www.zhihu.com/question/60148851/answer/670934093){:target="_blank"}
 - [JavaGuide/多线程系列.md at master · Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%B3%BB%E5%88%97.md){:target="_blank"}
 
+並發依賴：
+
+- [java - @GuardedBy , @ThreadSafe ,@NotThreadSafe - Stack Overflow](https://stackoverflow.com/questions/11362298/guardedby-threadsafe-notthreadsafe){:target="_blank"}
+- [Java Concurrency in Practice](http://jcip.net/){:target="_blank"}
+
 基礎：
 
 - [多线程初级（上） - 知乎](https://zhuanlan.zhihu.com/p/56518031){:target="_blank"}
