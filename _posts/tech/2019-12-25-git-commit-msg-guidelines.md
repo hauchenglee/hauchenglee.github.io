@@ -5,43 +5,47 @@ category: tech
 tags: [tech]
 ---
 
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
+```console
+type (scope): subject
+BLANK LINE
+body
+BLANK LINE
+footer
+```
 
-[subject]: [50/72 formatting](https://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting)
-[body]: [50-72 formatting](https://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting)
+<br>
 
+subject & body:
 - First line is 50 characters or less
 - Then a blank line
 - Remaining text should be wrapped at 72 characters
 
+Ref: [50/72 formatting](https://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting)
+
 ## Header
 
-<type>(<scope>): <subject>
+### type(scope): subject
 
-<type>:
- feat: A new feature
- fix: A bug fix
- docs: Documentation only changes
- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
- refactor: A code change that neither fixes a bug nor adds a feature
- perf: A code change that improves performance
- test: Adding missing tests or correcting existing tests
- build Changes that affect the build system, CI configuration or external dependencies (example scopes: gulp, broccoli, npm)
- chore: Other changes that don't modify src or test files
+type:
+- feat: A new feature
+- fix: A bug fix
+- docs: Documentation only changes
+- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- refactor: A code change that neither fixes a bug nor adds a feature
+- perf: A code change that improves performance
+- test: Adding missing tests or correcting existing tests
+- build Changes that affect the build system, CI configuration or external dependencies (example scopes: gulp, broccoli, npm)
+- chore: Other changes that don't modify src or test files
 
-<scope>
+### scope
 
 The scope should be the name of the npm package affected (as perceived by the person reading the changelog generated from commit messages).
 
 none/empty: `style`, `test`, `refactor`, `docs`
 
-<subject>
+### subject
 
-add: ~.md
+add ~.md
 
 ## Body
 
@@ -49,8 +53,8 @@ commit reason, why change
 
 ## Footer
 
-- 不兼容的变动：与上一个版本不兼容，则 Footer 部分以 BREAKING CHANGE 开头
-- 关闭 Issue：commit 针对某个 issue，在 Footer 中可以写上 Closes #123
+- 不兼容的变动：与上一个版本不兼容，则 Footer 部分以 `BREAKING CHANGE` 开头
+- 关闭 Issue：commit 针对某个 issue，在 Footer 中可以写上 `Closes #123`
 
 ## Reference
 
