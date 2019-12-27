@@ -55,10 +55,9 @@ permalink: /java
 
 ### Liveness
 
-- [Liveness](){:target="_blank"} - 活躍度（未完成）
-- [Deadlock](){:target="_blank"} - 死鎖（未完成）
-- [Starvation](){:target="_blank"} - 飢餓（未完成）
-- [Livelock](){:target="_blank"} - 活鎖（未完成）
+- [Thread Deadlock](http://www.hauchenglee.com/java/2020/01/xx/thread-deadlock.html){:target="_blank"} - 死鎖
+- [Thread Starvation](http://www.hauchenglee.com/java/2019/01/xx/thread-starvation.html){:target="_blank"} - 飢餓
+- [Thread Livelock](http://www.hauchenglee.com/java/2019/01/xx/thread-livelock.html){:target="_blank"} - 活鎖
 
 ### Applications
 
@@ -118,6 +117,8 @@ permalink: /java
 
 - [Spring IOC](){:target="_blank"} Spring Inversion of Control 控制反轉（未完成）
 - [Spring AOP](){:target="_blank"} Spring Aspect Oriented Programming 面向切面編程（未完成）
+- [Spring Autowired](){:target="_blank"} - Spring Autowired 自動注入（未完成）
+- [Spring Transactional](){:target="_blank"} - Spring Transactional 事務管理（未完成）
 
 ### Spring Boot
 
