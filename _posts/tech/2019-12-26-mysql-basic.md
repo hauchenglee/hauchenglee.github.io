@@ -434,7 +434,7 @@ fk_definition
 - ON DELETE：數據刪除時
 - ON UPDATE：數據更新時
 - RESTRICT：限制（預設）
-- CASCADE：相依性
+- CASCADE：相依性（依賴）
 - SET NULL：設為空值
 
 <br>
