@@ -55,9 +55,9 @@ permalink: /java
 
 ### Liveness
 
-- [Thread Deadlock](http://www.hauchenglee.com/java/2020/01/xx/thread-deadlock.html){:target="_blank"} - 死鎖
-- [Thread Starvation](http://www.hauchenglee.com/java/2019/01/xx/thread-starvation.html){:target="_blank"} - 飢餓
-- [Thread Livelock](http://www.hauchenglee.com/java/2019/01/xx/thread-livelock.html){:target="_blank"} - 活鎖
+- [Thread Deadlock](http://www.hauchenglee.com/java/2019/12/28/thread-deadlock.html){:target="_blank"} - 死鎖
+- [Thread Starvation](http://www.hauchenglee.com/java/2019/01/29/thread-starvation.html){:target="_blank"} - 飢餓
+- [Thread Livelock](http://www.hauchenglee.com/java/2019/01/30/thread-livelock.html){:target="_blank"} - 活鎖
 
 ### Applications
 
