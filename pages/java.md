@@ -56,8 +56,8 @@ permalink: /java
 ### Liveness
 
 - [Thread Deadlock](http://www.hauchenglee.com/java/2019/12/28/thread-deadlock.html){:target="_blank"} - 死鎖
-- [Thread Starvation](http://www.hauchenglee.com/java/2019/01/29/thread-starvation.html){:target="_blank"} - 飢餓
-- [Thread Livelock](http://www.hauchenglee.com/java/2019/01/30/thread-livelock.html){:target="_blank"} - 活鎖
+- [Thread Starvation](http://www.hauchenglee.com/java/2019/12/29/thread-starvation.html){:target="_blank"} - 飢餓
+- [Thread Livelock](http://www.hauchenglee.com/java/2019/12/30/thread-livelock.html){:target="_blank"} - 活鎖
 
 ### Applications
 
@@ -80,10 +80,13 @@ permalink: /java
 
 ## Java 8
 
-- [Java 8 Lambda](){:target="_blank"} - Java 8 Lambda（未完成）
-- [Java 8 Stream](){:target="_blank"} - Java 8 Stream 流式編程（未完成）
-- [Java 8 Optional](){:target="_blank"} - Java 8 Optional（未完成）
-- [Java 8 New Date](){:target="_blank"} - Java 8 New Date 新日期（未完成）
+- [Java 8 Lambda](){:target="_blank"} - Java 8 Lambda
+- [Java 8 Stream](){:target="_blank"} - Java 8 Stream
+- [Java 8 Method Reference](){:target="_blank"} - Java 8 Method Reference
+- [Java 8 Functional Interface](){:target="_blank"} - Java 8 Functional Interface
+- [Java 8 Default Method](){:target="_blank"} - Java 8 Default Method
+- [Java 8 Optional](){:target="_blank"} - Java 8 Optional
+- [Java 8 New Date](){:target="_blank"} - Java 8 New Date
 
 ## JavaEE
 
