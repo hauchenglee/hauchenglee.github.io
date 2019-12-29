@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java - Thread Starvation 飢餓 & Livelock 活鎖
+title: Java - Livelock 活鎖
 category: java
 tags: [java]
 ---

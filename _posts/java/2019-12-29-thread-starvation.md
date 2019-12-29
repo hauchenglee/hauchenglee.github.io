@@ -5,6 +5,8 @@ category: java
 tags: [java]
 ---
 
+## Starvation and Livelock
+
 > Starvation and livelock are much less common a problem than deadlock, but are still problems that every designer of 
 > concurrent software is likely to encounter.
 >
