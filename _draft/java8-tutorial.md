@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 8 - Lambda
+title: Java 8 - Tutorial
 category: java
 tags: [java]
 ---
