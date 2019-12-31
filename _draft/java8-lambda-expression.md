@@ -7,7 +7,7 @@ tags: [java]
 
 ## Lambda Expression
 
-細數Java 8最大的更動就屬於【Lambda Expression】吧！
+細數Java 8最大的更動就屬於【Lambda Expression】吧（個人感覺）！
 
 > In programming, a Lambda expression (or function) is just an anonymous function, i.e., a function with no name and without being bounded to an identifier.
 
@@ -278,8 +278,8 @@ class RepeatMessage {
 對有效最終變量的限制包括標準循環變量，但不包括增強for循環變量，對於循環的每次迭代，它們都被視為不同的變量。
 
 Ref:
-- [java - Variable used in lambda expression should be final or effectively final - Stack Overflow](https://bit.ly/39v91dd)
-- [Why Do We Need Effectively Final? - Baeldung](https://www.baeldung.com/java-lambda-effectively-final-local-variables)
+- [java - Variable used in lambda expression should be final or effectively final - Stack Overflow](https://bit.ly/39v91dd){:target="_blank"}
+- [Why Do We Need Effectively Final? - Baeldung](https://www.baeldung.com/java-lambda-effectively-final-local-variables){:target="_blank"}
 
 ## Reference
 
