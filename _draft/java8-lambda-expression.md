@@ -93,7 +93,7 @@ shapes.forEach(s -> {
 > If we want a block of code to be executed, we need to create an object and pass the object around. 
 > From JAva 8, lambda expressions enable us to treat functionality as method argument and pass a block of code around.
 >
-> Ref: [Why do we need Lambda in Java?](https://www.programcreek.com/2014/01/why-lambda-java-8/)
+> Ref: [Why do we need Lambda in Java?](https://www.programcreek.com/2014/01/why-lambda-java-8/){:target="_blank"}
 
 Lambda表達式是可以傳遞執行的代碼塊。這是某些編程語言（例如Lisp，Python，Scala等）的通用功能。
 但是在Java 8之前，我們無法在Java中做到這一點。
@@ -172,7 +172,7 @@ Java Lambda表達式沒有自己的作用域，它與外層共享同個的作用
 
 > Lambdas, however, are *lexically scoped*, meaning that a lambda recognizes the immediate environment around its definition as the next outermost scope.
 >
-> Ref: [Java 8: Lambdas, Part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)
+> Ref: [Java 8: Lambdas, Part 1](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html){:target="_blank"}
 
 因此，像下面的作法就會報錯，因為在同層級的作用域中已經宣告同名稱的變量，因此也不能在lambda表達式中引入此類變量：
 
@@ -187,16 +187,103 @@ Comparator<String> comp = (s1, s2) -> s1.length() - s2.length();
 關於同個作用域底下lambda表達式中的`this`關鍵字，代表創建lambda的方法的`this`參數（有點繞口）。例如：
 
 ```
-
+public class Application() {
+    public void doWork() {
+        Runnable runner = () -> { ...; Sysout.out.println(this.toString()); ... };
+    }
+}
 ```
+
+在這表達式中的`this.toString()`代表調用`toString()`這個方法的`Application`對象，而不是`Runnable`實例，並沒有什麼特別的地方。
+
+可以這麼說，`this`在這個方法裡的任何地方含義都相同，沒有任何差異。
 
 ### Accessing enclosing scope variable
 
+如何從lambda表達式中的封閉方法（enclosing method）或者類（class）訪問變量？
 
+```
+public class RepeatMessage {
+    public static void repeatMessage(String text, int count) {
+        Runnable runnable = () -> {
+            for (int i = 0; i < count; i++) {
+                System.out.println(text);
+            }
+        };
+        new Thread(runnable).start();
+    }
 
-### Reference
+    public static void main(String[] args) {
+        repeatMessage("Hello", 5); // // Prints Hello 5 times in a separate thread
+    }
+}
+```
 
-- [Variable Scope in Java Lambda Expression - KnpCode](https://knpcode.com/java/variable-scope-java-lambda-expression/)
-- [3.7 Lambda Expressions and Variable Scope - InformIT](http://www.informit.com/articles/article.aspx?p=2303960&seqNum=7)
+考慮上面代碼，先複習lambda表達式分為三部分：
+- 一段代碼（A block of code）
+- 參數（Parameters）
+- 自由變量的值（values for the *free* variables）-> 意思是該變量值不是參數，也不是在lambda中宣告的
+
+在我們的範例中，有兩個自由變量：`text` & `count`，這兩個值被lambda所捕獲（capture）並且存儲這些變量值（示例中是`Hello` & `5`）
+
+```
+class RepeatMessage {
+    public static void repeatMessage(String text, int count) {
+        Runnable runnable = () -> {
+            for (int i = 0; i < count; i++) {
+                System.out.println(text);
+            }
+        };
+        new Thread(runnable).start();
+
+        for (int i = 0; i < count; i++) {
+            new Thread(() -> System.out.println(i)); // error
+
+            // error: Variable used in lambda expression should be final or effectively final
+        }
+    }
+
+    public static void main(String[] args) {
+        repeatMessage("Hello", 5);
+    }
+}
+```
+
+我們發現`new Thread(() -> System.out.println(i));`在lambda表達式中是編譯失敗的，
+錯誤提示我們必須在存在於表達式中的變量加上`final`或是變量是有效地最終變量（effectively final）。
+
+從編譯錯誤給出來的訊息`final`，有很明顯的暗示：可能會引起並發問題（只要看到`final`就要聯想到並發）！並且在JLS在官方文件中[§15.27.2](https://docs.oracle.com/javase/specs/jls/se10/html/jls-15.html#jls-15.27.2){:target="_blank"}中提到了原因
+
+> Any local variable, formal parameter, or exception parameter used but not declared in a lambda expression must either be declared final or be effectively final, 
+> or a compile-time error occurs the use is attempted.
+>
+> Any local variable used but not declared in a lambda body must be definitely assigned before the lambda body, or a compile-time error occurs.
+
+已使用但未在lambda表達式中聲明的任何局部變量，形式參數或異常參數都必須聲明final或有效地是最終的，否則在嘗試使用時會發生編譯時錯誤。
+
+必須在lambda主體之前明確分配任何已使用但未在lambda主體中聲明的局部變量，否則會發生編譯時錯誤。
+
+（以上為google翻譯）
+
+<br>
+
+回到剛剛的`for`循環範例，`i`值無法保證在多線程環境下是線程安全的，而規則是lambda表達式只能訪問封閉範圍內的*有效*（effectively）局部變量。
+有效的`final`變量永遠不會被修改 —> 它應該本質上為`final`或可以被聲明為`final`的變量。
+
+官方說的更明白：
+
+> The restriction to effectively final variables includes standard loop variables, but not enhanced-for loop variables, 
+> which are treated as distinct for each iteration of the loop.
+
+對有效最終變量的限制包括標準循環變量，但不包括增強for循環變量，對於循環的每次迭代，它們都被視為不同的變量。
+
+Ref:
+- [java - Variable used in lambda expression should be final or effectively final - Stack Overflow](https://bit.ly/39v91dd)
+- [Why Do We Need Effectively Final? - Baeldung](https://www.baeldung.com/java-lambda-effectively-final-local-variables)
+
+## Reference
+
+- [Variable Scope in Java Lambda Expression - KnpCode](https://knpcode.com/java/variable-scope-java-lambda-expression/){:target="_blank"}
+- [3.7 Lambda Expressions and Variable Scope - InformIT](http://www.informit.com/articles/article.aspx?p=2303960&seqNum=7){:target="_blank"}
 
 ---
