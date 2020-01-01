@@ -72,8 +72,8 @@ b.war > localhost:8080/b
 >   <context-root>bank</context-root>
 > ```
 >
-> Finally, if no **context root** specification exists, the context root will be **the base name of the WAR file**. For `web-
-> client.war`, the context root would default to `web-client`. The only special case to this naming special name **ROOT**.
+> Finally, if no **context root** specification exists, the context root will be **the base name of the WAR file**. For `web-client.war`, 
+> the context root would default to `web-client`. The only special case to this naming special name **ROOT**.
 
 > - [Setting the context root of a web application](https://docs.jboss.org/jbossas/guides/webguide/r2/en/html/ch06.html){:target="_blank"}
 
