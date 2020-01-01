@@ -86,10 +86,23 @@ navs:
   - href: /java
     label: Java
     target: _self
+    subnav:
 
-  - href: /arch
-    label: Arch
-    target: _self
+      - subHref: /java
+        subLabel: Java
+        target: _self
+
+      - subHref: /spring
+        subLabel: Spring
+        target: _self
+
+      - subHref: /spring-boot
+        subLabel: Spring Boot
+        target: _self
+
+      - subHref: /spring-cloud
+        subLabel: Spring Cloud
+        target: _self
 
   - href: /tech
     label: Tech
@@ -103,6 +116,10 @@ navs:
       - subHref: /tech
         subLabel: Technology
         target: _self
+
+  - href: /arch
+    label: Arch
+    target: _self
 
   - href: /blog
     label: Blog
