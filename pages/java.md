@@ -76,17 +76,19 @@ permalink: /java
 ## JVM
 
 - [Java JVM](http://www.hauchenglee.com/java/2019/12/06/java-jvm.html){:target="_blank"} - Java 虛擬機
-- [Java Garbage Collection](){:target="_blank"} - Java 垃圾回收（未完成）
+
+[//]: <>- [Java Garbage Collection](){:target="_blank"} - Java 垃圾回收（未完成）
 
 ## Java 8
 
-- [Java 8 Lambda](){:target="_blank"} - Java 8 Lambda
-- [Java 8 Stream](){:target="_blank"} - Java 8 Stream
-- [Java 8 Method Reference](){:target="_blank"} - Java 8 Method Reference
-- [Java 8 Functional Interface](){:target="_blank"} - Java 8 Functional Interface
-- [Java 8 Default Method](){:target="_blank"} - Java 8 Default Method
-- [Java 8 Optional](){:target="_blank"} - Java 8 Optional
-- [Java 8 New Date](){:target="_blank"} - Java 8 New Date
+- [Java 8 Tutorial](){:target="_blank"} - Java 8 Tutorial 教程（未完成）
+- [Java 8 Lambda](){:target="_blank"} - Java 8 Lambda（未完成）
+- [Java 8 Stream](){:target="_blank"} - Java 8 Stream（未完成）
+- [Java 8 Method Reference](){:target="_blank"} - Java 8 Method Reference（未完成）
+- [Java 8 Functional Interface](){:target="_blank"} - Java 8 Functional Interface（未完成）
+- [Java 8 Default Method](){:target="_blank"} - Java 8 Default Method（未完成）
+- [Java 8 Optional](){:target="_blank"} - Java 8 Optional（未完成）
+- [Java 8 New Date](){:target="_blank"} - Java 8 New Date（未完成）
 
 ## JavaEE
 
@@ -113,22 +115,5 @@ permalink: /java
 [//]: <>- [Hibernate Life Cycle](){:target="_blank"} - Hibernate 生命週期（未完成）
 [//]: <>- [Hibernate Mapping Relationship](){:target="_blank"} - Hibernate 映射關係（未完成）
 [//]: <>- [Hibernate HQL](){:target="_blank"} - Hibernate HQL（未完成）
-
-## Spring Framework
-
-### Spring
-
-- [Spring IOC](){:target="_blank"} Spring Inversion of Control 控制反轉（未完成）
-- [Spring AOP](){:target="_blank"} Spring Aspect Oriented Programming 面向切面編程（未完成）
-- [Spring Autowired](){:target="_blank"} - Spring Autowired 自動注入（未完成）
-- [Spring Transactional](){:target="_blank"} - Spring Transactional 事務管理（未完成）
-
-### Spring Boot
-
-- [Spring Boot Resource](){:target="_blank"} - Spring Boot 學習資料匯總（未完成）
-
-### Spring Cloud
-
-
 
 ---
