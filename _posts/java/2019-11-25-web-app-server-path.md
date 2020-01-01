@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web App Server Path 路徑關聯
-category: tech
+category: java
 tags: [server]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web App Server Deploy 部署
-category: tech
+category: java
 tags: [server]
 ---
 
