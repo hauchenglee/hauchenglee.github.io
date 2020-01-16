@@ -61,7 +61,8 @@ permalink: /java
 
 ### Applications
 
-- [Thread Lifecycle](){:target="_blank"} - 線程生命週期（未完成）
+- [Thread Lifecycle](http://www.hauchenglee.com/java/2020/01/15/thread-life-cycle.html){:target="_blank"} - 線程生命週期
+- [Thread Lifecycle Method](http://www.hauchenglee.com/java/2020/01/16/thread-life-cycle-method.html){:target="_blank"} - 線程生命週期方法
 - [Thread Task](){:target="_blank"} - 任務執行（未完成）
 - [Thread Executor](){:target="_blank"} - Executor 框架（未完成）
 - [Thread Pool](){:target="_blank"} - 線程池（未完成）
@@ -102,6 +103,7 @@ permalink: /java
 - [Web App Server Compare](http://www.hauchenglee.com/java/2019/11/20/web-app-server-compare.html){:target="_blank"} - Web App Server 兩者比較
 - [Web App Server Path](http://www.hauchenglee.com/java/2019/11/25/web-app-server-path.html){:target="_blank"} - Web App Server Path 路徑關聯
 - [Web App Server Deploy](http://www.hauchenglee.com/java/2019/11/26/web-app-server-deploy.html){:target="_blank"}  - Web App Server Deploy 部署
+- [Web App Server Maven](http://www.hauchenglee.com/java/2019/11/27/web-app-server-maven.html){:target="_blank"}  - Web App Server Maven 依賴
 
 ### Java Web
 

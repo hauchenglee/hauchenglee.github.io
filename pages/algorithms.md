@@ -11,7 +11,7 @@ permalink: /algorithms
 - [Algorithms Analysis](http://www.hauchenglee.com/algorithms/2019/11/12/algorithms-analysis.html){:target="_blank"} - 算法分析
 - [Algorithms Time Complexity](http://www.hauchenglee.com/algorithms/2019/11/13/algorithms-time-complexity.html){:target="_blank"} - 時間複雜度
 - [Algorithms Stack and Queue](http://www.hauchenglee.com/algorithms/2019/11/14/algorithms-stacks-queues.html){:target="_blank"} - Stacks and Queues
-- [Algorithms Sort](http://www.hauchenglee.com/algorithms/2019/11/27/algorithms-sort.html){:target="_blank"} - 排序
+- [Algorithms Sort](http://www.hauchenglee.com/algorithms/2019/11/28/algorithms-sort.html){:target="_blank"} - 排序
 - [Algorithms Symbol Table](http://www.hauchenglee.com/algorithms/2019/11/30/algorithms-symbol-table.html){:target="_blank"} - 符號表
 
 ## Tree
