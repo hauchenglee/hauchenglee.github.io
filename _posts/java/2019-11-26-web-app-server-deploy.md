@@ -125,31 +125,4 @@ Reference: [Chapter 5. Configuring Contexts](http://www.eclipse.org/jetty/docu
 
 p.s. `META-INF`文件的相關資料：[META-INF文件夹是干啥的，META-INF文件夹的作用， META-INF文件夹能删吗 - 逃离沙漠 - 博客园](https://www.cnblogs.com/demingblog/p/5653844.html){:target="_blank"}
 
-## maven
-
-### maven directory
-
-maven項目的目錄結構：
-
-![](http://www.hauchenglee.com/assets/images/java/maven-dirctory-structure.png)
-
-source: [Maven Directory Structure - Dinesh on Java](https://www.dineshonjava.com/maven-directory-structure/){:target="_blank"}
-
-注意上面帶粗體的目錄名，maven項目採用"約定優於配置"的原則，
-- `src/main/java` 約定用於存放源代碼
-- `src/main/test` 約定用於存放單元測試代碼
-- `src/target` 約定用於存放編譯、打包後的輸出文件
-
-> - [maven学习（上）- 基本入门用法 - 菩提树下的杨过 - 博客园](https://www.cnblogs.com/yjmyzz/p/3495762.html){:target="_blank"}
-
-### maven fields
-
-- groupId：是項目建立團隊或組織的唯一標識符，通常是域名倒寫，與artifactId被統稱為**坐標**，保證了項目的唯一性
-- artifactId：定義了依賴jar包在**存儲庫**的地址，是這些jar包的**坐標**唯一標識符，也是一個項目將要產生的文件
-- packaging：artifactId打包的方式，表示項目最終產生何種extension的打包文件，如`jar`、`maven-plugin`、`ejb`、`war`、`ear`、`rar`。如果沒有聲明packaging，則預設包裝為`jar`
-
-Reference:
-> - [Maven – POM Reference](http://maven.apache.org/pom.html#Maven_Coordinates){:target="_blank"}
-> - [介绍maven的作用、核心概念(Pom、Repositories、Artifact、Goal)、用法、常用参数和命令以及简单故障排除、扩展及配置](https://www.trinea.cn/android/maven/){:target="_blank"}
-
 ---
