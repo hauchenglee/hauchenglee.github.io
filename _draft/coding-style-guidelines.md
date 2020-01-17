@@ -1,8 +1,8 @@
 ---
 layout: post
-title: MVC 架構的二三事
-category: ?
-tags: [?]
+title: Web App 架構的二三事
+category: tech
+tags: [tech]
 ---
 
 ## Coding Guidelines
@@ -92,7 +92,7 @@ Ref: [sql是不是可以写在service层？虽然service是业务层_y_dzaichiro
 坏处：
    - 异常不要用来做流程控制，条件控制
    - 异常设计的初衷是解决程序运行中的各种意外情况，且异常的处理效率比条件判断方式要低很多
-    （但其實不用扣細節，系統內開銷最大的是IO和線程，處理好這兩個比起異常的效率是立竿見影的）
+     （但其實不用扣細節，系統內開銷最大的是IO和線程，處理好這兩個比起異常的效率是立竿見影的）
 
 ### Reference
 
@@ -103,7 +103,7 @@ Ref: [sql是不是可以写在service层？虽然service是业务层_y_dzaichiro
 
 Spring異常處理：
 - [Exception Handling in Spring MVC](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc){:target="_blank"}
-- [Exception Handling in Spring MVC](http://www.zhaojun.im/springboot-exception/){:target="_blank"}
+- [Spring MVC/Boot 统一异常处理最佳实践 - 赵俊的博客](http://www.zhaojun.im/springboot-exception/){:target="_blank"}
 - [Guide to Spring Boot REST API Error Handling - Toptal](https://www.toptal.com/java/spring-boot-rest-api-error-handling){:target="_blank"}
 
 Spring
