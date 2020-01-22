@@ -64,4 +64,9 @@ spring.jpa.hibernate.ddl-auto = update
 - [Spring Boot读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg){:target="_blank"}
 - [Spring Boot Application Properties Example - Examples Java Code Geeks - 2020](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-application-properties-example/){:target="_blank"}
 
+## Annotation
+
+- [18. Using the @SpringBootApplication Annotation](https://docs.spring.io/spring-boot/docs/2.1.11.RELEASE/reference/html/using-boot-using-springbootapplication-annotation.html){:target="_blank"}
+- [为什么要使用SpringBoot?使用SpringBoot的最大好处是什么？ - 知乎](https://zhuanlan.zhihu.com/p/78116580){:target="_blank"}
+
 ---
