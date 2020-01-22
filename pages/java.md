@@ -42,7 +42,7 @@ permalink: /java
 
 ### Basic
 
-- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basics.html){:target="_blank"} - Concurrency Basics 並發編程基礎
+- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basic.html){:target="_blank"} - Concurrency Basics 並發編程基礎
 - [Thread Objects](http://www.hauchenglee.com/java/2019/12/15/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
 - [Thread Risks](http://www.hauchenglee.com/java/2019/12/17/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
 
