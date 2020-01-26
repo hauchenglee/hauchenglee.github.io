@@ -1,32 +1,9 @@
 ---
 layout: post
-title: Java - Thread Pool 線程池
+title: Java - ThreadPoolExecutor
 category: java
 tags: [java]
 ---
-
-## 前言
-
-【Java并发编程实战】頁119：
-
-正如名稱中所稱的那樣，線程池管理一個工作者線程的同構池（homogeneous pool）。
-線程池是與工作列隊（work queue）緊密綁定的。所謂工作列隊，其作用是持有所有等待執行的任務。
-工作者線程的生活從此輕鬆起來：它從工作列隊中獲取下一個任務，執行它，然後回來繼續等待另一個線程。
-
-## 線程池
-
-【什麼是線程池】
-
-线程池是一种多线程处理形式，处理过程中将任务添加到队列，然后在创建线程后自动启动这些任务。
-
-通過Executor來啟動並使用線程池，比使用`Thread`的`start()`方法更好。（why?）
-
-<br>
-
-【使用線程池好處】
-- 控制方便
-- 增加效率
-- 更多功能
 
 ## ThreadPoolExecutor
 
@@ -372,19 +349,18 @@ Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.
 > - 调用`shutdown()`后，线程池状态立刻变为`SHUTDOWN`，而调用`shutdownNow()`，线程池状态立刻变为`STOP`。
 > - `shutdown()`等待任务执行完才中断线程，而`shutdownNow()`不等任务执行完就中断了线程。
 
-## Executors
+## Executors vs ThreadPoolExecutor
 
-### newFixedThreadPool
+這裡先簡單的說明使用兩者創建線程池有啥區別：
+- Executors: 簡便的線程池工廠方法
+- ThreadPoolExecutor: 較複雜，但可以細節調控
 
+Oracle官方建議使用`Executors`創建線程池，但《阿里巴巴Java开发手册》卻建議使用`ThreadPoolExecutor`創建線程池，差別在於可以更細節調控效率效能。
 
-
-### newCachedThreadPool
-
-
-
-### newScheduledThreadPool3
-
-
+Ref: 
+- [ThreadPoolExecutor (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ThreadPoolExecutor.html){:target="_blank"}
+- [Java Thread Pool - ThreadPoolExecutor Example - HowToDoInJava](https://howtodoinjava.com/java/multi-threading/java-thread-pool-executor-example/){:target="_blank"}
+- [JUC学习笔记--从阿里Java开发手册学习线程池的正确创建方法 - JavaNoob - 博客园](https://www.cnblogs.com/javanoob/p/threadpool.html){:target="_blank"}
 
 ## Reference
 
