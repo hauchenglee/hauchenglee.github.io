@@ -150,13 +150,6 @@ class Demo2 implements Runnable {
 - [多线程初级（中） - 知乎](https://zhuanlan.zhihu.com/p/57482990){:target="_blank"}
 - [Java 程序中的多线程](https://www.ibm.com/developerworks/cn/java/multithreading/){:target="_blank"}
 
-線程池：
-
-- [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
-- [理解ThreadPoolExecutor线程池的corePoolSize、maximumPoolSize和poolSize - FrankYou - 博客园](https://www.cnblogs.com/frankyou/p/10135212.html){:target="_blank"}
-- [当面试官问线程池时，你应该知道些什么？ - 知乎](https://zhuanlan.zhihu.com/p/62132884){:target="_blank"}
-- [Java多线程学习（八）线程池与Executor 框架 - 知乎](https://zhuanlan.zhihu.com/p/37524061){:target="_blank"}
-
 面試題目：
 
 - [《面试-多线程》 - java思维导图社区](https://www.java-mindmap.com/view/71){:target="_blank"}
