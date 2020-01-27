@@ -42,7 +42,7 @@ permalink: /java
 
 ### Basic
 
-- [Concurrency Basics](http://www.hauchenglee.com/java/2019/12/14/concurrency-basic.html){:target="_blank"} - Concurrency Basics 並發編程基礎
+- [Concurrency Basic](http://www.hauchenglee.com/java/2019/12/14/concurrency-basic.html){:target="_blank"} - Concurrency Basics 並發編程基礎
 - [Thread Objects](http://www.hauchenglee.com/java/2019/12/15/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
 - [Thread Risks](http://www.hauchenglee.com/java/2019/12/17/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
 
@@ -59,16 +59,17 @@ permalink: /java
 - [Thread Starvation](http://www.hauchenglee.com/java/2019/12/29/thread-starvation.html){:target="_blank"} - 飢餓
 - [Thread Livelock](http://www.hauchenglee.com/java/2019/12/30/thread-livelock.html){:target="_blank"} - 活鎖
 
-### Applications
+### Applications & Executor
 
 - [Thread Lifecycle](http://www.hauchenglee.com/java/2020/01/15/thread-life-cycle.html){:target="_blank"} - 線程生命週期
 - [Thread Lifecycle Method](http://www.hauchenglee.com/java/2020/01/16/thread-life-cycle-method.html){:target="_blank"} - 線程生命週期方法
-- [Thread Task](){:target="_blank"} - 任務執行（未完成）
-- [Thread Executor](){:target="_blank"} - Executor 框架（未完成）
-- [Thread Pool](){:target="_blank"} - 線程池（未完成）
-- [Thread Pool Size](){:target="_blank"} - 線程池大小（未完成）
+- [Thread Task](http://www.hauchenglee.com/java/2020/01/21/thread-task.html){:target="_blank"} - 線程任務執行
+- [Thread ThreadPool](http://www.hauchenglee.com/java/2020/01/22/thread-pool.html){:target="_blank"} - Executors 線程池
+- [Thread Executor](http://www.hauchenglee.com/java/2020/01/23/thread-executor.html){:target="_blank"} - Executor 框架
+- [Thread Callable Future](http://www.hauchenglee.com/java/2020/01/24/thread-callable-future.html){:target="_blank"} - Callable & Future
+- [Thread ThreadPoolExecutor](http://www.hauchenglee.com/java/2020/01/25/thread-ThreadPoolExecutor.html){:target="_blank"} - ThreadPoolExecutor
 
-### Collections, Queue and Pattern
+[//]: <>### Collections, Queue and Pattern
 
 
 
