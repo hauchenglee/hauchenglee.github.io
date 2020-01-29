@@ -33,5 +33,6 @@ Oracle官方文档：
 - [Java 8 教程汇总 · GitBook (Legacy)](https://legacy.gitbook.com/book/wizardforcel/java8-tutorials/details){:target="_blank"}
 - [Java 8 简明教程 · GitBook (Legacy)](https://legacy.gitbook.com/book/wizardforcel/modern-java/details){:target="_blank"}
 - [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}
+- [[译] 一文带你玩转 Java8 Stream 流，从此操作集合 So Easy - 掘金](https://juejin.im/post/5cc124a95188252d891d00f2){:target="_blank"}
 
 ---
