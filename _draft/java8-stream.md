@@ -58,42 +58,34 @@ stream must be generated to revisit the same elements of the source.
 
 ### Summary
 
+- 不是數據結構（Not a data structure）
+- 專為lambdas設計（Designed for lambdas）
+- 不支持索引訪問（Do not support indexed access）
+- 可以輕鬆輸出為數組或列表（Can easily be outputted as arrays or lists）
+- 支持延遲訪問（Lazy access supported）
+- 可並行化（Parallelizable）
 
+Ref: [Java 8流-Java流示例-HowToDoInJava](https://howtodoinjava.com/java8/java-streams-by-examples/#ways_to_build_streams){:target="_blank"}
 
-## Stream Creation
+## Arch
 
-- 創建`stream`的實例後，不會修改元數據
-- 因此允許從單個元數據創建多個實例
-
-### Empty Stream
-
-
-
-## Stream Operations
-
-
-
-## Reduction Operations
-
-
-
-## Pipelines
-
-
-
-## Lazy Invocation
-
-
-
-## Parallelism
-
-
+1. Stream Creation
+1. Stream Pipelines
+1. Stream Operations
+1. Lazy Invocation
+1. Parallelism
 
 ## Reference
 
+英文教程：
 - [java.util.stream (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html){:target="_blank"}
 - [Java 8 Stream - Java Stream Example - HowToDoInJava](https://howtodoinjava.com/java8/java-streams-by-examples/){:target="_blank"}
 - [A Guide to Streams in Java 8: In-Depth Tutorial with Examples](https://stackify.com/streams-guide-java-8/){:target="_blank"}
 - [The Java 8 Stream API Tutorial - Baeldung](https://www.baeldung.com/java-8-streams){:target="_blank"}
+
+中文教程：
+- [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}
+- [[译] 一文带你玩转 Java8 Stream 流，从此操作集合 So Easy - 掘金](https://juejin.im/post/5cc124a95188252d891d00f2){:target="_blank"}
+- [【翻译】Java 8 Stream API 教程 - 简书](https://www.jianshu.com/p/b464487ff844){:target="_blank"}
 
 ---
