@@ -83,14 +83,18 @@ permalink: /java
 
 ## Java 8
 
-- [Java 8 Tutorial](){:target="_blank"} - Java 8 Tutorial 教程（未完成）
-- [Java 8 Lambda](){:target="_blank"} - Java 8 Lambda（未完成）
-- [Java 8 Stream](){:target="_blank"} - Java 8 Stream（未完成）
-- [Java 8 Method Reference](){:target="_blank"} - Java 8 Method Reference（未完成）
-- [Java 8 Functional Interface](){:target="_blank"} - Java 8 Functional Interface（未完成）
-- [Java 8 Default Method](){:target="_blank"} - Java 8 Default Method（未完成）
-- [Java 8 Optional](){:target="_blank"} - Java 8 Optional（未完成）
-- [Java 8 New Date](){:target="_blank"} - Java 8 New Date（未完成）
+- [Java 8 Tutorial](http://www.hauchenglee.com/java/2020/02/01/java8-tutorial.html){:target="_blank"} - Java 8 Tutorial 教程
+- [Java 8 Lambda](http://www.hauchenglee.com/java/2020/02/02/java8-lambda-expression.html){:target="_blank"} - Java 8 Lambda
+- [Java 8 Stream](http://www.hauchenglee.com/java/2020/02/03/java8-stream.html){:target="_blank"} - Java 8 Stream
+- [Java 8 Stream Creation](http://www.hauchenglee.com/java/2020/02/04/java8-stream-creation.html){:target="_blank"} - Java 8 Stream 建立
+- [Java 8 Stream Pipeline](http://www.hauchenglee.com/java/2020/02/05/java8-stream-pipeline.html){:target="_blank"} - Java 8 Stream 通道
+- [Java 8 Stream Operation](http://www.hauchenglee.com/java/2020/02/06/java8-stream-operation.html){:target="_blank"} - Java 8 Stream 操作
+- [Java 8 Stream](http://www.hauchenglee.com/java/2020/02/07/java8-stream-lazy-invocation.html){:target="_blank"} - Java 8 Stream 延遲調用
+[//]: <>- [Java 8 Method Reference](){:target="_blank"} - Java 8 Method Reference（未完成）
+[//]: <>- [Java 8 Functional Interface](){:target="_blank"} - Java 8 Functional Interface（未完成）
+[//]: <>- [Java 8 Default Method](){:target="_blank"} - Java 8 Default Method（未完成）
+[//]: <>- [Java 8 Optional](){:target="_blank"} - Java 8 Optional（未完成）
+[//]: <>- [Java 8 New Date](){:target="_blank"} - Java 8 New Date（未完成）
 
 ## JavaEE
 
