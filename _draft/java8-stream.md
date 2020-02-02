@@ -82,6 +82,7 @@ Ref: [Java 8流-Java流示例-HowToDoInJava](https://howtodoinjava.com/java8/jav
 - [Java 8 Stream - Java Stream Example - HowToDoInJava](https://howtodoinjava.com/java8/java-streams-by-examples/){:target="_blank"}
 - [A Guide to Streams in Java 8: In-Depth Tutorial with Examples](https://stackify.com/streams-guide-java-8/){:target="_blank"}
 - [The Java 8 Stream API Tutorial - Baeldung](https://www.baeldung.com/java-8-streams){:target="_blank"}
+- [What are Java 8 streams?The Java 8 Stream API Tutorial - Baeldung](https://www.logicbig.com/tutorials/core-java-tutorial/java-util-stream/stream-api-intro.html){:target="_blank"}
 
 中文教程：
 - [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}

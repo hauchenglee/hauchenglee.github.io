@@ -7,6 +7,14 @@ tags: [java]
 
 ## Pipelines
 
+流的構成：
+
+![](http://www.hauchenglee.com/assets/images/java/java8-stream--pipeline-ibm.png)
+
+Ref: [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}
+
+<br>
+
 > To perform a sequence of operations over the elements of the data source and aggregate 
 > their results, three parts are needed - the **source**, **intermediate operation(s)** and a **terminal operation**.
 >
@@ -182,6 +190,5 @@ public interface Stream<T> extends BaseStream<T, Stream<T>> {
 ## Reference
 
 - [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}
-- [](){:target="_blank"}
 
 ---
