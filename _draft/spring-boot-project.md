@@ -5,6 +5,13 @@ category: spring-boot
 tags: [spring-boot]
 ---
 
+## tutorial
+
+- [Getting Started · Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/){:target="_blank"}
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/){:target="_blank"}
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-application){:target="_blank"}
+- [社区 Spring Boot 从入门到进阶系列教程 - Spring For All](http://www.spring4all.com/article/246){:target="_blank"}
+
 ## design pattern
 
 api response design:
@@ -63,6 +70,34 @@ spring.jpa.hibernate.ddl-auto = update
 
 - [Spring Boot读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg){:target="_blank"}
 - [Spring Boot Application Properties Example - Examples Java Code Geeks - 2020](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-application-properties-example/){:target="_blank"}
+
+## maven in spring boot
+
+Key word:
+- maven profile
+- profiles.active maven
+- mvn clean package vs mvn package
+- activatedProperties maven
+- maven resource plugin include
+
+Ref:
+- [Maven – Introduction to build profiles](http://maven.apache.org/guides/introduction/introduction-to-profiles.html){:target="_blank"}
+- [Apache Maven Resources Plugin – Specifying resource directories](http://maven.apache.org/plugins/maven-resources-plugin/examples/resource-directory.html){:target="_blank"}
+
+profile:
+- [Guide to Maven Profiles - Baeldung](https://www.baeldung.com/maven-profiles){:target="_blank"}
+- [Maven Profiles example – Mkyong.com](https://mkyong.com/maven/maven-profiles-example/){:target="_blank"}
+
+active:
+- [Activating Spring Boot profile with Maven profile - Dev in Web](http://dolszewski.com/spring/spring-boot-properties-per-maven-profile/){:target="_blank"}
+- [通過maven profile 打包指定環境配置 - IT閱讀](https://www.itread01.com/content/1546503853.html){:target="_blank"}
+- [Spring boot 使用profile完成不同环境的maven打包功能_duan9421的专栏-CSDN博客](https://blog.csdn.net/duan9421/article/details/79086335){:target="_blank"}
+
+spring boot active:
+- [java - Spring Boot: spring.profiles.active=dev/test/prod - Stack Overflow](https://bit.ly/386R6sB){:target="_blank"}
+
+maven command:
+- [java - How are "mvn clean package" and "mvn clean install" different? - Stack Overflow](https://bit.ly/2GTEN6F){:target="_blank"}
 
 ## Annotation
 
