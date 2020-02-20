@@ -143,17 +143,17 @@ labels:
 # selected articles
 classes:
 
-  - href: /
-    name: article a
-    describe: describe a
+  - href: http://www.hauchenglee.com/about.html
+    name: About Me
+    describe:
 
-  - href: /
-    name: article b
-    describe: describe b
+  - href: https://www.facebook.com/hauchenglee
+    name: My Facebook
+    describe:
 
-  - href: /
-    name: article c
-    describe: describe c
+  - href: https://www.pixiv.net/users/18488925
+    name: My Pixiv
+    describe:
 
 
 # ---------------- #
