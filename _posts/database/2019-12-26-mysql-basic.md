@@ -1,8 +1,8 @@
 ---
 layout: post
 title: MySQL - SQL Basic 基礎
-category: tech
-tags: [tech]
+category: database
+tags: [database]
 ---
 
 ## Basic

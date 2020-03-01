@@ -1,8 +1,8 @@
 ---
 layout: post
 title: MySQL - SQL Optimizing 優化
-category: tech
-tags: [tech]
+category: database
+tags: [database]
 ---
 
 ## Optimization SQL Statements
