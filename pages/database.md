@@ -6,15 +6,11 @@ menu: tech
 permalink: /database
 ---
 
-## Database
-
-- [DB Install Config](){:target="_blank"} - Database 安裝 & 配置文件（未完成）
-- [DB ETL](){:target="_blank"} - Database ETL（未完成）
-
 ## MySQL
 
-- [MySQL InnoDB](){:target="_blank"} - MySQL InnoDB 引擎（未完成）
-- [MySQL Index](){:target="_blank"} - MySQL Index 索引（未完成）
+- [MySQL Basic](http://www.hauchenglee.com/tech/2019/12/26/mysql-basic.html){:target="_blank"} - MySQL Basic 基礎
+- [MySQL SQL Optimizing](http://www.hauchenglee.com/tech/2019/12/27/mysql-sql-optimization.html){:target="_blank"} - MySQL SQL Optimizing 優化
+- [MySQL SQL Index](){:target="_blank"} - MySQL SQL Index 索引
 
 ## MongoDB
 
