@@ -67,6 +67,14 @@ menus:
     label: Algorithms
     target: _self
 
+  - href: /arch
+    label: Arch
+    target: _self
+
+  - href: /lang
+    label: Language
+    target: _self
+
   - href: /open-source
     label: Source
     target: _self
@@ -107,8 +115,8 @@ navs:
 #        subLabel: Spring Cloud
 #        target: _self
 
-  - href: /arch
-    label: Arch
+  - href: /database
+    label: Database
     target: _self
 
   - href: /tech
