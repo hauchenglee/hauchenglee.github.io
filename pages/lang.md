@@ -6,12 +6,6 @@ menu: lang
 permalink: /lang
 ---
 
-## 中文
-
-### 創作
-
-### 分享
-
 ## English
 
 - [English Grammar](http://www.hauchenglee.com/lang/2019/11/21/english-grammar.html){:target="_blank"} - 英文文法
