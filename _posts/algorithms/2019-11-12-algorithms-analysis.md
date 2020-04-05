@@ -47,7 +47,9 @@ what is algorithms:
 
 learn more:
 - [算法，第一部分 - Coursera](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
+
+subject：
 - [Problems - LeetCode](https://leetcode.com/problemset/algorithms/){:target="_blank"}
-- [Red/Black Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html){:target="_blank"}
+- [程序员如何准备面试中的算法 \| 编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/00.01.html){:target="_blank"}
 
 ---
