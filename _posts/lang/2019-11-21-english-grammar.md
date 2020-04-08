@@ -60,6 +60,12 @@ tags: [english]
 
 ## verb
 
+### tense
+
+時態
+
+
+
 ### auxiliary verb
 
 - 助動詞本身並沒有詞義，它是用來幫助主要動詞（main verb）形成各種時態、語氣、語態、疑問句、或否定句。
@@ -135,6 +141,7 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 
 ### participle
 
+<!--- comments
 <table>
     <thead>
         <tr>
@@ -197,7 +204,53 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
         </tr>
     </tbody>
 </table>
+-->
 
+【動名詞】：v-ing
+1. 動狀詞、名詞
+2. 例句：
+   1. 作為主詞：**Smoking** damages your lungs.
+   2. 作為受詞：You should quit **smoking**.
+   3. 作為補語：His favorite hobby is **smoking**.
+   4. 作為同位語：His only bad habit, **smoking**, annoyed me.
+   5. 扮演名詞組合成動名詞片語：***Cleaning** the house* is really a chore.
+
+<br>
+
+【現在分詞】：主動、正在
+1. 用法1：形容詞
+2. 例句：
+   1. 修飾名詞：The ***barking** dog* next door almost drove us crazy last week.
+   2. 作為主詞補語：This book is **interesting**.
+   3. 作為受詞補語：She kept her boyfriend **waiting** for over an hour.
+   4. 現在分詞片語當形容詞使用：***Hearing** the noise*, the girl woke up.
+3. 用法2：助動詞+現在分詞 -> 進行式
+4. 例句：
+   1. 現在進行式：I **am writing** a book。
+   2. 過去進行式：She **was reading** a book when her father called.
+   3. 未來進行式：I **will be working** late at the office tonight.
+   4. 現在完成進行式：I **have been dating** my boyfriend for more than a year.
+   5. 過去完成進行式：Alice **had been singing** for an hour before the rain began falling.
+   6. 未來完成進行式：She **will have been waiting** for over two hours when the train finally comes.
+
+<br>
+
+【過去分詞】：被動、完成
+1. 用法1：形容詞
+2. 例句：
+   1. 修飾名詞：The ***burned** toast* tasted awful.
+   2. 作為主詞補語：Her mother felt **worried**.
+   3. 作為受詞補語：She had her photo **taken**.
+   4. 過去分詞片語當形容詞使用：***Frightened** by the thunder*, the cat hid under the couch.
+3. 用法2：助動詞+過去分詞 -> 完成式時態
+4. 例句：
+   1. 現在完成式：**Have** you **done** your homework yet?
+   2. 過去完成式：The plane **had** already **taken** off when I arrived at the airport.
+   3. 未來完成式：I **will have lived** here for five years by end of next month.
+5. 用法3：助動詞+過去分詞 -> 被動語態
+6. 例句：
+   1. 被動語氣：Since Nicole was sick, she **was allowed** to leave early.
+   1. 被動語氣：This story **was written** by Helen Keller.
 
 ## conjunction
 
