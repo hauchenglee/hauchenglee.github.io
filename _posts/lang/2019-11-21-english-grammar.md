@@ -207,7 +207,7 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 -->
 
 【動名詞】：v-ing
-1. 動狀詞、名詞
+1. 用法：**動狀詞、名詞**
 2. 例句：
    1. 作為主詞：**Smoking** damages your lungs.
    2. 作為受詞：You should quit **smoking**.
@@ -218,13 +218,13 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 <br>
 
 【現在分詞】：主動、正在
-1. 用法1：形容詞
+1. 用法1：**形容詞**
 2. 例句：
    1. 修飾名詞：The ***barking** dog* next door almost drove us crazy last week.
    2. 作為主詞補語：This book is **interesting**.
    3. 作為受詞補語：She kept her boyfriend **waiting** for over an hour.
    4. 現在分詞片語當形容詞使用：***Hearing** the noise*, the girl woke up.
-3. 用法2：助動詞+現在分詞 -> 進行式
+3. 用法2：**助動詞 + 現在分詞 -> 進行式**
 4. 例句：
    1. 現在進行式：I **am writing** a book。
    2. 過去進行式：She **was reading** a book when her father called.
@@ -236,25 +236,31 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 <br>
 
 【過去分詞】：被動、完成
-1. 用法1：形容詞
+1. 用法1：**形容詞**
 2. 例句：
    1. 修飾名詞：The ***burned** toast* tasted awful.
    2. 作為主詞補語：Her mother felt **worried**.
    3. 作為受詞補語：She had her photo **taken**.
    4. 過去分詞片語當形容詞使用：***Frightened** by the thunder*, the cat hid under the couch.
-3. 用法2：助動詞+過去分詞 -> 完成式時態
+3. 用法2：**助動詞 + 過去分詞 -> 完成式時態**
 4. 例句：
    1. 現在完成式：**Have** you **done** your homework yet?
    2. 過去完成式：The plane **had** already **taken** off when I arrived at the airport.
    3. 未來完成式：I **will have lived** here for five years by end of next month.
-5. 用法3：助動詞+過去分詞 -> 被動語態
+5. 用法3：**助動詞 + 過去分詞 -> 被動語態**
 6. 例句：
    1. 被動語氣：Since Nicole was sick, she **was allowed** to leave early.
    1. 被動語氣：This story **was written** by Helen Keller.
 
-## conjunction
+### singular number & plural number
+
+動詞必須在「身」（人稱）與「數」（單、複數）方面與主詞一致。單數主詞需要單數動詞；複數主詞需要複數動詞。
+
+[實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=509){:target="_blank"}
 
 ## preposition
+
+用法：放在名詞（詞組）前面
 
 介係詞：
 - during
@@ -270,12 +276,93 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 - **for**
 - except for
 - **from**
-- **in**
+- in
 - on
 - **by**
+- 
+
+<br>
+
+介係詞 to + 動名詞：
+- look forward to ~ ing
+- when it comes to ~ ing
+- object to ~ ing
+- resort to ~ ing
+- be/get used to ~ ing
+- be/get accustomed to ~ ing
+- be/get committed to ~ ing
+
+<br>
+
+介係詞 to + 不定詞：
+- regret to do
+- want to do
+- aim to do
+- offer to do
+- manage to do
+- intend to do
+- plan to do
+
+<br>
+
+介係詞 to + 人 + 不定詞：
+- want 人 to do
+- allow 人 to do
+- ask 人 to do
+- encourage 人 to do
+- expect 人 to do
+- require 人 to do
+
+## conjunction
+
+用法：放在句子和句子之間的位置
+
+<br>
+
+常考的連接詞：
+- although
+- though
+- even though
+- because
+- when
+- as soon as
+- once
+- if
+- while
+- whereas
+
+<br>
+
+其他科同時作為連接詞與介係詞的單字：
+- before
+- after
+- since
+- until
+- than
+- as
+
+<br>
+
+這些連接詞可能引導一個分詞構句：
+- when
+- while
+- though
+- unless
+- as
+- if
 
 ## pronoun
 
+![](http://www.hauchenglee.com/assets/images/lang/personal-pronoun-singular-plural.jpg)
 
+![](http://www.hauchenglee.com/assets/images/lang/personal-pronoun-voicetube.jpg)
+
+【格】的意思：這個代名詞在句中所扮演的角色
+
+所有格原因：[英國很注重所有權的原則](https://bit.ly/2XvzTXk){:target="_blank"}
+
+ref: 
+- [Me, myself, I, mine 傻傻分不清？你需要【代名詞用法整理】](https://tw.blog.voicetube.com/archives/49911){:target="_blank"}
+- [實用基礎文法 - 人稱代名詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=10){:target="_blank"}
 
 ---
