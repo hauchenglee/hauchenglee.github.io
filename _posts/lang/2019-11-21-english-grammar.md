@@ -25,14 +25,6 @@ tags: [english]
 - 形容詞片語、形容詞子句
 - 副詞片語、副詞子句
 
-## adverb
-
-詞類問題攻略：
-1. **句型的構成要素具備時**，選擇副詞
-2. 在**助動詞和動詞**之間，選擇副詞
-3. 在**be動詞和過去分詞**之間，選擇副詞
-3. 在**修飾形容詞**的位置，選擇副詞
-
 ## noun
 
 詞類問題攻略：
@@ -41,12 +33,6 @@ tags: [english]
 3. 選項中**剩兩個名詞**時，選擇**語意較通順**的
 4. 熟悉**名詞+名詞**的模式
 
-名詞的作用：
-
-
-名詞詞組：
-
-
 ## adjective
 
 詞類問題攻略：
@@ -54,6 +40,19 @@ tags: [english]
 - 看到**be動詞+___** 的形式時，填入形容詞的可能性很高
 - 熟悉**動名詞+名詞**的名詞詞組模式
 - 在**介係詞to的後面**，選擇動名詞
+
+句子：**a / an** + adj + n 
+
+形容詞與[副詞](#adverb)都是修飾語，形容詞是用來修飾「[名詞](#noun)」或「[代名詞](#pronoun)」；而副詞則是用來修飾「[動詞](#verb)」、「形容詞」或其他「[副詞](#adverb)」。
+這些修飾語可有可無, 拿掉修飾語並不影響句子結構的正確性；然而少了修飾語，卻會削弱語文表達的能力。
+
+## adverb
+
+詞類問題攻略：
+1. **句型的構成要素具備時**，選擇副詞
+2. 在**助動詞和動詞**之間，選擇副詞
+3. 在**be動詞和過去分詞**之間，選擇副詞
+3. 在**修飾形容詞**的位置，選擇副詞
 
 形容詞與[副詞](#adverb)都是修飾語，形容詞是用來修飾「[名詞](#noun)」或「[代名詞](#pronoun)」；而副詞則是用來修飾「[動詞](#verb)」、「形容詞」或其他「[副詞](#adverb)」。
 這些修飾語可有可無, 拿掉修飾語並不影響句子結構的正確性；然而少了修飾語，卻會削弱語文表達的能力。
@@ -64,7 +63,42 @@ tags: [english]
 
 時態
 
+以動詞 take 為例，下表列出 take 與助動詞 (Be, have, shall / will) 形成各種時態：
 
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>簡單</th>
+            <th>進行</th>
+            <th>完成</th>
+            <th>完成進行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>現在</td>
+            <td>take, takes</td>
+            <td>am, are, is + taking</td>
+            <td>have, has + taken</td>
+            <td>have, has + been taking</td>
+        </tr>
+        <tr>
+            <td>過去</td>
+            <td>took</td>
+            <td>was, were + taking</td>
+            <td>had + taken</td>
+            <td>had been taking</td>
+        </tr>
+        <tr>
+            <td>未來</td>
+            <td>shall, will + take</td>
+            <td>shall, will + be taking</td>
+            <td>shall, will + have taken</td>
+            <td>shall, will + have been taking</td>
+        </tr>
+    </tbody>
+</table>
 
 ### auxiliary verb
 
@@ -135,7 +169,7 @@ tags: [english]
     </tbody>
 </table>
 
-Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=83){:target="_blank"}
+Ref: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=83){:target="_blank"}
 
 <br>
 
@@ -252,38 +286,75 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
    1. 被動語氣：Since Nicole was sick, she **was allowed** to leave early.
    1. 被動語氣：This story **was written** by Helen Keller.
 
-### singular number & plural number
+### singular & plural
 
 動詞必須在「身」（人稱）與「數」（單、複數）方面與主詞一致。單數主詞需要單數動詞；複數主詞需要複數動詞。
 
-[實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=509){:target="_blank"}
+Ref: [實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=509){:target="_blank"}
+
+![](http://www.hauchenglee.com/assets/images/lang/verb-s.png)
+
+Ref: [file5940_14.pdf](http://eweb.flps.tp.edu.tw/module/download/update/f0079/file5940_14.pdf){:target="_blank"}
 
 ## preposition
 
 用法：放在名詞（詞組）前面
 
-介係詞：
-- during
-- despite
-- in spite of
-- because of
-- regardless of
-- prior or
-- **to** **（也有可能是不定词）**
-- due to
-- according to
-- in addition to
-- **for**
-- except for
-- **from**
-- in
-- on
-- **by**
-- 
+Ref: [Prepositions - Grammar - Academic Guides at Walden University](https://academicguides.waldenu.edu/writingcenter/grammar/prepositions){:target="_blank"}
 
-<br>
+### list
+- in / on / at
+- of
+   - in spite of
+   - because of
+   - regardless of
+- to（也有可能是不定词）
+   - due to
+   - according to
+   - in addition to
+- for
+   - except for
+- place, time and range:
+   - above
+   - along
+   - around
+   - behind
+   - below
+   - beneath
+   - beside
+   - besides
+   - between
+   - inside
+   - into
+   - near
+   - onto
+   - outside
+   - under
+   - up
+   - upon
+   - via
+   - with
+   - within
+   - without
+- others:
+   - during
+   - despite
+   - from
+   - by
 
-介係詞 to + 動名詞：
+Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/grammar/prepositions-list.htm){:target="_blank"}
+
+### in, on, at
+
+![](http://www.hauchenglee.com/assets/images/lang/prepositions-of-time.jpg)
+
+![](http://www.hauchenglee.com/assets/images/lang/prepositions-of-place.jpg)
+
+![](http://www.hauchenglee.com/assets/images/lang/prepositions-in-on-at.jpg)
+
+Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
+
+### to + verb-ing
 - look forward to ~ ing
 - when it comes to ~ ing
 - object to ~ ing
@@ -292,9 +363,8 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 - be/get accustomed to ~ ing
 - be/get committed to ~ ing
 
-<br>
+### to + verb-root
 
-介係詞 to + 不定詞：
 - regret to do
 - want to do
 - aim to do
@@ -303,9 +373,7 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 - intend to do
 - plan to do
 
-<br>
-
-介係詞 to + 人 + 不定詞：
+verb + person + to + verb-root:
 - want 人 to do
 - allow 人 to do
 - ask 人 to do
@@ -361,7 +429,7 @@ Reference: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Gra
 
 所有格原因：[英國很注重所有權的原則](https://bit.ly/2XvzTXk){:target="_blank"}
 
-ref: 
+Ref: 
 - [Me, myself, I, mine 傻傻分不清？你需要【代名詞用法整理】](https://tw.blog.voicetube.com/archives/49911){:target="_blank"}
 - [實用基礎文法 - 人稱代名詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=10){:target="_blank"}
 
