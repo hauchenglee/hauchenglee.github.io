@@ -19,6 +19,8 @@ permalink: /link
 - [给博客添加能动的看板娘(Live2D)-将其添加到网页上吧 - 猫与向日葵](https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02){:target="_blank"} - 如何利用WebGL SDK将其添加到网页上
 - [embed youtube video to markdown file · Sergei Sviridov's Blog](http://sviridovserg.com/2017/05/22/embed-youtube-to-markdown/){:target="_blank"} - 镶嵌油管到markdown
 - [Get Screenshots from YouTube Videos](http://youtubescreenshot.com/){:target="_blank"} - 油管視頻截圖（好用）
+- [Crop your images in seconds for free!](https://www.iloveimg.com/crop-image){:target="_blank"} - 剪裁圖片（好用）
+- [Sketch](https://www.sketch.com/){:target="_blank"} - 前端设计（好用）
 
 ## Github Pages
 
