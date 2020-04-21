@@ -5,24 +5,25 @@ category: java
 tags: [java]
 ---
 
-## 设计模式六大原则
+## 設計模式六大原則
 
-1. 单一职责原则：不要存在多于一个导致类变更的原因。通俗的说，即一个类只负责一项职责。
-2. 里氏替换原则：子类可以扩展父类的功能，但不能改变父类原有的功能。
-3. 依赖倒置原则：高层模块不应该依赖低层模块，二者都应该依赖其抽象，抽象不应该依赖细节，细节应该依赖抽象。
-4. 接口隔离原则：建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少。
-5. 迪米特原则：一个类对象应该对其他对象保持最少的了解，尽量降低类与类之间的耦合，例如使用中介的类来发生联系。
-6. 开闭原则：当软件需要变化时，尽量通过扩展软件实体的行为来实现变化，而不是通过修改已有的代码来实现变化（对扩展开放，对修改关闭的原则）。
+1.單一職責原則：不要存在多於一個導致類變更的原因。通俗的說，即一個類只負責一項職責。
+2.里氏替換原則：子類可以擴展父類的功能，但不能更改父類內置的功能。
+3.依賴倒置原則：高層模塊不應該應該依賴低層模塊，兩個都應該依賴其抽象，抽像不應該依賴細節，細節應該依賴抽象。
+4.接口隔離原則：建立單一接口，不要建立龐大臃腫的接口，盡量細化接口，接口中的方法盡量少。
+5.迪米特原則：一個類對象應該對其他對象保持最少的了解，盡量降低類與類之間的替換，例如使用中介的類來發生聯繫。
+6.開閉原則：當軟件需要變化時，應該通過擴展軟件實體的行為來實現變化，而不是通過修改現有的代碼來實現變化（對擴展開放，對修改關閉的原則）。
 
-遵循设计模式前面5大原则，以及使用23种设计模式的目的就是遵循开闭原则。
+遵循設計模式前面5大原則，以及使用23種設計模式的目的就是遵守開閉原則。
 
 Ref:
 - [设计模式六大原则](http://www.uml.org.cn/sjms/201211023.asp){:target="_blank"}
 - [设计模式详解（总纲） - 左潇龙 - 博客园](https://www.cnblogs.com/zuoxiaolong/p/pattern1.html){:target="_blank"}
 
-## 24 种设计模式
+## 24 種設計模式
 
 ![](http://www.hauchenglee.com/assets/images/java/design-pattern-gof-analysis.png)
+
 
 
 ## Reference
@@ -34,15 +35,14 @@ Overview:
 - [设计模式 \| 菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html){:target="_blank"}
 - [前言 · GitBook](https://xiaoyureed.github.io/my/e_book/design_pattern/){:target="_blank"}
 
-设计模式:
+Pattern:
 
 - 代理模式：
    - [我的Java設計模式代理模式 \| 程式前沿](https://bit.ly/2RHVpnH){:target="_blank"}
-- 装饰器模式：
+- 裝飾器模式：
    - [设计模式——装饰器模式 - 掘金](https://juejin.im/post/5add8e9cf265da0b9d77d377){:target="_blank"}
    - [java设计模式－装饰器模式(Decorator) - 简书](https://www.jianshu.com/p/d80b6b4b76fc){:target="_blank"}
 - 迭代器：
    - [23种设计模式（13）：迭代器模式_Java_三级小野怪的专栏-CSDN博客](https://blog.csdn.net/zhengzhb/article/details/7610745){:target="_blank"}
-
 
 ---
