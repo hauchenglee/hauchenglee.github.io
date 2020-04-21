@@ -25,8 +25,7 @@ Ref:
 ![](http://www.hauchenglee.com/assets/images/java/design-pattern-gof-analysis.png)
 
 
-
-### Reference
+## Reference
 
 Overview:
  
