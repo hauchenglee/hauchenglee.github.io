@@ -34,6 +34,7 @@ Overview:
 - [Java设计模式：23种设计模式全面解析（超级详细）](http://c.biancheng.net/design_pattern/){:target="_blank"}
 - [设计模式 \| 菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html){:target="_blank"}
 - [前言 · GitBook](https://xiaoyureed.github.io/my/e_book/design_pattern/){:target="_blank"}
+- [重构与设计模式](https://refactoringguru.cn/){:target="_blank"}
 
 Pattern:
 
