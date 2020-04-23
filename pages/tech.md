@@ -9,8 +9,8 @@ permalink: /tech
 ## Network
 
 - [Network - OSI](http://www.hauchenglee.com/tech/2020/04/18/network-osi.html){:target="_blank"} - 網絡七層模型
-- [Network - Ethernet](http://www.hauchenglee.com/tech/2020/04/19/network-osi.html){:target="_blank"} - 網絡 - 以太網
-- [Network - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-osi.html){:target="_blank"} - 網絡 - MAC
+- [Network - Ethernet](http://www.hauchenglee.com/tech/2020/04/19/network-ethernet.html){:target="_blank"} - 網絡 - 以太網
+- [Network - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-mac.html){:target="_blank"} - 網絡 - MAC
 - [Network - Broadcast](http://www.hauchenglee.com/tech/2020/04/21/network-broadcast.html){:target="_blank"} - 網絡 - 廣播
 - [Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"} - 網絡 - Switch and Router
 - [Network - TCP / IP](http://www.hauchenglee.com/tech/2020/04/23/network-tcp-ip.html){:target="_blank"} - 網絡 - TCP / IP
