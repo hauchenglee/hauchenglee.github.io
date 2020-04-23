@@ -123,4 +123,8 @@ permalink: /java
 [//]: <>- [Hibernate Mapping Relationship](){:target="_blank"} - Hibernate 映射關係（未完成）
 [//]: <>- [Hibernate HQL](){:target="_blank"} - Hibernate HQL（未完成）
 
+## Design Pattern
+
+- [Design Pattern](http://www.hauchenglee.com/java/2020/04/16/design-pattern.html){:target="_blank"} - Design Pattern 設計模式
+
 ---
