@@ -38,6 +38,8 @@ Computer network types by spatial scope:
 
 Ref: [File:Data Networks classification by spatial scope.png - Wikipedia](https://en.wikipedia.org/wiki/File:Data_Networks_classification_by_spatial_scope.png){:target="_blank"}
 
+<br>
+
 ![](http://www.hauchenglee.com/assets/images/tech/network-lan-wan.png)
 
 Ref: [LANs, WANs, and Other Area Networks Explained](https://www.lifewire.com/lans-wans-and-other-area-networks-817376){:target="_blank"}
