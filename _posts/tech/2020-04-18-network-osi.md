@@ -29,17 +29,15 @@ OSI七層模型是一種框架性的設計方法 ，建立七層模型的主要�
         <tr>
             <td>應用層 Application</td>
             <td>文件傳輸，電子郵件，文件服務，虛擬終端</td>
-            <td>TFTP，HTTP，SNMP，FTP，SMTP，DNS，Telnet</td>
+            <td rowspan="3">DHCP，DNS，FTP，HTTP，SNMP，SMTP，SSH，Telnet</td>
         </tr>
         <tr>
             <td>表示層 Presentation</td>
             <td>數據格式化，代碼轉換，數據加密</td>
-            <td>沒有協議</td>
         </tr>
         <tr>
             <td>會話層 <br>Session</td>
             <td>解除或建立與其他接點的聯繫</td>
-            <td>沒有協議</td>
         </tr>
         <tr>
             <td>傳輸層 <br>Transport</td>
@@ -49,27 +47,34 @@ OSI七層模型是一種框架性的設計方法 ，建立七層模型的主要�
         <tr>
             <td>網絡層 <br>Network</td>
             <td>為數據包選擇路由</td>
-            <td>IP，ICMP，RIP，OSPF，BGP，IGMP</td>
+            <td>IP，ICMP，IGMP，Router</td>
         </tr>
         <tr>
             <td>數據鏈接層 <br>Data Link</td>
             <td>傳輸有地址的幀，錯誤檢測功能</td>
-            <td rowspan="2">IEEE 802</td>
+            <td>ARP，Ethernet，MAC，LLC，Switch，Bridge</td>
         </tr>
         <tr>
             <td>物理層 <br>Physical</td>
             <td>以二進制數據形式在物理媒體上傳輸數據</td>
+            <td>IEEE 802，Fiber，Wireless，Hub</td>
         </tr>
     </tbody>
 </table>
+
+<br>
 
 ![](http://www.hauchenglee.com/assets/images/tech/seven-layer-osi-model.png)
 
 Ref: [seven-layer open systems interconnection (osi) model. this model of... \| Download Scientific Diagram](https://bit.ly/3arJykt){:target="_blank"}
 
+<br>
+
 ![](http://www.hauchenglee.com/assets/images/tech/osi-7-layer-model.png)
 
 Ref: [OSI (Open System Interconnection) 7 Layer Model](http://www.howtocisco.com/ccna/ccna2.htm){:target="_blank"}
+
+<br>
 
 口訣：
 1. All People Seem To Need Data Process（所有的人看來都需要資料處理）
@@ -104,19 +109,19 @@ Ref:
 
 【Ethernet】
 
-- [Network - Ethernet](http://www.hauchenglee.com/tech/2020/04/19/network-ethernet.html){:target="_blank"} - 以太網
+- [Network - Ethernet](http://www.hauchenglee.com/tech/2020/04/19/network-ethernet.html){:target="_blank"}
 
 【MAC】
 
-- [Network - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-mac.html){:target="_blank"} - MAC
+- [Network - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-mac.html){:target="_blank"}
 
 【Broadcast】
 
-- [](){:target="_blank"}
+- [Network - Broadcast](http://www.hauchenglee.com/tech/2020/04/21/network-broadcast.html){:target="_blank"}
 
 【Switch】
 
-- [](){:target="_blank"}
+- [Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"}
 
 ### Network
 
@@ -148,55 +153,47 @@ Ref:
 
 【IP】
 
-- [](){:target="_blank"}
-
-【Address Resolution Protocol】
-
-- [](){:target="_blank"}
+- [Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-ip.html){:target="_blank"}
 
 【Router】
 
-- [](){:target="_blank"}
+- [Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"}
 
 ### Transport
 
-
+負責流量控制和錯誤控制。
 
 *可以理解為：每一個應用程序都會在網卡註冊一個端口號，該層就是端口與端口的通信！常用的（TCP/IP）協議。*
 
 <br>
 
-【UDP】
+【TCP / UDP】
 
-- [](){:target="_blank"}
-
-【TCP】
-
-- [](){:target="_blank"}
+- [Network - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/22/network-tcp-udp.html){:target="_blank"}
 
 ### Session
 
-
+負責控制會話（也就是connection開啟和關閉的時間稱為"會話"），確保在開啟會話時能完整傳輸數據，並在結束時關閉會話以避免浪費資源。
 
 *可以理解為：建立一個連接（自動的手機信息、自動的網絡尋址）。*
 
-
-
 ### Presentation
 
-
+負責傳輸數據的準備作業，以便應用層可以順利使用，即解決數據間的轉換、壓縮、加密、解密。
 
 *可以理解為：解決不同系統之間的通信，eg: Linux下的QQ和Windows下QQ可以通信。*
 
-
-
 ### Application
 
-
+與用戶數據直接交互的一層，此應用非user使用的軟件應用程序，而是依賴協議與數據的操作。
 
 *可以理解為：規定數據的傳輸協議。*
 
 <br>
+
+【DHCP & DNS】
+
+- [](){:target="_blank"}
 
 【HTTP】
 
@@ -208,6 +205,5 @@ Ref:
 - [互联网协议入门（一） - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html){:target="_blank"}
 - [What Is The OSI Model? \| Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/){:target="_blank"}
 - [深入浅出－网络七层模型&&网络数据包 - 简书](https://www.jianshu.com/p/4b9d43c0571a){:target="_blank"}
-- [](){:target="_blank"}
 
 ---

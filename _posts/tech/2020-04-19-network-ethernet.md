@@ -25,7 +25,7 @@ Token Ring, FDDI, and ARCNET.
 
 以上Wiki說明有幾個重點：
 1. 以太網是一個**傳輸技術**
-2. 它取代過往的**局域網**傳輸技術，例如Token Ring, FDDI, and ARCNET
+2. 它取代過往的**局域網**傳輸技術，例如Token Ring、FDDI、ARCNET
 3. 它是目前應用最普遍的**局域網**技術
 
 ## Types of Networks
@@ -50,7 +50,7 @@ Ref: [LANs, WANs, and Other Area Networks Explained](https://www.lifewire.com/la
 such as a residence, school, laboratory, university campus or office building. By contrast, a [wide area network](#wan) 
 (WAN) not only covers a larger geographic distance, but also generally involves leased telecommunication circuits.
 
-一個局域網（LAN）是一種計算機網絡是一個有限的區域內的互連的計算機，如住宅，學校，實驗室，大學校園或辦公樓。[1]相反，廣域網（WAN）不僅覆蓋較大的地理距離，而且通常還涉及租賃的電信電路。
+一個局域網（LAN）是一種計算機網絡是一個有限的區域內的互連的計算機，如住宅，學校，實驗室，大學校園或辦公樓。相反，廣域網（WAN）不僅覆蓋較大的地理距離，而且通常還涉及租賃的電信電路。
 
 > Ethernet and Wi-Fi are the two most common technologies in use for local area networks. Historical network technologies 
 > include ARCNET, Token ring and AppleTalk.
@@ -124,7 +124,7 @@ and applications of the World Wide Web (WWW), electronic mail, telephony, and fi
 
 該因特網是相互連接的全球系統的計算機網絡，它使用因特網協議套件（TCP / IP）網絡和設備之間的通信。
 它是一個網絡網絡，由本地到全球範圍的私有，公共，學術，商業和政府網絡組成，並通過廣泛的電子，無線和光聯網技術進行鏈接。
-互聯網承載著廣泛的信息資源和服務，例如互聯網（WWW），電子郵件，電話和文件共享的相互鏈接的超文本文檔和應用程序。。
+互聯網承載著廣泛的信息資源和服務，例如互聯網（WWW），電子郵件，電話和文件共享的相互鏈接的超文本文檔和應用程序。
 
 ## Ethernet v.s. Internet
 
