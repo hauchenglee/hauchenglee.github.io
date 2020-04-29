@@ -17,8 +17,7 @@ permalink: /algorithms
 ## Tree
 
 - [Algorithms Binary Search Tree](http://www.hauchenglee.com/algorithms/2019/12/01/algorithms-bst.html){:target="_blank"} - 二叉查找樹
-- [Algorithms Two Three Tree](){:target="_blank"} - 23查找樹（未完成）
-- [Algorithms Red Black Tree](){:target="_blank"} - 紅黑樹（未完成）
-- [Algorithms B Tree](){:target="_blank"} - B樹（未完成）
+- [Algorithms Red Black Tree](http://www.hauchenglee.com/algorithms/2020/04/03/algorithms-bst.html){:target="_blank"} - 紅黑樹
+- [Algorithms B Tree](http://www.hauchenglee.com/algorithms/2020/04/06/algorithms-b-tree.html){:target="_blank"} - B樹
 
 ---
