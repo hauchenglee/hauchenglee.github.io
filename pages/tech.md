@@ -13,10 +13,10 @@ permalink: /tech
 - [Network - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-mac.html){:target="_blank"} - 網絡 - MAC
 - [Network - Broadcast](http://www.hauchenglee.com/tech/2020/04/21/network-broadcast.html){:target="_blank"} - 網絡 - 廣播
 - [Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"} - 網絡 - Switch and Router
-- [Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-tcp-ip.html){:target="_blank"} - 網絡 - IP
-- [Network - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/24/network-tcp-ip.html){:target="_blank"} - 網絡 - TCP / UDP
-- [Network - DHCP / DNS](http://www.hauchenglee.com/tech/2020/04/25/network-dhcp-dns.html){:target="_blank"} - 網絡 - DHCP / DNS
-- [Network - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"} - 網絡 - HTTP
+- [Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-ip.html){:target="_blank"} - 網絡 - IP
+- [Network - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/24/network-tcp-udp.html){:target="_blank"} - 網絡 - TCP / UDP
+
+//]: <>- [Network - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"} - 網絡 - HTTP
 
 ## Linux
 
