@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 創作 (童話故事) - 月光下的歌聲
+title: 創作 - 月光下的歌聲
 category: blog
 tags: [blog]
 ---
