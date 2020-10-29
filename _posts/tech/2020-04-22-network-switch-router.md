@@ -90,6 +90,36 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 
 ![](http://www.hauchenglee.com/assets/images/tech/Network-Broadcast-Domain-Collision.png)
 
+
+
+
+## Switch
+
+### Spanning Tree
+
+
+### store-and-forward
+
+### switched network
+
+
+## Router
+
+### Gateway
+
+### store-and-forward
+
+## Routing
+
+### topology
+
+### multiplexing vs de-multiplexing
+
+### FDM vs TDM
+
+### Statistical multiplexing
+
+
 ## Router & DHCP v.s. NAT 
 
 ### DHCP
@@ -235,5 +265,9 @@ Collision Domain & Broadcast Domain:
 - [Collision Domain and Broadcast Domain in Computer Network - GeeksforGeeks](https://www.geeksforgeeks.org/collision-domain-and-broadcast-domain-in-computer-network/){:target="_blank"}
 - [如何形象地理解冲突域和广播域？ - 知乎](https://www.zhihu.com/question/27723724){:target="_blank"}
 - [冲突域和广播域的区分 - CloudDeveloper - 博客园如何形象地理解冲突域和广播域？ - 知乎](https://www.cnblogs.com/bakari/archive/2012/09/08/2677086.html){:target="_blank"}
+
+DHCP v.s. DNS:
+
+- [DHCP and DNS: What Are They, What’s Their Difference? \| FS Community](https://community.fs.com/blog/dhcp-and-dns-difference.html){:target="_blank"}
 
 ---

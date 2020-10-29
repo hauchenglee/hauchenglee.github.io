@@ -16,7 +16,12 @@ permalink: /tech
 - [Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-ip.html){:target="_blank"} - 網絡 - IP
 - [Network - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/24/network-tcp-udp.html){:target="_blank"} - 網絡 - TCP / UDP
 
-//]: <>- [Network - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"} - 網絡 - HTTP
+[//]: <>- [Network - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"} - 網絡 - HTTP
+
+## Computer Science
+
+- [CS - Data Storage](http://www.hauchenglee.com/tech/2020/07/30/cs-data-storage.html){:target="_blank"}
+- [CS - Operation System](http://www.hauchenglee.com/tech/2020/08/02/cs-operation-system.html){:target="_blank"}
 
 ## Linux
 
