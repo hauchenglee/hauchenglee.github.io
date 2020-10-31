@@ -49,15 +49,46 @@ Example:
 假設您正在一個有50名學生的教室裡講課。在這之間，您叫出一個學生"詹姆斯站起來"。
 儘管課堂上所有學生都在聽，但只有詹姆斯會回答，其他人只會忽略此消息。
 
+## Layer 2 broadcast vs Layer 3 broadcast
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>目的地</td>
+            <td>ff:ff:ff:ff:ff:ff</td>
+            <td>xxx.xxx.xxx.255</td>
+        </tr>
+        <tr>
+            <td>媒介</td>
+            <td>switch</td>
+            <td>router</td>
+        </tr>
+        <tr>
+            <td>廣播區域</td>
+            <td>本地网段 VLAN<br>every network interface card (NIC) will receive and read the frame</td>
+            <td>该子网的所有IP地址都可以接收到它</td>
+        </tr>
+    </tbody>
+</table>
+
+Ref: [layer 2 broadcast layer 3 broadcast](https://bit.ly/2Jov1y7){:target="_blank"}
+
 ## Unicast & Broadcast & Multicast
 
 <table>
     <thead>
         <tr>
             <th></th>
-            <th>Unicast</th>
-            <th>Broadcast</th>
-            <th>Multicast</th>
+            <th>Unicast 單播</th>
+            <th>Broadcast 廣播</th>
+            <th>Multicast 組播</th>
         </tr>
     </thead>
     <tbody>

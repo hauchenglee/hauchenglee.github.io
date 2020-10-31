@@ -20,17 +20,13 @@ host.
 IP地址具有兩個主要功能。它標識主機，或更具體地說，標識其網絡接口，並提供主機在網絡中的位置，並因此提供建立到該主機的路徑的能力。
 其角色的特徵如下："名稱表示我們要尋找的東西。地址表示我們在哪裡。路線表示如何到達那裡。"每個IP數據包的標頭包含發送主機的IP地址和目標主機的IP地址。
 
-## IPv4
+## IP vs MAC
 
-IP 組成是 32 bits 的數值，也就是由 32 個 0 與 1 組成的一連串數字。在把 32 bits 的 IP 分成四小段，每段含有 8 個 bits（不滿八位數則補0到滿），將 8 個 bits 計算成為十進位，並且每一段中間以小數點隔開，就成了所熟悉的 IP，
+why we need ip instead of mac?
 
-例如： 
+hierarchical
 
-- 00000000.00000000.00000000.00000000 => 0.0.0.0
-- 11111111.11111111.11111111.11111111 => 255.255.255.255 
-- 11000000.10101000.00101010.00000001 => 192.168.42.1
-
-### IP class
+## IP class
 
 Historical classful network architecture:
 
@@ -41,34 +37,34 @@ Historical classful network architecture:
             <th>Leading bits</th>
             <th>Number of networks</th>
             <th>Number of addresses <br>per network</th>
-            <th>Start address</th>
-            <th>End address</th>
+            <th>Range</th>
+            <th>Remark</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>A Class</td>
             <td>0</td>
-            <td>128 (2^7)</td>
-            <td>16,777,216 (2^24)</td>
-            <td>0.0.0.0</td>
-            <td>127.255.255.255</td>
+            <td>128 (2^7)<br> 2^(8 - leading bits) = 2^7</td>
+            <td>16,777,216 (2^24) - 2</td>
+            <td>1.0.0.1<br>127.255.255.254</td>
+            <td>0 reserved for special purpose<br>127 reserved for loopback IP</td>
         </tr>
         <tr>
             <td>B Class</td>
             <td>10</td>
             <td>16,384 (2^14)</td>
-            <td>65,536 (2^16)</td>
-            <td>128.0.0.0</td>
-            <td>191.255.255.255</td>
+            <td>65,536 (2^16) - 2</td>
+            <td>128.1.0.1<br>191.255.255.254</td>
+            <td></td>
         </tr>
         <tr>
             <td>C Class</td>
             <td>110</td>
             <td>2,097,152 (2^21)</td>
-            <td>256 (2^8)</td>
-            <td>192.0.0.0</td>
-            <td>223.255.255.255</td>
+            <td>256 (2^8) - 2</td>
+            <td>192.0.1.1<br>223.255.255.254</td>
+            <td></td>
         </tr>
         <tr>
             <td>D Class</td>
@@ -78,12 +74,22 @@ Historical classful network architecture:
         <tr>
             <td>E Class</td>
             <td>1111</td>
-            <td colspan="5">reserved and cannot be used on the public Internet</td>
+            <td colspan="5">255 reserved for broadcast<br>reserved and cannot be used on the public Internet</td>
         </tr>
     </tbody>
 </table>
 
-依據[Wiki](https://en.wikipedia.org/wiki/IP_address#Subnetting_history){:target="_blank"}的說明，這套系統已經過時，缺乏可擴展性，並於1993年被[Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:target="_blank"}所取代。
+<br>
+
+計算網段 & 主機地址數量 -- 以Class A為例子：
+- 網段：理論上為2^8，但需要減去Leading Bits，而A類Leading Bits共有1位，故總共的網段有2^7
+- 主機地址：理論上為2^24，但需要減去127（代表自己）&255（代表廣播），故可使用的主機地址有2^24-2
+- 綜上所述，A類總共可用地址有2^7 * (2^24-2)
+
+<br>
+
+依據[Wiki](https://en.wikipedia.org/wiki/IP_address#Subnetting_history){:target="_blank"}的說明，
+這套系統已經過時，缺乏可擴展性，並於1993年被[Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:target="_blank"}所取代。
 
 > Today, remnants of classful network concepts function only in a limited scope as the default configuration parameters 
 of some network software and hardware components (e.g. netmask), and in the technical jargon used in network administrators' discussions.
@@ -91,6 +97,37 @@ of some network software and hardware components (e.g. netmask), and in the tech
 如今，分類網絡概念的殘餘僅在有限範圍內用作某些網絡軟件和硬件組件（例如，網絡掩碼）的默認配置參數，並且在網絡管理員的討論中使用了技術術語。
 
 Ref: [Classful network - Wikipedia](https://en.wikipedia.org/wiki/Classful_network){:target="_blank"}
+
+### Private IP Address (RFC 1918)
+
+Not routable through the Internet
+
+-> 只能被內部網絡所使用
+
+重要，牢記！
+
+<table>
+    <thead>
+        <tr>
+            <th>Address Class</th>
+            <th>Reserved Address Space</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A</td>
+            <td>10.0.0.0 through 10.255.255.255</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>172.16.0.0 through 172.31.255.255</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>192.168.0.0 through 192.168.255.255</td>
+        </tr>
+    </tbody>
+</table>
 
 ### CIDR
 
@@ -111,7 +148,9 @@ example:
 
 reason: 減緩IPv4位址的耗盡速度。
 
-### Subnetwork
+## Subnetwork
+
+### Identify
 
 IP位址可以分為兩部分：Network Identifier (網絡編號) & Host Identifier (主機編號)
 
@@ -169,7 +208,7 @@ IP Example:
 3. 廣播域範圍：192.168.1.0 ~ 192.168.1.254
 4. 廣播地址：192.168.1.255
 
-### Private address & NAT
+## Private address & NAT
 
 Reserved private IPv4 network ranges:
 
@@ -244,7 +283,7 @@ Example about NAT:
     </tbody>
 </table>
 
-### Network addressing and routing
+## Network addressing and routing
 
 【運作過程】
 
@@ -254,7 +293,7 @@ Example about NAT:
 2. 查詢標的主機所在的網域：如果是同一個子網（Subnet），則主機A會直接透過LAN功能發送數據給目標主機
 3. 送出封包至路由器（Router）：如果主機A與主機B在不同的網域，因此A將IP封包送到路由器，路由器收到封包後會分析封包的資訊，一路傳送到正確的中介路由及目標主機B的位址。
 
-### Packet structure
+## Packet structure
 
 ![](http://www.hauchenglee.com/assets/images/tech/ipv4_packet_header.jpg)
 
@@ -277,7 +316,15 @@ Example about NAT:
 5. 第五行：
    1. Options & Padding: 這是可選字段，如果IHL的值大於5，則將使用這些字段。這些選項可能包含諸如安全性，記錄路由，時間戳等選項的值。此欄位很少使用到，一般是特殊情況或是特定的控制下，才會使用此字段
 
-## IPv6
+## IPv4 & IPv6
+
+IP 組成是 32 bits 的數值，也就是由 32 個 0 與 1 組成的一連串數字。在把 32 bits 的 IP 分成四小段，每段含有 8 個 bits（不滿八位數則補0到滿），將 8 個 bits 計算成為十進位，並且每一段中間以小數點隔開，就成了所熟悉的 IP，
+
+例如： 
+
+- 00000000.00000000.00000000.00000000 => 0.0.0.0
+- 11111111.11111111.11111111.11111111 => 255.255.255.255 
+- 11000000.10101000.00101010.00000001 => 192.168.42.1
 
 IPv4 Total can use: 4,294,967,296 (2^32)
 
