@@ -26,9 +26,14 @@ why we need ip instead of mac?
 
 hierarchical
 
-## IP class
+## Classful Addressing
 
 Historical classful network architecture:
+
+計算網段 & 主機地址數量 -- 以Class A為例子：
+- 網段：理論上為2^8，但需要減去Leading Bits，而A類Leading Bits共有1位，故總共的網段有2^7
+- 主機地址：理論上為2^24，但需要減去127（代表自己）&255（代表廣播），故可使用的主機地址有2^24-2
+- 綜上所述，A類總共可用地址有2^7 * (2^24-2)
 
 <table>
     <thead>
@@ -81,13 +86,6 @@ Historical classful network architecture:
 
 <br>
 
-計算網段 & 主機地址數量 -- 以Class A為例子：
-- 網段：理論上為2^8，但需要減去Leading Bits，而A類Leading Bits共有1位，故總共的網段有2^7
-- 主機地址：理論上為2^24，但需要減去127（代表自己）&255（代表廣播），故可使用的主機地址有2^24-2
-- 綜上所述，A類總共可用地址有2^7 * (2^24-2)
-
-<br>
-
 依據[Wiki](https://en.wikipedia.org/wiki/IP_address#Subnetting_history){:target="_blank"}的說明，
 這套系統已經過時，缺乏可擴展性，並於1993年被[Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing){:target="_blank"}所取代。
 
@@ -96,59 +94,9 @@ of some network software and hardware components (e.g. netmask), and in the tech
 
 如今，分類網絡概念的殘餘僅在有限範圍內用作某些網絡軟件和硬件組件（例如，網絡掩碼）的默認配置參數，並且在網絡管理員的討論中使用了技術術語。
 
-Ref: [Classful network - Wikipedia](https://en.wikipedia.org/wiki/Classful_network){:target="_blank"}
+可以參考其他說明：[Classful network - Wikipedia](https://en.wikipedia.org/wiki/Classful_network){:target="_blank"}
 
-### Private IP Address (RFC 1918)
-
-Not routable through the Internet
-
--> 只能被內部網絡所使用
-
-重要，牢記！
-
-<table>
-    <thead>
-        <tr>
-            <th>Address Class</th>
-            <th>Reserved Address Space</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>A</td>
-            <td>10.0.0.0 through 10.255.255.255</td>
-        </tr>
-        <tr>
-            <td>B</td>
-            <td>172.16.0.0 through 172.31.255.255</td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td>192.168.0.0 through 192.168.255.255</td>
-        </tr>
-    </tbody>
-</table>
-
-### CIDR
-
-Classless Inter-Domain Routing:
-
-IP / how many network bits in IP
-
-```xxx.xxx.xxx.xxx/n```
-
-Thus, 32 bits - n = network mask
-
-example:
-
-```192.168.12.0/23``` -> ```11000000.10101000.00001100.00000000```
-
-1. network mask: 11111111.11111111.11111110.00000000 -> 255.255.254.0
-2. network range: 192.168.12.0 ~ 192.168.13.255
-
-reason: 減緩IPv4位址的耗盡速度。
-
-## Subnetwork
+## Classless Addressing 
 
 ### Identify
 
@@ -169,6 +117,10 @@ IP位址可以分為兩部分：Network Identifier (網絡編號) & Host Identif
    1. Host Identifier --> 0000,0000: 網絡本身識別碼
    2. Host Identifier --> 1111,1111: 廣播位址（代表的是該網絡上的所有主機）
 4. Network Identifier: 127（二進制: 01111111）：是保留給本機回路測試使用的，它不可以被運用於實際的網路中，其中的127.0.0.1則代表任何一台IP主機本身。
+
+reason:
+- 減緩IPv4位址的耗盡速度。
+- 更安全，更好管理
 
 ### Subnet Mask
 
@@ -208,13 +160,63 @@ IP Example:
 3. 廣播域範圍：192.168.1.0 ~ 192.168.1.254
 4. 廣播地址：192.168.1.255
 
+### CIDR
+
+另一種子網掩碼的表達方式（Classless Inter-Domain Routing）:
+
+IP / how many network bits in IP
+
+```xxx.xxx.xxx.xxx/n```
+
+Thus, 32 bits - n = network mask
+
+example:
+
+```192.168.12.0/23``` -> ```11000000.10101000.00001100.00000000```
+
+1. network mask: 11111111.11111111.11111110.00000000 -> 255.255.254.0
+2. network range: 192.168.12.0 ~ 192.168.13.255
+
+/30 & /31 & /32：
+- /30 subnet has 2 ip for hosts (example 192.168.1.0/30)
+   - 2^2 = 4
+   - 192.168.1.0 = network address
+   - 192.168.1.1 = odd address
+   - 192.168.1.2 = even address
+   - 192.168.1.3 = broadcast address
+   - Tips: Lower is odd ; higher is even
+- /31 subnet has 2 ip for hosts (example 192.168.1.0/31)
+   - this applied to point-to-point link only
+   - 192.168.1.0 = even address
+   - 192.168.1.1 = odd address
+   - Tips: Lower is even ; higher is odd
+   
+- /32 (255.255.255.255): means a host
+
+### Subnet zero
+
+It is the first subnet obtained when subnetting the network address.
+
+Cisco has turned this command on by default staring with Cisco IOS version 12.x
+
+```console
+Router#sh running-config
+Building configuration...
+Current configuration : 827 bytes
+!
+hostname Pod1R1
+!
+ip subnet=zero
+```
+
 ## Private address & NAT
 
-Reserved private IPv4 network ranges:
+Reserved private IPv4 network ranges (RFC 1918):
 
 <table>
     <thead>
         <tr>
+            <th>Class</th>
             <th>Name</th>
             <th>CIDR block</th>
             <th>Address range</th>
@@ -223,18 +225,21 @@ Reserved private IPv4 network ranges:
     </thead>
     <tbody>
         <tr>
+            <td>A</td>
             <td>24-bit block</td>
             <td>10.0.0.0/8</td>
             <td>10.0.0.0 - 10.255.255.255</td>
             <td>16,777,216</td>
         </tr>
         <tr>
+            <td>B</td>
             <td>20-bit block</td>
             <td>172.16.0.0/12</td>
             <td>172.16.0.0 - 172.31.255.255</td>
             <td>1,048,576</td>
         </tr>
         <tr>
+            <td>C</td>
             <td>16-bit block</td>
             <td>192.168.0.0/16</td>
             <td>192.168.0.0 - 192.168.255.255</td>

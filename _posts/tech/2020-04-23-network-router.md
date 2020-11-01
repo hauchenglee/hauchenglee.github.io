@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Network - Switch & Router
+title: Network - Router
 category: tech
 tags: [tech]
 ---

@@ -141,6 +141,8 @@ Ref: [以太网与互联网有什么区别？ - 知乎](https://www.zhihu.com/qu
 
 ## Ethernet Frame
 
+* CCNA 考試不會考
+
 [Ethernet Version 2 Versus IEEE 802.3 Ethernet](https://www.ibm.com/support/pages/ethernet-version-2-versus-ieee-8023-ethernet){:target="_blank"}
 
 Brief History:
@@ -169,6 +171,10 @@ p.s. 目前以太網II幀由於其簡單性和較低的開銷，在以太網局�
 Ref:
 - [Ethernet frame - Wikipedia](https://en.wikipedia.org/wiki/Ethernet_frame){:target="_blank"}
 - [Ethernet Frame Format - GeeksforGeeks](https://www.geeksforgeeks.org/ethernet-frame-format/){:target="_blank"}
+
+## VLAN
+
+
 
 ## Reference
 
