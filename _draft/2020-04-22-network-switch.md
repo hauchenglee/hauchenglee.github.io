@@ -52,4 +52,23 @@ Hardware-based bridging (ASICs)
 
 ## Switching Forwarding
 
+
+## VLAN
+
+使用技術虛擬出多個局域網
+
+好處：
+- 邏輯分割
+- 增加安全性
+- 局域網模塊化（也就是雖然局域網數量變多，但因為總數一致，相對應每個局域網內部的host減少，能更好定位問題）
+
+## Access and Trunk Port
+
+Access Port
+- Belongs to and carries the traffic of only one VLAN
+- Traffic is both received and sent in native formats with no VLAN information (tagging) whatsoever
+
+Trunk Port
+- Carries the traffic of multiple VLANs
+
 ---
