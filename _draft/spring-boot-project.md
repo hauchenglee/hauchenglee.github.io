@@ -14,14 +14,7 @@ tags: [spring-boot]
 
 ## design pattern
 
-api response design:
-- [Spring MVC/Boot 统一异常处理最佳实践 - 赵俊的博客](http://www.zhaojun.im/springboot-exception/){:target="_blank"}
-- [后端返回数据全局处理_我表示我来过-CSDN博客](https://blog.csdn.net/my_nice_life/article/details/79945279){:target="_blank"}
-- [分页设计 · HTTP后台端：RESTful API接口设计](https://crifan.github.io/http_restful_api/website/restful_experience/pagination.html){:target="_blank"}
 
-constants:
-- [Constants in Java - The Anti-Pattern - DZone Java](https://dzone.com/articles/constants-in-java-the-anti-pattern-1){:target="_blank"}
-- [java - What is the use of interface constants? - Stack Overflow](https://stackoverflow.com/questions/2659593/what-is-the-use-of-interface-constants){:target="_blank"}
 
 ## restful
 
@@ -43,6 +36,9 @@ constants:
 - [@DynamicUpdate with Spring Data JPA - Baeldung](https://www.baeldung.com/spring-data-jpa-dynamicupdate){:target="_blank"}
 
 ## json
+
+parse bean:
+- [使用 Jackson 完成 json 和 Java Object 互相轉換](https://kucw.github.io/blog/2020/6/java-jackson/)
 
 解決JSON lazy loading
 - [json - spring rest lazy loading with hibernate - Stack Overflow](https://stackoverflow.com/questions/46190099/spring-rest-lazy-loading-with-hibernate){:target="_blank"}
