@@ -165,6 +165,22 @@ TCP 幾個特點：
 1. 確保最後一個確認報文能夠正確送達，若在一定時間內都沒有收到確認報文，那麼將會重新發送請求報文
 2. 為了將本連接內的所有數據、報文全部處理完畢，並在網絡上清零，使下次全新的連接不會有上次連線的干擾
 
+### TCP Sequence and Acknowledgement
+
+
+
+### TCP Flow Control
+
+to avoid buffer overflow
+
+### TCP Window Control
+
+
+
+### TCP Retransmission
+
+
+
 ### Vulnerabilities
 
 1. Denial of service: 通過發送錯誤或是欺騙性的標誌來消耗、攻擊系統
@@ -187,6 +203,48 @@ User Datagram Protocol (UDP):
 4. TCP執行錯誤檢查並進行錯誤恢復，另一方面，UDP執行錯誤檢查，但會丟棄錯誤的數據包。
 5. TCP具有確認段，但是UDP沒有任何確認段。
 6. TCP是重量級的，而UDP是輕量級的。
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>TCP</th>
+            <th>UDP</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td>Reliable</td>
+            <td>Unreliable</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Sequenced</td>
+            <td>Unsequenced</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Connection-oriented</td>
+            <td>Connectionless</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Virtual circuit</td>
+            <td>Low Overhead</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Acknowledgement</td>
+            <td>No Acknowledgement</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Window flow control</td>
+            <td>No any type control</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Reference
 
