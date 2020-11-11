@@ -33,6 +33,20 @@ Reference:
 
 [//]: <>
 
+## FENCED CODE BLOCKS
+
+```shell script
+ERROR! NOT Use
+
+use console
+```
+
+```console
+terminal
+```
+
+http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/
+
 ## Table
 
 ### table 1
