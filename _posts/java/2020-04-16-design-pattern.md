@@ -26,7 +26,13 @@ Ref:
 
 ### 創建者
 
-
+- 单例：[漫画：什么是单例模式？ - 知乎](https://zhuanlan.zhihu.com/p/33102022){:target="_blank"}
+- 工厂：[简单工厂模式、工厂方法模式和抽象工厂模式有何区别？ - 知乎](https://www.zhihu.com/question/27125796){:target="_blank"}
+- 建造者
+   - 套餐细分由多种餐点组成，鸡肉+饭可以组合鸡肉饭，鸡肉+油可以组合炸鸡
+   - 何时使用：一些基本部件不会变，而其组合经常变化的时候
+   - 使用场景： 1、需要生成的对象具有复杂的内部结构。 2、需要生成的对象内部属性本身相互依赖。
+   - 注意事项：与工厂模式的区别是：建造者模式更加关注与零件装配的顺序
 
 ### 結構型
 
@@ -35,9 +41,15 @@ Ref:
    - 例如代理人模拟代理了买票这个动作行为
    - 行为的再封装，起到了保护目标对象的作用，并且降低耦合度
 - 裝飾器
-   - 为了扩展子类而继承，容易造成子类膨胀，耦合度高
-   - 套餐用继承：成人餐继承儿童餐，成人餐比儿童餐多了汤
-   - 套餐用组合：把每个餐点视为独立个体，用组合方式点餐
+  - 如果A想要使用B的特性，一般会使用继承方式，但为了扩展子类而继承，容易造成子类膨胀，耦合度高
+  - 真实世界类比：
+     - 穿衣服是使用装饰的一个例子。觉得冷时，你可以穿一件毛衣。如果穿毛衣还觉得冷，你可以再套上一件夹克。如果遇到下雨，你还可以再穿一件雨衣。
+     - 所有这些衣物都 “扩展” 了你的基本行为，但它们并不是你的一部分，如果你不再需要某件衣物，可以方便地随时脱掉。
+  - 继承的特性：
+     - 继承是静态的。 你无法在运行时更改已有对象的行为，只能使用由不同子类创建的对象来替代当前的整个对象。
+     - 子类只能有一个父类。大部分编程语言不允许一个类同时继承多个类的行为。
+  - 组合：一个对象可以使用多个类的行为，包含多个指向其他对象的引用，并将各种工作委派给引用对象。
+  - 使用场景： 1、在不想增加很多子类的情况下，扩展类的功能。 2、动态增加功能，动态撤销
 
 ### 行為型
 
@@ -51,9 +63,6 @@ Overview:
 - [Java设计模式：23种设计模式全面解析（超级详细）](http://c.biancheng.net/design_pattern/){:target="_blank"}
 - [设计模式 \| 菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html){:target="_blank"}
 - [重构与设计模式](https://refactoringguru.cn/){:target="_blank"}
-
-Pattern:
-- 迭代器：[23种设计模式（13）：迭代器模式_Java_三级小野怪的专栏-CSDN博客](https://blog.csdn.net/zhengzhb/article/details/7610745){:target="_blank"}
 
 Design Pattern In Java:
 - [oop - Examples of GoF Design Patterns in Java's core libraries - Stack Overflow](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries){:target="_blank"}
