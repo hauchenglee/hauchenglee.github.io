@@ -71,4 +71,6 @@ Access Port
 Trunk Port
 - Carries the traffic of multiple VLANs
 
+## DTP Dynamic Trunk Protocol
+
 ---
