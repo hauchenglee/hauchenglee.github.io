@@ -97,23 +97,23 @@ navs:
   - href: /java
     label: Java
     target: _self
-#    subnav:
-#
-#      - subHref: /java
-#        subLabel: Java
-#        target: _self
-#
-#      - subHref: /spring
-#        subLabel: Spring
-#        target: _self
-#
-#      - subHref: /spring-boot
-#        subLabel: Spring Boot
-#        target: _self
-#
-#      - subHref: /spring-cloud
-#        subLabel: Spring Cloud
-#        target: _self
+    subnav:
+
+      - subHref: /java
+        subLabel: Java
+        target: _self
+
+      - subHref: /spring
+        subLabel: Spring
+        target: _self
+
+      - subHref: /spring-boot
+        subLabel: Spring Boot
+        target: _self
+
+      - subHref: /spring-cloud
+        subLabel: Spring Cloud
+        target: _self
 
   - href: /database
     label: Database
