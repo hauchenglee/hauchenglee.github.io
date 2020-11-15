@@ -32,6 +32,7 @@ permalink: /java
 - [Java IO](http://www.hauchenglee.com/java/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
 - [Java Date Time](http://www.hauchenglee.com/java/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
 - [Java JSON](http://www.hauchenglee.com/java/2019/12/23/java-json.html){:target="_blank"} - Java JSON 用法
+- [Java JDBC](http://www.hauchenglee.com/java/2020/11/11/java-jdbc.html){:target="_blank"} - Java JDBC
 
 ## Collection
 
@@ -93,15 +94,10 @@ permalink: /java
 - [Java 8 Method Reference](http://www.hauchenglee.com/java/2020/02/11/java8-method-reference.html){:target="_blank"} - Java 8 Method Reference 方法參考
 - [Java 8 Functional Interface](http://www.hauchenglee.com/java/2020/02/12/java8-functional-interface.html){:target="_blank"} - Java 8 Functional Interface 函數式接口
 - [Java 8 Default Method](http://www.hauchenglee.com/java/2020/02/13/java8-default-method.html){:target="_blank"} - Java 8 Default Method 預設方法
-- [Java 8 Optional](http://www.hauchenglee.com/java/2020/02/15/java8-optionl.html){:target="_blank"} - Java 8 Optional
+- [Java 8 Optional](http://www.hauchenglee.com/java/2020/02/15/java8-optional.html){:target="_blank"} - Java 8 Optional
 - [Java 8 New Date](http://www.hauchenglee.com/java/2020/02/16/java8-new-date.html){:target="_blank"} - Java 8 New Date
 
 ## JavaEE
-
-[//]: <>### Resource
-[//]: <>
-[//]: <>- [Java JDBC](){:target="_blank"} - Java JDBC（未完成）
-[//]: <>- [Java JNDI](){:target="_blank"} - Java JNDI（未完成）
 
 ### Packaging
 
