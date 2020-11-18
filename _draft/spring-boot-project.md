@@ -100,4 +100,30 @@ maven command:
 - [18. Using the @SpringBootApplication Annotation](https://docs.spring.io/spring-boot/docs/2.1.11.RELEASE/reference/html/using-boot-using-springbootapplication-annotation.html){:target="_blank"}
 - [为什么要使用SpringBoot?使用SpringBoot的最大好处是什么？ - 知乎](https://zhuanlan.zhihu.com/p/78116580){:target="_blank"}
 
+## spring boot 配置类
+
+- https://my.oschina.net/vivotech/blog/4315564
+- https://blog.csdn.net/zhzdeng/article/details/73018300
+
+## Permission
+
+- https://blog.csdn.net/wota5037/article/details/78999765
+- https://zhuanlan.zhihu.com/p/34608415
+
+## Security
+
+en- property
+
+- https://www.javainuse.com/spring/boot-jwt
+- https://bezkoder.com/spring-boot-jwt-authentication/
+
+en-constants
+
+- https://medium.com/wolox/securing-applications-with-jwt-spring-boot-da24d3d98f83
+
+cn
+
+- https://blog.csdn.net/zhangcongyi420/article/details/91348402
+- https://hackmd.io/@OHnC_6LJShWalzEdl5_lgQ/rkOC7_OEG?type=view
+
 ---
