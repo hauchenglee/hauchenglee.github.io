@@ -103,9 +103,9 @@ navs:
         subLabel: Java
         target: _self
 
-      - subHref: /spring
-        subLabel: Spring
-        target: _self
+#      - subHref: /spring
+#        subLabel: Spring
+#        target: _self
 
       - subHref: /spring-boot
         subLabel: Spring Boot
