@@ -15,10 +15,11 @@ tags: [spring Boot]
 2. 依赖
    1. 依赖注入
    2. 依赖查找
+   3. 自动装配
 3. 容器配置
    1. XML
-   2. Annotation
-   3. Java class
+   2. Annotation: component & autowired / required
+   3. Java class: configuration
 
 ## What is Inversion of Control
 
@@ -44,7 +45,16 @@ Ref:
 
 ## IoC Container
 
+在 Spring 中，有两种 IoC 容器：`BeanFactory` 和 `ApplicationContext`。
 
+`org.springframework.beans`和`org.springframework.context`包是Spring框架的IoC容器的基础。该`BeanFactory`界面提供了一种高级配置机制，能够管理任何类型的对象。
+`ApplicationContext`是`BeanFactory`的子接口。它增加了：
+- 与Spring的AOP功能轻松集成（Easier integration with Spring’s AOP features）
+- 消息资源处理（用于国际化）（Message resource handling (for use in internationalization)）
+- 事件发布（Event publication）
+- 应用层特定的上下文，例如`WebApplicationContext`用于Web应用程序中的。（Application-layer specific contexts such as the WebApplicationContext for use in web applications）
+
+简而言之，`BeanFactory`提供了配置框架和基本功能，并且`ApplicationContext`增加了更多针对企业的功能。该`ApplicationContext`是对`BeanFactory`一个完整的超集，并在Spring的IoC容器的描述本章独占使用。
 
 ## Bean
 

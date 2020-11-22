@@ -181,6 +181,10 @@ try {
 
 Ref: [Constructor vs Setter Dependency Injection \| Dariawan](https://www.dariawan.com/tutorials/spring/constructor-vs-setter-dependency-injection/){:target="_blank"}
 
+## Dependency Lookup
+
+
+
 ## Autowiring Collaborators
 
 表2.自动装配模式（Autowiring modes）
@@ -216,7 +220,5 @@ Constructor:
 Default:
 
 `<bean name="employee" class="com.concretepage.bean.Employee" autowire="default">`
-
-
 
 ---
