@@ -6,7 +6,7 @@ menu: spring-boot
 permalink: /spring-boot
 ---
 
-## 综合
+## All
 
 - Spring 概述
 - Spring 面经
