@@ -56,6 +56,11 @@ Ref:
 
 简而言之，`BeanFactory`提供了配置框架和基本功能，并且`ApplicationContext`增加了更多针对企业的功能。该`ApplicationContext`是对`BeanFactory`一个完整的超集，并在Spring的IoC容器的描述本章独占使用。
 
+## ## IoC vs Factory
+
+Ref:
+- [控制反轉(IoC) ？ 工廠模式？ - IT閱讀](https://www.itread01.com/p/776033.html){:target="_blank"}
+
 ## Bean
 
 由 IoC 容器管理的那些组成你应用程序的对象我们就叫它 **Bean**。Bean 就是由 Spring 容器初始化、装配及管理的对象，除此之外，bean 就与应用程序中的其他对象没有什么区别了。
