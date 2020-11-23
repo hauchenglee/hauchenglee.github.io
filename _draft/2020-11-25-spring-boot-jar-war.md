@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot jar & war 文件
+title: Spring Boot jar & wa
 category: spring-boot
 tags: [spring-boot]
 ---

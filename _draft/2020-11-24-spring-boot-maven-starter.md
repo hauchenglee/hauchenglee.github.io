@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Spring Boot Dependency 環境依賴
+title: Spring Boot Starter
 category: spring-boot
 tags: [spring-boot]
 ---
 
-## Spring boot Starter
-
-### starter-tomcat vs starter-web
+## starter-tomcat vs starter-web
 
 簡言之，`spring-boot-starter-web`包含`spring-boot-starter-tomcat`
 
