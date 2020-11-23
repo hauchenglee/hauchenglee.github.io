@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot Dependency Starter
+title: Spring Boot - Dependency Starter
 category: spring-boot
 tags: [spring-boot]
 ---
