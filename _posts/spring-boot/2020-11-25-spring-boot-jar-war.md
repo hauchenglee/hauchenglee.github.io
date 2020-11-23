@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Spring Boot jar & war 文件
+title: Spring Boot jar & war
 category: spring-boot
 tags: [spring-boot]
 ---
 
-## deployed by jar
+## Deployed by jar
 
 這裡有完整的討論與官方鏈接
 - [java - Differences between jar and war in Spring Boot? - Stack Overflow](https://bit.ly/2uR7dfv){:target="_blank"}
 
-## deployed by war
+## Deployed by war
 
 因為Spring Boot預設有嵌入Tomcat，並且使用jar來部署環境，所以如果要使用war部署到web container，需要依照下列步驟：
 
@@ -81,7 +81,7 @@ Spring Boot application gives 404 when deployed to Tomcat
 - [java - Spring Boot application gives 404 when deployed to Tomcat but works with embedded server - Stack Overflow](https://bit.ly/328wCNI){:target="_blank"}
 
 官方文件：
-- [92. Traditional Deployment](https://docs.spring.io/spring-boot/docs/2.1.10.RELEASE/reference/html/howto-traditional-deployment.html){:target="_blank"}
+- [92. Traditional Deployment](https://docs.spring.io/spring-boot/docs/2.1.10.RELEASE/reference/html/howto-traditional-deployment.html){:target="_blank"}
 - [“How-to” Guides](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-traditional-deployment){:target="_blank"}
 
 部署教程：
