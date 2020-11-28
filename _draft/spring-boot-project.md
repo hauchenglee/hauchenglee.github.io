@@ -5,23 +5,6 @@ category: spring-boot
 tags: [spring-boot]
 ---
 
-## tutorial
-
-- [Getting Started · Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/){:target="_blank"}
-- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/){:target="_blank"}
-- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-application){:target="_blank"}
-- [社区 Spring Boot 从入门到进阶系列教程 - Spring For All](http://www.spring4all.com/article/246){:target="_blank"}
-
-## design pattern
-
-
-
-## restful
-
-- [前后端分离项目，接口返回 200 但是里面返回 500 合理吗？ - 知乎](https://www.zhihu.com/question/309888255){:target="_blank"}
-- [数据库没有找到，restful的返回值statusCode应该是多少？ - 知乎](https://www.zhihu.com/question/310737821){:target="_blank"}
-- [关于 RESTful API 中 HTTP 状态码的定义的疑问？ - 知乎](https://www.zhihu.com/question/58686782){:target="_blank"}
-
 ## ResponseEntity
 
 - [使用spring ResponseEntity处理http响应_neweastsun的专栏-CSDN博客](https://blog.csdn.net/neweastsun/article/details/81142870){:target="_blank"}
@@ -44,29 +27,6 @@ parse bean:
 - [json - spring rest lazy loading with hibernate - Stack Overflow](https://stackoverflow.com/questions/46190099/spring-rest-lazy-loading-with-hibernate){:target="_blank"}
 - [hibernate - Converting Lazy Loaded object to JSON in spring boot jpa - Stack Overflow](https://stackoverflow.com/questions/55942356/converting-lazy-loaded-object-to-json-in-spring-boot-jpa){:target="_blank"}
 
-## application.properties
-
-- [Spring Boot application.properties file - Dev in Web](http://dolszewski.com/spring/spring-boot-application-properties-file/){:target="_blank"}
-
-```properties
-## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
-spring.datasource.url = jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-spring.datasource.username = root
-spring.datasource.password = password
-
-
-## Hibernate Properties
-
-# The SQL dialect makes Hibernate generate better SQL for the chosen database
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
-
-# Hibernate ddl auto (create, create-drop, validate, update)
-spring.jpa.hibernate.ddl-auto = update
-```
-
-- [Spring Boot读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg){:target="_blank"}
-- [Spring Boot Application Properties Example - Examples Java Code Geeks - 2020](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-application-properties-example/){:target="_blank"}
-
 ## maven in spring boot
 
 Key word:
@@ -83,14 +43,6 @@ Ref:
 profile:
 - [Guide to Maven Profiles - Baeldung](https://www.baeldung.com/maven-profiles){:target="_blank"}
 - [Maven Profiles example – Mkyong.com](https://mkyong.com/maven/maven-profiles-example/){:target="_blank"}
-
-active:
-- [Activating Spring Boot profile with Maven profile - Dev in Web](http://dolszewski.com/spring/spring-boot-properties-per-maven-profile/){:target="_blank"}
-- [通過maven profile 打包指定環境配置 - IT閱讀](https://www.itread01.com/content/1546503853.html){:target="_blank"}
-- [Spring boot 使用profile完成不同环境的maven打包功能_duan9421的专栏-CSDN博客](https://blog.csdn.net/duan9421/article/details/79086335){:target="_blank"}
-
-spring boot active:
-- [java - Spring Boot: spring.profiles.active=dev/test/prod - Stack Overflow](https://bit.ly/386R6sB){:target="_blank"}
 
 maven command:
 - [java - How are "mvn clean package" and "mvn clean install" different? - Stack Overflow](https://bit.ly/2GTEN6F){:target="_blank"}
