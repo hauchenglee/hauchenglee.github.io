@@ -29,6 +29,8 @@ permalink: /spring-boot
 
 ## Project
 
-
+- [Spring Boot - Dependency Starter](http://www.hauchenglee.com/java/2020/11/24/spring-boot-dependency-starter.html){:target="_blank"}
+- [Spring Boot - Jar War](http://www.hauchenglee.com/java/2020/11/25/spring-boot-jar-war.html){:target="_blank"}
+- [Spring Boot - Application Properties](http://www.hauchenglee.com/java/2020/11/28/spring-boot-application-properties.html){:target="_blank"}
 
 ---
