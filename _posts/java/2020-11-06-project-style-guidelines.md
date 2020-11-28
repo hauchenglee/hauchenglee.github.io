@@ -30,6 +30,14 @@ getUser() {
 }
 ```
 
+### HTTP Status
+
+1. 非系统错误不要乱传500，例如业务上逻辑的错误，不然容易造成判断困扰，不知道是哪一方出了问题
+2. 如果系统上没有问题，全部传200也可以，只要统一好就可以了
+
+- [前后端分离项目，接口返回 200 但是里面返回 500 合理吗？ - 知乎](https://www.zhihu.com/question/309888255){:target="_blank"}
+- [在API程序设计开发中错误码如何规划设计？ - 知乎](https://www.zhihu.com/question/24091286){:target="_blank"}
+
 ### Return api design
 
 1. 成功：完全成功，不用做後續
@@ -70,18 +78,17 @@ getUser() {
 ```
 
 page:
-- [分页设计 · HTTP后台端：RESTful API接口设计](https://crifan.github.io/http_restful_api/website/restful_experience/pagination.html)
-- [我所认为的RESTful API最佳实践 - 后端](https://juejin.im/entry/6844903838143479816)
+- [分页设计 · HTTP后台端：RESTful API接口设计](https://crifan.github.io/http_restful_api/website/restful_experience/pagination.html){:target="_blank"}
+- [我所认为的RESTful API最佳实践 - 后端](https://juejin.im/entry/6844903838143479816){:target="_blank"}
 
 api response design:
-- [Spring MVC/Boot 统一异常处理最佳实践 - 赵俊的博客](http://www.zhaojun.im/springboot-exception/)
-- [后端返回数据全局处理_我表示我来过-CSDN博客](https://blog.csdn.net/my_nice_life/article/details/79945279)
-- [Is there any standard for JSON API response format? - Stack Overflow](https://stackoverflow.com/questions/12806386/is-there-any-standard-for-json-api-response-format)
-- [在API程序设计开发中错误码如何规划设计？ - 知乎](https://www.zhihu.com/question/24091286)
+- [Spring MVC/Boot 统一异常处理最佳实践 - 赵俊的博客](http://www.zhaojun.im/springboot-exception/){:target="_blank"}
+- [后端返回数据全局处理_我表示我来过-CSDN博客](https://blog.csdn.net/my_nice_life/article/details/79945279){:target="_blank"}
+- [Is there any standard for JSON API response format? - Stack Overflow](https://stackoverflow.com/questions/12806386/is-there-any-standard-for-json-api-response-format){:target="_blank"}
 
 constants:
-- [Constants in Java - The Anti-Pattern - DZone Java](https://dzone.com/articles/constants-in-java-the-anti-pattern-1)
-- [java - What is the use of interface constants? - Stack Overflow](https://stackoverflow.com/questions/2659593/what-is-the-use-of-interface-constants)
+- [Constants in Java - The Anti-Pattern - DZone Java](https://dzone.com/articles/constants-in-java-the-anti-pattern-1){:target="_blank"}
+- [java - What is the use of interface constants? - Stack Overflow](https://stackoverflow.com/questions/2659593/what-is-the-use-of-interface-constants){:target="_blank"}
 
 ### Global
 

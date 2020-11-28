@@ -122,5 +122,6 @@ permalink: /java
 ## Design Pattern
 
 - [Design Pattern](http://www.hauchenglee.com/java/2020/04/16/design-pattern.html){:target="_blank"} - Design Pattern 設計模式
+- [Project Style Guidelines](http://www.hauchenglee.com/java/2020/11/06/project-style-guidelines.html){:target="_blank"} - 項目設計規範
 
 ---
