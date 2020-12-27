@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Life is short, you need Python
 menu: python
 permalink: /python
 ---
