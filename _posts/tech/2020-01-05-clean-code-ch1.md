@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch1 無暇的程式碼
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 [Clean Code 無暇的程式碼：敏捷軟體開發技巧守則](https://www.books.com.tw/products/0010579897){:target="_blank"}

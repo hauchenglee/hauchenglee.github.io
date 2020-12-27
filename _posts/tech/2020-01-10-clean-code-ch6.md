@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch6 對象及數據結構
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 ## Summary

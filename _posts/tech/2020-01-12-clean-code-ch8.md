@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch8 邊界
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 重點：如何花最少時間學習與使用第三方API

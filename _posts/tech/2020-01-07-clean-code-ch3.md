@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch3 函數
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 ## 【每個函數只有一層抽象概念】

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch7 異常處理
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 ## Use `try-catch`

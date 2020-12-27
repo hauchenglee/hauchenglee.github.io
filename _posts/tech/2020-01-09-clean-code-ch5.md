@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch5 編排
-category: arch
-tags: [arch]
+category: tech
+tags: [tech]
 ---
 
 ## 前言
