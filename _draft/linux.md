@@ -63,7 +63,7 @@ tags: [tech]
         <tr>
             <td>biosboot</td>
             <td>2M</td>
-            <td>standerd partition</td>
+            <td>standard partition</td>
             <td></td>
             <td></td>
         </tr>
