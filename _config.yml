@@ -103,10 +103,6 @@ navs:
         subLabel: Java
         target: _self
 
-#      - subHref: /spring
-#        subLabel: Spring
-#        target: _self
-
       - subHref: /spring-boot
         subLabel: Spring Boot
         target: _self
@@ -115,9 +111,9 @@ navs:
         subLabel: Spring Cloud
         target: _self
 
-  - href: /python
-    label: Python
-    target: _self
+      - subHref: /python
+        subLabel: Python
+        target: _self
 
   - href: /tech
     label: Tech
@@ -125,6 +121,10 @@ navs:
 
   - href: /blog
     label: Blog
+    target: _self
+
+  - href: /doubai
+    label: DouBai
     target: _self
 
   - href: /archives
