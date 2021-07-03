@@ -123,8 +123,8 @@ navs:
     label: Blog
     target: _self
 
-  - href: /doubai
-    label: DouBai
+  - href: /skill
+    label: Skill
     target: _self
 
   - href: /archives
