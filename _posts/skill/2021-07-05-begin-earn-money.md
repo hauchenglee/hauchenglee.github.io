@@ -193,37 +193,37 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
     - 100font.com
 
 素材：
-    - 图片
-        - unsplash
-        - pexels
-        - pixabay
-    - 音乐
-        - YouTube Audio Library
-        - Free Music Archive
-    - 影片
-        - pexels
-        - pixabay
+- 图片
+    - unsplash
+    - pexels
+    - pixabay
+- 音乐
+    - YouTube Audio Library
+    - Free Music Archive
+- 影片
+    - pexels
+    - pixabay
 
 其他有用的链接：
 - color:
     1. [https://coolors.co/](https://coolors.co/)
     2. [https://colorhunt.co/](https://colorhunt.co/)
     3. [https://color.adobe.com/zh/create](https://color.adobe.com/zh/create)
-fonts:
+- fonts:
     1. [https://www.1001freefonts.com/](https://www.1001freefonts.com/)
     2. [https://www.fontsquirrel.com/](https://www.fontsquirrel.com/)
     3. [https://fonts.google.com/](https://fonts.google.com/)
     4. [https://www.dafont.com/edo-sz.font](https://www.dafont.com/edo-sz.font)
-trend:
+- trend:
     1. [https://www.pantonecn.com/](https://www.pantonecn.com/)
-pic:
+- pic:
     1. [https://unsplash.com/](https://unsplash.com/)
     2. [https://pixabay.com/zh/](https://pixabay.com/zh/)
     3. [https://www.pexels.com/zh-cn/](https://www.pexels.com/zh-cn/)
     4. [http://thestocks.im/](http://thestocks.im/)
     5. [https://zoommyapp.com/](https://zoommyapp.com/)
     6. [http://www.yanj.cn/](http://www.yanj.cn/)
-logo & icon:
+- logo & icon:
     1. [https://www.fiverr.com/](https://www.fiverr.com/)
     2. [https://www.iconfont.cn/](https://www.iconfont.cn/)
 
