@@ -2,7 +2,7 @@
 layout: post
 title: 从零开始的副业生活
 category: skill
-tags: [fuye]
+tags: [skill]
 ---
 
 ## 前言
@@ -150,6 +150,10 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
     - 联盟行销（合伙人计划（AP – Affiliate Program））
 
 视频开发工具
+- 屏幕录制：
+    - streamLabs（免费）
+    - BANDICAM（半免费）
+    - Camtasia（付费）
 - 视频剪辑软件（免费）：
     - 剪映（手机）
     - Quik（手机）
@@ -162,6 +166,17 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
     - Adobe After Effect（付费）
 - 字幕软件：
     - ArcTime Pro（免费）
+- 摄像头：
+    - 使用相机
+    - 罗技C920家族
+    - Cam Link
+- 麦克风：
+    - Build-in Laptop mic
+    - Samson GoMic
+    - Rode NT-USB
+    - Shure PG-42USB
+- 隔音间：
+
 
 平面开发工具
 - 绘图软件：
@@ -203,8 +218,14 @@ trend:
     1. [https://www.pantonecn.com/](https://www.pantonecn.com/)
 pic:
     1. [https://unsplash.com/](https://unsplash.com/)
-logo:
+    2. [https://pixabay.com/zh/](https://pixabay.com/zh/)
+    3. [https://www.pexels.com/zh-cn/](https://www.pexels.com/zh-cn/)
+    4. [http://thestocks.im/](http://thestocks.im/)
+    5. [https://zoommyapp.com/](https://zoommyapp.com/)
+    6. [http://www.yanj.cn/](http://www.yanj.cn/)
+logo & icon:
     1. [https://www.fiverr.com/](https://www.fiverr.com/)
+    2. [https://www.iconfont.cn/](https://www.iconfont.cn/)
 
 ## 行销
 
