@@ -19,14 +19,14 @@ permalink: /tech
 
 ## Network
 
-- [Network Overview - Layer](http://www.hauchenglee.com/tech/2020/04/18/network-osi.html){:target="_blank"} - 網絡七層模型
-- [Network Layer 2: Data Link - Ethernet](http://www.hauchenglee.com/tech/2020/04/19/network-ethernet.html){:target="_blank"} - 網絡 - 以太網
-- [Network Layer 2: Data Link - MAC](http://www.hauchenglee.com/tech/2020/04/20/network-mac.html){:target="_blank"} - 網絡 - MAC
-- [Network Layer 2: Data Link - Broadcast](http://www.hauchenglee.com/tech/2020/04/21/network-broadcast.html){:target="_blank"} - 網絡 - 廣播
-- [Network Layer 3: Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"} - 網絡 - Switch and Router
-- [Network Layer 3: Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-ip.html){:target="_blank"} - 網絡 - IP
-- [Network Layer 4: Transport - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/24/network-tcp-udp.html){:target="_blank"} - 網絡 - TCP / UDP
-- [Network Layer 5: Application - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"} - 網絡 - HTTP
+- [Network Overview - Network Layer](http://www.hauchenglee.com/tech/2020/04/18/network-layer.html){:target="_blank"}
+- [Network Layer 2: Data Link - Ethernet & MAC](http://www.hauchenglee.com/tech/2020/04/19/network-ethernet-and-mac.html){:target="_blank"}
+- [Network Layer 2: Data Link - Broadcast](http://www.hauchenglee.com/tech/2020/04/21/network-broadcast.html){:target="_blank"}
+- [Network Layer 3: Network - IP](http://www.hauchenglee.com/tech/2020/04/23/network-ip.html){:target="_blank"}
+- [Network Layer 4: Transport - TCP / UDP](http://www.hauchenglee.com/tech/2020/04/24/network-tcp-udp.html){:target="_blank"}
+
+[//]: <>- [Network Layer 3: Network - Switch & Router](http://www.hauchenglee.com/tech/2020/04/22/network-switch-router.html){:target="_blank"}
+[//]: <>- [Network Layer 5: Application - HTTP](http://www.hauchenglee.com/tech/2020/04/26/network-http.html){:target="_blank"}
 
 [//]: <>## Computer Science
 
@@ -35,7 +35,7 @@ permalink: /tech
 
 ## Linux
 
-- [Linux Install](){:target="_blank"} - Linux Install 安裝（未完成）
+- [Linux Install](){:target="_blank"} - Linux Script（未完成）
 
 ## Git
 
