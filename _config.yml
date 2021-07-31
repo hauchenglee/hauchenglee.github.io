@@ -67,10 +67,6 @@ menus:
     label: Algorithms
     target: _self
 
-  - href: /database
-    label: Database
-    target: _self
-
   - href: /lang
     label: Language
     target: _self

@@ -33,9 +33,16 @@ permalink: /tech
 [//]: <>- [CS - Data Storage](http://www.hauchenglee.com/tech/2020/07/30/cs-data-storage.html){:target="_blank"}
 [//]: <>- [CS - Operation System](http://www.hauchenglee.com/tech/2020/08/02/cs-operation-system.html){:target="_blank"}
 
-## Linux
+## Database
 
-- [Linux Install](){:target="_blank"} - Linux Script（未完成）
+### MySQL
+
+- [MySQL Basic](http://www.hauchenglee.com/tech/2019/12/26/mysql-basic.html){:target="_blank"} - MySQL Basic 基礎
+- [MySQL SQL Optimizing](http://www.hauchenglee.com/tech/2019/12/27/mysql-sql-optimization.html){:target="_blank"} - MySQL SQL Optimizing 優化
+
+### MongoDB
+
+- [](){:target="_blank"}
 
 ## Git
 
