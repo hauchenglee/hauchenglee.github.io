@@ -207,19 +207,19 @@ FROM table A1 JOIN table A2 ON A1.column1 = A2.column2;
 
 **Inner Join**
 
-![](http://www.hauchenglee.com/assets/images/tech/database/inner-vs-outer-join_inner.png)
+![](http://www.hauchenglee.com/assets/images/database/inner-vs-outer-join_inner.png)
 
 **Left Outer Join**
 
-![](http://www.hauchenglee.com/assets/images/tech/database/inner-vs-outer-join_outer-left.png)
+![](http://www.hauchenglee.com/assets/images/database/inner-vs-outer-join_outer-left.png)
 
 **Right Outer Join**
 
-![](http://www.hauchenglee.com/assets/images/tech/database/inner-vs-outer-join_outer-right.png)
+![](http://www.hauchenglee.com/assets/images/database/inner-vs-outer-join_outer-right.png)
 
 **Full Outer Join**
 
-![](http://www.hauchenglee.com/assets/images/tech/database/inner-vs-outer-join_full-outer.png)
+![](http://www.hauchenglee.com/assets/images/database/inner-vs-outer-join_full-outer.png)
 
 Ref: [Inner Join vs Outer Join - Difference and Comparison - Diffen](https://www.diffen.com/difference/Inner_Join_vs_Outer_Join){:target="_blank"}
 
