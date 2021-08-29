@@ -4,6 +4,8 @@ title: Java
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Talk is cheap, show me your code
 menu: java
 permalink: /java
+comments: true
+toc: true
 ---
 
 ## Language Basics
@@ -121,6 +123,14 @@ permalink: /java
 
 ## Design Pattern
 
+- [Arch Clean Code ch1](http://www.hauchenglee.com/java/2020/01/05/clean-code-ch1.html){:target="_blank"} - Ch1 無暇的程式碼
+- [Arch Clean Code ch2](http://www.hauchenglee.com/java/2020/01/06/clean-code-ch2.html){:target="_blank"} - Ch2 有意義的命名
+- [Arch Clean Code ch3](http://www.hauchenglee.com/java/2020/01/07/clean-code-ch3.html){:target="_blank"} - Ch3 函數
+- [Arch Clean Code ch4](http://www.hauchenglee.com/java/2020/01/08/clean-code-ch4.html){:target="_blank"} - Ch4 註解
+- [Arch Clean Code ch5](http://www.hauchenglee.com/java/2020/01/09/clean-code-ch5.html){:target="_blank"} - Ch5 編排
+- [Arch Clean Code ch6](http://www.hauchenglee.com/java/2020/01/10/clean-code-ch6.html){:target="_blank"} - Ch6 對象及數據結構
+- [Arch Clean Code ch7](http://www.hauchenglee.com/java/2020/01/11/clean-code-ch7.html){:target="_blank"} - Ch7 異常處理
+- [Arch Clean Code ch8](http://www.hauchenglee.com/java/2020/01/12/clean-code-ch8.html){:target="_blank"} - Ch8 邊界
 - [Design Pattern](http://www.hauchenglee.com/java/2020/04/16/design-pattern.html){:target="_blank"} - Design Pattern 設計模式
 - [Project Style Guidelines](http://www.hauchenglee.com/java/2020/11/06/project-style-guidelines.html){:target="_blank"} - 項目設計規範
 

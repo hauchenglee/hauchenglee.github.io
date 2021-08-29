@@ -1,10 +1,20 @@
 ---
-layout: page
-title: All My Blogs
+layout: post
+title: Java
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
-menu: blog
-css: ['blog-page.css']
+menu: java
 permalink: /blog
+comments: true
+toc: true
 ---
 
-{% include blog-page.html %}
+## Diary
+
+
+
+## Story
+
+
+
+
+---

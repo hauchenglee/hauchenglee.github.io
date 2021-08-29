@@ -4,6 +4,8 @@ title: Algorithms
 subtitle:
 menu: algorithms
 permalink: /algorithms
+comments: true
+toc: true
 ---
 
 ## Analysis

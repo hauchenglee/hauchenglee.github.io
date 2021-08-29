@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Java
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Life is short, you need Python
+title: Python
+subtitle:
 menu: python
 permalink: /python
+comments: true
+toc: true
 ---
 
-## Basic
+## Life is short, you need Python
 
 
 

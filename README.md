@@ -4,8 +4,10 @@ Welcome to my website: [http://www.hauchenglee.com/](http://www.hauchenglee.com/
 
 ## Thank for
 
-- [Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
-- [ityouknow](https://github.com/ityouknow/ityouknow.github.io)
+- [Jekyll](https://github.com/jekyll/jekyll)
+- [Kiko-now](https://github.com/aweekj/kiko-now)
+- [LOFFER](https://github.com/FromEndWorld/LOFFER)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Contact me
 
@@ -19,8 +21,8 @@ You can contact me below link or address:
 
 ## License
 
-The Apache License 2.0
+MIT License
 
-Copyright (c) 2016 DONG Chuan
+Copyright (c) 2019 FromEndWorld
 
-Check [LICENSE](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/LICENSE) file and [official website](http://www.apache.org/licenses/LICENSE-2.0) for details
+Check [LICENSE](https://github.com/FromEndWorld/LOFFER/blob/master/LICENSE) file and [official website](https://opensource.org/licenses/MIT) for details

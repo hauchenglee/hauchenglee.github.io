@@ -1,0 +1,70 @@
+<div class="wrapper-sidebar">
+  <header class="sidebar clearfix">
+    <div class="site-info">
+      {% if site.avatar %}
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.url }}/assets/images/{{ site.avatar }}" /></a>
+      {% endif %} 
+      <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
+  </header>
+
+  <div class="navlist">
+    <nav>
+      {% for menu in site.menus %}
+        <a href="{{ menu.href }}"
+           target="{{ menu.target | default: _self }}"
+           title="{{ menu.label }}">
+            {{ menu.label }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+
+  <div class="navlist">
+    <nav>
+      {% for menu in site.navs %}
+        <a href="{{ menu.href }}"
+           target="{{ menu.target | default: _self }}"
+           title="{{ menu.label }}">
+            {{ menu.label }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+
+<!-- 以下是 for loop % result -->
+  <!-- <div class="navlist-left">
+    <nav>
+      <span style="display: inline-block; margin-left: 20px;"></span>
+      {% assign amount = 0 %}
+      {% for menu in site.navs %}
+        {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
+          {% assign result = amount | modulo:4 %}
+          {% if result == 0 %}
+            <br>
+            <span style="display: inline-block; margin-left: 20px;"></span>
+              <a href="{{ menu.href }}"
+                target="{{ menu.target | default: _self }}"
+                title="{{ menu.label }}">
+                {{ menu.label }}
+              </a>
+            </span>
+          {% elsif result != 0 %}
+            <a href="{{ menu.href }}"
+             target="{{ menu.target | default: _self }}"
+              title="{{ menu.label }}">
+              {{ menu.label }}
+           </a>
+          {% endif %}
+      {% endfor %}
+    </nav>
+  </div> -->
+<!-- end 以上 -->
+
+  <div class="wrapper-footer-desktop">
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+  </div>
+</div>

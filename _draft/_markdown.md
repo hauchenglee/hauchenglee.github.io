@@ -1,3 +1,8 @@
+## Guide
+
+1. post 依据 pages 分类
+2. image 依据 tags 分类
+
 ## Link
 
 [](){:target="_blank"}

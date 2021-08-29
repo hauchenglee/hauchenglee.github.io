@@ -1,54 +1,52 @@
 ---
 layout: default
-css: ['sidebar-post-nav.css']
 ---
-{% include jumbotron.html %}
-<article class="post container {{ page.lock }}" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <div class="row">
+<article class="posts">
+  <h1>{{ page.title }}</h1>
 
-        {% if page.no-post-nav %}
-        <div class="col-md-12 markdown-body">
+  <div clsss="meta">
+    <span class="author">
+      {{ page.author }}
+    </span>
 
-            {{ content }}
+    <span class="date">
+      {{ page.date | date: "%Y-%m-%d" }}
+    </span>
 
-            {% include copyright.html %}
+    <ul class="tag">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-            <!-- Comments -->
-           <div class="comment">
-             {% include comments.html %}
-           </div>
+  <div class="entry">
+    {{ content }}
+  </div>
 
-        </div>
-        {% else %}
-        <div class="col-md-9 markdown-body">
-
-            {{ content }}
-
-            {% include copyright.html %}
-
-            <!-- Comments -->
-            <div class="comment">
-             {% include comments.html %}
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            {% include sidebar-post-nav.html %}
-        </div>
-        {% endif %}
-
-    </div>
-     <div class="asb-post-01">
-        <div class="mask"></div>
-            <div class="info">
-                <div>扫码关注公众号：<span style="color: #E9405A; font-weight: bold;">吹雪</span></div>
-            <div>
-            <span>发送 </span><span class="token" style="color: #e9415a; font-weight: bold; font-size: 17px; margin-bottom: 45px;">290992</span>
-            <div>
-                即可<span style="color: #e9415a; font-weight: bold;">立即永久</span>解锁本站全部文章
-            </div>
-            <img class="code-img" style="width: 300px;display:unset" src="http://favorites.ren/assets/images/keeppuresmile.jpg">
-        </div>
-    </div>
+  {% include disqus.html %}
+  {% include utteranc.html %}
+  {% include gitalk.html %}
 </article>
+
+<div class="pagination">
+  {% if page.previous.url %}
+    <span class="prev" >
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+        ← 上一篇
+      </a>
+    </span>
+  {% endif %}
+  {% if page.next.url %}
+    <span class="next" >
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+        下一篇 →
+      </a>
+    </span>
+  {% endif %}
+</div>

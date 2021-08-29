@@ -2,8 +2,10 @@
 layout: post
 title: Database
 subtitle:
-menu: tech
+menu: database
 permalink: /database
+comments: true
+toc: true
 ---
 
 ## MySQL
@@ -31,6 +33,10 @@ permalink: /database
 
 ## MongoDB
 
-- [](){:target="_blank"}
+
+
+## Redis
+
+
 
 ---
