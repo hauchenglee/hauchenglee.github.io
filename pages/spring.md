@@ -12,10 +12,9 @@ toc: true
 
 ### Core
 
-- [Spring Boot - IOC](http://www.hauchenglee.com/spring-boot/2020/11/21/spring-boot-ioc.html){:target="_blank"}
-- [Spring Boot - Dependency](http://www.hauchenglee.com/spring-boot/2020/11/22/spring-boot-dependency.html){:target="_blank"}
-- [Spring Boot - Configuration](http://www.hauchenglee.com/spring-boot/2020/11/23/spring-boot-configuration.html){:target="_blank"}
-- [Spring Boot - Configuration2]({{site.url}}/spring-boot-configuration/){:target="_blank"}
+- [Spring Boot - IOC](https://www.hauchenglee.com/spring-boot-ioc/){:target="_blank"}
+- [Spring Boot - Dependency](https://www.hauchenglee.com/spring-boot-dependency/){:target="_blank"}
+- [Spring Boot - Configuration2](https://www.hauchenglee.com/spring-boot-configuration/){:target="_blank"}
 - Spring Boot AOP
 - Spring Boot Resource
 
@@ -32,9 +31,9 @@ toc: true
 
 ### Project
 
-- [Spring Boot - Dependency Starter](http://www.hauchenglee.com/spring-boot/2020/11/24/spring-boot-dependency-starter.html){:target="_blank"}
-- [Spring Boot - Jar War](http://www.hauchenglee.com/spring-boot/2020/11/25/spring-boot-jar-war.html){:target="_blank"}
-- [Spring Boot - Application Properties](http://www.hauchenglee.com/spring-boot/2020/11/28/spring-boot-application-properties.html){:target="_blank"}
+- [Spring Boot - Dependency Starter](https://www.hauchenglee.com/spring-boot-dependency-starter/){:target="_blank"}
+- [Spring Boot - Jar War](https://www.hauchenglee.com/spring-boot-jar-war/){:target="_blank"}
+- [Spring Boot - Application Properties](https://www.hauchenglee.com/spring-boot-application-properties/){:target="_blank"}
 
 ## Spring Cloud
 

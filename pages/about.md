@@ -91,7 +91,7 @@ Yubuki 吹雪，一位 Java 後端開發與設計人員，專門從事互聯網�
 
 在此獻上我拙劣的立繪，請多指教：
 
-![](http://www.hauchenglee.com/assets/images/about/pixiv-id-56995705_p0.jpg)
+![](https://www.hauchenglee.com/assets/images/about/pixiv-id-56995705_p0.jpg)
 
 <br>
 

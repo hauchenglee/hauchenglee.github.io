@@ -1,6 +1,6 @@
 # Hauchenglee Jekyll Theme
 
-Welcome to my website: [http://www.hauchenglee.com/](http://www.hauchenglee.com/)
+Welcome to my website: [https://www.hauchenglee.com/](https://www.hauchenglee.com/)
 
 ## Thank for
 

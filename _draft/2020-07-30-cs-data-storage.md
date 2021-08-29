@@ -22,36 +22,36 @@ tags: [tech]
 - 單元11‧Theory of Computations 
 
 Sources:
-- [參考資料](http://www.hauchenglee.com/assets/docs/ntu-ocw/101S210_CA01R01.doc){:target="_blank"}
-- [教材檔 - Data Storage](http://www.hauchenglee.com/assets/docs/ntu-ocw/101S210_CS01L01.pdf){:target="_blank"}
+- [參考資料](https://www.hauchenglee.com/assets/docs/ntu-ocw/101S210_CA01R01.doc){:target="_blank"}
+- [教材檔 - Data Storage](https://www.hauchenglee.com/assets/docs/ntu-ocw/101S210_CS01L01.pdf){:target="_blank"}
 
 ## Binary
 
 ### Boolean operations & gates
 
-![](http://www.hauchenglee.com/assets/images/tech/cs/AND-OR-XOR-NOT.png)
+![](https://www.hauchenglee.com/assets/images/tech/cs/AND-OR-XOR-NOT.png)
 
 ### Binary
 
 binary → decimal
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-18.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-18.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-19.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-19.png)
 
 decimal → binary
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-20.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-20.png)
 
 ### Hexadecimal
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-7.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-7.png)
 
 ## Binary Operation
 
 ### Addition
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-23.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-23.png)
 
 ### Subtraction
 
@@ -63,11 +63,11 @@ decimal → binary
 
 加法直接用，比大小重新设计
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-24.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-24.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-26.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-26.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/cs/Properties+of+Two’s+Complement+Notation.jpg)
+![](https://www.hauchenglee.com/assets/images/tech/cs/Properties+of+Two’s+Complement+Notation.jpg)
 
 Ref: [Chapter 5 Data representation. - ppt video online download](https://slideplayer.com/slide/6174101/){:target="_blank"}
 
@@ -75,17 +75,17 @@ Ref: [Chapter 5 Data representation. - ppt video online download](https://slidep
 
 加法对人类不直接、对电脑直觉；比大小直接用
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-27.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-27.png)
 
 **Bin Pattern**
 
-![](http://www.hauchenglee.com/assets/images/tech/cs/bin-pattern.png)
+![](https://www.hauchenglee.com/assets/images/tech/cs/bin-pattern.png)
 
 ### Overflow
 
 Desc: 电脑在运算加减乘除，其结果超过该表的表示范围，导致换算成Binary时查表后无法正确响应。
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-28.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-28.png)
 
 ### Fraction
 
@@ -97,13 +97,13 @@ Desc: 电脑在运算加减乘除，其结果超过该表的表示范围，导�
 
 不容易科学记号表示
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-29.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-29.png)
 
 **Float-Point**
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-30.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-30.png)
 
-![](http://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-31.png)
+![](https://www.hauchenglee.com/assets/images/tech/101S210_CS01L01/101S210_CS01L01-31.png)
 
 截断错误：Truncation Errors
 规范化形式：Normalized Form
