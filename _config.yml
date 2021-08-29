@@ -118,7 +118,7 @@ footer-text: Copyright (c) 2019 来自中世界
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点
 # shortname
-disqus: hauchenglee #shortname
+disqus: #shortname
   # shortname: hauchenglee
   # enable: true
   # count: true
