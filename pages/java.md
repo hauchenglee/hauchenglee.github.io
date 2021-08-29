@@ -10,67 +10,67 @@ toc: true
 
 ## Language Basics
 
-- [Java Basic](https://www.hauchenglee.com/java/2019/10/30/java-basic.html){:target="_blank"} - Java 基礎語法
-- [Java String](https://www.hauchenglee.com/java/2019/11/06/java-string.html){:target="_blank"} - Java String 字符串
-- [Java Exception](https://www.hauchenglee.com/java/2019/11/05/java-except.html){:target="_blank"} - Java Exception 異常處理
+- [Java Basic](https://www.hauchenglee.com/java-basic/){:target="_blank"} - Java 基礎語法
+- [Java String](https://www.hauchenglee.com/java-string/){:target="_blank"} - Java String 字符串
+- [Java Exception](https://www.hauchenglee.com/java-except/){:target="_blank"} - Java Exception 異常處理
 
 ## Object Oriented Programming
 
 ### Class and Object
 
-- [Java Class and Object](https://www.hauchenglee.com/java/2019/11/01/java-class-and-object.html){:target="_blank"} - Java Class and Object 面向對象
-- [Java Memory](https://www.hauchenglee.com/java/2019/12/04/java-memory.html){:target="_blank"} - Java Memory 內存分配
-- [Java Generic](https://www.hauchenglee.com/java/2019/11/07/java-generic.html){:target="_blank"} - Java Generic 泛型
-- [Java Generic Oracle](https://www.hauchenglee.com/java/2019/11/16/java-generic-oracle.html){:target="_blank"} - Java Generic 泛型 Oracle
+- [Java Class and Object](https://www.hauchenglee.com/java-class-and-object/){:target="_blank"} - Java Class and Object 面向對象
+- [Java Memory](https://www.hauchenglee.com/java-memory/){:target="_blank"} - Java Memory 內存分配
+- [Java Generic](https://www.hauchenglee.com/java-generic/){:target="_blank"} - Java Generic 泛型
+- [Java Generic Oracle](https://www.hauchenglee.com/java-generic-oracle/){:target="_blank"} - Java Generic 泛型 Oracle
 
 ### Characteristics
 
-- [Java Encapsulation](https://www.hauchenglee.com/java/2019/11/02/java-encapsulation.html){:target="_blank"} - Java 封裝
-- [Java Inheritance](https://www.hauchenglee.com/java/2019/11/03/java-inheritance.html){:target="_blank"} - Java 繼承
-- [Java Polymorphism](https://www.hauchenglee.com/java/2019/11/04/java-polymorphism.html){:target="_blank"} - Java 多態
+- [Java Encapsulation](https://www.hauchenglee.com/java-encapsulation/){:target="_blank"} - Java 封裝
+- [Java Inheritance](https://www.hauchenglee.com/java-inheritance/){:target="_blank"} - Java 繼承
+- [Java Polymorphism](https://www.hauchenglee.com/java-polymorphism/){:target="_blank"} - Java 多態
 
 ## APIs
 
-- [Java IO](https://www.hauchenglee.com/java/2019/11/10/java-io.html){:target="_blank"} - Java IO File 處理
-- [Java Date Time](https://www.hauchenglee.com/java/2019/11/09/java-datetime.html){:target="_blank"} - Java Date Time 日期時間
-- [Java JSON](https://www.hauchenglee.com/java/2019/12/23/java-json.html){:target="_blank"} - Java JSON 用法
-- [Java JDBC](https://www.hauchenglee.com/java/2020/11/11/java-jdbc.html){:target="_blank"} - Java JDBC
+- [Java IO](https://www.hauchenglee.com/java-io/){:target="_blank"} - Java IO File 處理
+- [Java Date Time](https://www.hauchenglee.com/java-datetime/){:target="_blank"} - Java Date Time 日期時間
+- [Java JSON](https://www.hauchenglee.com/java-json/){:target="_blank"} - Java JSON 用法
+- [Java JDBC](https://www.hauchenglee.com/java-jdbc/){:target="_blank"} - Java JDBC
 
 ## Collection
 
-- [Java Collections](https://www.hauchenglee.com/java/2019/11/08/java-collections.html){:target="_blank"} - Java Collections 集合
+- [Java Collections](https://www.hauchenglee.com/java-collections/){:target="_blank"} - Java Collections 集合
 - [Java Hash](){:target="_blank"} - Java Hash 哈希（未完成）
 
 ## Concurrency
 
 ### Basic
 
-- [Concurrency Basic](https://www.hauchenglee.com/java/2019/12/14/concurrency-basic.html){:target="_blank"} - Concurrency Basics 並發編程基礎
-- [Thread Objects](https://www.hauchenglee.com/java/2019/12/15/thread-objects.html){:target="_blank"} - Thread Objects 線程對象
-- [Thread Risks](https://www.hauchenglee.com/java/2019/12/17/thread-risks.html){:target="_blank"} - Risks of Thread 線程的風險
+- [Concurrency Basic](https://www.hauchenglee.com/concurrency-basic/){:target="_blank"} - Concurrency Basics 並發編程基礎
+- [Thread Objects](https://www.hauchenglee.com/thread-objects/){:target="_blank"} - Thread Objects 線程對象
+- [Thread Risks](https://www.hauchenglee.com/thread-risks/){:target="_blank"} - Risks of Thread 線程的風險
 
 ### Thread Safe
 
-- [Thread Safe](https://www.hauchenglee.com/java/2019/12/18/thread-safe.html){:target="_blank"} - Thread Safe 線程安全
-- [Thread Synchronization](https://www.hauchenglee.com/java/2019/12/20/thread-synchronization.html){:target="_blank"} - 線程同步機制
-- [Thread Immutable](https://www.hauchenglee.com/java/2019/12/21/thread-immutable.html){:target="_blank"} - 對象不可改變性
-- [Thread Publication and Escape](https://www.hauchenglee.com/java/2019/12/22/thread-pub-and-esc.html){:target="_blank"} - 對象的發佈與逸出
+- [Thread Safe](https://www.hauchenglee.com/thread-safe/){:target="_blank"} - Thread Safe 線程安全
+- [Thread Synchronization](https://www.hauchenglee.com/thread-synchronization/){:target="_blank"} - 線程同步機制
+- [Thread Immutable](https://www.hauchenglee.com/thread-immutable/){:target="_blank"} - 對象不可改變性
+- [Thread Publication and Escape](https://www.hauchenglee.com/thread-pub-and-esc/){:target="_blank"} - 對象的發佈與逸出
 
 ### Liveness
 
-- [Thread Deadlock](https://www.hauchenglee.com/java/2019/12/28/thread-deadlock.html){:target="_blank"} - 死鎖
-- [Thread Starvation](https://www.hauchenglee.com/java/2019/12/29/thread-starvation.html){:target="_blank"} - 飢餓
-- [Thread Livelock](https://www.hauchenglee.com/java/2019/12/30/thread-livelock.html){:target="_blank"} - 活鎖
+- [Thread Deadlock](https://www.hauchenglee.com/thread-deadlock/){:target="_blank"} - 死鎖
+- [Thread Starvation](https://www.hauchenglee.com/thread-starvation/){:target="_blank"} - 飢餓
+- [Thread Livelock](https://www.hauchenglee.com/java/2019/12/30/thread-livelock/){:target="_blank"} - 活鎖
 
 ### Applications & Executor
 
-- [Thread Lifecycle](https://www.hauchenglee.com/java/2020/01/15/thread-life-cycle.html){:target="_blank"} - 線程生命週期
-- [Thread Lifecycle Method](https://www.hauchenglee.com/java/2020/01/16/thread-life-cycle-method.html){:target="_blank"} - 線程生命週期方法
-- [Thread Task](https://www.hauchenglee.com/java/2020/01/21/thread-task.html){:target="_blank"} - 線程任務執行
-- [Thread ThreadPool](https://www.hauchenglee.com/java/2020/01/22/thread-pool.html){:target="_blank"} - Executors 線程池
-- [Thread Executor](https://www.hauchenglee.com/java/2020/01/23/thread-executor.html){:target="_blank"} - Executor 框架
-- [Thread Callable Future](https://www.hauchenglee.com/java/2020/01/24/thread-callable-future.html){:target="_blank"} - Callable & Future
-- [Thread ThreadPoolExecutor](https://www.hauchenglee.com/java/2020/01/25/thread-ThreadPoolExecutor.html){:target="_blank"} - ThreadPoolExecutor
+- [Thread Lifecycle](https://www.hauchenglee.com/thread-life-cycle/){:target="_blank"} - 線程生命週期
+- [Thread Lifecycle Method](https://www.hauchenglee.com/thread-life-cycle-method/){:target="_blank"} - 線程生命週期方法
+- [Thread Task](https://www.hauchenglee.com/thread-task/){:target="_blank"} - 線程任務執行
+- [Thread ThreadPool](https://www.hauchenglee.com/thread-pool/){:target="_blank"} - Executors 線程池
+- [Thread Executor](https://www.hauchenglee.com/thread-executor/){:target="_blank"} - Executor 框架
+- [Thread Callable Future](https://www.hauchenglee.com/thread-callable-future/){:target="_blank"} - Callable & Future
+- [Thread ThreadPoolExecutor](https://www.hauchenglee.com/thread-ThreadPoolExecutor/){:target="_blank"} - ThreadPoolExecutor
 
 [//]: <>### Collections, Queue and Pattern
 
@@ -80,38 +80,38 @@ toc: true
 
 ## JVM
 
-- [Java JVM](https://www.hauchenglee.com/java/2019/12/06/java-jvm.html){:target="_blank"} - Java 虛擬機
+- [Java JVM](https://www.hauchenglee.com/java-jvm/){:target="_blank"} - Java 虛擬機
 
 [//]: <>- [Java Garbage Collection](){:target="_blank"} - Java 垃圾回收（未完成）
 
 ## Java 8
 
-- [Java 8 Tutorial](https://www.hauchenglee.com/java/2020/02/01/java8-tutorial.html){:target="_blank"} - Java 8 Tutorial 教程
-- [Java 8 Lambda](https://www.hauchenglee.com/java/2020/02/02/java8-lambda-expression.html){:target="_blank"} - Java 8 Lambda
-- [Java 8 Stream](https://www.hauchenglee.com/java/2020/02/03/java8-stream.html){:target="_blank"} - Java 8 Stream
-- [Java 8 Stream Creation](https://www.hauchenglee.com/java/2020/02/04/java8-stream-creation.html){:target="_blank"} - Java 8 Stream 建立
-- [Java 8 Stream Pipeline](https://www.hauchenglee.com/java/2020/02/05/java8-stream-pipeline.html){:target="_blank"} - Java 8 Stream 通道
-- [Java 8 Stream Operation](https://www.hauchenglee.com/java/2020/02/06/java8-stream-operation.html){:target="_blank"} - Java 8 Stream 操作
-- [Java 8 Stream Lazy Invocation](https://www.hauchenglee.com/java/2020/02/07/java8-stream-lazy-invocation.html){:target="_blank"} - Java 8 Stream 延遲調用
-- [Java 8 Method Reference](https://www.hauchenglee.com/java/2020/02/11/java8-method-reference.html){:target="_blank"} - Java 8 Method Reference 方法參考
-- [Java 8 Functional Interface](https://www.hauchenglee.com/java/2020/02/12/java8-functional-interface.html){:target="_blank"} - Java 8 Functional Interface 函數式接口
-- [Java 8 Default Method](https://www.hauchenglee.com/java/2020/02/13/java8-default-method.html){:target="_blank"} - Java 8 Default Method 預設方法
-- [Java 8 Optional](https://www.hauchenglee.com/java/2020/02/15/java8-optional.html){:target="_blank"} - Java 8 Optional
-- [Java 8 New Date](https://www.hauchenglee.com/java/2020/02/16/java8-new-date.html){:target="_blank"} - Java 8 New Date
+- [Java 8 Tutorial](https://www.hauchenglee.com/java8-tutorial/){:target="_blank"} - Java 8 Tutorial 教程
+- [Java 8 Lambda](https://www.hauchenglee.com/java8-lambda-expression/){:target="_blank"} - Java 8 Lambda
+- [Java 8 Stream](https://www.hauchenglee.com/java8-stream/){:target="_blank"} - Java 8 Stream
+- [Java 8 Stream Creation](https://www.hauchenglee.com/java8-stream-creation/){:target="_blank"} - Java 8 Stream 建立
+- [Java 8 Stream Pipeline](https://www.hauchenglee.com/java8-stream-pipeline/){:target="_blank"} - Java 8 Stream 通道
+- [Java 8 Stream Operation](https://www.hauchenglee.com/java8-stream-operation/){:target="_blank"} - Java 8 Stream 操作
+- [Java 8 Stream Lazy Invocation](https://www.hauchenglee.com/java8-stream-lazy-invocation/){:target="_blank"} - Java 8 Stream 延遲調用
+- [Java 8 Method Reference](https://www.hauchenglee.com/java8-method-reference/){:target="_blank"} - Java 8 Method Reference 方法參考
+- [Java 8 Functional Interface](https://www.hauchenglee.com/java8-functional-interface/){:target="_blank"} - Java 8 Functional Interface 函數式接口
+- [Java 8 Default Method](https://www.hauchenglee.com/java8-default-method/){:target="_blank"} - Java 8 Default Method 預設方法
+- [Java 8 Optional](https://www.hauchenglee.com/java8-optional/){:target="_blank"} - Java 8 Optional
+- [Java 8 New Date](https://www.hauchenglee.com/java8-new-date/){:target="_blank"} - Java 8 New Date
 
 ## JavaEE
 
 ### Packaging
 
-- [Web App Server Compare](https://www.hauchenglee.com/java/2019/11/20/web-app-server-compare.html){:target="_blank"} - Web App Server 兩者比較
-- [Web App Server Path](https://www.hauchenglee.com/java/2019/11/25/web-app-server-path.html){:target="_blank"} - Web App Server Path 路徑關聯
-- [Web App Server Deploy](https://www.hauchenglee.com/java/2019/11/26/web-app-server-deploy.html){:target="_blank"}  - Web App Server Deploy 部署
-- [Web App Server Maven](https://www.hauchenglee.com/java/2019/11/27/web-app-server-maven.html){:target="_blank"}  - Web App Server Maven 依賴
+- [Web App Server Compare](https://www.hauchenglee.com/web-app-server-compare/){:target="_blank"} - Web App Server 兩者比較
+- [Web App Server Path](https://www.hauchenglee.com/web-app-server-path/){:target="_blank"} - Web App Server Path 路徑關聯
+- [Web App Server Deploy](https://www.hauchenglee.com/web-app-server-deploy/){:target="_blank"}  - Web App Server Deploy 部署
+- [Web App Server Maven](https://www.hauchenglee.com/web-app-server-maven/){:target="_blank"}  - Web App Server Maven 依賴
 
 ### Java Web
 
-- [Servlet](https://www.hauchenglee.com/java/2019/11/17/servlet.html){:target="_blank"} - Servlet
-- [JSP](https://www.hauchenglee.com/java/2019/11/18/jsp.html){:target="_blank"} - JSP
+- [Servlet](https://www.hauchenglee.com/servlet/){:target="_blank"} - Servlet
+- [JSP](https://www.hauchenglee.com/jsp/){:target="_blank"} - JSP
 
 [//]: <>## Hibernate
 [//]: <>
@@ -123,15 +123,15 @@ toc: true
 
 ## Design Pattern
 
-- [Arch Clean Code ch1](https://www.hauchenglee.com/java/2020/01/05/clean-code-ch1.html){:target="_blank"} - Ch1 無暇的程式碼
-- [Arch Clean Code ch2](https://www.hauchenglee.com/java/2020/01/06/clean-code-ch2.html){:target="_blank"} - Ch2 有意義的命名
-- [Arch Clean Code ch3](https://www.hauchenglee.com/java/2020/01/07/clean-code-ch3.html){:target="_blank"} - Ch3 函數
-- [Arch Clean Code ch4](https://www.hauchenglee.com/java/2020/01/08/clean-code-ch4.html){:target="_blank"} - Ch4 註解
-- [Arch Clean Code ch5](https://www.hauchenglee.com/java/2020/01/09/clean-code-ch5.html){:target="_blank"} - Ch5 編排
-- [Arch Clean Code ch6](https://www.hauchenglee.com/java/2020/01/10/clean-code-ch6.html){:target="_blank"} - Ch6 對象及數據結構
-- [Arch Clean Code ch7](https://www.hauchenglee.com/java/2020/01/11/clean-code-ch7.html){:target="_blank"} - Ch7 異常處理
-- [Arch Clean Code ch8](https://www.hauchenglee.com/java/2020/01/12/clean-code-ch8.html){:target="_blank"} - Ch8 邊界
-- [Design Pattern](https://www.hauchenglee.com/java/2020/04/16/design-pattern.html){:target="_blank"} - Design Pattern 設計模式
-- [Project Style Guidelines](https://www.hauchenglee.com/java/2020/11/06/project-style-guidelines.html){:target="_blank"} - 項目設計規範
+- [Arch Clean Code ch1](https://www.hauchenglee.com/clean-code-ch1/){:target="_blank"} - Ch1 無暇的程式碼
+- [Arch Clean Code ch2](https://www.hauchenglee.com/clean-code-ch2/){:target="_blank"} - Ch2 有意義的命名
+- [Arch Clean Code ch3](https://www.hauchenglee.com/clean-code-ch3/){:target="_blank"} - Ch3 函數
+- [Arch Clean Code ch4](https://www.hauchenglee.com/clean-code-ch4/){:target="_blank"} - Ch4 註解
+- [Arch Clean Code ch5](https://www.hauchenglee.com/clean-code-ch5/){:target="_blank"} - Ch5 編排
+- [Arch Clean Code ch6](https://www.hauchenglee.com/clean-code-ch6/){:target="_blank"} - Ch6 對象及數據結構
+- [Arch Clean Code ch7](https://www.hauchenglee.com/clean-code-ch7/){:target="_blank"} - Ch7 異常處理
+- [Arch Clean Code ch8](https://www.hauchenglee.com/clean-code-ch8/){:target="_blank"} - Ch8 邊界
+- [Design Pattern](https://www.hauchenglee.com/design-pattern/){:target="_blank"} - Design Pattern 設計模式
+- [Project Style Guidelines](https://www.hauchenglee.com/project-style-guidelines/){:target="_blank"} - 項目設計規範
 
 ---
