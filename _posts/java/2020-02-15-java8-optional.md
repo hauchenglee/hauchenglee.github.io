@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Optional
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 用法：強制調用者檢查object是否為Null，避免潛在`NullPointException`的可能性。

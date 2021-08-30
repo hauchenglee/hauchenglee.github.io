@@ -3,8 +3,6 @@ layout: post
 title: Java - Concurrency 並發編程
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## 基礎知識

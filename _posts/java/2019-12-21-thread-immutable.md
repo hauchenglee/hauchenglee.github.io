@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Immutable Objects 對象不可改變性
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Immutable Objects

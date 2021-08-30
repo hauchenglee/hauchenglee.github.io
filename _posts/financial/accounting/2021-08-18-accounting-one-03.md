@@ -3,8 +3,6 @@ layout: post
 title: 会计概述 - 03 会计要素及其确认与计量
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 会计要素及其确认条件

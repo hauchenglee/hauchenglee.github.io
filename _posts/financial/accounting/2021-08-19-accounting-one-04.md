@@ -3,8 +3,6 @@ layout: post
 title: 会计概述 - 04. 会计科目和借贷记账法
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 会计科目和借贷记账法

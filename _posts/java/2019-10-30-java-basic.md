@@ -3,8 +3,6 @@ layout: post
 title: Java - 基礎語法
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Variable
@@ -248,7 +246,7 @@ public class Car extends Vehicle {
 
 ### 時間複雜度（time complexity）
 
-See: [algorithms time complexity](https://www.hauchenglee.com/algorithms-time-complexity/) - 時間複雜度
+See: [algorithms time complexity](https://www.hauchenglee.com/algorithms/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
 
 ### 遞歸（recursive function）
 

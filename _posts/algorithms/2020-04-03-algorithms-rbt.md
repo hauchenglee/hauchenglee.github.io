@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - Reb Black Tree 紅黑樹
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 ## 紅黑樹

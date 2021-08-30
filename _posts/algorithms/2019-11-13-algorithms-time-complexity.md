@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - 時間複雜度
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 ## Overview

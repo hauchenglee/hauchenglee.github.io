@@ -3,8 +3,6 @@ layout: post
 title: 初级会计实务 - 前言
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 前言

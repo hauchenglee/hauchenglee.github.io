@@ -3,8 +3,6 @@ layout: post
 title: 会计概述 - 05. 账务处理程序
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 账务处理程序

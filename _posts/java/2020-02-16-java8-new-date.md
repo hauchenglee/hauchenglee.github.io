@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - New Date
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Issues

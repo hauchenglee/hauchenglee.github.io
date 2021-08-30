@@ -3,8 +3,6 @@ layout: post
 title: Clean Code 無暇的程式碼- Ch3 函數
 category: java
 tags: [design-pattern]
-comments: true
-toc: true
 ---
 
 ## 【每個函數只有一層抽象概念】

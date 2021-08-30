@@ -3,8 +3,6 @@ layout: post
 title: 創作 - 一個寂寞的故事
 category: blog
 tags: [blog]
-comments: true
-toc: true
 ---
 
 這是日記。

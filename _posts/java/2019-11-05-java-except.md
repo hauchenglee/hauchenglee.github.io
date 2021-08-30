@@ -3,8 +3,6 @@ layout: post
 title: Java - Exception 異常處理
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## exception architecture

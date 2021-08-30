@@ -3,8 +3,6 @@ layout: post
 title: Spring Boot - Dependency
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## Dependency Injection

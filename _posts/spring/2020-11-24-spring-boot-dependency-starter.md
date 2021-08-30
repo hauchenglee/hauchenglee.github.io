@@ -3,8 +3,6 @@ layout: post
 title: Spring Boot - Dependency Starter
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## starter-tomcat vs starter-web
@@ -13,7 +11,7 @@ toc: true
 
 下面是`spring-boot-starter-web`依賴關係層次結構：
 
-![](https://www.hauchenglee.com/assets/images/spring-boot/spring-boot-starter-web-hierarchy.png)
+![](https://www.hauchenglee.com/assets/images/spring/spring-boot/spring-boot-starter-web-hierarchy.png)
 
 如果要排除`spring-boot-starter-tomcat`依賴：
 

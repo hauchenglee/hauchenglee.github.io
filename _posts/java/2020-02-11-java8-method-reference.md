@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Method Reference 方法參考
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Overview

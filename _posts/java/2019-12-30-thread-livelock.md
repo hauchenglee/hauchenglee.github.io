@@ -3,8 +3,6 @@ layout: post
 title: Java - Livelock 活鎖
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Livelock

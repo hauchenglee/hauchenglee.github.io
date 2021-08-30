@@ -3,8 +3,6 @@ layout: post
 title: Web Server & App Server Compare 兩者比較
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Compare between Web Server and Application Server

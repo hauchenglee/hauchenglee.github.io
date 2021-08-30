@@ -3,8 +3,6 @@ layout: post
 title: Spring Boot - IoC
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## Overview
@@ -36,11 +34,11 @@ IoC 不是什么技术，而是一种设计思想。在 Java 开发中，IoC 意
 
 如图：
 
-![](https://www.hauchenglee.com/assets/images/spring-boot/container-magic.png)
+![](https://www.hauchenglee.com/assets/images/spring/spring-boot/container-magic.png)
 
 或是我画的图：
 
-![](https://www.hauchenglee.com/assets/images/spring-boot/spring-boot-core-ioc.png)
+![](https://www.hauchenglee.com/assets/images/spring/spring-boot/spring-boot-core-ioc.png)
 
 Ref: 
 - [5. The IoC container](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html){:target="_blank"}

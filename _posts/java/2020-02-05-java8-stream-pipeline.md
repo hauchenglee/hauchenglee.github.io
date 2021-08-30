@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Stream Pipelines 流管道
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Pipelines

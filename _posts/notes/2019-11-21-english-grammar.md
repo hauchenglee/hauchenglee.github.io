@@ -3,8 +3,6 @@ layout: post
 title: English Grammar 英文文法
 category: notes
 tags: [english]
-comments: true
-toc: true
 ---
 
 ## Sentence
@@ -105,7 +103,7 @@ toc: true
 ### auxiliary verb
 
 - 助動詞本身並沒有詞義，它是用來幫助主要動詞（main verb）形成各種時態、語氣、語態、疑問句、或否定句。
-- 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考[動詞片語](https://www.hauchenglee.com/english-phrase/)。
+- 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考[動詞片語](https://www.hauchenglee.com/notes/2019/11/24/english-phrase.html)。
 - 若是[被動語態](#participle)，則動詞片語的助動詞還可以多大四個。
 
 <table>

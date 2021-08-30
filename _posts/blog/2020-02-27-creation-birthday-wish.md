@@ -3,8 +3,6 @@ layout: post
 title: 創作 (小小說) - 生日願望
 category: blog
 tags: [blog]
-comments: true
-toc: true
 ---
 
 生日願望

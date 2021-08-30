@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Task Execution 任務執行
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## 任務（Tasks）

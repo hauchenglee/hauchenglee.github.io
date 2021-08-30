@@ -3,8 +3,6 @@ layout: post
 title: Java - Inheritance 繼承
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## inheritance

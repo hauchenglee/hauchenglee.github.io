@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Life Cycle 線程生命週期
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Overview

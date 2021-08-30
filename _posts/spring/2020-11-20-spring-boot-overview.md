@@ -3,13 +3,11 @@ layout: post
 title: Spring Boot Overview
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## Spring, Spring Boot and Spring Cloud
 
-![](https://www.hauchenglee.com/assets/images/spring-boot/Spring-the-source-for-modern-JAVA.jpg)
+![](https://www.hauchenglee.com/assets/images/spring/spring-boot/Spring-the-source-for-modern-JAVA.jpg)
 
 ## Resource
 

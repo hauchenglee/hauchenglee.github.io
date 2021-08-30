@@ -3,8 +3,6 @@ layout: post
 title: Java - Class and Object 面向對象
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Reference
@@ -182,7 +180,7 @@ However, because it prevents inheritance, all methods in final class are **impli
 **You can include the final specifier to a method in a final class, but it doesn't add any meaning.**
 
 > - On Java 8
-> - See more information: [final vs immutability in java-string](https://www.hauchenglee.com/java-string/#final-vs-immutability)
+> - See more information: [final vs immutability in java-string](https://www.hauchenglee.com/java/2019/11/06/java-string.html#final-vs-immutability)
 
 ## feature
 

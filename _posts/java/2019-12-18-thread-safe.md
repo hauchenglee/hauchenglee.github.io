@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Safe 線程安全
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## 何謂線程安全

@@ -3,8 +3,6 @@ layout: post
 title: 会计概述 - 05. 会计账簿
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 会计账簿的基本内容

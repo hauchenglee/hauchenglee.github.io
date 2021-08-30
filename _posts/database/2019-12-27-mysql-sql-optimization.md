@@ -3,8 +3,6 @@ layout: post
 title: MySQL - SQL Optimizing 優化
 category: database
 tags: [database]
-comments: true
-toc: true
 ---
 
 ## Optimization SQL Statements

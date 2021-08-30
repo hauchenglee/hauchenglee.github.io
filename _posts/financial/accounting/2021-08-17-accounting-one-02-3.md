@@ -3,8 +3,6 @@ layout: post
 title: 会计概述 - 02 会计信息质量要求
 category: skill
 tags: [accounting]
-comments: true
-toc: true
 ---
 
 ## 会计信息质量要求

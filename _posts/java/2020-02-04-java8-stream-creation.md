@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Stream Creation 建立Stream流
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Stream Creation

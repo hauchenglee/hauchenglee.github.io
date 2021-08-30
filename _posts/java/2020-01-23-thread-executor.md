@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Executor 框架
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Executor

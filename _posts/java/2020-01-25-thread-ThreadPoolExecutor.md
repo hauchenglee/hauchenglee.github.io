@@ -3,8 +3,6 @@ layout: post
 title: Java - ThreadPoolExecutor
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## ThreadPoolExecutor

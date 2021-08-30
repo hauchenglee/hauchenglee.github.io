@@ -3,8 +3,6 @@ layout: post
 title: Java - Date Time 日期時間
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 > - [Date-Time Design Principles (The Java™ Tutorials > Date Time > Date-Time Overview)](https://docs.oracle.com/javase/tutorial/datetime/overview/design.html){:target="_blank"}

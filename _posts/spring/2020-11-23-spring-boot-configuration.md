@@ -3,8 +3,6 @@ layout: post
 title: Spring Boot - Configuration
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## Configuration Metadata

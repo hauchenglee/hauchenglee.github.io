@@ -3,8 +3,6 @@ layout: post
 title: Web App Server Deploy 部署
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## install

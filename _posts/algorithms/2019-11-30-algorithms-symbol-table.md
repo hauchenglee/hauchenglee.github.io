@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - 符號表
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 ## Symbol table

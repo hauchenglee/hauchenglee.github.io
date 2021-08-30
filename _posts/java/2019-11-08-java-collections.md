@@ -3,8 +3,6 @@ layout: post
 title: Java - Collections 集合
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Java Collection Framework
@@ -195,7 +193,7 @@ The Java platform contains three general-purpose `Map` implements: `HashMap`, `T
 
 ## Algorithms
 
-see [Algorithms Analysis](https://www.hauchenglee.com/algorithms-analysis/) - 算法分析
+see [Algorithms Analysis](https://www.hauchenglee.com/algorithms/2019/11/12/algorithms-analysis.html) - 算法分析
 
 ## Ordering
 

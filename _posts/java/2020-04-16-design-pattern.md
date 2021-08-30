@@ -3,8 +3,6 @@ layout: post
 title: Design Pattern 設計模式
 category: java
 tags: [design-pattern]
-comments: true
-toc: true
 ---
 
 ## 設計模式六大原則

@@ -3,8 +3,6 @@ layout: post
 title: MySQL - SQL Basic 基礎
 category: database
 tags: [database]
-comments: true
-toc: true
 ---
 
 ## Basic

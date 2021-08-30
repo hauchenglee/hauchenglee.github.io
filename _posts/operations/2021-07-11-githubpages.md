@@ -3,8 +3,6 @@ layout: post
 title: Github Pages
 category: operations
 tags: [git]
-comments: true
-toc: true
 ---
 
 ## Introduction

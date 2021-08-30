@@ -3,8 +3,6 @@ layout: post
 title: Web App 架構的二三事
 category: java
 tags: [design-pattern]
-comments: true
-toc: true
 ---
 
 ## Coding Guidelines

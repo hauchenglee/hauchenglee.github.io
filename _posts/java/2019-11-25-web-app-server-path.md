@@ -3,8 +3,6 @@ layout: post
 title: Web App Server Path 路徑關聯
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## System server Path

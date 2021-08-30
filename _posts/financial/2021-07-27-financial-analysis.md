@@ -3,8 +3,6 @@ layout: post
 title: 财务报表分析与决策
 category: skill
 tags: [financial]
-comments: true
-toc: true
 ---
 
 ## 三大财报

@@ -3,8 +3,6 @@ layout: post
 title: Clean Code 無暇的程式碼- Ch4 註解
 category: java
 tags: [design-pattern]
-comments: true
-toc: true
 ---
 
 這章節的重點就在目錄：

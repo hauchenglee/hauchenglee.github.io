@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Synchronization 線程同步機制
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 同步是一種概念，用於防止多個線程輸入代碼的特定部分，這又是避免線程問題的最基本概念。

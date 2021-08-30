@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Starvation 飢餓
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Starvation and Livelock

@@ -3,8 +3,6 @@ layout: post
 title: 隨筆 - 平庸
 category: blog
 tags: [blog]
-comments: true
-toc: true
 ---
 
 我一直在想這個問題：<br>

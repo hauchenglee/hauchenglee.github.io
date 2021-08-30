@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - 算法分析
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 ## what is algorithms

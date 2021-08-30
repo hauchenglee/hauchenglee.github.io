@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - Binary Search Tree 二叉查找樹
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 ## Binary tree

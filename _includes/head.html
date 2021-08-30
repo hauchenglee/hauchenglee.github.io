@@ -1,31 +1,18 @@
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-  {% include meta.html %}
-  {% include fonts.html %}
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  <link rel="shortcut icon" href="/assets/images/{{ site.favicon }}">
-  <link rel="stylesheet" href="/assets/css/common.css">
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>
-
-  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta>
+  {%- seo -%}
+  <link rel="shortcut icon" href="{{ site.favicon }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include extensions/google-analytics.html -%}
+  {%- endif -%}
+  {%- include extensions/code-highlight.html -%}
+  {%- include custom-head.html -%}
 </head>

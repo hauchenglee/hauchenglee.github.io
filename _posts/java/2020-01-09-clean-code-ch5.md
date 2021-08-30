@@ -3,8 +3,6 @@ layout: post
 title: Clean Code 無暇的程式碼- Ch5 編排
 category: java
 tags: [design-pattern]
-comments: true
-toc: true
 ---
 
 ## 前言

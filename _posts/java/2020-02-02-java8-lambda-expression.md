@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Lambda Expression
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Lambda Expression

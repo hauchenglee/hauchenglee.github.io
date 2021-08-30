@@ -3,8 +3,6 @@ layout: post
 title: Java - Risks of Thread 線程的風險
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## 線程安全危險

@@ -3,8 +3,6 @@ layout: post
 title: Java 8 - Default Method 預設方法
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Default Method

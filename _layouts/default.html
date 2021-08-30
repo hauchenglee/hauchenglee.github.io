@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
   <body>
-    {% include nav.html %}
 
-    {% if page.toc==true %}
-      <aside class="toc">
-        {% include toc.html html=content %}
-      </aside>
-    {% endif %}
+    {%- include views/header.html -%}
 
-    <div id="main" role="main" class="wrapper-content">
-      <div class="container">
+    {%- include views/banner.html -%}
+
+    {%- include extensions/hashlocate.html -%}
+
+    {%- include extensions/theme-toggle.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </main>
 
-    {% include analytics.html %}
+    {%- include views/footer.html -%}
+
   </body>
-
-  {% if page.toc==true %}
-  <script>
-    document.getElementById("main").classList.add("withtoc");
-  </script>
-  {% endif %}
-
-  <div class="wrapper-footer-mobile">
-    <footer class="footer">
-      {% include footer.html %}
-    </footer>
-
-
 </html>

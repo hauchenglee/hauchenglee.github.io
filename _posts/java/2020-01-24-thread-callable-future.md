@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Callable & Future
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Callable & Future

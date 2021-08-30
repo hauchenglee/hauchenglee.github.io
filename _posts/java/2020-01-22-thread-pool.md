@@ -3,8 +3,6 @@ layout: post
 title: Java - Executors 線程池
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Thread Pool in Oracle tutorial

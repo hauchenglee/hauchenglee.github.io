@@ -3,8 +3,6 @@ layout: post
 title: Algorithms - Stacks and Queues
 category: algorithms
 tags: [algorithms]
-comments: true
-toc: true
 ---
 
 以下資料整理自：

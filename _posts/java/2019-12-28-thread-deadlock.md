@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Deadlock 死鎖
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## 死鎖

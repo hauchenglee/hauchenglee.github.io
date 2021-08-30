@@ -3,8 +3,6 @@ layout: post
 title: Java - Encapsulation 封裝
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 Data (or properties or attributes) and behaviour (the "methods" that operate on the data) are encapsulated into objects; moreover, 

@@ -3,8 +3,6 @@ layout: post
 title: Java - String 字符串
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## what is string
@@ -124,7 +122,7 @@ JVM divides the allocated memory to a Java program into two parts. One is **stac
 Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some memory specially meant for string literals. 
 This part of the heap memory is called **String Constant Pool**.
 
-→ See more information in [java-memory](https://www.hauchenglee.com/java-memory/)
+→ See more information in [java-memory](https://www.hauchenglee.com/java/2019/12/04/java-memory.html)
 
 In the other hand:
 - create a string object using string literal: object is stored in the **string constant pool**.

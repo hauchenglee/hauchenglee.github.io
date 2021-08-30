@@ -3,13 +3,11 @@ layout: post
 title: English Clause 英文子句
 category: notes
 tags: [english]
-comments: true
-toc: true
 ---
 
 ## Clause
 
-**子句**是由一群相關並含有[主詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html)與[動詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#verb)的字所組成。
+**子句**是由一群相關並含有[主詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html)與[動詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#verb)的字所組成。
 子句有兩種：[獨立子句](#independent-clause)與[從屬子句](#dependent-clause)。
 
 **獨立子句**又稱為主要子句，它是能單獨表達完整思維的句子。**從屬子句**又稱為附屬子句，它不能單獨存在，必須依附獨立子句才會有意義。
@@ -33,7 +31,7 @@ toc: true
 
 <br>
 
-獨立子句"*he is very wealthy*"，前面若添加一個[從屬連接詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html)，"**Although** *he is very wealthy*"就變成從屬子句。
+獨立子句"*he is very wealthy*"，前面若添加一個[從屬連接詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html)，"**Although** *he is very wealthy*"就變成從屬子句。
 
 從屬子句"Although he is very wealthy"不能單獨存在，它必須依附到另一個獨立子句"he is not happy"才有意義。
 
@@ -46,9 +44,9 @@ toc: true
 
 ## Independent Clause
 
-**獨立子句**又稱為**主要子句**。獨立子句為能表達完整思維的[句子](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#sentence)，
-它至少要有一個[主詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html)
-和一個[動詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#verb)。
+**獨立子句**又稱為**主要子句**。獨立子句為能表達完整思維的[句子](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#sentence)，
+它至少要有一個[主詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html)
+和一個[動詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#verb)。
 獨立子句可以是單獨存在的[單句](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=151){:target="_blank"}，
 或與其他子句結合成[複句](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=150){:target="_blank"}、
 [合句](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=149){:target="_blank"}、
@@ -92,14 +90,14 @@ toc: true
 
 <br>
 
-獨立子句能夠單獨存在，這時候我們通常叫它為[句子](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#sentence)，而不再以子句稱呼。
+獨立子句能夠單獨存在，這時候我們通常叫它為[句子](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#sentence)，而不再以子句稱呼。
 
 ## Dependent Clause
 
 **從屬子句**無法表達完整的思維，它不能單獨存在。從屬子句又稱為**附屬子句**（Subordinate Clauses），
 意味著它必須依附其他[獨立字句](#independent-clause)才能存在。
 
-底下三個從屬子句無法表達完整的思維，所以皆不是完整的[句子](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#sentence)。
+底下三個從屬子句無法表達完整的思維，所以皆不是完整的[句子](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#sentence)。
 
 <br>
 
@@ -131,8 +129,8 @@ toc: true
 
 ### Noun Clause
 
-名詞子句其實就是一個結構比較長的[名詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#noun)，
-所以[名詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#noun)可以放的地方，名詞子句就可以放。
+名詞子句其實就是一個結構比較長的[名詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#noun)，
+所以[名詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#noun)可以放的地方，名詞子句就可以放。
 
 名詞子句的功能，可以作為句子的：
 - 主詞
@@ -158,7 +156,7 @@ toc: true
 
 ### Relative Clause
 
-關係子句（形容詞子句）是由[關係代名詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#pronoun)帶領的子句，功能就是用來修飾前面的先行詞。
+關係子句（形容詞子句）是由[關係代名詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#pronoun)帶領的子句，功能就是用來修飾前面的先行詞。
 
 <br>
 
@@ -179,8 +177,8 @@ toc: true
 
 ### Adverb Clause
 
-副詞子句的功能就跟[副詞](https://www.hauchenglee.com/lang/2019/11/21/english-grammar.html#adverb)、
-[副詞片語](https://www.hauchenglee.com/lang/2019/11/24/english-phrase.html)一樣，提供語意，但是就算拿掉副詞子句，整個句子的文法也不會被破壞。
+副詞子句的功能就跟[副詞](https://www.hauchenglee.com/notes/2019/11/21/english-grammar.html#adverb)、
+[副詞片語](https://www.hauchenglee.com/notes/2019/11/24/english-phrase.html)一樣，提供語意，但是就算拿掉副詞子句，整個句子的文法也不會被破壞。
 
 <br>
 

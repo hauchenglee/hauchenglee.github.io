@@ -3,8 +3,6 @@ layout: post
 title: 創作 (小說) - Lycoris Radiata 01
 category: blog
 tags: [blog]
-comments: true
-toc: true
 ---
 
 episode one 花落.

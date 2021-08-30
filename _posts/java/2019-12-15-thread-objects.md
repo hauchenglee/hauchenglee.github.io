@@ -3,8 +3,6 @@ layout: post
 title: Java - Thread Objects 線程對象
 category: java
 tags: [java]
-comments: true
-toc: true
 ---
 
 ## Create and Starting a Thread

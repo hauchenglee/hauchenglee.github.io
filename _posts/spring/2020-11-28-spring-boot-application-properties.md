@@ -3,8 +3,6 @@ layout: post
 title: Spring Boot - Application Properties
 category: spring-boot
 tags: [spring-boot]
-comments: true
-toc: true
 ---
 
 ## 配置 application.properties
