@@ -29,11 +29,18 @@
         <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
         <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
       </div>
-      <a class="post-excerpt" href="{{ post_url }}">
+      <div class="post-excerpt">
         <p>
-        {{ excerpt }} <span class="read_more">Read More</span>
+          {{ excerpt }}
         </p>
-      </a>
+      </div>
+      <div class="post-excerpt" style="float: right; padding-right: 10px;">
+        <a href="{{ post_url }}">
+          <p>
+            <span class="read_more" style="font-weight: bold;">Read More</span>
+          </p>
+        </a>
+      </div>
       <div class="post-tags">
         {%- for tag in post.tags -%}
         <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
