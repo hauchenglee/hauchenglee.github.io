@@ -29,11 +29,19 @@
         <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
         <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
       </div>
-      <div class="post-excerpt">
-        <p>
-          {{ excerpt }}
-        </p>
-      </div>
+      {% if post.tags contains 'password' %}
+        <div class="post-excerpt">
+          <p>
+            <span style="font-weight: bold;">Password protected!</span>
+          </p>
+        </div>
+      {% else %}
+        <div class="post-excerpt">
+          <p>
+            {{ excerpt }}
+          </p>
+        </div>
+      {% endif %}
       <div class="post-excerpt" style="float: right; padding-right: 10px;">
         <a href="{{ post_url }}">
           <p>

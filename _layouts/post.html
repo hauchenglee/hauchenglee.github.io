@@ -18,6 +18,19 @@ sidebar:
     {%- include functions.html func='get_value' -%}
     {%- assign hidden = return -%}
 
+    {% if page.tags contains 'password' %}
+      <script>
+        var input = prompt('please input the password: ', '');
+        var result = "{{ site.password }}";
+        if (input == result) {
+          unlock();
+        } else {
+          alert('password error!');
+          history.go(-1);
+        }
+      </script>
+    {% endif %}
+
     {%- assign result = hidden | where_exp: "item", "item == 'header'" -%}
     {%- if banner == nil and result.size == 0 -%}
     {%- include views/post-header.html -%}

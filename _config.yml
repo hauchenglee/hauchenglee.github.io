@@ -28,6 +28,9 @@ title: 吹雪
 email: hauchenglee@gmail.com
 author: hauchenglee
 
+# set the article password
+password: "1"
+
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
 # * current year: {currentYear}
