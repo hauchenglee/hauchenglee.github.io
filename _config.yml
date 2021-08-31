@@ -49,7 +49,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.hauchenglee.com/ # the base hostname & protocol for your site, e.g. http://example.com
-favicon: assets/images/favicon.ico.jpg # the favicon for your site
+favicon: https://www.hauchenglee.com/assets/images/favicon.ico.jpg # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -177,10 +177,10 @@ defaults:
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt size setting
-# excerpt_size: 350
+excerpt_size: 200
 
 # Pagination setting
-# paginate: 5
+paginate: 10
 
 # Disqus comments
 # disqus:
