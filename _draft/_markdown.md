@@ -1,7 +1,6 @@
 ## Guide
 
-1. post 依据 pages 分类
-2. image 依据 tags 分类
+You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 ## Link
 
@@ -39,6 +38,35 @@ Reference:
 [//]: <>
 
 ## FENCED CODE BLOCKS
+
+Here's a code chunk:
+
+~~~
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+~~~
+
+And here is the same code with syntax highlighting:
+
+```javascript
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+```
+
+And here is the same code yet again but with line numbers:
+
+{% highlight javascript linenos %}
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+{% endhighlight %}
+
+here is console log: use `console` instead of `shell script`
 
 ```shell script
 ERROR! NOT Use
@@ -115,3 +143,6 @@ http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored
         </tr>
     </tbody>
 </table>
+
+## Boxs
+

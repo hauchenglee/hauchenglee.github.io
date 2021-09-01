@@ -2,8 +2,8 @@
 layout: post
 title: Table example
 subtitle:
-categories: example
-tags: [table]
+categories: yat
+tags: [markdown]
 ---
 
 ## Table example as below
