@@ -183,7 +183,7 @@ defaults:
 excerpt_size: 200
 
 # Pagination setting
-paginate: 10
+paginate: 20
 
 # Disqus comments
 # disqus:
