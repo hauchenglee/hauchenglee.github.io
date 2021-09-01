@@ -4,7 +4,11 @@ You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll w
 
 ## Link
 
-[](){:target="_blank"}
+[hyperlinks - What's Your Take on target="_blank"? - User Experience Stack Exchange](https://ux.stackexchange.com/questions/5397/whats-your-take-on-target-blank)
+
+[]()
+
+[](){:target="_blank"} x
 
 ## Youtube
 
