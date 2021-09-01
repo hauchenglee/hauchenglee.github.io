@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot - IoC
-category: spring-boot
+category: spring
 tags: [spring-boot]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design Pattern 設計模式
-category: java
+category: architecture
 tags: [design-pattern]
 ---
 
@@ -22,7 +22,7 @@ Ref:
 
 ## 24 種設計模式
 
-![](https://www.hauchenglee.com/assets/images/java/design-pattern-gof-analysis.png)
+![](https://www.hauchenglee.com/assets/images/architecture/design-pattern-gof-analysis.png)
 
 ### 創建者
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch3 函數
-category: java
+category: architecture
 tags: [design-pattern]
 ---
 

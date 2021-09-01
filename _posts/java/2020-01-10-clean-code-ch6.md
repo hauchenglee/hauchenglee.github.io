@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Code 無暇的程式碼- Ch6 對象及數據結構
-category: java
+category: architecture
 tags: [design-pattern]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web App 架構的二三事
-category: java
+category: architecture
 tags: [design-pattern]
 ---
 
