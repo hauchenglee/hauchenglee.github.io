@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 02 会计信息质量要求
-category: skill
+title: 会计概述 - 02-3 会计信息质量要求
+category: financial
 tags: [accounting]
 ---
 

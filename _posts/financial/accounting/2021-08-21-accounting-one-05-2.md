@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 05. 会计账簿
-category: skill
+title: 会计概述 - 05-2 会计账簿
+category: financial
 tags: [accounting]
 ---
 
@@ -13,7 +13,7 @@ tags: [accounting]
 
 会计账簿的基本内容
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计账簿的基本内容.png)
+![][1]
 
 1. 封面：主要用来标明账簿的名称，如总分类账、各种明细分类账、库存现金日记账、银行存款日记账等。
 2. 扉页：主要用来列名会计账簿的使用信息，如科目索引、账簿启用登记和经营人员一览表等。
@@ -23,7 +23,7 @@ tags: [accounting]
 
 会计账簿的种类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计账簿的种类.png)
+![][2]
 
 ### 按用途分类
 
@@ -71,7 +71,7 @@ tags: [accounting]
 
 ### 按账页格式分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-按账页格式分类.png)
+![][3]
 
 <br>
 
@@ -99,7 +99,7 @@ tags: [accounting]
 
 ### 按外形特征分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-按外形特征分类.png)
+![][4]
 
 <br>
 
@@ -221,7 +221,7 @@ tags: [accounting]
 
 总分类账户与明细分类账的平行登记的要点是：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-总分类账户与明细分类账户的平行登记.png)
+![][5]
 
 ## 对账
 
@@ -231,7 +231,7 @@ tags: [accounting]
 
 对账一般可以分为：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/对账.png)
+![][6]
 
 ### 账证核对
 
@@ -293,13 +293,13 @@ tags: [accounting]
 
 错账更正的方法：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/错账更正的方法.png)
+![][7]
 
 ### 划线更正法
 
 在**结账前**发现账簿记录有**文字**或**数字**错误，而记账**凭证没有错误**，采用划线更正法。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证vx.png)
+![][8]
 
 **【例题】**如果将3457错写成了8457，不能只把8划线改成3，而应将8457全部用红线划销后，再写上正确的数字3457。
 
@@ -307,7 +307,7 @@ tags: [accounting]
 
 ### 红字更正法
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证xx.png)
+![][9]
 
 红字更正法，适用于以下两种情形：
 1. 记账后发现**记账凭证**中的应借、应贷**会计科目**有**错误**所引起的记账错误。
@@ -341,7 +341,7 @@ tags: [accounting]
 
 ### 补充登记法
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证xx.png)
+![][10]
 
 记账后发现记账凭证和账簿记录中应借、应贷会计**科目无误**，只是**所记金额小于应记金额**时，采用补充登记法。
 
@@ -353,5 +353,16 @@ tags: [accounting]
 &nbsp;&nbsp;&nbsp;贷：银行存款 2700
 
 错误的记账凭证补充登记后，即可反映其正确金额为3000元。
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/会计账簿的基本内容.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/会计账簿的种类.png
+[3]: https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-按账页格式分类.png
+[4]: https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-按外形特征分类.png
+[5]: https://www.hauchenglee.com/assets/images/accounting/one/会计账簿-总分类账户与明细分类账户的平行登记.png
+[6]: https://www.hauchenglee.com/assets/images/accounting/one/对账.png
+[7]: https://www.hauchenglee.com/assets/images/accounting/one/错账更正的方法.png
+[8]: https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证vx.png
+[9]: https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证xx.png
+[10]: https://www.hauchenglee.com/assets/images/accounting/one/错账-记账凭证xx.png
 
 ---

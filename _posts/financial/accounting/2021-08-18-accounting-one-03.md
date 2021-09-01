@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 会计概述 - 03 会计要素及其确认与计量
-category: skill
+category: financial
 tags: [accounting]
 ---
 
@@ -11,7 +11,7 @@ tags: [accounting]
 
 会计要素按照其性质划分为资产、负债、所有者权益、收入、费用和利润。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计信息.png)
+![][1]
 
 ### 资产
 
@@ -107,7 +107,7 @@ tags: [accounting]
 
 所有者权益具体构成：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/所有者权益具体构成.png)
+![][2]
 
 2、所有者权益的确认条件
 
@@ -259,5 +259,8 @@ tags: [accounting]
 - 会计等式的**左右两边**的两个**要素**项目**同时等额增加**，会计等式保持恒等关系
 - 会计等式的**左右两边**的两个**要素**项目**同时等额减少**，会计等式保持恒等关系
 - 会计等式**右边**的**两个要素**项目**等额一增一减**，会计等式保持恒等关系
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/会计信息.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/所有者权益具体构成.png
 
 ---

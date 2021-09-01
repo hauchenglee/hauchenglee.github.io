@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 04. 会计科目和借贷记账法
-category: skill
+title: 会计概述 - 04 会计科目和借贷记账法
+category: financial
 tags: [accounting]
 ---
 
@@ -22,7 +22,7 @@ tags: [accounting]
 会计要素是对会计对象的分类；<br>
 会计科目是对会计要素的分类。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计科目.png)
+![][1]
 
 ## 会计科目和账户
 
@@ -34,13 +34,13 @@ tags: [accounting]
 
 1、按反映的**经济内容**（即所属的会计要素）
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计科目分类1.png)
+![][2]
 
 <br>
 
 2、按提供信息的**详细**程度及其**统驭**关系
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/会计科目分类2.png)
+![][3]
 
 **【注意】**如果某一总分类科目所辖的明细分类科目较多，可在总分类科目下设置**二级**明细科目，在二级明细科目下设置**三级**明细科目，以此类推。
 
@@ -54,7 +54,7 @@ tags: [accounting]
 
 2、账户的分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账户的分类.png)
+![][4]
 
 3、账户的结构
 
@@ -62,13 +62,13 @@ tags: [accounting]
 
 **【笔记】**具体哪一方记增加，哪一方记减少，要取决于所采用的记账方法和各该账户所记录的经济内容。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账户的结构.png)
+![][5]
 
 4、账户的四个金额要素
 
 期末余额 = 期初余额 + 本期增加发生额 - 本期减少发生额
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账户的四个金额要素.png)
+![][6]
 
 ## 借贷记账法
 
@@ -305,7 +305,7 @@ tags: [accounting]
 
 **【例题】**2020年12月，甲公司为了短期资金周转，向银行短期借款80000元。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/借贷规则-例题.png)
+![][7]
 
 <br>
 
@@ -315,7 +315,7 @@ tags: [accounting]
 
 > 指采用借贷记账法对每笔交易或事项进行记录时，相关账户之间形成的应借、应贷的相互关系。存在对应关系的账户成为对应账户。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/借贷规则-账户的对应关系.png)
+![][8]
 
 2、会计分录
 
@@ -351,7 +351,7 @@ tags: [accounting]
 
 一、试算平衡的分类
 
-![](https://www.hauchenglee.com/assets/images/financial/accounting/one/借贷记账-试算平衡的分类.png)
+![][9]
 
 1、发生额的试算平衡法
 
@@ -455,5 +455,15 @@ ANS：
 - 某项经济业务**记错**有关**账户**，**借贷**仍然**平衡**
 - 某项经济业务在账户记录中，**颠倒**了记账**方向**，借贷仍然平衡
 - 某借方或贷方发生额中，偶然发生**多记**和**少记**并相互**抵消**，借贷仍然**平衡**
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/会计科目.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/会计科目分类1.png
+[3]: https://www.hauchenglee.com/assets/images/accounting/one/会计科目分类2.png
+[4]: https://www.hauchenglee.com/assets/images/accounting/one/账户的分类.png
+[5]: https://www.hauchenglee.com/assets/images/accounting/one/账户的结构.png
+[6]: https://www.hauchenglee.com/assets/images/accounting/one/账户的四个金额要素.png
+[7]: https://www.hauchenglee.com/assets/images/accounting/one/借贷规则-例题.png
+[8]: https://www.hauchenglee.com/assets/images/accounting/one/借贷规则-账户的对应关系.png
+[9]: https://www.hauchenglee.com/assets/images/financial/accounting/one/借贷记账-试算平衡的分类.png
 
 ---

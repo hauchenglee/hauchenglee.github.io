@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 02 会计基本假设
-category: skill
+title: 会计概述 - 02-1 会计基本假设
+category: financial
 tags: [accounting]
 ---
 

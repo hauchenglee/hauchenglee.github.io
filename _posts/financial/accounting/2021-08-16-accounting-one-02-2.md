@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 02 会计基础
-category: skill
+title: 会计概述 - 02-2 会计基础
+category: financial
 tags: [accounting]
 ---
 

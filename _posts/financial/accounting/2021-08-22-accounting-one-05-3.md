@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 05. 账务处理程序
-category: skill
+title: 会计概述 - 05-3 账务处理程序
+category: financial
 tags: [accounting]
 ---
 
@@ -9,7 +9,7 @@ tags: [accounting]
 
 账务处理程序：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序.png)
+![][1]
 
 ## 记账凭证账务处理程序
 
@@ -17,7 +17,7 @@ tags: [accounting]
 
 记账凭证账务处理程序，适用于**规模较小、经济业务量较少**的单位。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-记账凭证账务处理程序示意图.png)
+![][2]
 
 <table>
     <tbody>
@@ -42,7 +42,7 @@ tags: [accounting]
 
 汇总记账凭证可以分为**汇总收款凭证、汇总付款凭证**和**汇总转账凭证**，三种凭证有不同的编制方法。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-汇总记账凭证账务处理程序示意图.png)
+![][3]
 
 <table>
     <tbody>
@@ -65,11 +65,11 @@ tags: [accounting]
 
 科目汇总表**又称**记账凭证汇总表，是企业**定期**对全部记账凭证进行**汇总**后，按照不同的会计科目分别列示**各账户借方发生额**和**贷方发生额**的一种汇总凭证。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-科目汇总表.png)
+![][4]
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-科目汇总表账务处理程序示意图.png)
+![][5]
 
 <table>
     <tbody>
@@ -87,5 +87,11 @@ tags: [accounting]
         </tr>
     </tbody>
 </table>
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-记账凭证账务处理程序示意图.png
+[3]: https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-汇总记账凭证账务处理程序示意图.png
+[4]: https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-科目汇总表.png
+[5]: https://www.hauchenglee.com/assets/images/accounting/one/账务处理程序-科目汇总表账务处理程序示意图.png
 
 ---

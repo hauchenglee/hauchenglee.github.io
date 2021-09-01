@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初级会计实务 - 前言
-category: skill
+category: financial
 tags: [accounting]
 ---
 

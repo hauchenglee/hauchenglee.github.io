@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 05. 会计凭证
-category: skill
+title: 会计概述 - 05-1 会计凭证
+category: financial
 tags: [accounting]
 ---
 
@@ -32,11 +32,11 @@ tags: [accounting]
 
 ## 原始凭证的种类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/原始凭证的分类.png)
+![][1]
 
 ### 按取得来源分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-来源分类.png)
+![][2]
 
 **【自制原始凭证】**是指由**本单位**有关部门和人员，在执行或完成某项经济业务时**填制**的原始凭证。如：领料单、产品入库单、借款单等。
 
@@ -44,7 +44,7 @@ tags: [accounting]
 
 ### 按照格式分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-格式分类.png)
+![][3]
 
 **【通用凭证】**是指有关部门**统一印制**、在一定范围内使用的具有**统一格式**和**使用方法**的原始凭证。如：国家税务总局统一印制的全国通用的增值税专用发票等。
 
@@ -52,7 +52,7 @@ tags: [accounting]
 
 ### 按填制的手续和内容分类
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-填制的手续和内容分类.png)
+![][4]
 
 **【一次凭证】**是指**一次填制完成**，只记录**一笔经济业务**且仅**一次有效**的原始凭证。如：收据、发货票等。
 
@@ -98,7 +98,7 @@ tags: [accounting]
 
 按其反映的经济业务的内容来划分：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/记账凭证的种类.png)
+![][5]
 
 1. 收款凭证，是指用于记录**库存现金**和**银行存款收款**业务的记账凭证
 2. 付款凭证，是指用于记录**库存现金**和**银行存款付款**业务的记账凭证
@@ -129,7 +129,7 @@ tags: [accounting]
 4. 填制记账凭证时若发生错误，应当重新填制（未入账）
 5. 记账凭证**填制完成**后，如有**空行**，应当自金额栏最后一笔金额数字下的空行处至合计数字上的空行处**划线注销**
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/记账凭证-划线注销.jpg)
+![][6]
 
 Ref: [基础会计 错账更正的方法- 划线更正法 佛山市财经学校 程海泉. - ppt download](https://slidesplayer.com/slide/11598964/){:target="_blank"}
 
@@ -172,7 +172,7 @@ Ref: [基础会计 错账更正的方法- 划线更正法 佛山市财经学校 
 
 ## 原始凭证的审核
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/原始凭证的审核.png)
+![][7]
 
 ### 真实性
 
@@ -205,5 +205,13 @@ Ref: [基础会计 错账更正的方法- 划线更正法 佛山市财经学校 
     - **【笔记3】**大写金额前**要加** “人民币” 字样，大写金额与小写金额要**相符**。
 3. 更正是否正确
     - 原始凭证记载的各项内容均**不得**涂改、刮擦和挖补。
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/原始凭证的分类.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-来源分类.png
+[3]: https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-格式分类.png
+[4]: https://www.hauchenglee.com/assets/images/accounting/one/原始凭证-填制的手续和内容分类.png
+[5]: https://www.hauchenglee.com/assets/images/accounting/one/记账凭证的种类.png
+[6]: https://www.hauchenglee.com/assets/images/accounting/one/记账凭证-划线注销.jpg
+[7]: https://www.hauchenglee.com/assets/images/accounting/one/原始凭证的审核.png
 
 ---

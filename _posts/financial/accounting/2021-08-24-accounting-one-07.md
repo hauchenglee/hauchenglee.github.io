@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 07. 财务报告
-category: skill
+title: 会计概述 - 07 财务报告
+category: financial
 tags: [accounting]
 ---
 
@@ -24,7 +24,7 @@ tags: [accounting]
 
 一套完整的财务报表至少应当包括：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/财务报表的组成.png)
+![][1]
 
 资产负债表、利润表和现金流量表分别从不同角度反映企业的财务状况、经营成果和现金流量。
 
@@ -58,5 +58,7 @@ tags: [accounting]
         </tr>
     </tbody>
 </table>
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/财务报表的组成.png
 
 ---

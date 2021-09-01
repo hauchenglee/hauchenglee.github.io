@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 会计概述 - 06. 财务清查
-category: skill
+title: 会计概述 - 06 财务清查
+category: financial
 tags: [accounting]
 ---
 
@@ -9,7 +9,7 @@ tags: [accounting]
 
 **财产清查**是指通过对**货币资金、实物资产**和**往来款项**等财产物资进行盘点或核对，确定其实存数，查明**账存数**与**实存数**是否相符的一种专门方法。
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/财产清查.png)
+![][1]
 
 ### 按清查范围分类
 
@@ -237,7 +237,7 @@ tags: [accounting]
 
 常见的清查方法主要有：
 
-![](https://www.hauchenglee.com/assets/images/accounting/one/实物资产清查方法.png)
+![][2]
 
 <br>
 
@@ -262,5 +262,8 @@ tags: [accounting]
 往来款项清查以后，将清查结果编制 **“往来款项清查报告单”** ，填列各项债券、债务的余额。
 
 对于有争执的款项以及无法收回的款项，应在报告单上详细列明情况，并及时采取措施进行处理，**避免或减少**坏账损失。
+
+[1]: https://www.hauchenglee.com/assets/images/accounting/one/财产清查.png
+[2]: https://www.hauchenglee.com/assets/images/accounting/one/实物资产清查方法.png
 
 ---

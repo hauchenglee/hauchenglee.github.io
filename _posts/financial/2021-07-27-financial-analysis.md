@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 财务报表分析与决策
-category: skill
+category: financial
 tags: [financial]
 ---
 

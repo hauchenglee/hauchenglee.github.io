@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 会计概述 - 01 会计概念、职能和目标
-category: skill
+category: financial
 tags: [accounting]
 ---
 
