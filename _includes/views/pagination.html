@@ -29,7 +29,7 @@
         <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
         <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
       </div>
-      {% if post.tags contains 'password' %}
+      {% if post.tags contains 'private' %}
         <div class="post-excerpt">
           <p>
             <span style="font-weight: bold;">Password protected!</span>
