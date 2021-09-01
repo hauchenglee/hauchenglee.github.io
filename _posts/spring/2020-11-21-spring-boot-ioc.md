@@ -41,7 +41,7 @@ IoC 不是什么技术，而是一种设计思想。在 Java 开发中，IoC 意
 ![](https://www.hauchenglee.com/assets/images/spring/spring-boot/spring-boot-core-ioc.png)
 
 Ref: 
-- [5. The IoC container](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html){:target="_blank"}
+- [5. The IoC container](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html)
 
 ## IoC Container
 
@@ -59,7 +59,7 @@ Ref:
 ## IoC vs Factory
 
 Ref:
-- [控制反轉(IoC) ？ 工廠模式？ - IT閱讀](https://www.itread01.com/p/776033.html){:target="_blank"}
+- [控制反轉(IoC) ？ 工廠模式？ - IT閱讀](https://www.itread01.com/p/776033.html)
 
 ## Bean
 
@@ -96,6 +96,6 @@ Ref:
 </beans>
 ```
 
-Ref: [4. Reference Injection](https://www.springbyexample.org/examples/intro-to-ioc-reference-injection.html){:target="_blank"}
+Ref: [4. Reference Injection](https://www.springbyexample.org/examples/intro-to-ioc-reference-injection.html)
 
 ---

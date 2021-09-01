@@ -7,7 +7,7 @@ tags: [spring-boot]
 
 ## 配置 application.properties
 
-- [Spring Boot Application Properties Example - Examples Java Code Geeks - 2020](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-application-properties-example/){:target="_blank"}
+- [Spring Boot Application Properties Example - Examples Java Code Geeks - 2020](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-application-properties-example/)
 
 ```properties
 spring.profiles.active=dev
@@ -41,17 +41,17 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 读取 application.properties
 
-- [Spring Boot读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg){:target="_blank"}
-- [Spring Boot application.properties file - Dev in Web](http://dolszewski.com/spring/spring-boot-application-properties-file/){:target="_blank"}
+- [Spring Boot读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg)
+- [Spring Boot application.properties file - Dev in Web](http://dolszewski.com/spring/spring-boot-application-properties-file/)
 
 ## 打包 application.properties
 
 active:
-- [Activating Spring Boot profile with Maven profile - Dev in Web](http://dolszewski.com/spring/spring-boot-properties-per-maven-profile/){:target="_blank"}
-- [通過maven profile 打包指定環境配置 - IT閱讀](https://www.itread01.com/content/1546503853.html){:target="_blank"}
-- [Spring boot 使用profile完成不同环境的maven打包功能_duan9421的专栏-CSDN博客](https://blog.csdn.net/duan9421/article/details/79086335){:target="_blank"}
+- [Activating Spring Boot profile with Maven profile - Dev in Web](http://dolszewski.com/spring/spring-boot-properties-per-maven-profile/)
+- [通過maven profile 打包指定環境配置 - IT閱讀](https://www.itread01.com/content/1546503853.html)
+- [Spring boot 使用profile完成不同环境的maven打包功能_duan9421的专栏-CSDN博客](https://blog.csdn.net/duan9421/article/details/79086335)
 
 spring boot active:
-- [java - Spring Boot: spring.profiles.active=dev/test/prod - Stack Overflow](https://bit.ly/386R6sB){:target="_blank"}
+- [java - Spring Boot: spring.profiles.active=dev/test/prod - Stack Overflow](https://bit.ly/386R6sB)
 
 ---

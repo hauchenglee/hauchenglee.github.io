@@ -46,7 +46,7 @@ tags: [spring-boot]
 >
 > `<context:component-scan>`不仅可以执行`<context:annotation-config>`操作，`<context:component-scan>`还可以扫描软件包以在应用程序上下文中查找并注册Bean。
 >
-> Ref: [java - Difference between \<context:annotation-config> and \<context:component-scan> - Stack Overflow](https://bit.ly/332icjZ){:target="_blank"}
+> Ref: [java - Difference between \<context:annotation-config> and \<context:component-scan> - Stack Overflow](https://bit.ly/332icjZ)
 
 `<context:component-scan>`用法：
 
@@ -81,8 +81,8 @@ tags: [spring-boot]
 - JSR 330 注解: `@Inject`。(SR 330’s `@Inject` annotation can be used in place of Spring’s `@Autowired` annotation in the examples included in this section.)
 
 Ref: 
-- [java - @Required not auto-wiring byName bydefault - Stack Overflow](https://stackoverflow.com/questions/50966984/required-not-auto-wiring-byname-bydefault){:target="_blank"}
-- [Guide to Spring @Autowired \| Baeldung](https://www.baeldung.com/spring-autowire){:target="_blank"}
+- [java - @Required not auto-wiring byName bydefault - Stack Overflow](https://stackoverflow.com/questions/50966984/required-not-auto-wiring-byname-bydefault)
+- [Guide to Spring @Autowired \| Baeldung](https://www.baeldung.com/spring-autowire)
 
 ### Classpath Scanning and Managed Components
 
@@ -101,7 +101,7 @@ Ref:
 2. 使用@Bean註解相應的方法，該方法名默認就是Bean的名稱，該方法返回值就是Bean的對象。
 3. AnnotationConfigApplicationContext或子類進行加載基於java類的配置
 
-Ref: [Spring bean配置的三种方式（XML、注解、Java类）_MrLee的博客-CSDN博客](https://blog.csdn.net/echizao1839/article/details/88063013){:target="_blank"}
+Ref: [Spring bean配置的三种方式（XML、注解、Java类）_MrLee的博客-CSDN博客](https://blog.csdn.net/echizao1839/article/details/88063013)
 
 换句话说，就是原本在xml配置的元数据，改成用Java类来配置。
 
@@ -155,7 +155,7 @@ public class Police implements Job {
 
 @Bean注释告诉Spring使用`@Bean`注释的方法将返回一个对象，该对象应在Spring应用程序上下文中注册为Bean
 
-Ref: [Spring - Java Based Configuration - Tutorialspoint](https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm){:target="_blank"}
+Ref: [Spring - Java Based Configuration - Tutorialspoint](https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm)
 
 `@Configuration`是一个类级别的注解，用来标记被修饰类的对象是一个**BeanDefinition**。
 

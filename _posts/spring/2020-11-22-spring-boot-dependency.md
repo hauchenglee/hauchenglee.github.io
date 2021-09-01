@@ -179,11 +179,13 @@ try {
   因此spring可以通过`setter`注入解决循环依赖性。在调用`setter`方法之前先构造对象。在编程实践中，循环引用是不好的，必须避免。
 - 具有描述性名称：属性“名称”必须出现在元素“属性”上。（Attribute `name` must appear on element `property`.）
 
-Ref: [Constructor vs Setter Dependency Injection \| Dariawan](https://www.dariawan.com/tutorials/spring/constructor-vs-setter-dependency-injection/){:target="_blank"}
+Ref: [Constructor vs Setter Dependency Injection \| Dariawan](https://www.dariawan.com/tutorials/spring/constructor-vs-setter-dependency-injection/)
 
 ## Dependency Lookup
 
+See:
 
+[spring - What is the difference between dependency injection and dependency look up? - Stack Overflow](https://stackoverflow.com/questions/28039232/what-is-the-difference-between-dependency-injection-and-dependency-look-up)
 
 ## Autowiring Collaborators
 

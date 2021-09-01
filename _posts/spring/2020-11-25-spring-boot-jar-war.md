@@ -8,7 +8,7 @@ tags: [spring-boot]
 ## Deployed by jar
 
 這裡有完整的討論與官方鏈接
-- [java - Differences between jar and war in Spring Boot? - Stack Overflow](https://bit.ly/2uR7dfv){:target="_blank"}
+- [java - Differences between jar and war in Spring Boot? - Stack Overflow](https://bit.ly/2uR7dfv)
 
 ## Deployed by war
 
@@ -78,19 +78,19 @@ Spring Boot application gives 404 when deployed to Tomcat
 ```
 
 關於此錯誤的討論：
-- [java - Spring Boot application gives 404 when deployed to Tomcat but works with embedded server - Stack Overflow](https://bit.ly/328wCNI){:target="_blank"}
+- [java - Spring Boot application gives 404 when deployed to Tomcat but works with embedded server - Stack Overflow](https://bit.ly/328wCNI)
 
 官方文件：
-- [92. Traditional Deployment](https://docs.spring.io/spring-boot/docs/2.1.10.RELEASE/reference/html/howto-traditional-deployment.html){:target="_blank"}
-- [“How-to” Guides](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-traditional-deployment){:target="_blank"}
+- [92. Traditional Deployment](https://docs.spring.io/spring-boot/docs/2.1.10.RELEASE/reference/html/howto-traditional-deployment.html)
+- [“How-to” Guides](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-traditional-deployment)
 
 部署教程：
-- [Deploy a Spring Boot WAR into a Tomcat Server \| Baeldung](https://www.baeldung.com/spring-boot-war-tomcat-deploy){:target="_blank"}
-- [How to make a Spring Boot Jar into a War to deploy on tomcat \| Software Developer Blog](https://mtdevuk.com/2015/07/16/how-to-make-a-spring-boot-jar-into-a-war-to-deploy-on-tomcat/){:target="_blank"}
+- [Deploy a Spring Boot WAR into a Tomcat Server \| Baeldung](https://www.baeldung.com/spring-boot-war-tomcat-deploy)
+- [How to make a Spring Boot Jar into a War to deploy on tomcat \| Software Developer Blog](https://mtdevuk.com/2015/07/16/how-to-make-a-spring-boot-jar-into-a-war-to-deploy-on-tomcat/)
 
 `SpringBootServletInitializer`說明：
-- [Spring Boot - SpringBootServletInitializer Examples](https://www.logicbig.com/how-to/code-snippets/jcode-spring-boot-springbootservletinitializer.html){:target="_blank"}
-- [SpringBootServletInitializer Class in Spring Boot](https://www.javaguides.net/2019/01/springbootservletinitializer-class-in-springboot.html){:target="_blank"}
-- [SpringBootServletInitializer tutorial - deploying Spring Boot application from WAR](http://zetcode.com/springboot/springbootservletinitializer/){:target="_blank"}
+- [Spring Boot - SpringBootServletInitializer Examples](https://www.logicbig.com/how-to/code-snippets/jcode-spring-boot-springbootservletinitializer.html)
+- [SpringBootServletInitializer Class in Spring Boot](https://www.javaguides.net/2019/01/springbootservletinitializer-class-in-springboot.html)
+- [SpringBootServletInitializer tutorial - deploying Spring Boot application from WAR](http://zetcode.com/springboot/springbootservletinitializer/)
 
 ---

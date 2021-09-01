@@ -34,9 +34,9 @@ not yet!
 
 ## Resource
 
-- [Spring Framework Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/){:target="_blank"}
-- [Learn Spring Tutorial - javatpoint](https://www.javatpoint.com/spring-tutorial){:target="_blank"}
-- [Spring Core Tutorials - HowToDoInJava](https://howtodoinjava.com/spring-core/){:target="_blank"}
-- [Spring Tutorial](https://dunwu.github.io/spring-tutorial/#/README){:target="_blank"}
+- [Spring Framework Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+- [Learn Spring Tutorial - javatpoint](https://www.javatpoint.com/spring-tutorial)
+- [Spring Core Tutorials - HowToDoInJava](https://howtodoinjava.com/spring-core/)
+- [Spring Tutorial](https://dunwu.github.io/spring-tutorial/#/README)
 
 ---

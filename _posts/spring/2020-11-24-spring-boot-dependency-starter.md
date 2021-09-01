@@ -28,6 +28,6 @@ tags: [spring-boot]
 </dependency>
 ```
 
-Ref: [spring-boot-starter-tomcat vs spring-boot-starter-web - Stack Overflow](https://bit.ly/2SIn5tS){:target="_blank"}
+Ref: [spring-boot-starter-tomcat vs spring-boot-starter-web - Stack Overflow](https://bit.ly/2SIn5tS)
 
 ---
