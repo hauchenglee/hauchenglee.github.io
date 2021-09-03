@@ -186,8 +186,8 @@ excerpt_size: 200
 paginate: 20
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: hauchenglee
 
 # Gitment comments
 # gitment:
