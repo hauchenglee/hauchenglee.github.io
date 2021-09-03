@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 創作 (小小說) - 吻一個女孩
+title: 吻一個女孩
 category: blog
-tags: [blog]
+tags: [story]
 ---
 
 吻一個女孩

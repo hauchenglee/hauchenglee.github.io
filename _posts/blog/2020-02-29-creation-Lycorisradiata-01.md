@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 創作 (小說) - Lycoris Radiata 01
+title: 小說 - Lycoris Radiata 01
 category: blog
-tags: [blog]
+tags: [novel]
 ---
 
 episode one 花落.

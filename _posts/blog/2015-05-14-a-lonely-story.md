@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 創作 - 一個寂寞的故事
+title: 一個寂寞的故事
 category: blog
-tags: [blog]
+tags: [diary, private]
 ---
 
 這是日記。

@@ -2,7 +2,7 @@
 layout: post
 title: 隨筆 - 平庸
 category: blog
-tags: [blog]
+tags: [diary, sketch]
 ---
 
 我一直在想這個問題：<br>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Spring Contents
+title: Spring Boot Contents
 category: spring
-tags: [spring, contents]
+tags: [spring-boot]
 ---
 
 ## Spring, Spring Boot and Spring Cloud
@@ -10,8 +10,6 @@ tags: [spring, contents]
 ![](https://www.hauchenglee.com/assets/images/spring/spring-boot/Spring-the-source-for-modern-JAVA.jpg)
 
 ## Contents 
-
-### spring boot
 
 - Core
     - Spring Boot - IOC
@@ -27,10 +25,6 @@ tags: [spring, contents]
     - Spring Boot - Dependency Starter
     - Spring Boot - Jar War
     - Spring Boot - Application Properties
-
-### Spring Cloud
-
-not yet!
 
 ## Resource
 

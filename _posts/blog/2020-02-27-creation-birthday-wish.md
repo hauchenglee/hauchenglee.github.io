@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 創作 (小小說) - 生日願望
+title: 生日願望
 category: blog
-tags: [blog]
+tags: [story]
 ---
 
 生日願望

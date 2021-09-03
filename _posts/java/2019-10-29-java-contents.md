@@ -3,7 +3,7 @@ layout: post
 title: Java Contents
 subtitle: Talk is cheap, show me your code
 category: java
-tags: [java, contents]
+tags: [java]
 ---
 
 ## Language Basics

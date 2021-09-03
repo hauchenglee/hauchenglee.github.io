@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 創作 (文章) - 回家
+title: 回家
 category: blog
-tags: [blog]
+tags: [story]
 ---
 
 回家

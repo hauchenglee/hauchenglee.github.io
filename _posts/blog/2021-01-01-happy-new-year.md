@@ -2,7 +2,7 @@
 layout: post
 title: 新年快乐
 category: blog
-tags: [blog, private]
+tags: [sketch, private]
 ---
 
 > 挥别2020，展望2021
