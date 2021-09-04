@@ -54,7 +54,7 @@ https://www.classynemesis.com/projects/ytembed/
 
 style：
 
-style="width: 100%; height: 500px; max-width: 100%；align:center; padding:20px 0;"
+style="width: 100%; height: 500px; text-align: center; padding: 20px 0;"
 
 参数：&as_wide=1&high_quality=1&danmaku=0
 - &page=1
@@ -64,7 +64,7 @@ style="width: 100%; height: 500px; max-width: 100%；align:center; padding:20px 
 
 全部：
 
-<iframe src="//player.bilibili.com/player.html?aid=18979019&bvid=BV1GW411H7X4&cid=30953782&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 500px; max-width: 100%；align:center; padding:20px 0;"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=18979019&bvid=BV1GW411H7X4&cid=30953782&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 500px; text-align: center; padding: 20px 0;"> </iframe>
 
 Ref:
 - [哔哩哔哩视频显示在Github的Markdown博客页方法 - 哔哩哔哩](https://www.bilibili.com/read/cv3204833)
