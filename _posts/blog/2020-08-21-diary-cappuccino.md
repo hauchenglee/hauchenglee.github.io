@@ -119,9 +119,10 @@ tags: [diary, sketch]
 
 分享我很喜歡的一首歌：<br>
 僕が死のうと思ったのは
+
 <br>
-<br>
-[![](https://img.youtube.com/vi/0HTAKT-JIaA/0.jpg)](https://www.youtube.com/watch?v=0HTAKT-JIaA){:target="_blank"}
+
+<iframe src="https://www.youtube.com/embed/0HTAKT-JIaA" width="560" height="315" frameborder="0"></iframe>
 
 <br>
 <br>

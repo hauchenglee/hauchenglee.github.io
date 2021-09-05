@@ -144,6 +144,10 @@ tags: [diary, sketch]
 我親手把我的夢想給砸了。
 
 <br>
+
+<iframe class="bilibili" src="//player.bilibili.com/player.html?aid=18979019&bvid=BV1GW411H7X4&cid=30953782&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<br>
 <br>
 
 祝 好<br>
