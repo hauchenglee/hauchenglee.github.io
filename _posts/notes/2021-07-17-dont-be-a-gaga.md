@@ -2,7 +2,7 @@
 layout: post
 title: 别做正常的傻瓜
 category: blog
-tags: [side-hustle]
+tags: [side-hustle, private]
 ---
 
 ## 前言
