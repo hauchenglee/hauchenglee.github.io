@@ -26,14 +26,12 @@ tags: [spring-boot]
     - Spring Boot - Jar War
     - Spring Boot - Application Properties
 
-[][1]
+![](https://www.hauchenglee.com/assets/images/spring/spring-boot/SpringBoot2_核心技术与响应式编程.png)
 
 ## Resource
 
 - [Spring Framework Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/)
 - [Spring Tutorial](https://dunwu.github.io/spring-tutorial/#/README)
 - [SpringBoot2核心技术与响应式编程 · 语雀](https://www.yuque.com/atguigu/springboot)
-
-[1]: ![](https://www.hauchenglee.com/assets/images/spring/spring-boot/SpringBoot2_核心技术与响应式编程.png)
 
 ---
