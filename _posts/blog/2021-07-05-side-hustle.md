@@ -250,8 +250,6 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
 
 转化：行为模式 B = M + A + T （行为 = 动机 + 能力 + 触发物）
 
-![](https://www.hauchenglee.com/assets/images/notes/Compact-FoggBehaviorModel.jpg)
-
 出自 BJ Fogg
 
 ### 其他

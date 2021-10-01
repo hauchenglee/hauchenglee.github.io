@@ -1,7 +1,7 @@
 ---
 layout: post
 title: English Grammar 英文文法
-category: notes
+category: course
 tags: [english]
 ---
 
@@ -103,7 +103,7 @@ tags: [english]
 ### auxiliary verb
 
 - 助動詞本身並沒有詞義，它是用來幫助主要動詞（main verb）形成各種時態、語氣、語態、疑問句、或否定句。
-- 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考[動詞片語](https://www.hauchenglee.com/notes/2019/11/24/english-phrase.html)。
+- 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考*動詞片語*。
 - 若是[被動語態](#participle)，則動詞片語的助動詞還可以多大四個。
 
 <table>
@@ -292,7 +292,7 @@ Ref: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/T
 
 Ref: [實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=509){:target="_blank"}
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/verb-s.png)
+![](https://www.hauchenglee.com/assets/images/course/english/verb-s.png)
 
 Ref: [file5940_14.pdf](http://eweb.flps.tp.edu.tw/module/download/update/f0079/file5940_14.pdf){:target="_blank"}
 
@@ -347,11 +347,11 @@ Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/gr
 
 ### in, on, at
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/prepositions-of-time.jpg)
+![](https://www.hauchenglee.com/assets/images/course/english/prepositions-of-time.jpg)
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/prepositions-of-place.jpg)
+![](https://www.hauchenglee.com/assets/images/course/english/prepositions-of-place.jpg)
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/prepositions-in-on-at.jpg)
+![](https://www.hauchenglee.com/assets/images/course/english/prepositions-in-on-at.jpg)
 
 Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
 
@@ -422,9 +422,9 @@ verb + person + to + verb-root:
 
 ## pronoun
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/personal-pronoun-singular-plural.jpg)
+![](https://www.hauchenglee.com/assets/images/course/english/personal-pronoun-singular-plural.jpg)
 
-![](https://www.hauchenglee.com/assets/images/notes/eng/personal-pronoun-voicetube.jpg)
+![](https://www.hauchenglee.com/assets/images/course/english/personal-pronoun-voicetube.jpg)
 
 【格】的意思：這個代名詞在句中所扮演的角色
 
