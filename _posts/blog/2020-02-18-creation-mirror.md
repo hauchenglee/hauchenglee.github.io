@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 創作 - 鏡像
+title: 鏡像
 category: blog
 tags: [story]
 ---

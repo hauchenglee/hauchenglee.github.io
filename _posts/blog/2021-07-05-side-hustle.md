@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 从零开始的副业生活
-category: notes
+category: blog
 tags: [side-hustle, private]
 ---
 

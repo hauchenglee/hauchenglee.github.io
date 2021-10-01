@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 小說 - Lycoris Radiata 01
+title: Lycoris Radiata 01
 category: blog
 tags: [novel]
 ---
