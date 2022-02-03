@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 category: blog
-tags: [sketch]
+tags: [diary]
 ---
 
 Hello World!

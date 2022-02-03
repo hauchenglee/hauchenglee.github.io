@@ -2,7 +2,7 @@
 layout: post
 title: 隨筆 - 卡布奇諾
 category: blog
-tags: [diary, sketch]
+tags: [diary]
 ---
 
 “今天你要來點什麼？”<br>

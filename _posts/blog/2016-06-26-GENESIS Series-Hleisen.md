@@ -3,7 +3,7 @@ layout: post
 title: 境界线上的地平线 - sketch
 subtitle: 记第一卷的托利——愚蠢的笨蛋、伟大的王
 category: blog
-tags: [sketch]
+tags: [short sentences]
 ---
 
 我一个人的话什么也做不到
