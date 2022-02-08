@@ -7,9 +7,9 @@ css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon
 permalink: /about
 ---
 
-<div style="text-align: center">
+<!-- <div style="text-align: center">
 <img src="https://raw.githubusercontent.com/hauchenglee/hauchenglee.github.io/master/assets/images/about/profile.jpg" alt="" width="20%"/>
-</div>
+</div> -->
 
 ## **About Me**
 
