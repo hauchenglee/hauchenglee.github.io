@@ -2,7 +2,7 @@
 layout: post
 title: Financial Analysis
 category: course
-tags: [financial private]
+tags: [financial, private]
 ---
 
 ## 三大财报

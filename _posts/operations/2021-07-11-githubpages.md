@@ -2,7 +2,7 @@
 layout: post
 title: Github Pages
 category: operations
-tags: [git]
+tags: [git, private]
 ---
 
 ## Introduction
