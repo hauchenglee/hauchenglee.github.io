@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 财务报表分析与决策
+title: Financial Analysis
 category: course
-tags: [financial]
+tags: [financial private]
 ---
 
 ## 三大财报
