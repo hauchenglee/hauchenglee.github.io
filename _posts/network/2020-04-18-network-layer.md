@@ -58,7 +58,7 @@ tags: [network]
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/network/osi-7-layer-model.png)
+![](https://hauchenglee.github.io/assets/images/network/osi-7-layer-model.png)
 
 Ref: [OSI (Open System Interconnection) 7 Layer Model](http://www.howtocisco.com/ccna/ccna2.htm){:target="_blank"}
 
@@ -75,15 +75,15 @@ Ref: [OSI七層參考模組.PDF](https://bit.ly/2VQpWRt){:target="_blank"}
 
 - Physical
 - Data Link
-   - [Network - Ethernet](https://www.hauchenglee.com/network-2-ethernet/){:target="_blank"}
-   - [Network - MAC](https://www.hauchenglee.com/network-2-mac/){:target="_blank"}
-   - [Network - Broadcast](https://www.hauchenglee.com/network-broadcast/){:target="_blank"}
-   - [Network - Switch & Router](https://www.hauchenglee.com/network-switch-router/){:target="_blank"}
+   - [Network - Ethernet](https://hauchenglee.github.io/network-2-ethernet/){:target="_blank"}
+   - [Network - MAC](https://hauchenglee.github.io/network-2-mac/){:target="_blank"}
+   - [Network - Broadcast](https://hauchenglee.github.io/network-broadcast/){:target="_blank"}
+   - [Network - Switch & Router](https://hauchenglee.github.io/network-switch-router/){:target="_blank"}
 - Network
-   - [Network - IP](https://www.hauchenglee.com/network-ip/){:target="_blank"}
-   - [Network - Switch & Router](https://www.hauchenglee.com/network-switch-router/){:target="_blank"}
+   - [Network - IP](https://hauchenglee.github.io/network-ip/){:target="_blank"}
+   - [Network - Switch & Router](https://hauchenglee.github.io/network-switch-router/){:target="_blank"}
 - Transport
-   - [Network - TCP / UDP](https://www.hauchenglee.com/network-tcp-udp/){:target="_blank"}
+   - [Network - TCP / UDP](https://hauchenglee.github.io/network-tcp-udp/){:target="_blank"}
 - Application
    - [](){:target="_blank"}
 

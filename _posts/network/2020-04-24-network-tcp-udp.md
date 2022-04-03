@@ -22,7 +22,7 @@ TCP 幾個特點：
 
 ### TCP segment structure
 
-![](https://www.hauchenglee.com/assets/images/network/tcp-SegmentHeader-1.png)
+![](https://hauchenglee.github.io/assets/images/network/tcp-SegmentHeader-1.png)
 
 1. Source Port Address: 傳送來源
 2. Destination Port Address: 傳送對象
@@ -117,7 +117,7 @@ TCP 幾個特點：
 
 三次握手建立連接
 
-![](https://www.hauchenglee.com/assets/images/network/tcp-connection-establishment.jpg)
+![](https://hauchenglee.github.io/assets/images/network/tcp-connection-establishment.jpg)
 
 過程：
 
@@ -141,7 +141,7 @@ TCP 幾個特點：
 
 四次揮手關閉連接
 
-![](https://www.hauchenglee.com/assets/images/network/tcp-connection-termination.jpg)
+![](https://hauchenglee.github.io/assets/images/network/tcp-connection-termination.jpg)
 
 過程：
 

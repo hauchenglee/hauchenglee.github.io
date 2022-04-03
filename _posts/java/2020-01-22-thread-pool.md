@@ -82,7 +82,7 @@ If none of the executors provided by the above factory methods meet your needs, 
 
 用圖示來說明如下：
 
-![](https://www.hauchenglee.com/assets/images/java/thread-pool-baeldung.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-pool-baeldung.png)
 
 Ref: [Introduction to Thread Pools in Java - Baeldung](https://www.baeldung.com/thread-pool-java-and-guava){:target="_blank"}
 

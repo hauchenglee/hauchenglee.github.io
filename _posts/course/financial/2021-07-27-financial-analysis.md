@@ -9,7 +9,7 @@ tags: [financial, private]
 
 ### 资产负债表
 
-![](https://www.hauchenglee.com/assets/images/course/financial/会计恒等式.png)
+![](https://hauchenglee.github.io/assets/images/course/financial/会计恒等式.png)
 
 ### 利润表
 
@@ -97,7 +97,7 @@ tags: [financial, private]
 
 总结：
 
-![](https://www.hauchenglee.com/assets/images/course/financial/周转率.png)
+![](https://hauchenglee.github.io/assets/images/course/financial/周转率.png)
 
 ## 短期偿债能力分析
 
@@ -163,7 +163,7 @@ tags: [financial, private]
 有哪些因素可能是对一个企业的经营状况是非常重要的？
 <br>→ 借用一个分析工具：五力图（five-force chart）
 
-![](https://www.hauchenglee.com/assets/images/course/financial/P28_影响财务数据的因素_000505.png)
+![](https://hauchenglee.github.io/assets/images/course/financial/P28_影响财务数据的因素_000505.png)
 
 五力图：有五种力量决定了一个企业的盈利能力（图中比较大的方块）。竞争的激化对企业来说最直接的冲击是哪一个财务数据？
 <br>→ 毛利（gross profit）
@@ -193,7 +193,7 @@ tags: [financial, private]
 
 图表比较：
 
-![](https://www.hauchenglee.com/assets/images/course/financial/P33_财务数据与竞争战略_000720.png)
+![](https://hauchenglee.github.io/assets/images/course/financial/P33_财务数据与竞争战略_000720.png)
 
 ### 战略执行
 
@@ -238,7 +238,7 @@ tags: [financial, private]
 
 公式:
 
-![](https://www.hauchenglee.com/assets/images/course/financial/P37_什么是“赚钱”_000022.png)
+![](https://hauchenglee.github.io/assets/images/course/financial/P37_什么是“赚钱”_000022.png)
 
 ### 赚钱
 

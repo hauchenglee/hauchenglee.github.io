@@ -11,7 +11,7 @@ tags: [tech]
 2. Switch: 智能集線器，可以分析目的地位置（MAC），用來隔離衝突域，連接的所有設備同屬於一個廣播域（子網），負責子網內部通信。
 3. Router: 用來隔離廣播域（子網），連接的設備分屬不同子網，工作範圍是多個子網之間，負責網絡與網絡之間通信。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-hub-switch-router.jpg)
+![](https://hauchenglee.github.io/assets/images/tech/network-hub-switch-router.jpg)
 
 Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticshare.com/hub-vs-switch-vs-router-whats-difference.html){:target="_blank"}
 
@@ -21,13 +21,13 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 
 小A與小B想要互相通信，因此他使用網線接在彼此的端口，實現了兩台電腦的互連。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-connection.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-connection.png)
 
 ### HUB
 
 現在小C也想加入通信，但因為每台電腦只有一個網口，所以需要另一台【微型機器】，將彼此的網線集中分發實現最初級的網絡互通。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-connection-hub.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-connection-hub.png)
 
 <br>
 
@@ -49,7 +49,7 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 
 交換機本質上是一個智能集線器，具有學習的行為，只要接受過第一次傳輸的記錄後，就會了解並學習，從而提高傳輸速度。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-connection-switch.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-connection-switch.png)
 
 【工作原理】：
 
@@ -64,7 +64,7 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 
 路由器是前兩者最高階、最複雜、最智能的機器設備，它在OSI通信模型的第3層上運行。路由器旨在將多個網絡連接在一起。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-connection-router.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-connection-router.png)
 
 【工作原理】：
 
@@ -76,7 +76,7 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 - 成因：兩個設備在共享的網段同時發送數據包，就會發生衝突
 - 解決：撤換集線器，使用交換機或是路由器
 
-![](https://www.hauchenglee.com/assets/images/tech/collision_domains.jpg)
+![](https://hauchenglee.github.io/assets/images/tech/collision_domains.jpg)
 
 <br>
 
@@ -84,11 +84,11 @@ Ref: [Hub vs Switch vs Router: What’s the Difference?](http://www.fiberopticsh
 - 成因：路由器上所有的端口都位於不同的廣播域中，彼此獨立存在不互相影響。在同一個廣播域中，所有的設備都必須聆聽其中一個設備的廣播消息，造成LAN阻塞。
 - 解決：廣播域的數量越多，網絡為所有用戶提供更好的帶寬的效率就越高。
 
-![](https://www.hauchenglee.com/assets/images/tech/broadcast_domains.jpg)
+![](https://hauchenglee.github.io/assets/images/tech/broadcast_domains.jpg)
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/tech/Network-Broadcast-Domain-Collision.png)
+![](https://hauchenglee.github.io/assets/images/tech/Network-Broadcast-Domain-Collision.png)
 
 
 
@@ -134,13 +134,13 @@ Your local computers, on the other hand, will ask the router for an IP address, 
 DHCP —動態主機配置協議 —動態IP地址的分配方式。首次連接到網絡時，設備會要求分配IP地址，而DHCP服務器會以IP地址分配作為響應。
 連接到您的ISP提供的Internet連接的路由器將詢問您的ISP的服務器IP地址。這將是您在互聯網上的IP地址。另一方面，您的本地計算機將向路由器詢問IP地址，這些地址對於您的網絡是本地的。
 
-![](https://www.hauchenglee.com/assets/images/tech/network-router-dhcp.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-router-dhcp.png)
 
 ### NAT
 
 網絡地址轉換（Network address translation）:
 
-![](https://www.hauchenglee.com/assets/images/tech/nat-removebg.png)
+![](https://hauchenglee.github.io/assets/images/tech/nat-removebg.png)
 
 Ref: [What is Network Address Translation (NAT)?](https://whatismyipaddress.com/nat){:target="_blank"}
 
@@ -170,7 +170,7 @@ NAT的副作用是Internet上的計算機無法啟動與本地計算機的通信
 1. 具有防火墻的功能
 1. 限制組織或公司必須使用的公共IP地址的數量，可以節省IPv4的地址空間
 
-![](https://www.hauchenglee.com/assets/images/tech/network-router-firewall.png)
+![](https://hauchenglee.github.io/assets/images/tech/network-router-firewall.png)
 
 ## Compare
 

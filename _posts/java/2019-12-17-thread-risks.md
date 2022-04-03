@@ -37,7 +37,7 @@ class UnSafeSequence {
 
 以下圖示很好表示線程操作順序：
 
-![](https://www.hauchenglee.com/assets/images/java/not-thread-safe-value-count.png)
+![](https://hauchenglee.github.io/assets/images/java/not-thread-safe-value-count.png)
 
 - 當線程A讀取到`value`值是9的時候，**同時**線程B也執行此方法並且也是讀取`value`值是9
 - 兩個線程的操作都對`value`加上1

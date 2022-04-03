@@ -291,9 +291,9 @@ public class Thread implements Runnable {
 
 結合創建線程的兩種方法，背後程序運行的方式：
 
-![](https://www.hauchenglee.com/assets/images/java/thread-01.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-01.jpg)
 
-![](https://www.hauchenglee.com/assets/images/java/thread-02.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-02.jpg)
 
 <br>
 
@@ -326,7 +326,7 @@ thread.start();
 >
 > 觀察源碼，我們發現Thread也實現了Runnable
 
-![](https://www.hauchenglee.com/assets/images/java/thread-03.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-03.jpg)
 
 就像我先前說的，`Thread`這個家族入口很嚴格，只有身為`Runnable`宗族的人，才能進來的。
 
@@ -336,7 +336,7 @@ thread.start();
 
 - 將`run()`向上抽取，做成抽象方法，讓實現類去重寫（為什麼？）
 
-![](https://www.hauchenglee.com/assets/images/java/thread-04.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-04.jpg)
 
 觀察上圖，可以發現：
 
@@ -368,7 +368,7 @@ thread.start();
 
 換言之，`Thread`類（及其子類）是線程運行的入口，沒了`Thread`以後，`Runnable`及其實現類（`implement class`）就無法調用`run`方法。
 
-![](https://www.hauchenglee.com/assets/images/java/thread-05.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-05.jpg)
 
 > `Thread`类及其子类永远是入口，方式2写在`Runnable`实现类中代码之所以能被执行到，仅仅是因为`Thread`的`run()`中调用了`target.run()`。
 
@@ -382,7 +382,7 @@ thread.start();
 
 3. 解耦執行者（`thread`）與被執行者（`run()`）兩者，將【待執行代碼】移到`Runnable`實現類中，達到【資源共享】的目的。
 
-![](https://www.hauchenglee.com/assets/images/java/thread-06.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-06.jpg)
 
 > 注意，继承`Thread`方式並沒有做到资源共享，因为每个子类对象都有各自的一份`run()`，各玩各的。
 

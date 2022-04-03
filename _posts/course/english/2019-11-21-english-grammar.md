@@ -292,7 +292,7 @@ Ref: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/T
 
 Ref: [實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=509){:target="_blank"}
 
-![](https://www.hauchenglee.com/assets/images/course/english/verb-s.png)
+![](https://hauchenglee.github.io/assets/images/course/english/verb-s.png)
 
 Ref: [file5940_14.pdf](http://eweb.flps.tp.edu.tw/module/download/update/f0079/file5940_14.pdf){:target="_blank"}
 
@@ -347,11 +347,11 @@ Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/gr
 
 ### in, on, at
 
-![](https://www.hauchenglee.com/assets/images/course/english/prepositions-of-time.jpg)
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-time.jpg)
 
-![](https://www.hauchenglee.com/assets/images/course/english/prepositions-of-place.jpg)
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-place.jpg)
 
-![](https://www.hauchenglee.com/assets/images/course/english/prepositions-in-on-at.jpg)
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-in-on-at.jpg)
 
 Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
 
@@ -422,9 +422,9 @@ verb + person + to + verb-root:
 
 ## pronoun
 
-![](https://www.hauchenglee.com/assets/images/course/english/personal-pronoun-singular-plural.jpg)
+![](https://hauchenglee.github.io/assets/images/course/english/personal-pronoun-singular-plural.jpg)
 
-![](https://www.hauchenglee.com/assets/images/course/english/personal-pronoun-voicetube.jpg)
+![](https://hauchenglee.github.io/assets/images/course/english/personal-pronoun-voicetube.jpg)
 
 【格】的意思：這個代名詞在句中所扮演的角色
 

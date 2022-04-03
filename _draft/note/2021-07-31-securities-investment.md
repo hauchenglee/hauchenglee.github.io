@@ -169,6 +169,6 @@ CAPM用图形表示：证券市场线（Security ML）
 
 货币政策：
 
-![](https://www.hauchenglee.com/assets/images/financial/securities/货币政策.png)
+![](https://hauchenglee.github.io/assets/images/financial/securities/货币政策.png)
 
 ---

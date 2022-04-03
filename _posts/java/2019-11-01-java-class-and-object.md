@@ -88,7 +88,7 @@ System.out.println(myPrint.getClass().getName());
    3. constructor by programmer in superclass
    4. constructor by default in superclass
 
-![](https://www.hauchenglee.com/assets/images/java/invoke_constructor_order.png)
+![](https://hauchenglee.github.io/assets/images/java/invoke_constructor_order.png)
 
 ## modifier
 
@@ -180,7 +180,7 @@ However, because it prevents inheritance, all methods in final class are **impli
 **You can include the final specifier to a method in a final class, but it doesn't add any meaning.**
 
 > - On Java 8
-> - See more information: [final vs immutability in java-string](https://www.hauchenglee.com/java/2019/11/06/java-string.html#final-vs-immutability)
+> - See more information: [final vs immutability in java-string](https://hauchenglee.github.io/java/2019/11/06/java-string.html#final-vs-immutability)
 
 ## feature
 

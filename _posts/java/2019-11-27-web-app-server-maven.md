@@ -54,7 +54,7 @@ Ref:
 
 maven項目的目錄結構：
 
-![](https://www.hauchenglee.com/assets/images/java/maven-dirctory-structure.png)
+![](https://hauchenglee.github.io/assets/images/java/maven-dirctory-structure.png)
 
 source: [Maven Directory Structure - Dinesh on Java](https://www.dineshonjava.com/maven-directory-structure/){:target="_blank"}
 

@@ -73,7 +73,7 @@ Ref:
 
 ## Image
 
-![](https://www.hauchenglee.com/assets/images//)
+![](https://hauchenglee.github.io/assets/images//)
 
 ![](https://hauchenglee.github.io/assets/images//)
 

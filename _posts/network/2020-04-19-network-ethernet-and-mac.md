@@ -35,7 +35,7 @@ Ref:
 以太类型（EtherType）是一个在以太网帧中的占用两字节的字段，这一字段代表了在以太网帧中封装了何种协议。
 该字段首次出现在以太网II帧（Ethernet II framing）中，并在后来由IEEE制定为IEEE 802.3以太网标准。
 
-![](https://www.hauchenglee.com/assets/images/network/799px-Ethernet_Type_II_Frame_format.svg.png)
+![](https://hauchenglee.github.io/assets/images/network/799px-Ethernet_Type_II_Frame_format.svg.png)
 
 p.s. CCNA 考試不會考
 
@@ -75,7 +75,7 @@ MAC地址格式（MAC ADDRESS FORMAT）：
 
 > 每块网卡出厂的时候，都有一个全世界独一无二的MAC地址，长度是48个二进制位，通常用12个十六进制数表示。
 
-![](https://www.hauchenglee.com/assets/images/network/mac-address-format.png)
+![](https://hauchenglee.github.io/assets/images/network/mac-address-format.png)
 
 1. 第一組代表：廠商編號
 2. 第二組代表：廠商的網卡流水號
@@ -129,13 +129,13 @@ MAC地址格式（MAC ADDRESS FORMAT）：
 局域網和廣域網是區域網絡的兩個主要和最知名的類別，而其他類別隨著技術的發展而出現。
 類似類型的網絡是個人區域網絡（PAN），局域網（LAN），園區網絡（CAN）或城域網（MAN），它們通常分別限於房間，建築物，校園或特定的城域。
 
-![](https://www.hauchenglee.com/assets/images/network/Data_Networks_classification_by_spatial_scope.png)
+![](https://hauchenglee.github.io/assets/images/network/Data_Networks_classification_by_spatial_scope.png)
 
 Ref: [File:Data Networks classification by spatial scope.png - Wikipedia](https://en.wikipedia.org/wiki/File:Data_Networks_classification_by_spatial_scope.png){:target="_blank"}
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/network/network-lan-wan.png)
+![](https://hauchenglee.github.io/assets/images/network/network-lan-wan.png)
 
 Ref: [LANs, WANs, and Other Area Networks Explained](https://www.lifewire.com/lans-wans-and-other-area-networks-817376){:target="_blank"}
 

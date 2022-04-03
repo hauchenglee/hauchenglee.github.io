@@ -27,7 +27,7 @@ Overriding is a feature that allows a subclass or child class to provide a speci
 super-classes or parent classes. When a method in a subclass has the **same name, same parameters or signature and same return type(or sub-type)** as a method 
 in its super-class, then the method in the subclass is said to *override* the method in the super-class.
 
-![](https://www.hauchenglee.com/assets/images/java/overriding-in-java.png)
+![](https://hauchenglee.github.io/assets/images/java/overriding-in-java.png)
 
 The version of a method that is executed will be **determined by the object that is used to invoke it**. If an object of a *parent class* is used to 
 invoke the method, then the version in the parent class will be executed, but if an object of the *subclass* is used to invoke the method, then the version 
@@ -49,7 +49,7 @@ that determines which version of an overridden method will be executed.
    - private modifier
    - final methods
    - static methods
-- Exception handling: see [override exception in java-except](https://www.hauchenglee.com/java/2019/11/05/java-except.html#override-exception)
+- Exception handling: see [override exception in java-except](https://hauchenglee.github.io/java/2019/11/05/java-except.html#override-exception)
 
 See more information:<br>
 > - [Overriding in Java - GeeksforGeeks](https://www.geeksforgeeks.org/overriding-in-java/){:target="_blank"}

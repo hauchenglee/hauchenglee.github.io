@@ -9,7 +9,7 @@ tags: [java]
 
 流的構成：
 
-![](https://www.hauchenglee.com/assets/images/java/java8-stream--pipeline-ibm.png)
+![](https://hauchenglee.github.io/assets/images/java/java8-stream--pipeline-ibm.png)
 
 Ref: [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html){:target="_blank"}
 
@@ -26,7 +26,7 @@ Ref: [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/ja
 - 中間操作會再次返回一個流，所以，我們可以鏈接多個中間操作。例如，圖中的`filter`過濾，`map`對象轉換，`sort`進行排序，就屬於中間操作。
 - 終端操作是對流操作的一個結束動作，一般返回`void`或者一個非流的結果。圖中的`foreach`循環就是一個終止操作。
 
-![](https://www.hauchenglee.com/assets/images/java/java8-stream-pipelines-desc.png)
+![](https://hauchenglee.github.io/assets/images/java/java8-stream-pipelines-desc.png)
 
 Ref: [[译] 一文带你玩转 Java8 Stream 流，从此操作集合 So Easy - 掘金](https://juejin.im/post/5cc124a95188252d891d00f2){:target="_blank"}
 
@@ -179,7 +179,7 @@ public interface Stream<T> extends BaseStream<T, Stream<T>> {
 
 下面附一張具體的分類的圖，來自《java8实战》的第五章：
 
-![](https://www.hauchenglee.com/assets/images/java/java8-stream-pipelines-interface-table.png)
+![](https://hauchenglee.github.io/assets/images/java/java8-stream-pipelines-interface-table.png)
 
 > ————————————————
 >

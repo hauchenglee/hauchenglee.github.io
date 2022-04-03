@@ -108,7 +108,7 @@ sb = new StringBuffer("Hello World");
 
 Pictorial Representation of the above Program
 
-![](https://www.hauchenglee.com/assets/images/java/final-vs-immutability.png)
+![](https://hauchenglee.github.io/assets/images/java/final-vs-immutability.png)
 
 > - [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/){:target="_blank"}
 
@@ -122,7 +122,7 @@ JVM divides the allocated memory to a Java program into two parts. One is **stac
 Stack is used for execution purpose and heap is used for storage purpose. In that heap memory, JVM allocates some memory specially meant for string literals. 
 This part of the heap memory is called **String Constant Pool**.
 
-→ See more information in [java-memory](https://www.hauchenglee.com/java/2019/12/04/java-memory.html)
+→ See more information in [java-memory](https://hauchenglee.github.io/java/2019/12/04/java-memory.html)
 
 In the other hand:
 - create a string object using string literal: object is stored in the **string constant pool**.
@@ -151,7 +151,7 @@ In the other hand:
 </table>
 
 This is how String Constant Pool looks like in the memory:
-![](https://www.hauchenglee.com/assets/images/java/string-in-memory-allotment.png)
+![](https://hauchenglee.github.io/assets/images/java/string-in-memory-allotment.png)
 
 > When you create a string object using string literal, JVM first checks the content of be created object. If there exist an
 > object in the pool with the same content, then the reference of that object. It does not create new object. If the content
@@ -221,7 +221,7 @@ Try running this example code. It doesn't let tou input name, and it immediately
 
 To understand what is happening, you have to understand that the `Scanner` doesn't see input as multiple lines, like we do.
 
-![](https://www.hauchenglee.com/assets/images/java/the-scanner-bug.png)
+![](https://hauchenglee.github.io/assets/images/java/the-scanner-bug.png)
 
 When you call `nextInt`, it reads characters until it gets to a non-digit. At this point, `nextInt` return 45. 
 The program then displays the prompt "`What is you name? `" and calls `nextLine`, which reads characters until it gets to a **newline**. 

@@ -34,11 +34,11 @@ IoC 不是什么技术，而是一种设计思想。在 Java 开发中，IoC 意
 
 如图：
 
-![](https://www.hauchenglee.com/assets/images/spring/spring-boot/container-magic.png)
+![](https://hauchenglee.github.io/assets/images/spring/spring-boot/container-magic.png)
 
 或是我画的图：
 
-![](https://www.hauchenglee.com/assets/images/spring/spring-boot/spring-boot-core-ioc.png)
+![](https://hauchenglee.github.io/assets/images/spring/spring-boot/spring-boot-core-ioc.png)
 
 Ref: 
 - [5. The IoC container](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html)

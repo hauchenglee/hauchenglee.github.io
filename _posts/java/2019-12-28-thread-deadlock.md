@@ -66,7 +66,7 @@ public class LeftRightDeadlock {
    - 線程B的`right`鎖也沒有釋放
 - 所以他們都只能等待，而這種等待是無期限的 -> 永久等待 -> 死鎖
 
-![](https://www.hauchenglee.com/assets/images/java/unlucky-timing-in-left-right-deadlock.png)
+![](https://hauchenglee.github.io/assets/images/java/unlucky-timing-in-left-right-deadlock.png)
 
 ### 動態的鎖順序死鎖
 

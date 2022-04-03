@@ -7,7 +7,7 @@ tags: [network]
 
 ## Definition
 
-![](https://www.hauchenglee.com/assets/images/network/network-broadcasting.png)
+![](https://hauchenglee.github.io/assets/images/network/network-broadcasting.png)
 
 <br>
 
@@ -27,7 +27,7 @@ method in which each sender communicates with one receiver.
 全部通信是一種計算機通信方法，其中，每個發送方將消息發送到組中的所有接收方。
 在聯網中，可以使用廣播或多播來實現。這與每個發送方與一個接收方進行通信的點對點方法形成對比。
 
-![](https://www.hauchenglee.com/assets/images/network/800px-Broadcast.svg.png)
+![](https://hauchenglee.github.io/assets/images/network/800px-Broadcast.svg.png)
 
 <br>
 
@@ -115,13 +115,13 @@ Ref: [layer 2 broadcast layer 3 broadcast](https://bit.ly/2Jov1y7){:target="_bla
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/network/800px-Unicast.svg.png)
+![](https://hauchenglee.github.io/assets/images/network/800px-Unicast.svg.png)
 
 ▲ Unicast
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/network/800px-Multicast.svg.png)
+![](https://hauchenglee.github.io/assets/images/network/800px-Multicast.svg.png)
 
 ▲ Multicast
 

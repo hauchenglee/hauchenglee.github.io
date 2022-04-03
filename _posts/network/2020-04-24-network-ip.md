@@ -104,7 +104,7 @@ IP位址可以分為兩部分：Network Identifier (網絡編號) & Host Identif
 
 而若要分割成子網絡時，又會將主機編號（Host Identifier）再切分成子網路編號（Subnet Identifier）和主機編號（Host Identifier）
 
-![](https://www.hauchenglee.com/assets/images/network/network-ip-subnetwork.png)
+![](https://hauchenglee.github.io/assets/images/network/network-ip-subnetwork.png)
 
 <br>
 
@@ -292,7 +292,7 @@ Example about NAT:
 
 【運作過程】
 
-![](https://www.hauchenglee.com/assets/images/network/network-addressing-and-routing.png)
+![](https://hauchenglee.github.io/assets/images/network/network-addressing-and-routing.png)
 
 1. 查詢目標IP地址：依據發送的封包Header IP Address來查閱並決定發送位址
 2. 查詢標的主機所在的網域：如果是同一個子網（Subnet），則主機A會直接透過LAN功能發送數據給目標主機
@@ -300,7 +300,7 @@ Example about NAT:
 
 ## Packet structure
 
-![](https://www.hauchenglee.com/assets/images/network/ipv4_packet_header.jpg)
+![](https://hauchenglee.github.io/assets/images/network/ipv4_packet_header.jpg)
 
 1. 第一行：
    1. IP Version: IP的版本號，目前IPv4為第四版，所以是0100（十六進制）

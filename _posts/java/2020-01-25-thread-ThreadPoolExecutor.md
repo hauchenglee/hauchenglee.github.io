@@ -11,7 +11,7 @@ tags: [java]
 
 先來看頂部注釋：
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-jdk-detail.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-jdk-detail.png)
 
 Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
 
@@ -19,7 +19,7 @@ Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.
 
 ThreadPoolExecutor有四個構造方法，前三個都是基於第四個實現。
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-constructor-arch.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-constructor-arch.png)
 
 第四個構造方法定義如下：
 
@@ -107,7 +107,7 @@ ThreadPoolExecutor有四個構造方法，前三個都是基於第四個實現�
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-summary.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-summary.png)
 
 Ref:
 - [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
@@ -119,17 +119,17 @@ Ref:
 
 <br>
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-state-doc.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-state-doc.png)
 
 > 变量ctl定义为AtomicInteger，记录了“线程池中的任务数量”和“线程池的状态”两个信息。
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-state-code.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-state-code.png)
 
 Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
 
 線程池各個狀態切換框架圖：
 
-![](https://www.hauchenglee.com/assets/images/java/thread-ThreadPoolExecutor-state-arch.jpg)
+![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-state-arch.jpg)
 
 Ref: [Java多线程线程池（4）--线程池的五种状态_Runner的博客-CSDN博客](https://blog.csdn.net/L_kanglin/article/details/57411851){:target="_blank"}
 
@@ -337,11 +337,11 @@ Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.
 
 【shutdown()】
 
-![](https://www.hauchenglee.com/assets/images/java/thread-shutdown-jdk.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-shutdown-jdk.png)
 
 【shutdownNow()】
 
-![](https://www.hauchenglee.com/assets/images/java/thread-shutdown-now-jdk.png)
+![](https://hauchenglee.github.io/assets/images/java/thread-shutdown-now-jdk.png)
 
 <br>
 

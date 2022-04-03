@@ -196,7 +196,7 @@ main()
 as soon as `gone()` has been processed, it would be removed from the stack. Any corresponding local variables which are used in `gone()` would also would also be removed from the stack.
 Stack would have references to objects on the Heap.
 
-![](https://www.hauchenglee.com/assets/images/java/stacknheap.png)
+![](https://hauchenglee.github.io/assets/images/java/stacknheap.png)
 
 > - [Difference Between Stack and Heap - Java Question](https://www.erpgreat.com/java/difference-between-stack-and-heap.htm){:target="_blank"}
 
@@ -233,14 +233,14 @@ Let's analyze this step by step:
    - The `this` object reference of the calling object in stack memory
    - The primitive value `id` in the stack memory
    - The reference variable of `String` argument `personName` which will point to the actual string from string pool in heap memory 
-     (See [string in memory](https://www.hauchenglee.com/java/2019/11/06/java-string.html#string-in-memory))
+     (See [string in memory](https://hauchenglee.github.io/java/2019/11/06/java-string.html#string-in-memory))
 3. This default constructor is further calling `setPersonName()` method, for which further allocation will take place in stack memory on top of previous one. 
 This will again store variables in the manner described above.
 4. However, for the newly created object `p` of type `Person`, all instance variables will be stored in heap memory.
 
 This allocation is explained in this diagram:
 
-![](https://www.hauchenglee.com/assets/images/java/Stack-Memory-vs-Heap-Space-in-Java.jpg)
+![](https://hauchenglee.github.io/assets/images/java/Stack-Memory-vs-Heap-Space-in-Java.jpg)
 
 > - [Stack Memory and Heap Space in Java - Baeldung](https://www.baeldung.com/java-stack-heap){:target="_blank"}
 
