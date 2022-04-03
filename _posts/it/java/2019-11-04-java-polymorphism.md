@@ -49,7 +49,7 @@ that determines which version of an overridden method will be executed.
    - private modifier
    - final methods
    - static methods
-- Exception handling: see [override exception in java-except](https://hauchenglee.github.io/java/2019/11/05/java-except.html#override-exception)
+- Exception handling: see [override exception in java-except](https://hauchenglee.github.io/it/java/2019/11/05/java-except.html#override-exception)
 
 See more information:<br>
 > - [Overriding in Java - GeeksforGeeks](https://www.geeksforgeeks.org/overriding-in-java/){:target="_blank"}

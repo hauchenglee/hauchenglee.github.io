@@ -233,7 +233,7 @@ Let's analyze this step by step:
    - The `this` object reference of the calling object in stack memory
    - The primitive value `id` in the stack memory
    - The reference variable of `String` argument `personName` which will point to the actual string from string pool in heap memory 
-     (See [string in memory](https://hauchenglee.github.io/java/2019/11/06/java-string.html#string-in-memory))
+     (See [string in memory](https://hauchenglee.github.io/it/java/2019/11/06/java-string.html#string-in-memory))
 3. This default constructor is further calling `setPersonName()` method, for which further allocation will take place in stack memory on top of previous one. 
 This will again store variables in the manner described above.
 4. However, for the newly created object `p` of type `Person`, all instance variables will be stored in heap memory.

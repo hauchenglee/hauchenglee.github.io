@@ -71,23 +71,7 @@ Ref: [OSI (Open System Interconnection) 7 Layer Model](http://www.howtocisco.com
 
 Ref: [OSI七層參考模組.PDF](https://bit.ly/2VQpWRt){:target="_blank"}
 
-## 鏈接
-
-- Physical
-- Data Link
-   - [Network - Ethernet](https://hauchenglee.github.io/network-2-ethernet/){:target="_blank"}
-   - [Network - MAC](https://hauchenglee.github.io/network-2-mac/){:target="_blank"}
-   - [Network - Broadcast](https://hauchenglee.github.io/network-broadcast/){:target="_blank"}
-   - [Network - Switch & Router](https://hauchenglee.github.io/network-switch-router/){:target="_blank"}
-- Network
-   - [Network - IP](https://hauchenglee.github.io/network-ip/){:target="_blank"}
-   - [Network - Switch & Router](https://hauchenglee.github.io/network-switch-router/){:target="_blank"}
-- Transport
-   - [Network - TCP / UDP](https://hauchenglee.github.io/network-tcp-udp/){:target="_blank"}
-- Application
-   - [](){:target="_blank"}
-
-Other:
+Others:
 - [互联网协议入门（一） - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html){:target="_blank"}
 - [What Is The OSI Model? \| Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/){:target="_blank"}
 

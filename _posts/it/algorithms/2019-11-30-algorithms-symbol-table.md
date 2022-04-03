@@ -31,7 +31,7 @@ tags: [algorithms]
 
 **Value**
 
-在Java中如果我們想要實現一個符號表，我們希望它是支持所有[泛型](https://hauchenglee.github.io/java-generic/)的。
+在Java中如果我們想要實現一個符號表，我們希望它是支持所有泛型的。
 
 <br>
 

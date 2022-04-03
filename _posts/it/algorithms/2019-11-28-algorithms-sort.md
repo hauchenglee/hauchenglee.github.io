@@ -20,7 +20,7 @@ tags: [algorithms]
 相關概念：
 - 穩定：如果a原本在b前面，而a=b，排序之後a仍然在b的前面。
 - 不穩定：如果a原本在b的前面，而a=b，排序之後a可能會出現在b的後面
-- 時間複雜度：see: [Algorithms Time Complexity](https://hauchenglee.github.io/algorithms/2019/11/13/algorithms-time-complexity.html) - 時間複雜度
+- 時間複雜度：see *Algorithms Time Complexity 時間複雜度*
 - 空間複雜度：是指算法在計算機內執行所需存儲空間的度量，它也是數據規模n的函數
 
 更詳細的時間複雜度分析表：
