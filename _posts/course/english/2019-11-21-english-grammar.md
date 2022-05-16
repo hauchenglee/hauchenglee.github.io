@@ -28,18 +28,18 @@ tags: [english]
 ## noun
 
 詞類問題攻略：
-1. 看到**冠詞+___+介係詞**的形式時，選擇名詞
-2. 在**及物動詞後面**，選擇名詞
-3. 選項中**剩兩個名詞**時，選擇**語意較通順**的
-4. 熟悉**名詞+名詞**的模式
+1. 看到 **冠詞(a/an/the) + ___ + 介係詞** 的形式時，選擇名詞
+2. 在**及物動詞(一定要有受词的动词，)後面**，選擇名詞
+3. 選項中 **剩兩個名詞** 時，選擇 **語意較通順** 的
+4. 熟悉 **名詞+名詞** 的模式
 
 ## adjective
 
 詞類問題攻略：
-- 看到**冠詞+___+名詞**的形式時，填入形容詞的可能性很高
-- 看到**be動詞+___** 的形式時，填入形容詞的可能性很高
-- 熟悉**動名詞+名詞**的名詞詞組模式
-- 在**介係詞to的後面**，選擇動名詞
+- 看到 **冠詞(a/an/the) + ___ + 名詞** 的形式時，填入形容詞的可能性很高
+- 看到 **be動詞+___** 的形式時，填入形容詞的可能性很高
+- 熟悉 **動名詞+名詞** 的名詞詞組模式
+- 在 **介係詞to的後面** ，選擇動名詞
 
 句子：**a / an** + adj + n 
 
@@ -59,7 +59,7 @@ tags: [english]
 
 ## verb
 
-### tense
+### tense 時態
 
 時態
 
@@ -100,7 +100,7 @@ tags: [english]
     </tbody>
 </table>
 
-### auxiliary verb
+### auxiliary verb 助動詞
 
 - 助動詞本身並沒有詞義，它是用來幫助主要動詞（main verb）形成各種時態、語氣、語態、疑問句、或否定句。
 - 一個句子只能有一個主要動詞，但助動詞卻可以有一個、兩個或最多三個。請參考*動詞片語*。
@@ -173,9 +173,9 @@ Ref: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/T
 
 <br>
 
-### participle
+### participle 分詞
 
-<!--- comments
+<!-- comments
 <table>
     <thead>
         <tr>
@@ -286,7 +286,12 @@ Ref: [實用基礎文法 - 助動詞](http://www.taiwantestcentral.com/Grammar/T
    1. 被動語氣：Since Nicole was sick, she **was allowed** to leave early.
    1. 被動語氣：This story **was written** by Helen Keller.
 
-### singular & plural
+Ref: 
+1. [實用基礎文法 - 動名詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=60)
+1. [實用基礎文法 - 現在分詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=303)
+1. [實用基礎文法 - 過去分詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=304)
+
+### singular & plural 單複數
 
 動詞必須在「身」（人稱）與「數」（單、複數）方面與主詞一致。單數主詞需要單數動詞；複數主詞需要複數動詞。
 
@@ -296,13 +301,13 @@ Ref: [實用基礎文法 - 單數動詞與複數動詞](http://www.taiwantestcen
 
 Ref: [file5940_14.pdf](http://eweb.flps.tp.edu.tw/module/download/update/f0079/file5940_14.pdf){:target="_blank"}
 
-## preposition
+## preposition 介詞
 
 用法：放在名詞（詞組）前面
 
 Ref: [Prepositions - Grammar - Academic Guides at Walden University](https://academicguides.waldenu.edu/writingcenter/grammar/prepositions){:target="_blank"}
 
-### list
+### preposition list
 
 - in / on / at
 - of
@@ -382,7 +387,7 @@ verb + person + to + verb-root:
 - expect 人 to do
 - require 人 to do
 
-## conjunction
+## conjunction 連接詞
 
 用法：放在句子和句子之間的位置
 
