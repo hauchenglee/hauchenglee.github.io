@@ -28,10 +28,10 @@ tags: [english]
 ## noun
 
 詞類問題攻略：
-1. 看到 **冠詞(a/an/the) + ___ + 介係詞** 的形式時，選擇名詞
-2. 在**及物動詞(一定要有受词的动词，)後面**，選擇名詞
-3. 選項中 **剩兩個名詞** 時，選擇 **語意較通順** 的
-4. 熟悉 **名詞+名詞** 的模式
+1. 看到 *冠詞(a/an/the) + ___ + 介係詞* 的形式時，選擇名詞
+2. 在*及物動詞後面*，選擇名詞
+3. 熟悉 *名詞+名詞* 的模式，第一個名詞當作adj，修飾第二個名詞
+4. 選項中剩兩個名詞時，選擇 *語意較通順* 的
 
 ## adjective
 
@@ -352,6 +352,16 @@ Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/gr
 
 ### in, on, at
 
+-> 自己的理解筆記：
+1. 地點：
+    - in：山城車內
+    - on：街區樓車
+    - at：精確地址
+2. 時間：
+    - in：除上述外
+    - on：精確到這週（on weekend）、這星期（on Friday）、有指定日期（Apr 4th）
+    - at：精確到小時、時間
+
 ![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-time.jpg)
 
 ![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-place.jpg)
@@ -361,13 +371,13 @@ Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/gr
 Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
 
 ### to + verb-ing
-- look forward to ~ ing
-- when it comes to ~ ing
-- object to ~ ing
-- resort to ~ ing
-- be/get used to ~ ing
-- be/get accustomed to ~ ing
-- be/get committed to ~ ing
+- look forward to
+- when it comes to
+- object to
+- resort to
+- be/get used to
+- be/get accustomed to
+- be/get committed to
 
 ### to + verb-root
 
