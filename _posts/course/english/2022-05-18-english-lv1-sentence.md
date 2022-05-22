@@ -338,7 +338,8 @@ S + 情态动词（modal verb） + V + before  + 一般现在时
 ### which
 
 用法
-1. 
+1. 关系代名词（有逗号，非限定用法）：n + , + which + 描述前面整个句子 → He showed me round the town, which was very kind of him
+2. 关系代名词（无逗号，限定用法）：n + which + 描述前面的名词事物
 
 Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| 全民學英文](https://tw.englisher.info/2019/08/20/which/)
 
