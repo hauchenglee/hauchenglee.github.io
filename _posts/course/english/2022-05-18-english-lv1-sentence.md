@@ -156,12 +156,14 @@ Ref: [實用基礎文法 - 動名詞](http://www.taiwantestcentral.com/Grammar/T
    5. 過去完成進行式：Alice **had been singing** for an hour before the rain began falling.
    6. 未來完成進行式：She **will have been waiting** for over two hours when the train finally comes.
 
+Ref: [實用基礎文法 - 現在分詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=303)
+
 Note:
 - S is **considering** a package redesign to try to increase sales.
 - By **opening** offices in London, + sentence.
 - which begin = beginning
-
-Ref: [實用基礎文法 - 現在分詞](http://www.taiwantestcentral.com/Grammar/Title.aspx?ID=303)
+- when + v-ing
+- on / upon + v-ing
 
 ### 过去分词
 
@@ -332,6 +334,13 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 ### before
 
 S + 情态动词（modal verb） + V + before  + 一般现在时
+
+### which
+
+用法
+1. 
+
+Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| 全民學英文](https://tw.englisher.info/2019/08/20/which/)
 
 ### 其他
 

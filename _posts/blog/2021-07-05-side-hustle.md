@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 从零开始的副业生活
+title: The beginning of the side hustle life
 category: blog
 tags: [diary, private]
 ---
 
 ## 前言
+
+### 穷爸爸富爸爸
 
 为何不要在职场赌一辈子？
 → 金钱不是真实的资产，它是我们大家都认可的东西
@@ -71,7 +73,32 @@ tags: [diary, private]
 
 input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他资讯 → 精简 → 内化 → 沉淀与酝酿 → 选择表达方式 → 产出。
 
-## 打造自己的生态
+## 需求分析
+
+依人性：
+- 男人好色怕穷
+- 女人爱美怕丑
+- 老人健康怕死
+- 小孩教育
+- 企业发展
+- 个人成长
+
+依创新：
+- 做到这个行业最专业。
+- 发现细节入微问题。
+- 通过组织资源，改善并解决问题。 --> [商业思维](#商业思维)
+
+依行动力：
+- 搜索指数
+- 产业分析报告
+- 同行
+- 如果有点儿闲钱，还有点时间，但又找不到商机， 最好的办法就是去闹市、电梯、小区人流量最高的那个大门口，端杯茶，静静的听人们抱怨。
+
+补充：
+- 关注行业局势、大环境的趋势
+## 内容
+
+### 个人IP：打造自己的生态
 
 为何选择自媒体：
 1. 累积愿意捧场的观众
@@ -85,20 +112,6 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
     - 很好念
     - 很好记
     - 具有吸引力
-
-分析人性需求：
-- 男人好色怕穷
-- 女人爱美怕丑
-- 老人健康怕死
-- 小孩教育
-- 企业发展
-- 个人成长
-
-找寻商机方法：
-- 搜索指数
-- 产业分析报告
-- 同行
-- 如果有点儿闲钱，还有点时间，但又找不到商机， 最好的办法就是去闹市、电梯、小区人流量最高的那个大门口，端杯茶，静静的听人们抱怨。
 
 建立个人品牌的规划与步骤：
 - 个人IP：
@@ -123,8 +136,6 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
 - 流量变现
     - 以能积累自己实力、形象、信用为主
     - 以自我创新、内容创造为主
-
-## 内容
 
 ### 表达方向与方法
 
@@ -174,116 +185,11 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
 
 来源：[自媒体原创文章的写作，都有哪些套路和模板？ - 知乎](https://www.zhihu.com/question/277572235){:target="_blank"}
 
-### 开发工具
-
-文字开发工具：
-- 平台：
-    - *WordPress*
-    - *Github Pages*
-- 网域：Godaddy
-- 其他：
-    - Google Adsense
-    - Google Ads Keyword
-    - Google Trends
-    - 联盟行销（合伙人计划（AP – Affiliate Program））
-
-视频开发工具
-- 屏幕录制：
-    - streamLabs（免费）
-    - BANDICAM（半免费）
-    - Camtasia（付费）
-- 视频剪辑软件（免费）：
-    - 剪映（手机）
-    - Quik（手机）
-    - DaVinci Resolve
-    - Movie Maker
-- 音效软件：
-    - Audacity（免费）
-    - Adobe Audition（付费）
-- 特效软件：
-    - Adobe After Effect（付费）
-- 字幕软件：
-    - ArcTime Pro（免费）
-- 摄像头：
-    - 使用相机
-    - 罗技C920家族
-    - Cam Link
-- 麦克风：
-    - Build-in Laptop mic
-    - Samson GoMic
-    - Rode NT-USB
-    - Shure PG-42USB
-- 隔音间：
-
-
-平面开发工具
-- 绘图软件：
-    - AI
-    - PS
-    - AD
-    - InVision
-- 色彩工具（色盘）：
-    - Eva Design System
-    - Adobe Color
-    - Coolors
-- 字型：
-    - Google Fonts
-    - 100font.com
-
-素材：
-- 图片
-    - unsplash
-    - pexels
-    - pixabay
-- 音乐
-    - YouTube Audio Library
-    - Free Music Archive
-- 影片
-    - pexels
-    - pixabay
-
-其他有用的链接：
-- color:
-    1. [https://coolors.co/](https://coolors.co/)
-    2. [https://colorhunt.co/](https://colorhunt.co/)
-    3. [https://color.adobe.com/zh/create](https://color.adobe.com/zh/create)
-- fonts:
-    1. [https://www.1001freefonts.com/](https://www.1001freefonts.com/)
-    2. [https://www.fontsquirrel.com/](https://www.fontsquirrel.com/)
-    3. [https://fonts.google.com/](https://fonts.google.com/)
-    4. [https://www.dafont.com/edo-sz.font](https://www.dafont.com/edo-sz.font)
-- trend:
-    1. [https://www.pantonecn.com/](https://www.pantonecn.com/)
-- pic:
-    1. [https://unsplash.com/](https://unsplash.com/)
-    2. [https://pixabay.com/zh/](https://pixabay.com/zh/)
-    3. [https://www.pexels.com/zh-cn/](https://www.pexels.com/zh-cn/)
-    4. [http://thestocks.im/](http://thestocks.im/)
-    5. [https://zoommyapp.com/](https://zoommyapp.com/)
-    6. [http://www.yanj.cn/](http://www.yanj.cn/)
-- logo & icon:
-    1. [https://www.fiverr.com/](https://www.fiverr.com/)
-    2. [https://www.iconfont.cn/](https://www.iconfont.cn/)
-
 ## 行销
 
 ### SEO
 
 *SEO*
-
-### AIDA
-
-基本理论：AIDA
-- Attention: 注意到 → 也就是能见度
-- Interest: ↘ 感兴趣 → 独特卖点 & 表述方式
-- Desire:   ↗ 很想要 → 独特卖点 & 表述方式
-- Action: 有动作 → 也就是转化
-
-### B = MAT
-
-转化：行为模式 B = M + A + T （行为 = 动机 + 能力 + 触发物）
-
-出自 BJ Fogg
 
 ### 其他
 
@@ -403,6 +309,95 @@ input & output 关系与过程：输入 → 过滤 → 吸收 → 结合其他�
 2. 李四租了5只鸡，一只一年10元，收入是张三的5倍
 3. 王五做了5只鸡，用预付一年账款方式卖鸡蛋
 
+## 开发工具
 
+文字开发工具：
+- 平台：
+    - *WordPress*
+    - *Github Pages*
+- 网域：Godaddy
+- 其他：
+    - Google Adsense
+    - Google Ads Keyword
+    - Google Trends
+    - 联盟行销（合伙人计划（AP – Affiliate Program））
+
+视频开发工具
+- 屏幕录制：
+    - streamLabs（免费）
+    - BANDICAM（半免费）
+    - Camtasia（付费）
+- 视频剪辑软件（免费）：
+    - 剪映（手机）
+    - Quik（手机）
+    - DaVinci Resolve
+    - Movie Maker
+- 音效软件：
+    - Audacity（免费）
+    - Adobe Audition（付费）
+- 特效软件：
+    - Adobe After Effect（付费）
+- 字幕软件：
+    - ArcTime Pro（免费）
+- 摄像头：
+    - 使用相机
+    - 罗技C920家族
+    - Cam Link
+- 麦克风：
+    - Build-in Laptop mic
+    - Samson GoMic
+    - Rode NT-USB
+    - Shure PG-42USB
+- 隔音间：
+
+
+平面开发工具
+- 绘图软件：
+    - AI
+    - PS
+    - AD
+    - InVision
+- 色彩工具（色盘）：
+    - Eva Design System
+    - Adobe Color
+    - Coolors
+- 字型：
+    - Google Fonts
+    - 100font.com
+
+素材：
+- 图片
+    - unsplash
+    - pexels
+    - pixabay
+- 音乐
+    - YouTube Audio Library
+    - Free Music Archive
+- 影片
+    - pexels
+    - pixabay
+
+其他有用的链接：
+- color:
+    1. [https://coolors.co/](https://coolors.co/)
+    2. [https://colorhunt.co/](https://colorhunt.co/)
+    3. [https://color.adobe.com/zh/create](https://color.adobe.com/zh/create)
+- fonts:
+    1. [https://www.1001freefonts.com/](https://www.1001freefonts.com/)
+    2. [https://www.fontsquirrel.com/](https://www.fontsquirrel.com/)
+    3. [https://fonts.google.com/](https://fonts.google.com/)
+    4. [https://www.dafont.com/edo-sz.font](https://www.dafont.com/edo-sz.font)
+- trend:
+    1. [https://www.pantonecn.com/](https://www.pantonecn.com/)
+- pic:
+    1. [https://unsplash.com/](https://unsplash.com/)
+    2. [https://pixabay.com/zh/](https://pixabay.com/zh/)
+    3. [https://www.pexels.com/zh-cn/](https://www.pexels.com/zh-cn/)
+    4. [http://thestocks.im/](http://thestocks.im/)
+    5. [https://zoommyapp.com/](https://zoommyapp.com/)
+    6. [http://www.yanj.cn/](http://www.yanj.cn/)
+- logo & icon:
+    1. [https://www.fiverr.com/](https://www.fiverr.com/)
+    2. [https://www.iconfont.cn/](https://www.iconfont.cn/)
 
 ---
