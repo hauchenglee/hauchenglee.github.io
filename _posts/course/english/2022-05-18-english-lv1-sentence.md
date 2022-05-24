@@ -321,7 +321,43 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 ### 数词 num
 
 
-## 其他暂时笔记
+## 试题笔记
+
+### 词性题
+
+名词：
+- be + v + {{n}} + n
+    - will write recommendation
+- a/an/the + n + of
+    - the appointment of
+    - The director has requested a {{comparison}} of the costs of sth
+- a/an/the + n + adj + to
+    - the recent {{initiative}} to
+- 短语：
+    - serve as + n
+    - be similar to + n
+
+形容词：
+- very + adj
+    - very latest
+- v + adj + n
+    - Matos Realty has developed two different methods
+    - Flash Maxe dishwashing detergent consistently delivers {{exceptional}} results.
+- be + adj
+    - The new location of the Bentler Company is easily {{accessible}} by car or bus
+
+副词：
+- v + more + adv → more 可能+n也可能+adj，不能當作參考的依據，選項關鍵是v think
+    - techniques help epople think more creatively
+- be + adv
+    - Roxy Koenig is {{actively}} seeking a new venue for her summer concert
+- be + adv + n
+    - a file was clearly success
+
+### 动词题
+
+before:
+- S + 情态动词（modal verb） + V + before  + 一般现在时
 
 ### when while
 
@@ -330,10 +366,9 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 - while is used for two actions taking place in parallel, or is also used to mean "although"
     - {{c1::While}} the Nolan Credit Union parking area is now open to the public, a sectionhas been reserved for credit union employees. 
 
+### who
 
-### before
 
-S + 情态动词（modal verb） + V + before  + 一般现在时
 
 ### which
 
