@@ -323,36 +323,76 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 
 ## 试题笔记
 
+### 短语
+
+- access to sth
+    - Access to the exercise room is include with your stay
+- change in sth
+    - The puchase of The New Lagos Reporter will not lead to changes in editorial staff.
+- serve as + n
+- be similar to + n
+- because of + n
+    - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
+
+### 比较级
+
+- the lightest *one*
+    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
+
+
 ### 词性题
 
 名词：
-- be + v + {{n}} + n
+- 双名词
     - will write recommendation
+    - the recent *initiative* to
 - a/an/the + n + of
     - the appointment of
-    - The director has requested a {{comparison}} of the costs of sth
-- a/an/the + n + adj + to
-    - the recent {{initiative}} to
-- 短语：
-    - serve as + n
-    - be similar to + n
+    - The director has requested a *comparison* of the costs of sth
+    - The *expansion* of the Kawagoe factory has had a significant impact on Inagi technology employees' productivity.
+- 名词被形容词修饰
+    - Lasner Electronics' staff have extensive *knowledge* of current hardware systems.
+    - World Fish Supply delivers the freshest fish possible thanks to innovative *preservation* and shipping methods.
 
 形容词：
-- very + adj
+- 形容词比较级：very + adj
     - very latest
-- v + adj + n
+- 形容词修饰名词：adj + n
     - Matos Realty has developed two different methods
-    - Flash Maxe dishwashing detergent consistently delivers {{exceptional}} results.
+    - Flash Maxe dishwashing detergent consistently delivers *exceptional* results.
+    - According to experts, Flash Maxe dishwashing detergent consistently deliver *exceptional* results.
+    - most *admirable* quality
+    - customer' *confidential* information
+- 形容词修饰名词短语：
+    - BYF Company specializes in *personalized* promotional items to help companies advertise their brand.
+- 形容词被动词修饰：
+    - Ms. SUto claims that important market trends become *predictable* with the use of data analysis.
+- will be + adj
+    - In light of our recent expansion, it will be *necessary* to hire another administrative assistant by June 1.
 - be + adj
-    - The new location of the Bentler Company is easily {{accessible}} by car or bus
+    - The new location of the Bentler Company is easily *accessible* by car or bus.
 
 副词：
-- v + more + adv → more 可能+n也可能+adj，不能當作參考的依據，選項關鍵是v think
-    - techniques help epople think more creatively
-- be + adv
-    - Roxy Koenig is {{actively}} seeking a new venue for her summer concert
-- be + adv + n
+- 副词修饰动词： 
+    - techniques help people think more creatively → more 可能+n也可能+adj，不能當作參考的依據，選項關鍵是v think
+    - Mr. Ashburton has been *highly* recommended by all of his references.
+    - With the Gema XTI binoculars, users can *easily* see objects that are more than 100 meters away.
+- 副词修饰形容词：
+    - The initial response to the beta version of the software allows us to be *fairly* optimistic about future product sales.
+    - approved in a *suprisingly* short time
+    - The conclusions from our analysis turned out to be *directly* applicable to the budget problem.
+- 副詞修飾動名詞
+    - At Correia Electronics, we are *continually* researching appliance technology.
+    - Roxy Koenig is *actively* seeking a new venue for her summer concert
+- \[be]\(was) + (adverb) + noun phrase
     - a file was clearly success
+    - Even the ECO had to admit that Prasma Designs' win was *partly* the result of fortunate timing.
+
+分词：
+- By + ving
+    - By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
+- be + ving
+    - The product development team for Herbeve Cosmetics is *considering* a package redesign to try to incease sales.
 
 ### 动词题
 
@@ -362,9 +402,9 @@ before:
 ### when while
 
 - after when the future becomes present:
-    - The lecture {{c1::will focus}} on the country's struggle for independence when he gives his talk.
+    - The lecture *will focus* on the country's struggle for independence when he gives his talk.
 - while is used for two actions taking place in parallel, or is also used to mean "although"
-    - {{c1::While}} the Nolan Credit Union parking area is now open to the public, a sectionhas been reserved for credit union employees. 
+    - *While* the Nolan Credit Union parking area is now open to the public, a sectionhas been reserved for credit union employees. 
 
 ### who
 
