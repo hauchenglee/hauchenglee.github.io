@@ -323,81 +323,110 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 
 ## 试题笔记
 
-### 短语
+### 数量词
+
+- many + s
+- much no s
+
+### 短语及介系词
 
 - access to sth
     - Access to the exercise room is include with your stay
 - change in sth
     - The puchase of The New Lagos Reporter will not lead to changes in editorial staff.
 - serve as + n
+    - This letter serves as *confirmation* that we have received and processed your credit-card cancellation.
 - be similar to + n
+    - Although the new X150 printer is *similar* to other models, it costs only half as much.
 - because of + n
     - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
-
-### 比较级
-
-- the lightest *one*
-    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
-
-
-### 词性题
-
-名词：
-- 双名词
-    - will write recommendation
-    - the recent *initiative* to
+nat far from:
+    - Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
+plans on ving:
+    - The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
+integrate into:
+    - It is essential that the logo for Prime Vitamins be integrated *into* all of its catalogs and mailings.
 - a/an/the + n + of
     - the appointment of
     - The director has requested a *comparison* of the costs of sth
     - The *expansion* of the Kawagoe factory has had a significant impact on Inagi technology employees' productivity.
-- 名词被形容词修饰
+    - The *progression* of the disease can be significantly slowed by taking the medicine developed by Dr. Toft's team.
+- on / uopn ving
+    - Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
+- the lightest *one*
+    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
+- its + n
+    - The Brownsville Homeless Shelter has helped thousands of people since its *creation* last year.
+
+### 词性题
+
+- 双名词
+    - will write recommendation
+    - the recent *initiative* to
+    - Ashburn Bank's online service has been in ght demand *lateness*.
+
+- 形容词与名词
     - Lasner Electronics' staff have extensive *knowledge* of current hardware systems.
     - World Fish Supply delivers the freshest fish possible thanks to innovative *preservation* and shipping methods.
-
-形容词：
-- 形容词比较级：very + adj
-    - very latest
-- 形容词修饰名词：adj + n
     - Matos Realty has developed two different methods
     - Flash Maxe dishwashing detergent consistently delivers *exceptional* results.
     - According to experts, Flash Maxe dishwashing detergent consistently deliver *exceptional* results.
     - most *admirable* quality
     - customer' *confidential* information
-- 形容词修饰名词短语：
     - BYF Company specializes in *personalized* promotional items to help companies advertise their brand.
-- 形容词被动词修饰：
+    - Engagin in social *activites*, Ms. Mason quickly expanded her network after moving to a new city.
+    - A sturdy support beam was added to the first story of the building for *structural* reasons.
+    - Mr. Burrows was praised for creating *informative* user manuals which can be easily understood.
+
+形容词与比较级：
+    - very latest
+    - \[be]\(is) + most + adj → The Ford Group's proposed advertising compaign is by far the most *innovative* we have seen so far.
+
+副词比较级：
+    - very + adv + adj / ved → The team's contributions to the Ripton Group's marketing plan were very *favorably* acknowledged.
+
+副词与形容词：
+    - The initial response to the beta version of the software allows us to be *fairly* optimistic about future product sales.
+    - approved in a *suprisingly* short time
+    - The conclusions from our analysis turned out to be *directly* applicable to the budget problem.
+    - The clerk said that *roughtly* fifteen customers had been waiting outside the store for it to open.
+
+副词与动词：
+    - techniques help people think more creatively → more 可能+n也可能+adj，不能當作參考的依據，選項關鍵是v think
+    - Mr. Ashburton has been *highly* recommended by all of his references.
+    - With the Gema XTI binoculars, users can *easily* see objects that are more than 100 meters away.
+    - Ben sanders innovatively desiigned the suitcase to fold up easily for compact storage.
+    - The dinging room furniture was left *intentionally* in the house because the new owner bought it.
+
+- 形容词与动词：
     - Ms. SUto claims that important market trends become *predictable* with the use of data analysis.
 - will be + adj
     - In light of our recent expansion, it will be *necessary* to hire another administrative assistant by June 1.
 - be + adj
     - The new location of the Bentler Company is easily *accessible* by car or bus.
+    - Even though Smithton Electronics' second quarter was not *profitable*, the company plans to invest large sums on research.
 
-副词：
-- 副词修饰动词： 
-    - techniques help people think more creatively → more 可能+n也可能+adj，不能當作參考的依據，選項關鍵是v think
-    - Mr. Ashburton has been *highly* recommended by all of his references.
-    - With the Gema XTI binoculars, users can *easily* see objects that are more than 100 meters away.
-- 副词修饰形容词：
-    - The initial response to the beta version of the software allows us to be *fairly* optimistic about future product sales.
-    - approved in a *suprisingly* short time
-    - The conclusions from our analysis turned out to be *directly* applicable to the budget problem.
-- 副詞修飾動名詞
+- 副词与动名词：
     - At Correia Electronics, we are *continually* researching appliance technology.
     - Roxy Koenig is *actively* seeking a new venue for her summer concert
 - \[be]\(was) + (adverb) + noun phrase
     - a file was clearly success
     - Even the ECO had to admit that Prasma Designs' win was *partly* the result of fortunate timing.
 
-分词：
-- By + ving
-    - By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
-- be + ving
-    - The product development team for Herbeve Cosmetics is *considering* a package redesign to try to incease sales.
+### 特殊名词
+
+those: 复数可数名词
 
 ### 动词题
 
 before:
-- S + 情态动词（modal verb） + V + before  + 一般现在时
+    - S + 情态动词（modal verb） + V + before  + 一般现在时
+- By + ving
+    - By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
+- be + ving
+    - The product development team for Herbeve Cosmetics is *considering* a package redesign to try to incease sales.
+- when + ving
+    - Remember to check to spelling of Mr. Kamashi's name when *revising* the document.
 
 ### when while
 
@@ -406,10 +435,6 @@ before:
 - while is used for two actions taking place in parallel, or is also used to mean "although"
     - *While* the Nolan Credit Union parking area is now open to the public, a sectionhas been reserved for credit union employees. 
 
-### who
-
-
-
 ### which
 
 用法
@@ -417,6 +442,10 @@ before:
 2. 关系代名词（无逗号，限定用法）：n + which + 描述前面的名词事物
 
 Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| 全民學英文](https://tw.englisher.info/2019/08/20/which/)
+
+### 从句 where that which who ...
+
+
 
 ### 其他
 
