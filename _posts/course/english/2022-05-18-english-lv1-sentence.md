@@ -332,14 +332,10 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
 
 - access to sth
     - Access to the exercise room is include with your stay
-- change in sth
-    - The puchase of The New Lagos Reporter will not lead to changes in editorial staff.
-nat far from:
+- nat far from:
     - Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
-plans on ving:
+- plans on ving:
     - The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
-integrate into:
-    - It is essential that the logo for Prime Vitamins be integrated *into* all of its catalogs and mailings.
 - on / uopn ving
     - Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
 - the lightest *one*
@@ -387,6 +383,10 @@ integrate into:
 - be + adj
     - The new location of the Bentler Company is easily *accessible* by car or bus.
     - Even though Smithton Electronics' second quarter was not *profitable*, the company plans to invest large sums on research.
+
+短语形容词：
+- By ving sth → by doing sth
+    - South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
 
 形容词与比较级：
     - very latest
