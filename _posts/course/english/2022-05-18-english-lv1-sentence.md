@@ -7,7 +7,7 @@ tags: [english, private]
 
 ## 句子成分
 
-### 核心成分：
+### 核心成分
 
 1. 主语：动作或状态的主体
 2. 谓语：主语的动作或状态
@@ -18,7 +18,7 @@ tags: [english, private]
     - 主语补足语
     - 宾语补足语
 
-### 非核心成分：
+### 非核心成分
 
 - 定语：
     - 用来修饰、限定或说明名词、代名词的品质与特征
@@ -334,38 +334,40 @@ Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"
     - Access to the exercise room is include with your stay
 - change in sth
     - The puchase of The New Lagos Reporter will not lead to changes in editorial staff.
-- serve as + n
-    - This letter serves as *confirmation* that we have received and processed your credit-card cancellation.
-- be similar to + n
-    - Although the new X150 printer is *similar* to other models, it costs only half as much.
-- because of + n
-    - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
 nat far from:
     - Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
 plans on ving:
     - The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
 integrate into:
     - It is essential that the logo for Prime Vitamins be integrated *into* all of its catalogs and mailings.
+- on / uopn ving
+    - Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
+- the lightest *one*
+    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
+
+### 词性题
+
+- 双名词：
+    - will write recommendation
+    - the recent *initiative* to
+    - Ashburn Bank's online service has been in ght demand *lateness*.
+
+短语名词：
+- serve as + n
+    - This letter serves as *confirmation* that we have received and processed your credit-card cancellation.
+- be similar to + n
+    - Although the new X150 printer is *similar* to other models, it costs only half as much.
+- because of + n
+    - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
 - a/an/the + n + of
     - the appointment of
     - The director has requested a *comparison* of the costs of sth
     - The *expansion* of the Kawagoe factory has had a significant impact on Inagi technology employees' productivity.
     - The *progression* of the disease can be significantly slowed by taking the medicine developed by Dr. Toft's team.
-- on / uopn ving
-    - Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
-- the lightest *one*
-    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
 - its + n
     - The Brownsville Homeless Shelter has helped thousands of people since its *creation* last year.
 
-### 词性题
-
-- 双名词
-    - will write recommendation
-    - the recent *initiative* to
-    - Ashburn Bank's online service has been in ght demand *lateness*.
-
-- 形容词与名词
+- 形容词与名词：
     - Lasner Electronics' staff have extensive *knowledge* of current hardware systems.
     - World Fish Supply delivers the freshest fish possible thanks to innovative *preservation* and shipping methods.
     - Matos Realty has developed two different methods
@@ -377,6 +379,14 @@ integrate into:
     - Engagin in social *activites*, Ms. Mason quickly expanded her network after moving to a new city.
     - A sturdy support beam was added to the first story of the building for *structural* reasons.
     - Mr. Burrows was praised for creating *informative* user manuals which can be easily understood.
+
+- 形容词与动词：
+    - Ms. SUto claims that important market trends become *predictable* with the use of data analysis.
+- will be + adj
+    - In light of our recent expansion, it will be *necessary* to hire another administrative assistant by June 1.
+- be + adj
+    - The new location of the Bentler Company is easily *accessible* by car or bus.
+    - Even though Smithton Electronics' second quarter was not *profitable*, the company plans to invest large sums on research.
 
 形容词与比较级：
     - very latest
@@ -397,14 +407,6 @@ integrate into:
     - With the Gema XTI binoculars, users can *easily* see objects that are more than 100 meters away.
     - Ben sanders innovatively desiigned the suitcase to fold up easily for compact storage.
     - The dinging room furniture was left *intentionally* in the house because the new owner bought it.
-
-- 形容词与动词：
-    - Ms. SUto claims that important market trends become *predictable* with the use of data analysis.
-- will be + adj
-    - In light of our recent expansion, it will be *necessary* to hire another administrative assistant by June 1.
-- be + adj
-    - The new location of the Bentler Company is easily *accessible* by car or bus.
-    - Even though Smithton Electronics' second quarter was not *profitable*, the company plans to invest large sums on research.
 
 - 副词与动名词：
     - At Correia Electronics, we are *continually* researching appliance technology.
