@@ -12,18 +12,48 @@ tags: [english, private]
 
 ## 短语
 
-- access to sth
-    - Access to the exercise room is include with your stay
-- not far from
-    - Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
-- the lightest *one*
-    - Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
-- be satisfied with sb/sth
-    - If you are not satisfied with your Electoshine toothbrush, you may return it for a full refund.
-- into the end of = at the end of
-    - DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
-- be + asked + to
-    - Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturdat *are asked* to arrive early.
+access to sth
+- Access to the exercise room is include with your stay
+
+not far from
+- Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
+
+the lightest *one*
+- Ultrora Action's T-Pro tennis shoe is the lightest one one the market right now.
+
+be satisfied with sb/sth
+- If you are not satisfied with your Electoshine toothbrush, you may return it for a full refund.
+
+into the end of = at the end of
+- DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
+
+17Q128: be + asked + to
+- Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturdat *are asked* to arrive early.
+
+eligible + to V
+- After a six-month probationary period, city employees are *elibible* to take vacation days.
+
+plans on ving
+- The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
+
+on / uopn ving
+- Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
+
+by ving
+- South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
+- By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
+
+because of + n
+- Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
+
+*from* around the world 来自世界各地的
+- Boyd Street Market is Mapleton's largest retailer of foods *from* around the world.
+
+be pleased to: glad to do sth
+- Riversedge City is *pleasure* to announce new monthly parking discounts for tis residents.
+
+equipped *with*
+- The corporate fitness center is equipped *with* fourteen stationary bicycles.
 
 ## 词性题
 
@@ -34,7 +64,7 @@ summary
 2. 比较级：more / more than + sth
 3. 最高级：most / the most + sth
 4. 特殊：much more adv than
-    - The building's new ventilation system circulates heat much *more evenly* than before.
+    - 17Q109: The building's new ventilation system circulates heat much *more evenly* than before.
 
 例句：
 - 形容词比较级：（无动词，一般情况）
@@ -59,33 +89,14 @@ Ref:
 - [英文形容詞的「比較級」與「最高級」用法整理！ – 英文庫](https://english.cool/comparative-superlative-adjectives/)
 - [英语中形容词副词的比较级和最高级 - 知乎](https://zhuanlan.zhihu.com/p/337474907)
 
-### 短语
-
-eligible + to V
-- After a six-month probationary period, city employees are *elibible* to take vacation days.
-
-plans on ving
-- The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
-
-on / uopn ving
-- Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
-
-by ving
-- South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
-- By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
-
-because of + n
-- Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
-
-from around the world 来自世界各地的
-- Boyd Street Market is Mapleton's largest retailer of foods *from* around the world.
-
-be pleased to: glad to do sth
-- Riversedge City is *pleasure* to announce new monthly parking discounts for tis residents.
-
 ### 名词
 
-双名词：→ 组成名词词组，整体视作名词，所以依据前后词性判断
+summary: 双 短 S
+1. 双名词
+2. 介词短语（必定）
+3. S
+
+双名词：→ 组成名词词组，整体视作名词，所以依据前后词性判断（礼物店 != 礼物的店）
 - gift shop / coffee shop
 - Dr.Braun will write *recommendation* letter only for interns who master every task expected of a junior copy editor.
 - the recent *initiative* to
@@ -95,6 +106,10 @@ a/an/the + n (单词或是短语) + of
 - The director has requested a *comparison* of the costs of sth
 - The *expansion* of the Kawagoe factory has had a significant impact on Inagi technology employees' productivity.
 - The chefs are still waiting for a *shipping date* for the new convectionn oven that was ordered two weeks ago.
+- Professor Phuong will go over the use of the laboratory *instruments* with the interns next week.
+
+'s 之后
+- Mr.s Ruotolo's *presentation* on the new tax changes is scheduled for 10:00 A.M.
 
 当主宾语用（少见的考题）：
 - Ms. Wong has expressed *interest* in leading the city's planned beautification project.
@@ -109,23 +124,20 @@ a/an/the + n (单词或是短语) + of
 
 ### 形容词 -> 表示状态
 
-summary
+summary：名 be
 1. 名词
-2. 及物
-3. 无宾语
+2. be介词
 
 形容词与名词：
 - Lasner Electronics' staff have extensive *knowledge* of current hardware systems.
 - World Fish Supply delivers the freshest fish possible thanks to innovative *preservation* and shipping methods.
 - BYF Company specializes in *personalized* promotional items to help companies advertise their brand.
 
-及物动词与形容词：
-- Ms. SUto claims that important market trends become *predictable* with the use of data analysis.
-
-be动词 + 形容词 + 除了名词/形容词/动词之外（例如to/by   ）：
+be动词 + 形容词：
 - In light of our recent expansion, it will be *necessary* to hire another administrative assistant by June 1.
 - The new location of the Bentler Company is easily *accessible* by car or bus.
 - Even though Smithton Electronics' second quarter was not *profitable*, the company plans to invest large sums on research.
+- The second-generation XR1280 unit is *equal* to its predecessor, except for tis reduced weight.
 
 依句意判断：
 - THe rear entrance to RC Bank will be closed for repairs and not *accessible* next Monday. （and连接对等，故依据will be判断）
@@ -133,7 +145,7 @@ be动词 + 形容词 + 除了名词/形容词/动词之外（例如to/by   ）�
 
 ### 副词 -> 表示程度
 
-summary
+summary： 形 动 动名
 1. 形容词
 2. 动词
 3. 动名词
@@ -164,32 +176,6 @@ be动词 + 副词 + 动名词：
 - At Correia Electronics, we are *continually* researching appliance technology.
 - Roxy Koenig is *actively* seeking a new venue for her summer concert
 
-### 代名词
-
-those: 复数可数名词
-
-their 
-
-theirs 所有格代词
-
-ours 所有格代词
-
-our 所有格形容词
-
-they 主语代词
-
-them 宾语代词
-
-themselves
-
-you
-
-yours
-
-your
-
-yourself
-
 ## 句子中的修饰、连接词
 
 对等单词链接：and, but, or, so, nor, for（因为用法，非介词用法）, yet, then
@@ -211,91 +197,12 @@ yourself
 
 Ref: [[常考重點整理] 連接詞 conjunction @ GreenHill 英文app :: 痞客邦 ::](https://greenhill33.pixnet.net/blog/post/311307243-%E9%80%A3%E6%8E%A5%E8%A9%9E-conjunction)
 
-## 时态
+## their theris
 
-- be + ving
-    - The product development team for Herbeve Cosmetics is *considering* a package redesign to try to incease sales.
-- before:
-    - S + 情态动词（modal verb） + V + before  + 一般现在时
-- If S + had + Vpp/ed, S + would/could + have Vpp/ed
-    - Ms. Choi would have been at the keynote address if her train *had arrived* on time.
-- If + 一般现在时, 未来简单式
-    - Unless (Only if) the shipment of tiles arrives early, work on the lobby floor *will commence* after the holiday.
-- be + asked + to
-    - Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturdat *are asked* to arrive early.
+1、their是形容词性物主代词，必须用来修饰名词，即their的后面必须接名词。
 
-## 文法
+2、theirs是名词性物主代词，相当于“their+名词”结构，所以后面不能再接名词。
 
-## when vs while
-
-### when
-
-未来式 + when + 现在式:（after when the future becomes present）
-- The lecture *will focus* on the country's struggle for independence when he gives his talk.
-
-when + ving（when是连接词，省略同样主语，后面可以接ving / vpp）
-- Remember to check to spelling of Mr. Kamashi's name when *revising* the document.
-- When *interacting* with shoppers, clerks should deal with them in a pleasant manner.
-- (12Q125) When recently *polled*, residents of Mill Creek Park said that street disrepair is the issue that concerns them most.
-
-Ref:
-- [While/When -ing \| Grammar Quizzes](https://www.grammar-quizzes.com/8-12.html)
-- [為什麼When後面可以加v-ing？ - 考試板 \| Dcard](https://www.dcard.tw/f/exam/p/236717570)
-
-### while
-
-while表示同等动作，或表示"虽然"（while is used for two actions taking place in parallel, or is also used to mean "although"）
-- *While* the Nolan Credit Union parking area is now open to the public, a sectionhas been reserved for credit union employees. 
-
-## which
-
-- 哪一个 which one ← 只有这种用法后面可以接名词，其他全部后面都是接动词
-- 关系代名词：
-    - 有逗号：非限定用法
-    - 无逗号：限定用法
-- 关系代名词无逗号省略条件：
-    - 具有两个完整的句子
-    - 前面无逗号或介系词
-    - 當看到一個名詞的後面突然冒出主詞＋動詞的組合時，其實就要反應有可能是關係代名詞省略的情況
-- 关系代名词无逗号后面动词形式：
-    - 后面句子有be：省略be，动词维持原样
-    - 后面句子没有be：动词改成现在分词
-
-### which 逗号用法
-
-用法
-1. 关系代名词（有逗号，非限定用法）：n + , + which + 描述前面整个句子
-    - He showed me round the town, which was very kind of him
-2. 关系代名词（无逗号，限定用法）：n + which + 描述前面的名词事物
-    - The museum which we visited yesterday is the biggest in the city.
-
-Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| 全民學英文](https://tw.englisher.info/2019/08/20/which/)
-
-## which 省略用法
-
-當看到一個名詞的後面突然冒出主詞＋動詞的組合時，其實就要反應有可能是關係代名詞省略的情況。
-
-Ref:
-- [【多益改版大補帖】文法必考題－關係代名詞！](https://www.hopenglish.com/understandingrelativepronouns)
-
-## 未归类
-
-16Q125
-19Q123
-20Q125
-
--ly
-
-whose
-
-toward from above plus
-
-时态will have had are
-
-省略which
-
-动词名词形容词结尾
-
-will vs will be
+Ref: [their和theirs的意思有什么不同吗？具体用法有什么区别啊_百度知道](https://zhidao.baidu.com/question/714637095504942925)
 
 ---

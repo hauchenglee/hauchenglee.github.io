@@ -9,14 +9,14 @@ tags: [english, private]
 
 1. which 省略
 2. 主被動
-3. 時間
+3. 時間 有please为现在
 4. 常用
     - ved
     - by ving
     - will be ved
     - when before if
 
-## 时态
+## 句型
 
 - be + ving
     - The product development team for Herbeve Cosmetics is *considering* a package redesign to try to incease sales.
@@ -27,7 +27,25 @@ tags: [english, private]
 - If + 一般现在时, 未来简单式
     - Unless (Only if) the shipment of tiles arrives early, work on the lobby floor *will commence* after the holiday.
 
-## 文法
+## 主被动
+
+19 Q117
+- Please review the projected sales figures in the spreadsheets that *are attached* to the e-mail.
+
+19 Q123: need to fill in a verb in v-ing form and conjugate it in the passive form based on the meaning of the sentence. 
+- Please save spreadsheets periodically when updating them to prevent data from *being lost*.
+
+18 Q117
+- Poet Uoshino Nagao will read from her latest *published* collection at Argyle Library on Friday.
+
+18 Q128： Before the blank is the preposition "upon" and after the nlank is "the", so right at this blnk position needs to fill in a v-ing.
+- Researchers must sign in at the visitor registration table upon *entering* the Briston Literary Archive.
+
+17Q118: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
+- Cranford Culinary Academy offers 35 different classes for *aspiring* chefs.
+
+17Q127: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
+- Tomorrow morning, both escalators in the store will be turned off periodically in order to perform *required* maintenance.
 
 ## when vs while
 
@@ -81,21 +99,21 @@ Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| �
 Ref:
 - [【多益改版大補帖】文法必考題－關係代名詞！](https://www.hopenglish.com/understandingrelativepronouns)
 
+20 Q116：
+- Flu season is here, so take advantaage of the free flu shots (which are being offered -> begin offered) in the lobby.
+
+20 Q120
+- MBR Global Marketing has signed several new clinet contracts (which total -> totaling) 12 million pounds in annual revenue.
+
 ## 未归类
 
-16Q125
-19Q123
-20Q125
-
--ly
-
-whose
+- 16Q125
+- 20Q125 - whose not which
+- 17Q101 - write + s?
 
 toward from above plus
 
 时态will have had are
-
-省略which
 
 动词名词形容词结尾
 

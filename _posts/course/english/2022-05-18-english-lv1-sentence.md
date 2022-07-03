@@ -294,7 +294,7 @@ Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/gr
 
 in, on, at
 
--> 自己的理解筆記：
+-> 自己的理解筆記：大内上地 + 外周时
 1. 地點：
     - in：山城車內
     - on：街區樓車
