@@ -47,6 +47,19 @@ tags: [english, private]
 17Q127: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
 - Tomorrow morning, both escalators in the store will be turned off periodically in order to perform *required* maintenance.
 
+## 时态
+
+16 Q117: Based on "yesterday" time sign
+- Mr.s Khana made a phone call yesterday during which he *apologized* for the delay in the shipment of the clothing order.
+
+## v + s or v
+
+規則（３）：主詞如果是第三人稱，現在式及單數，動詞必須加s。
+
+17 Q101: Mr. Sokolov *wrote* a positive review of his stay at the Olana Hotel.
+
+Ref: [英文文法的最基本規則](http://www2.nkfust.edu.tw/~ypke/CE/data/appendixA.htm)
+
 ## when vs while
 
 ### when
@@ -107,9 +120,8 @@ Ref:
 
 ## 未归类
 
-- 16Q125
-- 20Q125 - whose not which
-- 17Q101 - write + s?
+- 16 Q125: whose
+- 20 Q125 - whose not which
 
 toward from above plus
 

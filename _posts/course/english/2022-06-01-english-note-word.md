@@ -83,7 +83,6 @@ summary
 - 13Q107
 - 14Q105
 - 14Q117
-- 17Q109
 
 Ref:
 - [英文形容詞的「比較級」與「最高級」用法整理！ – 英文庫](https://english.cool/comparative-superlative-adjectives/)
@@ -91,10 +90,11 @@ Ref:
 
 ### 名词
 
-summary: 双 短 S
-1. 双名词
-2. 介词短语（必定）
-3. S
+詞類問題攻略：
+- 看到 *冠詞(a/an/the) + ___ + 介係詞* 的形式時，選擇名詞
+- 在*及物動詞後面*，選擇名詞
+- 熟悉 *名詞+名詞* 的模式，第一個名詞當作adj，修飾第二個名詞
+- 選項中剩兩個名詞時，選擇 *語意較通順* 的
 
 双名词：→ 组成名词词组，整体视作名词，所以依据前后词性判断（礼物店 != 礼物的店）
 - gift shop / coffee shop
@@ -124,9 +124,22 @@ a/an/the + n (单词或是短语) + of
 
 ### 形容词 -> 表示状态
 
-summary：名 be
-1. 名词
-2. be介词
+英文单词容易误解是其他词性，却是adj的单词
+- adj+er
+- adj+est
+- most
+- any
+
+詞類問題攻略：
+- 看到 *冠詞(a/an/the) + ___ + 名詞* 的形式時，填入形容詞的可能性很高
+- 看到 *be動詞+___* 的形式時，填入形容詞的可能性很高
+- 熟悉 *動名詞+名詞* 的名詞詞組模式
+- 在 *介係詞to的後面* ，選擇動名詞
+- 在 *become的后面*，选择adj
+- 在 *名词*或是*名词短语*的前面，选择adj
+
+形容詞與[副詞](#adverb)都是修飾語，形容詞是用來修飾「[名詞](#noun)」或「[代名詞](#pronoun)」；而副詞則是用來修飾「[動詞](#verb)」、「形容詞」或其他「[副詞](#adverb)」。
+這些修飾語可有可無, 拿掉修飾語並不影響句子結構的正確性；然而少了修飾語，卻會削弱語文表達的能力。
 
 形容词与名词：
 - Lasner Electronics' staff have extensive *knowledge* of current hardware systems.
@@ -145,10 +158,14 @@ be动词 + 形容词：
 
 ### 副词 -> 表示程度
 
-summary： 形 动 动名
-1. 形容词
-2. 动词
-3. 动名词
+詞類問題攻略：
+- **句型的構成要素具備時**，選擇副詞
+- 在**助動詞和動詞**之間，選擇副詞
+- 在**be動詞和過去分詞**之間，選擇副詞
+- 在**修飾形容詞**的位置，選擇副詞
+
+形容詞與[副詞](#adverb)都是修飾語，形容詞是用來修飾「[名詞](#noun)」或「[代名詞](#pronoun)」；而副詞則是用來修飾「[動詞](#verb)」、「形容詞」或其他「[副詞](#adverb)」。
+這些修飾語可有可無, 拿掉修飾語並不影響句子結構的正確性；然而少了修飾語，卻會削弱語文表達的能力。
 
 纯粹副词与形容词：
 - approved in a *suprisingly* short time
@@ -197,12 +214,97 @@ be动词 + 副词 + 动名词：
 
 Ref: [[常考重點整理] 連接詞 conjunction @ GreenHill 英文app :: 痞客邦 ::](https://greenhill33.pixnet.net/blog/post/311307243-%E9%80%A3%E6%8E%A5%E8%A9%9E-conjunction)
 
-## their theris
+### 代名词 pron
 
-1、their是形容词性物主代词，必须用来修饰名词，即their的后面必须接名词。
-
-2、theirs是名词性物主代词，相当于“their+名词”结构，所以后面不能再接名词。
+their, theirs
+1. their是形容词性物主代词，必须用来修饰名词，即their的后面必须接名词。
+2. theirs是名词性物主代词，相当于“their+名词”结构，所以后面不能再接名词。
 
 Ref: [their和theirs的意思有什么不同吗？具体用法有什么区别啊_百度知道](https://zhidao.baidu.com/question/714637095504942925)
+
+16 Q111: According to the structure "by + reflexive pronoun".
+- Kespi Brand cookies, delicious by *themselves*, are even better when paired with a glass of milk.
+
+### 介词 prep
+
+用法：放在名詞（詞組）前面
+
+Ref: [Prepositions - Grammar - Academic Guides at Walden University](https://academicguides.waldenu.edu/writingcenter/grammar/prepositions){:target="_blank"}
+
+<br>
+
+介词表
+- in / on / at
+- of
+    - in spite of
+    - because of
+    - regardless of
+- **to**
+    - due to
+    - according to
+    - in addition to
+- for
+    - except for
+- place, time and range:
+    - above
+    - along
+    - around
+    - behind
+    - below
+    - beneath
+    - beside
+    - besides
+    - between
+    - inside
+    - into
+    - near
+    - onto
+    - outside
+    - under
+    - up
+    - upon 在。。。之上 (等于on) it was based upon two principles
+    - via
+    - **with**
+    - within: [within vs among \| Common Errors in English \| within or among](https://www.beedictionary.com/common-errors/within_vs_among)
+    - without
+    - among 在。。。之中
+- others:
+    - **before**
+    - **after**
+    - during
+    - despite
+    - **from**
+    - by
+
+Ref: [Preposition List \| Grammar \| EnglishClub](https://www.englishclub.com/grammar/prepositions-list.htm){:target="_blank"}
+
+<br> 
+
+in, on, at
+
+-> 自己的理解筆記：大内上地 + 外周时
+1. 地點：
+    - in：山城車內
+    - on：街區樓車
+    - at：精確地址
+2. 時間：
+    - in：除上述外
+    - on：精確到這週（on weekend）、這星期（on Friday）、有指定日期（Apr 4th）
+    - at：精確到小時、時間
+3. 如有有地点 + 时间，先以地点判断（*at the natural history conference* tomorrow）
+4. for + 一段时间
+    - 16 Q102: AGU Group's insurance rates have remained steady *for* the last three years.
+
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-time.jpg)
+
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-place.jpg)
+
+![](https://hauchenglee.github.io/assets/images/course/english/prepositions-in-on-at.jpg)
+
+Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
+
+## 单词比较
+
+among vs within
 
 ---
