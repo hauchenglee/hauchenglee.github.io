@@ -5,6 +5,10 @@ category: course
 tags: [english, private]
 ---
 
+## Summary
+
+
+
 ## 数量词
 
 - many + s
@@ -15,7 +19,7 @@ tags: [english, private]
 access to sth
 - Access to the exercise room is include with your stay
 
-not far from
+not far from: 不远处
 - Not far *from* the train station lies Starlight Park, which is a popular destination for tourists and locals alike.
 
 the lightest *one*
@@ -24,24 +28,14 @@ the lightest *one*
 be satisfied with sb/sth
 - If you are not satisfied with your Electoshine toothbrush, you may return it for a full refund.
 
-into the end of = at the end of
-- DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
+*into* the end of = at the end of
+- 15 Q114: DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
 
 17Q128: be + asked + to
 - Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturdat *are asked* to arrive early.
 
 eligible + to V
 - After a six-month probationary period, city employees are *elibible* to take vacation days.
-
-plans on ving
-- The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
-
-on / uopn ving
-- Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
-
-by ving
-- South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
-- By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
 
 because of + n
 - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
@@ -55,16 +49,24 @@ be pleased to: glad to do sth
 equipped *with*
 - The corporate fitness center is equipped *with* fourteen stationary bicycles.
 
+a *shipping* date for sth
+- The chefs are still waiting for a *shipping* for the new convection oven that was ordered two weeks age.
+
+a considerable upturn: 大幅好转、可观的回升
+- Altona Printing is expecting a *considerable* upturn in holiday card orders in the next few weeks.
+
 ## 词性题
 
 ### 比较级 & 最高级
 
 summary
 1. 表示程度的（more most much very）都为副词
-2. 比较级：more / more than + sth
-3. 最高级：most / the most + sth
+2. 比较级：more / more + adj + than + sth
+3. 最高级：most / the most + adj + sth
 4. 特殊：much more adv than
     - 17Q109: The building's new ventilation system circulates heat much *more evenly* than before.
+5. **the best之后必定放adj**
+    - 13 Q119: Mr. Wijaua is reviewing the resumes to select the candidate best *qualified* for the position.
 
 例句：
 - 形容词比较级：（无动词，一般情况）
@@ -74,7 +76,7 @@ summary
     - Techniques help people think more *creatively*.
     - The team's contributions to the Ripton Group's marketing plan were very *favorably* acknowledged.
 - 没有more也没有most的情况：（回归词性原则）
-    - The commercial for Zhou's Cafe' was *easily* Sunn Agency's best advertisment of the year.
+    - 13 Q104: The commercial for Zhou's Cafe' was *easily* Sunn Agency's best advertisment of the year.
 
 例题：
 - 11Q128
@@ -102,7 +104,7 @@ Ref:
 - the recent *initiative* to
 - Ashburn Bank's online service has been in tht demand *lateness*.
 
-a/an/the + n (单词或是短语) + of
+a/an/the + n (单词或是短语) + of --> **中间名词看起来都是单名词或是形容词+名词**
 - The director has requested a *comparison* of the costs of sth
 - The *expansion* of the Kawagoe factory has had a significant impact on Inagi technology employees' productivity.
 - The chefs are still waiting for a *shipping date* for the new convectionn oven that was ordered two weeks ago.
@@ -153,16 +155,16 @@ be动词 + 形容词：
 - The second-generation XR1280 unit is *equal* to its predecessor, except for tis reduced weight.
 
 依句意判断：
-- THe rear entrance to RC Bank will be closed for repairs and not *accessible* next Monday. （and连接对等，故依据will be判断）
+- 12 Q119: THe rear entrance to RC Bank will be closed for repairs and not *accessible* next Monday. （and连接对等，故依据will be判断）
 - Everyone at the annual Tirnaco exposition seemed *excited* by the new products on display.
 
 ### 副词 -> 表示程度
 
 詞類問題攻略：
-- **句型的構成要素具備時**，選擇副詞
-- 在**助動詞和動詞**之間，選擇副詞
-- 在**be動詞和過去分詞**之間，選擇副詞
-- 在**修飾形容詞**的位置，選擇副詞
+- *句型的構成要素具備時*，選擇副詞
+- 在*助動詞和動詞*之間，選擇副詞
+- 在*be動詞和過去分詞*之間，選擇副詞
+- 在*修飾形容詞*的位置，選擇副詞
 
 形容詞與[副詞](#adverb)都是修飾語，形容詞是用來修飾「[名詞](#noun)」或「[代名詞](#pronoun)」；而副詞則是用來修飾「[動詞](#verb)」、「形容詞」或其他「[副詞](#adverb)」。
 這些修飾語可有可無, 拿掉修飾語並不影響句子結構的正確性；然而少了修飾語，卻會削弱語文表達的能力。
@@ -170,6 +172,7 @@ be动词 + 形容词：
 纯粹副词与形容词：
 - approved in a *suprisingly* short time
 - The clerk said that *roughtly* fifteen customers had been waiting outside the store for it to open.
+- 15 Q122: Ms. Taniguchi's supervisor commended her for negotiating *effectively* with Furuyama Corporation.
 
 be动词 + 副词 + 形容词（短语）
 - The initial response to the beta version of the software allows us to be *fairly* optimistic about future product sales.
@@ -192,6 +195,15 @@ be动词 + 副词 + 动词
 be动词 + 副词 + 动名词：
 - At Correia Electronics, we are *continually* researching appliance technology.
 - Roxy Koenig is *actively* seeking a new venue for her summer concert
+
+## 助动词
+
+助动词后面接原型动词：
+- 15 Q111: Companies without informaation technology specialists can *rely* on Vyber Software Advisers for assistance with online services.
+- 12 Q117: Viewers can easily *relate* to the main character in the popular television series Autumn Mystery.
+
+be动词后面如果接动词，要改成ved
+- 可以在此笔记搜寻 "be " 查看例句
 
 ## 句子中的修饰、连接词
 
@@ -224,6 +236,8 @@ Ref: [their和theirs的意思有什么不同吗？具体用法有什么区别啊
 
 16 Q111: According to the structure "by + reflexive pronoun".
 - Kespi Brand cookies, delicious by *themselves*, are even better when paired with a glass of milk.
+
+13 Q125: Local merchants are hopeful that if this new business succeeds, *theirs* will also benefit.
 
 ### 介词 prep
 
@@ -272,7 +286,7 @@ Ref: [Prepositions - Grammar - Academic Guides at Walden University](https://aca
     - **before**
     - **after**
     - during
-    - despite
+    - **despite** v.s. although -> conj
     - **from**
     - by
 
@@ -294,6 +308,7 @@ in, on, at
 3. 如有有地点 + 时间，先以地点判断（*at the natural history conference* tomorrow）
 4. for + 一段时间
     - 16 Q102: AGU Group's insurance rates have remained steady *for* the last three years.
+    - 14 Q104: Every attorney at the firm of Duncan and Hulce has practived law *for* more than ten years.
 
 ![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-time.jpg)
 
@@ -302,9 +317,5 @@ in, on, at
 ![](https://hauchenglee.github.io/assets/images/course/english/prepositions-in-on-at.jpg)
 
 Ref: [Everyday Grammar: In, On, and At](https://bit.ly/2VqyUF8){:target="_blank"}
-
-## 单词比较
-
-among vs within
 
 ---

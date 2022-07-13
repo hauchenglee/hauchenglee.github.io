@@ -29,6 +29,21 @@ tags: [english, private]
 
 ## 主被动
 
+v-ing:
+- 情感
+- 后面接一个人
+- 介词 + ving
+
+plans on ving
+- The company plans on *reimbursing* the salespeople for the expenses they incurred while attending the conference.
+
+on / uopn ving
+- Upon receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.
+
+by ving
+- South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
+- By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
+
 19 Q117
 - Please review the projected sales figures in the spreadsheets that *are attached* to the e-mail.
 
@@ -38,7 +53,7 @@ tags: [english, private]
 18 Q117
 - Poet Uoshino Nagao will read from her latest *published* collection at Argyle Library on Friday.
 
-18 Q128： Before the blank is the preposition "upon" and after the nlank is "the", so right at this blnk position needs to fill in a v-ing.
+18 Q128：Before the blank is the preposition "upon" and after the nlank is "the", so right at this blnk position needs to fill in a v-ing.
 - Researchers must sign in at the visitor registration table upon *entering* the Briston Literary Archive.
 
 17Q118: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
@@ -46,6 +61,9 @@ tags: [english, private]
 
 17Q127: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
 - Tomorrow morning, both escalators in the store will be turned off periodically in order to perform *required* maintenance.
+
+12Q129: In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
+- The Tonsin Writers League is a reputable orgganization with highly *accomplished* members.
 
 ## 时态
 
@@ -64,8 +82,9 @@ Ref: [英文文法的最基本規則](http://www2.nkfust.edu.tw/~ypke/CE/data/ap
 
 ### when
 
-未来式 + when + 现在式:（after when the future becomes present）
+未来式 + when / while + 现在式:（after when the future becomes present）
 - The lecture *will focus* on the country's struggle for independence when he gives his talk.
+- 14 Q107: Mr.s Jones *will assist* Ms. Cheng's clients while she is on a business trip to Hong Kong.
 
 when + ving（when是连接词，省略同样主语，后面可以接ving / vpp）
 - Remember to check to spelling of Mr. Kamashi's name when *revising* the document.
@@ -121,11 +140,9 @@ Ref:
 ## 未归类
 
 - 16 Q125: whose
-- 20 Q125 - whose not which
-
-toward from above plus
-
-时态will have had are
+- 20 Q125：whose not which
+- 14 Q115: if
+- 12 Q105: if
 
 动词名词形容词结尾
 
