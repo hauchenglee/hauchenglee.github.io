@@ -44,16 +44,16 @@ by ving
 - South Regent Aviation is adopting measures to reduce fuel expenses by *lightening* cargo loads.
 - By *opening* offices in London, Paris, and Madrid, Sedgehill Ltd. has continued its growth markets overseas.
 
-19 Q117
+19Q117
 - Please review the projected sales figures in the spreadsheets that *are attached* to the e-mail.
 
-19 Q123: need to fill in a verb in v-ing form and conjugate it in the passive form based on the meaning of the sentence. 
+19Q123: need to fill in a verb in v-ing form and conjugate it in the passive form based on the meaning of the sentence. 
 - Please save spreadsheets periodically when updating them to prevent data from *being lost*.
 
-18 Q117
+18Q117
 - Poet Uoshino Nagao will read from her latest *published* collection at Argyle Library on Friday.
 
-18 Q128：Before the blank is the preposition "upon" and after the nlank is "the", so right at this blnk position needs to fill in a v-ing.
+18Q128：Before the blank is the preposition "upon" and after the nlank is "the", so right at this blnk position needs to fill in a v-ing.
 - Researchers must sign in at the visitor registration table upon *entering* the Briston Literary Archive.
 
 17Q118: need an adjective to modify the noun. In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
@@ -65,16 +65,19 @@ by ving
 12Q129: In the absence of a root adjective, we will consider choosing v-ing if has an active meaning, v-ed if it has a passive meaning.
 - The Tonsin Writers League is a reputable orgganization with highly *accomplished* members.
 
+11Q114: It is necessary to choose an adjective with a passive meaning.
+- The *proposed* initiative aims to provide publilc transportation for commuters living in the outer suburbs.
+
 ## 时态
 
-16 Q117: Based on "yesterday" time sign
+16Q117: Based on "yesterday" time sign
 - Mr.s Khana made a phone call yesterday during which he *apologized* for the delay in the shipment of the clothing order.
 
 ## v + s or v
 
 規則（３）：主詞如果是第三人稱，現在式及單數，動詞必須加s。
 
-17 Q101: Mr. Sokolov *wrote* a positive review of his stay at the Olana Hotel.
+17Q101: Mr. Sokolov *wrote* a positive review of his stay at the Olana Hotel.
 
 Ref: [英文文法的最基本規則](http://www2.nkfust.edu.tw/~ypke/CE/data/appendixA.htm)
 
@@ -84,7 +87,7 @@ Ref: [英文文法的最基本規則](http://www2.nkfust.edu.tw/~ypke/CE/data/ap
 
 未来式 + when / while + 现在式:（after when the future becomes present）
 - The lecture *will focus* on the country's struggle for independence when he gives his talk.
-- 14 Q107: Mr.s Jones *will assist* Ms. Cheng's clients while she is on a business trip to Hong Kong.
+- 14Q107: Mr.s Jones *will assist* Ms. Cheng's clients while she is on a business trip to Hong Kong.
 
 when + ving（when是连接词，省略同样主语，后面可以接ving / vpp）
 - Remember to check to spelling of Mr. Kamashi's name when *revising* the document.
@@ -131,18 +134,19 @@ Ref: [【which 用法】一次搞懂英文「which」用法跟中文意思 \| �
 Ref:
 - [【多益改版大補帖】文法必考題－關係代名詞！](https://www.hopenglish.com/understandingrelativepronouns)
 
-20 Q116：
+20Q116：
 - Flu season is here, so take advantaage of the free flu shots (which are being offered -> begin offered) in the lobby.
 
-20 Q120
+20Q120
 - MBR Global Marketing has signed several new clinet contracts (which total -> totaling) 12 million pounds in annual revenue.
 
 ## 未归类
 
-- 16 Q125: whose
-- 20 Q125：whose not which
-- 14 Q115: if
-- 12 Q105: if
+- 16Q125: whose
+- 20Q125：whose not which
+- 14Q115: if
+- 12Q105: if
+- 11Q130: had
 
 动词名词形容词结尾
 

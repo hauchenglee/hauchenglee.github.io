@@ -5,10 +5,6 @@ category: course
 tags: [english, private]
 ---
 
-## Summary
-
-
-
 ## 数量词
 
 - many + s
@@ -29,13 +25,14 @@ be satisfied with sb/sth
 - If you are not satisfied with your Electoshine toothbrush, you may return it for a full refund.
 
 *into* the end of = at the end of
-- 15 Q114: DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
+- 15Q114: DG Feed Supply had shown strong growth heading *into* the end of the fiscal year.
 
 17Q128: be + asked + to
 - Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturdat *are asked* to arrive early.
 
-eligible + to V
+eligible + to / for V
 - After a six-month probationary period, city employees are *elibible* to take vacation days.
+- 11Q111: Children under five years of age are eligible *for* free vision tests.
 
 because of + n
 - Parking on Dahakno Street will be prohibited for the next few days *befause of* emergency repairs to water lines.
@@ -62,11 +59,11 @@ a considerable upturn: 大幅好转、可观的回升
 summary
 1. 表示程度的（more most much very）都为副词
 2. 比较级：more / more + adj + than + sth
-3. 最高级：most / the most + adj + sth
+3. 最高级：most / the most / the best + adj + sth
 4. 特殊：much more adv than
     - 17Q109: The building's new ventilation system circulates heat much *more evenly* than before.
 5. **the best之后必定放adj**
-    - 13 Q119: Mr. Wijaua is reviewing the resumes to select the candidate best *qualified* for the position.
+    - 13Q119: Mr. Wijaua is reviewing the resumes to select the candidate best *qualified* for the position.
 
 例句：
 - 形容词比较级：（无动词，一般情况）
@@ -76,7 +73,7 @@ summary
     - Techniques help people think more *creatively*.
     - The team's contributions to the Ripton Group's marketing plan were very *favorably* acknowledged.
 - 没有more也没有most的情况：（回归词性原则）
-    - 13 Q104: The commercial for Zhou's Cafe' was *easily* Sunn Agency's best advertisment of the year.
+    - 13Q104: The commercial for Zhou's Cafe' was *easily* Sunn Agency's best advertisment of the year.
 
 例题：
 - 11Q128
@@ -155,7 +152,7 @@ be动词 + 形容词：
 - The second-generation XR1280 unit is *equal* to its predecessor, except for tis reduced weight.
 
 依句意判断：
-- 12 Q119: THe rear entrance to RC Bank will be closed for repairs and not *accessible* next Monday. （and连接对等，故依据will be判断）
+- 12Q119: THe rear entrance to RC Bank will be closed for repairs and not *accessible* next Monday. （and连接对等，故依据will be判断）
 - Everyone at the annual Tirnaco exposition seemed *excited* by the new products on display.
 
 ### 副词 -> 表示程度
@@ -191,6 +188,7 @@ be动词 + 副词 + 名词
 
 be动词 + 副词 + 动词
 - If you have recently *purchased* a digital camera and want to learn how to use it, this course is for you.
+- 11Q118: Proceeds from the sale of Delcrest Corporation were equally *divided* among the founder's three daughters.
 
 be动词 + 副词 + 动名词：
 - At Correia Electronics, we are *continually* researching appliance technology.
@@ -199,8 +197,8 @@ be动词 + 副词 + 动名词：
 ## 助动词
 
 助动词后面接原型动词：
-- 15 Q111: Companies without informaation technology specialists can *rely* on Vyber Software Advisers for assistance with online services.
-- 12 Q117: Viewers can easily *relate* to the main character in the popular television series Autumn Mystery.
+- 15Q111: Companies without informaation technology specialists can *rely* on Vyber Software Advisers for assistance with online services.
+- 12Q117: Viewers can easily *relate* to the main character in the popular television series Autumn Mystery.
 
 be动词后面如果接动词，要改成ved
 - 可以在此笔记搜寻 "be " 查看例句
@@ -234,10 +232,10 @@ their, theirs
 
 Ref: [their和theirs的意思有什么不同吗？具体用法有什么区别啊_百度知道](https://zhidao.baidu.com/question/714637095504942925)
 
-16 Q111: According to the structure "by + reflexive pronoun".
+16Q111: According to the structure "by + reflexive pronoun".
 - Kespi Brand cookies, delicious by *themselves*, are even better when paired with a glass of milk.
 
-13 Q125: Local merchants are hopeful that if this new business succeeds, *theirs* will also benefit.
+13Q125: Local merchants are hopeful that if this new business succeeds, *theirs* will also benefit.
 
 ### 介词 prep
 
@@ -307,8 +305,8 @@ in, on, at
     - at：精確到小時、時間
 3. 如有有地点 + 时间，先以地点判断（*at the natural history conference* tomorrow）
 4. for + 一段时间
-    - 16 Q102: AGU Group's insurance rates have remained steady *for* the last three years.
-    - 14 Q104: Every attorney at the firm of Duncan and Hulce has practived law *for* more than ten years.
+    - 16Q102: AGU Group's insurance rates have remained steady *for* the last three years.
+    - 14Q104: Every attorney at the firm of Duncan and Hulce has practived law *for* more than ten years.
 
 ![](https://hauchenglee.github.io/assets/images/course/english/prepositions-of-time.jpg)
 
