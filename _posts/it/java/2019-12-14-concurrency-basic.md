@@ -41,7 +41,7 @@ Ref: [Java多线程的实现 - - SegmentFault 思否](https://segmentfault.com/a
 
 只有在多cpu的情況中，才會發生並行。否則，看似同時發生的事情，其實都是並發執行的。
 
-![](https://hauchenglee.github.io/assets/images/java/concurrent-parallel.png)
+![](https://hauchenglee.github.io/assets/images/it/java/concurrent-parallel.png)
 
 Ref: [面试必考的：并发和并行有什么区别？](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485178&idx=1&sn=0fc0fd1bb7e8b41ec8770ac5a62f8287&chksm=ebd747fbdca0ceedc6e0dab24d449ecdfa5b4e582d2acdc62c234b299c5828abe047f76196f4&token=1230572157&lang=zh_CN###rd){:target="_blank"}
 
@@ -102,7 +102,7 @@ class Demo1 {
 }
 ```
 
-![](https://hauchenglee.github.io/assets/images/java/java-disable-thread.png)
+![](https://hauchenglee.github.io/assets/images/it/java/java-disable-thread.png)
 
 <br>
 
@@ -123,7 +123,7 @@ class Demo2 implements Runnable {
 }
 ```
 
-![](https://hauchenglee.github.io/assets/images/java/java-enable-thread.png)
+![](https://hauchenglee.github.io/assets/images/it/java/java-enable-thread.png)
 
 ## 參考
 

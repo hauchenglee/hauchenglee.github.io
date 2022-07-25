@@ -88,7 +88,7 @@ System.out.println(myPrint.getClass().getName());
    3. constructor by programmer in superclass
    4. constructor by default in superclass
 
-![](https://hauchenglee.github.io/assets/images/java/invoke_constructor_order.png)
+![](https://hauchenglee.github.io/assets/images/it/java/invoke_constructor_order.png)
 
 ## modifier
 

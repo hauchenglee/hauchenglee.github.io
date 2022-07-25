@@ -99,7 +99,7 @@ d → b|..\..\images\ b.txt
 
 下圖筆記出自**吳東錚**【MVC的環境部署、程式轉移路徑和規則-筆記分享】
 
-![](https://hauchenglee.github.io/assets/images/java/dong-web-app-path.jpg)
+![](https://hauchenglee.github.io/assets/images/it/java/dong-web-app-path.jpg)
 
 ### server path
 

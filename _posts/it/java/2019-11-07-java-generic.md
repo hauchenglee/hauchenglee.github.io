@@ -25,7 +25,7 @@ list.add(1); // error
 
 API 中的示例：
 
-![](https://hauchenglee.github.io/assets/images/java/arraylist-oracle.png)
+![](https://hauchenglee.github.io/assets/images/it/java/arraylist-oracle.png)
 
 `ArrayList`就是一個泛型類，`E`就是一個泛型，具體的類型在創建集合對象的時候才確定。
 
@@ -154,12 +154,12 @@ ListResponseBody responseBody = listFactory.getListResponseBody();
 ## 泛型界限
 
 `List <? extends Fruit>`：`List`中所有元素都是`Fruit`的子类（包含本身）
-![](https://hauchenglee.github.io/assets/images/java/generic-extends.jpg)
+![](https://hauchenglee.github.io/assets/images/it/java/generic-extends.jpg)
 
 <br>
 
 `List <? super Fruit>`：List中所有元素都是Fruit的父类（包含本身）
-![](https://hauchenglee.github.io/assets/images/java/generic-super.jpg)
+![](https://hauchenglee.github.io/assets/images/it/java/generic-super.jpg)
 
 > - [Java 泛型 <? super T> 中 super 怎么 理解？与 extends 有何不同？ - 知乎](https://www.zhihu.com/question/20400700){:target="_blank"}
 

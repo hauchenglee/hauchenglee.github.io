@@ -10,7 +10,7 @@ tags: [java]
 In the Java language, multithreading is driven by the core concept of a Thread. 
 During their lifecycle, threads go through various states:
 
-![](https://hauchenglee.github.io/assets/images/java/Life_cycle_of_a_Thread_in_Java.jpg)
+![](https://hauchenglee.github.io/assets/images/it/java/Life_cycle_of_a_Thread_in_Java.jpg)
 
 Ref: [Life Cycle of a Thread in Java - Baeldung](https://www.baeldung.com/java-thread-lifecycle)
 

@@ -7,7 +7,7 @@ tags: [java]
 
 ## Overview
 
-![](https://hauchenglee.github.io/assets/images/java/Life_cycle_of_a_Thread_in_Java.jpg)
+![](https://hauchenglee.github.io/assets/images/it/java/Life_cycle_of_a_Thread_in_Java.jpg)
 
 ## Reference
 

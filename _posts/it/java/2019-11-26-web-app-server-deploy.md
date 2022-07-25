@@ -10,7 +10,7 @@ tags: [java]
 - JAR: Java ARchive
 - WAR: Web application ARchive
 
-![](https://hauchenglee.github.io/assets/images/java/jar-war-ear.png)
+![](https://hauchenglee.github.io/assets/images/it/java/jar-war-ear.png)
 
 <br>
 
@@ -100,11 +100,11 @@ Reference: [Chapter 5. Configuring Contexts](http://www.eclipse.org/jetty/docu
 
 ## webapp directory
 
-![](https://hauchenglee.github.io/assets/images/java/webapp-intellij-directory.png)
+![](https://hauchenglee.github.io/assets/images/it/java/webapp-intellij-directory.png)
 
 <br>
 
-![](https://hauchenglee.github.io/assets/images/java/webapp-directory-structure.png)
+![](https://hauchenglee.github.io/assets/images/it/java/webapp-directory-structure.png)
 
 > - [Advanced Tutorial on Tomcat 7](https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html){:target="_blank"}
 

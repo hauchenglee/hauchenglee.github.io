@@ -108,7 +108,7 @@ sb = new StringBuffer("Hello World");
 
 Pictorial Representation of the above Program
 
-![](https://hauchenglee.github.io/assets/images/java/final-vs-immutability.png)
+![](https://hauchenglee.github.io/assets/images/it/java/final-vs-immutability.png)
 
 > - [final vs Immutability in Java - GeeksforGeeks](https://www.geeksforgeeks.org/final-vs-immutability-java/){:target="_blank"}
 
@@ -151,7 +151,7 @@ In the other hand:
 </table>
 
 This is how String Constant Pool looks like in the memory:
-![](https://hauchenglee.github.io/assets/images/java/string-in-memory-allotment.png)
+![](https://hauchenglee.github.io/assets/images/it/java/string-in-memory-allotment.png)
 
 > When you create a string object using string literal, JVM first checks the content of be created object. If there exist an
 > object in the pool with the same content, then the reference of that object. It does not create new object. If the content
@@ -221,7 +221,7 @@ Try running this example code. It doesn't let tou input name, and it immediately
 
 To understand what is happening, you have to understand that the `Scanner` doesn't see input as multiple lines, like we do.
 
-![](https://hauchenglee.github.io/assets/images/java/the-scanner-bug.png)
+![](https://hauchenglee.github.io/assets/images/it/java/the-scanner-bug.png)
 
 When you call `nextInt`, it reads characters until it gets to a non-digit. At this point, `nextInt` return 45. 
 The program then displays the prompt "`What is you name? `" and calls `nextLine`, which reads characters until it gets to a **newline**. 

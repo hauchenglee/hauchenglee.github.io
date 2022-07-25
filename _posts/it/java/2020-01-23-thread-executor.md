@@ -76,13 +76,13 @@ class TaskExecutionWebServer {
 
 ## Executor JDK UML
 
-![](https://hauchenglee.github.io/assets/images/java/thread-executor-arch.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-executor-arch.png)
 
 Ref: [线程池你真不来了解一下吗？ - Java3y - 博客园](https://www.cnblogs.com/Java3y/p/8996365.html){:target="_blank"}
 
 ### Executor
 
-![](https://hauchenglee.github.io/assets/images/java/thread-Executor-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-Executor-jdk.png)
 
 一個接口（interface）內部定義了一個參數為`Runnable`對象的方法`executor`。它用來執行一個任務（task），任務就是一個實現（implement）`Runnable`接口的對象。
 
@@ -101,7 +101,7 @@ executor.execute(new RunnableTask())
 
 ### ExecutorService
 
-![](https://hauchenglee.github.io/assets/images/java/thread-ExecutorService-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-ExecutorService-jdk.png)
 
 > ExecutorService 接口继承自 Executor 接口，它提供了更丰富的实现多线程的方法，比如，ExecutorService 提供了关闭自己的方法，以及可为跟踪一个或多个异步任务执行状况而生成 Future 的方法。
 >
@@ -121,7 +121,7 @@ ExecutorService生命週期有三種狀態：
 - 關閉（shutting down）
 - 終止（terminated）
 
-![](https://hauchenglee.github.io/assets/images/java/thread-ExecutorService-life-cycle.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-ExecutorService-life-cycle.png)
 
 - `shutdown()`會啟動一個平緩的關閉過程：停止接受新的任務，同時等待已經提交的任務完成，包括尚未開始執行的任務。
 - `shutdownNow()`會啟動一個強制的關閉過程：嘗試取消所有運行中的任務和排在列隊中尚未開始的任務。
@@ -136,25 +136,25 @@ ExecutorService生命週期有三種狀態：
 
 【AbstractExecutorService】：
 
-![](https://hauchenglee.github.io/assets/images/java/thread-AbstractExecutorService-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-AbstractExecutorService-jdk.png)
 
 <br>
 
 【ScheduledExecutorService】：
 
-![](https://hauchenglee.github.io/assets/images/java/thread-ScheduledExecutorService-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-ScheduledExecutorService-jdk.png)
 
 <br>
 
 【ThreadPoolExecutor】：
 
-![](https://hauchenglee.github.io/assets/images/java/thread-ThreadPoolExecutor-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-ThreadPoolExecutor-jdk.png)
 
 <br>
 
 【ScheduledThreadPoolExecutor】：
 
-![](https://hauchenglee.github.io/assets/images/java/thread-ScheduledThreadPoolExecutor-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-ScheduledThreadPoolExecutor-jdk.png)
 
 ## Compare
 

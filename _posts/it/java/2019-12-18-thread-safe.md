@@ -202,7 +202,7 @@ class UnSafeSequence {
 
 如下如所示：
 
-![](https://hauchenglee.github.io/assets/images/java/thread-time-slice.png)
+![](https://hauchenglee.github.io/assets/images/it/java/thread-time-slice.png)
 
 所以在多線程場景下，由於時間片在線程間輪換，就會發生原子性的問題。
 
@@ -250,7 +250,7 @@ class LazyInitRace {
 
 Java線程通信是通過共享內存的方式進行通信的，而為了加快執行的速度，線程一般是不會直接操作主內存的，而是操作緩存，也就是自己的工作內存。
 
-![](https://hauchenglee.github.io/assets/images/java/java-memory-model.png)
+![](https://hauchenglee.github.io/assets/images/it/java/java-memory-model.png)
 
 - JMM中的變量指的是線程共享變量（實例變量instance variable、static字段和數組元素），不包括線程私有變量（局部變量local variable和方法參數）。
 - JMM規定線程對變量的寫操作都在自己的本地內存對副本進行，不能直接寫主存中的對應變量。
@@ -312,7 +312,7 @@ Happens-Before，官方簡稱HB。
 
 JDK中有`atomic`包提供給我們實現原子性操作。
 
-![](https://hauchenglee.github.io/assets/images/java/atomic-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/atomic-jdk.png)
 
 ### 可見性
 
@@ -420,7 +420,7 @@ Java提供了`final`修飾符給我們使用，但值得說明的是：`final`�
 
 有個原則：能使用JDK提供的線程安全機制，就使用JDK的。
 
-![](https://hauchenglee.github.io/assets/images/java/lock-jdk.png)
+![](https://hauchenglee.github.io/assets/images/it/java/lock-jdk.png)
 
 ## Reference
 
