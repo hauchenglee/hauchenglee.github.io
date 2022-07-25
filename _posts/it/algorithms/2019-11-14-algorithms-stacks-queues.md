@@ -24,7 +24,7 @@ tags: [algorithms]
 - Intent is clear when we insert.
 - Which item do we remove?
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-stacks-and-queues.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-stacks-and-queues.png)
 
 <span style="color:lightblue">**Stack.**</span> Examine the item most recently added. <span style="color:brown">**← LIFO = "last in first out"**</span>
 <br>
@@ -95,11 +95,11 @@ to be not that or be
 
 - push
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-push-on-stack.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-push-on-stack.png)
 
 - pop
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-pop-from-stack.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-pop-from-stack.png)
 
 ### Stack: linked-list implementation in Java
 
@@ -138,7 +138,7 @@ public class LinkedStackOfStrings {
 - push(): add new item at s[N]
 - pop(): remove item from s[N-1]
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-stack-fixed-array.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-stack-fixed-array.png)
 
 <span style="color:lightblue">**Defect.**</span> Stack overflows when N exceeds capacity. [stay tuned]
 
@@ -218,7 +218,7 @@ public String pop() {
 
 <span style="color:lightblue">**Proposition.**</span> A stack with *N* items uses ~ 40 *N* bytes.
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-stack-performance.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-stack-performance.png)
 
 <br>
 
@@ -241,17 +241,17 @@ boolean isEmpty()         // is the queue empty?
 int size()                // number of strigns on the queue
 ```
 
-![](https://hauchenglee.github.io/assets/images/algorithms/queue.jpg)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/queue.jpg)
 
 ### Queue: linked-list representation
 
 - enqueue
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-enqueue.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-enqueue.png)
 
 - dequeue
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-dequeue.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-dequeue.png)
 
 ### Queue: linked-list implementation in Java
 
@@ -294,7 +294,7 @@ In addition to two integers, "head" (or first); points to the first inserted nod
 
 Initially "head" and "tail" points to the first item in the array.
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-queue-fixed-array.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-queue-fixed-array.png)
 
 ```
 public class ArrayQueue {
@@ -336,7 +336,7 @@ The same goes for "head" pointer. Both can overflow (as they move to the right),
 
 So, one way to solve **wrap-around**, meaning, whenever any pointer overflow (equals to array size), we reset it (point it to the first item in the array).
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algs4-queue-wrap-arround-array.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algs4-queue-wrap-arround-array.png)
 
 ```
 public void enqueue(String item) {

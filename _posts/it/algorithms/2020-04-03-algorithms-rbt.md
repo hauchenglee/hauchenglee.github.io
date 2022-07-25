@@ -19,7 +19,7 @@ rules:
 
 ## 插入
 
-![](https://hauchenglee.github.io/assets/images/algorithms/rbt-z's-relationship.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/rbt-z's-relationship.png)
 
 rules:
 1. If empty tree: create black root node

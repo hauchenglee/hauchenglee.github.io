@@ -11,7 +11,7 @@ tags: [spring-boot]
 
 下面是`spring-boot-starter-web`依賴關係層次結構：
 
-![](https://hauchenglee.github.io/assets/images/spring/spring-boot/spring-boot-starter-web-hierarchy.png)
+![](https://hauchenglee.github.io/assets/images/it/spring/spring-boot/spring-boot-starter-web-hierarchy.png)
 
 如果要排除`spring-boot-starter-tomcat`依賴：
 

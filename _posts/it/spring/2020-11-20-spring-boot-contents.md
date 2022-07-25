@@ -7,7 +7,7 @@ tags: [spring-boot]
 
 ## Spring, Spring Boot and Spring Cloud
 
-![](https://hauchenglee.github.io/assets/images/spring/spring-boot/Spring-the-source-for-modern-JAVA.jpg)
+![](https://hauchenglee.github.io/assets/images/it/spring/spring-boot/Spring-the-source-for-modern-JAVA.jpg)
 
 ## Contents 
 
@@ -26,7 +26,7 @@ tags: [spring-boot]
     - Spring Boot - Jar War
     - Spring Boot - Application Properties
 
-![](https://hauchenglee.github.io/assets/images/spring/spring-boot/SpringBoot2_核心技术与响应式编程.png)
+![](https://hauchenglee.github.io/assets/images/it/spring/spring-boot/SpringBoot2_核心技术与响应式编程.png)
 
 ## Resource
 

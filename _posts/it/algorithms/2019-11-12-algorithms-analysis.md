@@ -7,13 +7,13 @@ tags: [algorithms]
 
 ## what is algorithms
 
-![](https://hauchenglee.github.io/assets/images/algorithms/what-is-algorithms.jpg)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/what-is-algorithms.jpg)
 
 Source: [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms){:target="_blank"}
 
 <br>
 
-![](https://hauchenglee.github.io/assets/images/algorithms/algorithms-analysis-data-structures.jpeg)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/algorithms-analysis-data-structures.jpeg)
 
 Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
 
@@ -21,19 +21,19 @@ Source: [Arafat Khan](https://medium.com/@Arafat.){:target="_blank"}
 
 - Side by Side look
 
-![](https://hauchenglee.github.io/assets/images/algorithms/binary-and-linear-search-animations.gif)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/binary-and-linear-search-animations.gif)
 
 <br>
 
 - Best Case Binary
 
-![](https://hauchenglee.github.io/assets/images/algorithms/linear-vs-binary-search-best-case.gif)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/linear-vs-binary-search-best-case.gif)
 
 <br>
 
 - Worst Case Binary
 
-![](https://hauchenglee.github.io/assets/images/algorithms/linear-vs-binary-search-worst-case.gif)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/linear-vs-binary-search-worst-case.gif)
 
 <br>
 

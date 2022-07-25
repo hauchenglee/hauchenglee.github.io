@@ -12,13 +12,13 @@ tags: [algorithms]
 
 ### applications
 
-![](https://hauchenglee.github.io/assets/images/algorithms/symbol-table-app.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/symbol-table-app.png)
 
 ### api
 
 符號表的操作，就是基本的CRUD
 
-![](https://hauchenglee.github.io/assets/images/algorithms/symbol-table-api.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/symbol-table-api.png)
 
 <br>
 
@@ -108,13 +108,13 @@ public boolean equals(Object y) {
 
 這應該是最簡單的實現方案了，我們只用一個無序鏈錶就可以實現符號表了
 
-![](https://hauchenglee.github.io/assets/images/algorithms/sequential-search.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/sequential-search.png)
 
 <br>
 
 我們可以分析出這個算法的性能：
 
-![](https://hauchenglee.github.io/assets/images/algorithms/unordered-list-cost.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/unordered-list-cost.png)
 
 可以看出，性能很差。
 
@@ -125,13 +125,13 @@ public boolean equals(Object y) {
 
 但是有序數組帶來一個問題，插入比較麻煩，插入的時候需要移動交換多次到正確的地方。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/binary-search.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/binary-search.png)
 
 <br>
 
 我們可以看出，用有序數組的話，插入效率並沒有提升很多，但是查找效率可以提高到`logN`
 
-![](https://hauchenglee.github.io/assets/images/algorithms/order-array-cost.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/order-array-cost.png)
 
 ## Ordered symbol tables
 
@@ -142,13 +142,13 @@ public boolean equals(Object y) {
 
 例如以下的API：
 
-![](https://hauchenglee.github.io/assets/images/algorithms/ordered-symbol-table-api.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/ordered-symbol-table-api.png)
 
 <br>
 
 我們看看如果使用上面兩種初等實現有序表的功能，性能怎麼樣。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/binary-search-cost.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/binary-search-cost.png)
 
 可以看出二分查找效率還是高很多。
 
@@ -162,7 +162,7 @@ public boolean equals(Object y) {
 - 如果search key > the key in the middle → 在子數組的右半部分搜索
 - 否則the key in the middle == search key
 
-![](https://hauchenglee.github.io/assets/images/algorithms/binary-search-rank.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/binary-search-rank.png)
 
 ## Reference
 

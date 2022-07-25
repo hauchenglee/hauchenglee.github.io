@@ -9,7 +9,7 @@ tags: [algorithms]
 
 算法複雜度：
 
-![](https://hauchenglee.github.io/assets/images/algorithms/sort-complexity.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/sort-complexity.png)
 
 <br>
 

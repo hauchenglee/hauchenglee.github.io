@@ -26,7 +26,7 @@ tags: [algorithms]
 
 or
 
-![](https://hauchenglee.github.io/assets/images/algorithms/classifications.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/classifications.png)
 
 <br>
 

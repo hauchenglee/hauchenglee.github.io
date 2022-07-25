@@ -22,7 +22,7 @@ Ref:
 
 ## 24 種設計模式
 
-![](https://hauchenglee.github.io/assets/images/architecture/design-pattern-gof-analysis.png)
+![](https://hauchenglee.github.io/assets/images/it/architecture/design-pattern-gof-analysis.png)
 
 ### 創建者
 

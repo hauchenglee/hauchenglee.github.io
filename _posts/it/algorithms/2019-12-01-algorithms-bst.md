@@ -13,7 +13,7 @@ A binary tree in which each node has exactly zero or two children is called a **
 
 > - [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bt-full-complete-tree.jpg)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bt-full-complete-tree.jpg)
 
 <br>
 
@@ -21,7 +21,7 @@ A binary tree in which each node has exactly zero or two children is called a **
 
 > [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bt-full-tree.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bt-full-tree.png)
 
 
 ### complete binary tree
@@ -31,7 +31,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 
 > [Tree Data Structure](https://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm){:target="_blank"}
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bt-full-complete-tree.jpg)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bt-full-complete-tree.jpg)
 
 <br>
 
@@ -39,7 +39,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 
 > [什么是二叉树，二叉树及其性质详解](http://data.biancheng.net/view/192.html){:target="_blank"}
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bt-complete-tree.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bt-complete-tree.png)
 
 ### perfect binary tree
 
@@ -47,7 +47,7 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 - 完全二叉樹（Complete binary tree）：除去最深一層之外，其餘所有層的節點都必須有兩個子節點，且最深一層的節點均集中在左邊，即左對齊。
 - 完美二叉樹（Perfect binary tree）：滿足完全二叉樹性質，樹的葉子節點均在最後一層（形成一個完美的三角形）
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bt-full-complete-perfect-tree.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bt-full-complete-perfect-tree.png)
 
 滿二叉樹、完全二叉樹、完美二叉樹並不總是互斥的：
 
@@ -62,16 +62,16 @@ A complete binary tree of the heigher `h` has between `2^h` and `2^(h+1)-1` node
 
 ## Binary search tree
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst.png)
 
 A *binary search tree* (BST) is a binary tree where each node has a `Comparable` key 
 (and an associated value) and satisfies the restriction that the key in any node is larger than 
 the keys in all nodes in that node's left subtree and smaller than the keys in all nodes in that 
 node's right subtree.
 
-![](https://hauchenglee.github.io/assets/images/algorithms/binary-tree-anatomy.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/binary-tree-anatomy.png)
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-anatomy.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-anatomy.png)
 
 ## Basic implementation
 
@@ -86,7 +86,7 @@ Source: [BST.java](https://algs4.cs.princeton.edu/32bst/BST.java.html){:target="
 > takes a node (root of a subtree) as first argument and a key as second argument, 
 > starting with the root of the tree and the search key.
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-search.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-search.png)
 
 <br>
 
@@ -127,7 +127,7 @@ private Value get(Node x, Key key) {
 > - if the search key is less than the key at the root, we set the left link to the result of inserting the key into the left subtree; 
 > - otherwise, we set the right link to the result of inserting the key into the right subtree.
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-insert.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-insert.png)
 
 思路：
  
@@ -173,28 +173,28 @@ private Node put(Node x, Key key, Value val) {
 
 動畫演示：
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-insert-animation.gif)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-insert-animation.gif)
 
 ## Analysis
 
 根據不同的插入順序，二叉樹會呈現出不同的形狀，最好的狀態當然是完全平衡的狀態，這個時候搜索效率最高，
 最壞的形式就是插入的序列有序，這個時候二叉樹的搜索效率就是N了。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-case.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-case.png)
 
 <br>
 
 這個隨機插入的效果：
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-insert-random.gif)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-insert-random.gif)
 
 <br>
 
 研究表明，如果插入是隨機的情況下，二叉樹的平均深度都不深。所以通常二叉樹的效率還是很高的。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-research.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-research.png)
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-time.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-time.png)
 
 ## Order-based methods
 
@@ -204,14 +204,14 @@ private Node put(Node x, Key key, Value val) {
 
 p.s. 搜索到意思就代表用遞歸算法來實現
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-min-max.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-min-max.png)
 
 ### floor and ceiling
 
 `floor`：找到比key小的最大key<br>
 `ceiling`：找到比key大的最小key
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-floor-ceiling.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-floor-ceiling.png)
 
 ### selection
 
@@ -225,7 +225,7 @@ p.s. 搜索到意思就代表用遞歸算法來實現
 如果左子樹中的鍵數t大於k，我們將（遞歸）尋找左子樹中等級k的鍵；如果t等於k，則返回根的鍵；
 如果t小於k，我們（遞歸）在右邊的子樹中尋找等級k-t-1的關鍵字。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-select.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-select.png)
 
 ### rank
 
@@ -234,7 +234,7 @@ p.s. 搜索到意思就代表用遞歸算法來實現
 - root < key：左孩子`count` + 1（自己）+ 右孩子繼續找
 - root > key：左孩子繼續找（給定key還沒找到比自己小的）
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-rank.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-rank.png)
 
 ### delete
 
@@ -266,7 +266,7 @@ private void inorder(Node x, Queue<Key> q) {
 
 用二叉樹實現的符號表操作，其時間複雜度要遠遠小於其他方式。
 
-![](https://hauchenglee.github.io/assets/images/algorithms/bst-operations-summary.png)
+![](https://hauchenglee.github.io/assets/images/it/algorithms/bst-operations-summary.png)
 
 ## LeetCode
 
