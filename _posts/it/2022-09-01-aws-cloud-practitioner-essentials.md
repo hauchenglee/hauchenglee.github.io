@@ -1,8 +1,8 @@
 ---
 layout: post
 title: AWS - Cloud Practitioner Essentials (Official)
-category: tech
-tags: [tech]
+category: operations
+tags: [aws]
 ---
 
 ## AWS Summary
@@ -232,8 +232,8 @@ AWS CloudFormation:
 共享控制：
 - 定义：适用于基础设施层和客户层（apply to both the infrastructure layer and customer layers）
 - 包括：
-    - 补丁管理：AWS 负责修补和修复基础设施内的缺陷，而客户负责修补其来宾操作系统和应用程序
-    - 配置管理：AWS 负责维护基础设施设备的配置，而客户负责配置自己的来宾操作系统、数据库和应用程序
+    - **补丁管理**：AWS 负责修补和修复基础设施内的缺陷，而客户负责修补其来宾操作系统和应用程序
+    - **配置管理**：AWS 负责维护基础设施设备的配置，而客户负责配置自己的来宾操作系统、数据库和应用程序
     - 认知和培训：AWS 负责培训 AWS 员工，而客户必须负责培训自己的员工
 
 - [责任共担模式 – Amazon Web Services (AWS)](https://aws.amazon.com/cn/compliance/shared-responsibility-model/)
@@ -273,6 +273,11 @@ AWS Artifact：
 - 审核、接受并管理与 AWS 签订的协议
 - 允许客户下载 **AWS SOC** 和 **PCI** 报告
 - AWS 账户所有者可以从此处获得其账户中所有用户的列表，包括其 AWS 凭证的状态
+
+AWS Certificate Manager (ACM)：
+- 提供服务器证书
+- 快速购买和部署 SSL/TLS 证书
+- 可以使用 ACM 或 IAM 来存储和部署服务器证书
 
 Ref: [Getting credential reports for your AWS account - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html)
 
@@ -338,6 +343,9 @@ Amazon Route 53：
 
 ## 存储和数据库
 
+summary:
+- 
+
 ### 实例存储 & EBS
 
 实例存储：
@@ -350,6 +358,7 @@ Amazon Elastic Block Store (Amazon EBS)：
 - 高读写需求、持久保存数据
 - 生命周期独立：即使停止或终止 Amazon EC2 实例，挂载的 EBS 卷上的所有数据仍然可用
 - 使用量付费
+- **Amazon RDS 数据库实例使用的主要存储服务是 EBS**
 
 Amazon EBS 快照：
 - 增量备份
@@ -553,7 +562,7 @@ EC2 实例定价取决于许多变量：
 
 减少 EC2 成本：
 - 删除所有弹性负载均衡器
-- 终止（terminate）所有未使用的 EC2 实例：如果您终止（terminate）实例而不拍摄它们的映像 (AMI)，您将丢失它们的数据）
+- 终止（terminate）所有未使用的 EC2 实例
 - 删除他们不需要的附加 **EBS 卷**
 - 释放所有未使用的弹性 IP
 
@@ -568,7 +577,7 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
 - 数据传出费用（data transfer out charges）
 
 不影响整体成本因素：
-- 使用的服务数量（the number of services used）您使用多少 AWS 服务并不重要。每项 AWS 服务都有自己的定价细节，其中许多是免费使用的
+- 使用的服务数量（the number of services used）：您使用多少 AWS 服务并不重要。每项 AWS 服务都有自己的定价细节，其中许多是免费使用的
 - 数据传输费用（data transfer in charges）：对于大多数服务，AWS 不对“数据传输”收取任何费用
 - 配置的 IAM 角色数量（The number of IAM roles provisioned）：IAM 及其所有功能均可免费使用
 
@@ -596,6 +605,7 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
 - 免费
 - 包括访问白皮书、文档和支持社区
 - 可以使用**有限的 AWS Trusted Advisor** 检查功能
+- AWS 知识中心（AWS Knowledge Center）：帮助回答 AWS 客户最常提出的问题
 
 开发人员计划（Developer Support）：12小时回应服务
 - 成本最低
@@ -699,11 +709,6 @@ Ref:
 
 ## 其他笔记
 
-AWS Certificate Manager (ACM)：
-- 提供服务器证书
-- 快速购买和部署 SSL/TLS 证书
-- 可以使用 ACM 或 IAM 来存储和部署服务器证书
-
 AWS Service Catalog：
 - 创建和集中管理常用部署的 IT 服务
 - 帮助现一致的治理、快速部署，以及满足合规性要求
@@ -738,6 +743,9 @@ Amazon Elastic Map Reduce (Amazon EMR)：
 - 是一项 Web 服务，使企业、研究人员、数据分析师和开发人员能够轻松且经济高效地处理大量数据
 - Amazon EMR 让您可以专注于处理或分析数据，而不必担心 Hadoop 集群的耗时设置、管理或调整或它们所在的计算容量
 
+Amazon Simple Email Service (Amazon SES)：
+- 是一种基于云的电子邮件发送服务，旨在帮助数字营销人员（digital marketers）和应用程序开发人员（application developers）发送营销、通知和交易电子邮件
+
 ## 考试
 
 可以自动扩展实例（instances auto-scaling）：
@@ -759,5 +767,9 @@ Amazon Elastic Map Reduce (Amazon EMR)：
 - AWS Lambda
 - AWS Fargate
 - AWS DynamoDB
+
+可以用作计算资源：
+- EC2
+- Lambda
 
 ---
