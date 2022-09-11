@@ -68,7 +68,7 @@ AWS 架构完善的框架
 - 卓越运营（Operational Excellence）：运行和监控系统
 - 安全性（Security）：保护信息和系统（eg. AWS CloudTrail）
 - 可靠性（Reliability）：恢复中断系统
-- 性能效率（Performance）：有效使用计算资源
+- 性能效率（Performance）：有效使用**计算资源**
 - 成本优化：避免或消除不需要的成本或次优资源
 - 可持续性：解决对环境、经济和社会的长期影响
 
@@ -79,6 +79,206 @@ Ref:
 - [Design Principles - Reliability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html)
 - [Design Principles - Performance Efficiency Pillar](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/design-principles.html)
 
+## 基础设施
+
+### Region, AZ, Edge Location
+
+三个基础设施
+- 区域（Region）：数据中心集群，包含 AWS 资源的地理区域
+- 可用区（Availability Zones）：
+    - 一个区域内的单个数据中心或一组数据中心
+    - 提高应用程序的容错能力
+    - 所有可用区都具有**相同的安全级别**
+    - **与降低延迟无关**，尤其是当这些可用区位于同一区域时
+- 边缘站点（Edge Location）：
+    - 将缓存的内容**副本**存储在更靠近客户的位置以加快分发速度
+    - 边缘位置**不用于灾难恢复**
+    - 边缘站点位于世界上大多数**主要城市**。边缘站点**可能存在也可能不存在**于给定的 AWS **区域**中
+
+区域四项业务因素：
+- 合规性（Compliance）（**数据主权**）
+- 距离（Proximity）
+- 可用服务（Available services）
+- 定价（Pricing）
+
+AWS CloudFront: 
+- 内容分发服务
+- 它利用边缘站点网络来缓存内容并将其分发给全球客户
+- 与 AWS Shield 和 AWS WAF 集成以防止网络和应用程序层 DDoS 攻击
+
+### 预置资源
+
+与AWS服务交互的方式：
+- AWS CLI: 通过脚本自动执行 AWS 服务和应用程序的操作
+- AWS SDK: 采用受支持的编程语言开发 AWS 应用程序
+
+AWS Outposts: 
+- 是一种**配置管理服务**，提供 Chef 和 Puppet 的托管实例。**Chef 和 Puppet 是自动化平台**，允许您使用代码来自动化服务器的配置
+- 将 AWS 基础设施和服务扩展到**您的本地数据中心**
+- 这项服务让您能够采用**混合云**方法运行基础设施
+
+AWS CodeDeploy：
+- 可自动将应用程序代码部署到任何实例（包括 Amazon EC2 实例和本地运行的实例）
+- 可以更轻松地快速发布新功能，帮助避免部署期间的停机，并处理更新应用程序的复杂性
+- **不能**用于管理 AWS **基础设施**（无法使用 AWS CodeDeploy 构建和自动化 AWS 环境）
+
+Amazon S3 Transfer Acceleration：
+- 可在您的客户端和 S3 存储桶之间实现快速、轻松且安全的长距离文件传输。
+- Transfer Acceleration 利用 Amazon CloudFront 的全球分布式边缘站点。
+- 当数据到达边缘位置时，数据会通过优化的网络路径路由到 Amazon S3
+
+AWS Ekastic Beanstalk: 
+- 提供代码和配置设置
+
+AWS CloudFormation: 
+- 将**基础设施**视为代码，通过编写代码来构建环境
+
+## 安全性
+
+### 责任共担模式
+
+- 客户：云中的安全
+    - 构建应用程序架构
+    - **分析网络性能**
+    - 配置安全组和网络 ACL
+    - **加密**其数据
+- AWS：云的安全性
+    - 数据中心的物理安全
+    - **创建管理程序**
+    - 更换旧磁盘驱动器
+    - 基础设施的补丁管理
+
+继承控制：
+- 物理控制
+- 环境控制 v
+- 题目选项：数据中心安全控制 v
+
+共享控制：
+- 定义：适用于基础设施层和客户层（apply to both the infrastructure layer and customer layers）
+- 包括：
+    - **补丁管理**：AWS 负责修补和修复基础设施内的缺陷，而客户负责修补其来宾操作系统和应用程序
+    - **配置管理**：AWS 负责维护基础设施设备的配置，而客户负责配置自己的来宾操作系统、数据库和应用程序
+    - 认知和培训：AWS 负责培训 AWS 员工，而客户必须负责培训自己的员工
+
+- [责任共担模式 – Amazon Web Services (AWS)](https://aws.amazon.com/cn/compliance/shared-responsibility-model/)
+
+### IAM
+
+用户权限和访问 Identity and Access Management
+- IAM 用户组和角色
+- IAM 策略
+- 多重验证（MFA）
+
+与 IAM 进行交互的方法：
+- AWS 管理控制台（AWS Management Console）
+- AWS 命令​​行工具（AWS Command Line Tools, CLI）
+- AWS 开发工具包（AWS Software Development Kits, SDK）
+
+以下需要访问密钥 ID 和秘密访问密钥才能以编程方式长期访问 AWS 资源：
+- IAM account root user
+- IAM user
+
+- IAM Credentials Report (account-level)
+    - a report that lists all your account's users and the status of their various credentials
+
+- IAM Access Advisor (user-level)
+    - Access advisor shows the service permissions granted to a user and when those services were last accessed.
+    - You can use this information to revise your policies
+
+保护权限措施：
+- 更改root用户帐户的电子邮件地址和密码
+- 在 root 用户帐户上启用 MFA
+- 轮换（更改）所有帐户的所有访问密钥
+- 更改所有IAM用户的用户名和密码
+- 在所有 IAM 用户账户上启用 MFA
+
+选项不正确：
+- 删除所有 IAM 账户并重新创建它们：会导致运营中断
+- 在安全的地方下载所有附加的策略：这只是备份，没太大用处
+
+### Organization
+
+AWS Organizations
+- 在一个中心位置整合和管理多个 AWS 账户
+- 使用服务控制策略 (Service control policies, SCPs) **集中控制组织中所有账户**的权限
+- SCP 可以应用于以下身份和资源：
+    - 单个成员账户
+    - 组织单位（OU）
+
+### 合规性
+
+AWS Artifact：
+- 按需访问 AWS 安全性与合规性报告
+- 审核、接受并管理与 AWS 签订的协议
+- 允许客户下载 **AWS SOC** 和 **PCI** 报告
+- AWS 账户所有者可以从此处获得其账户中所有用户的列表，包括其 AWS 凭证的状态
+
+AWS Certificate Manager (ACM)：
+- 提供服务器证书
+- 快速购买和部署 SSL/TLS 证书
+- 可以使用 ACM 或 IAM 来存储和部署服务器证书
+
+Ref: [Getting credential reports for your AWS account - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html)
+
+### 拒绝服务攻击
+
+AWS Shield：
+- 标准：阻挡DDoS
+- 高级：阻挡、诊断、检测、缓解DDoS
+
+### 其他安全服务
+
+- 加密密钥（AWS KMS）：使客户能够轻松创建和控制用于**加密操作的密钥**（eg. MFA）
+- 访问秘钥：访问密钥是可用于签署对 AWS 的**编程请求**（CLI, API）的长期凭证
+- 网络应用程序防火墙（AWS WAF）：监控进入 Web 应用程序的网络请求的服务
+- 自动化安全性评估（Amazon Inspector）：检查应用程序的安全漏洞以及偏离最佳实践的情况的服务
+- 智能威胁检测（Amazon GuardDuty）：持续监控 AWS 基础设施并帮助检测攻击者侦查或账户泄漏等威胁
+
+## 联网
+
+### 网关和连接
+
+互联网网关：
+- 将 VPC 连接到互联网
+
+Amazon Virtual Private Cloud (Amazon VPC)：
+- 在 AWS 云中预置出隔离的部分。在这个隔离的部分中，您可以在自己定义的虚拟网络中启动各种资源
+- 子网是 VPC 的一部分，可以包含 Amazon EC2 实例等资源
+- 客户可以**完全控制** VPC 虚拟网络环境，也就是所有管理和配置细节
+
+AWS Direct Connect：
+- 在数据中心和 VPC 之间建立专用私有连接
+- 可以降低网络成本，同时增加通过网络传输的带宽
+
+AWS Transit Gateway：
+- 网络中转中心：每个网络只需连接到 Transit Gateway，而无需连接到其他所有网络
+- 简化 VPC 之间的连接管理：每个 VPC 只需连接到 Transit Gateway 而不必连接到其他所有 VPC
+
+### 子网和网络访问控制列表
+
+子网：
+- 是一个用于将资源归为一组的独立区域
+- 是 VPC 的一部分
+- 可以是公有子网，也可以是私有子网
+
+网络访问控制列表 (ACL)：
+- 网络访问控制列表 (ACL) 是一种虚拟防火墙，用于在**子网**级别控制入站和出站流量
+- 默认允许所有入站和出站流量，并检查所有出入白名单与黑名单是否放行
+- 无状态数据包筛选
+
+安全组：
+- 安全组是一种虚拟防火墙，用于控制 **Amazon EC2 实例**的入站和出站流量
+- 默认拒绝所有入站流量，并允许所有出站流量
+- 有状态数据包筛选
+
+### 全球联网
+
+Amazon Route 53：
+- 是一项 DNS Web 服务
+- 是管理域名的 DNS 记录
+- 可以对 Amazon EC2 实例、 Web 服务器和其他资源执行**健康检查**
+- 配置运行状况检查以仅将流量路由到运行状况良好的端点
+- 通过多种路由类型管理全球应用程序流量（跨区域）。
 ## EC2
 
 - 快速预置、启动和随时停止
@@ -158,193 +358,7 @@ AWS Lambda
 - Elastic Kubernetes Service (EKS)：with Kubernetes
 - AWS Fargate：无服务器计算引擎，允许客户在无需管理服务器或集群的情况下运行容器
 
-## 基础设施
-
-### Region, AZ, Edge Location
-
-三个基础设施
-- 区域（Region）：数据中心集群，包含 AWS 资源的地理区域
-- 可用区（Availability Zones）：
-    - 一个区域内的单个数据中心或一组数据中心
-    - 提高应用程序的容错能力
-    - 所有可用区都具有**相同的安全级别**
-- 边缘站点（Edge Location）：
-    - 将缓存的内容**副本**存储在更靠近客户的位置以加快分发速度
-    - 边缘位置**不用于灾难恢复**
-    - 边缘站点位于世界上大多数**主要城市**。边缘站点**可能存在也可能不存在**于给定的 AWS **区域**中
-
-区域四项业务因素：
-- 合规性（Compliance）（**数据主权**）
-- 距离（Proximity）
-- 与**客户**的可用服务（Available services）而非**公司**距离
-- 定价（Pricing）
-
-AWS CloudFront: 
-- 内容分发服务
-- 它利用边缘站点网络来缓存内容并将其分发给全球客户
-
-### 预置资源
-
-与AWS服务交互的方式：
-- AWS CLI: 通过脚本自动执行 AWS 服务和应用程序的操作
-- AWS SDK: 采用受支持的编程语言开发 AWS 应用程序
-
-AWS Outposts: 
-- 是一种**配置管理服务**，提供 **Chef** 和 Puppet 的托管实例。Chef 和 Puppet 是自动化平台，允许您使用代码来自动化服务器的配置
-- 将 AWS 基础设施和服务扩展到**您的本地数据中心**
-- 这项服务让您能够采用**混合云**方法运行基础设施
-
-AWS CodeDeploy：
-- 可自动将应用程序代码部署到任何实例（包括 Amazon EC2 实例和本地运行的实例）
-- 可以更轻松地快速发布新功能，帮助避免部署期间的停机，并处理更新应用程序的复杂性
-- **不能**用于管理 AWS **基础设施**（无法使用 AWS CodeDeploy 构建和自动化 AWS 环境）
-
-Amazon S3 Transfer Acceleration：
-- 可在您的客户端和 S3 存储桶之间实现快速、轻松且安全的长距离文件传输。
-- Transfer Acceleration 利用 Amazon CloudFront 的全球分布式边缘站点。
-- 当数据到达边缘位置时，数据会通过优化的网络路径路由到 Amazon S3
-
-AWS Ekastic Beanstalk: 
-- 提供代码和配置设置
-
-AWS CloudFormation: 
-- 将**基础设施**视为代码，通过编写代码来构建环境
-
-## 安全性
-
-### 责任共担模式
-
-- 客户：云中的安全
-    - 构建应用程序架构
-    - **分析网络性能**
-    - 配置安全组和网络 ACL
-    - **加密**其数据
-- AWS：云的安全性
-    - 数据中心的物理安全
-    - **创建管理程序**
-    - 更换旧磁盘驱动器
-    - 基础设施的补丁管理
-
-继承控制：
-- 物理控制
-- 环境控制
-
-共享控制：
-- 定义：适用于基础设施层和客户层（apply to both the infrastructure layer and customer layers）
-- 包括：
-    - **补丁管理**：AWS 负责修补和修复基础设施内的缺陷，而客户负责修补其来宾操作系统和应用程序
-    - **配置管理**：AWS 负责维护基础设施设备的配置，而客户负责配置自己的来宾操作系统、数据库和应用程序
-    - 认知和培训：AWS 负责培训 AWS 员工，而客户必须负责培训自己的员工
-
-- [责任共担模式 – Amazon Web Services (AWS)](https://aws.amazon.com/cn/compliance/shared-responsibility-model/)
-
-### IAM
-
-用户权限和访问 Identity and Access Management
-- IAM 用户组和角色
-- IAM 策略
-- 多重验证（MFA）
-
-与 IAM 进行交互的方法：
-- AWS 管理控制台（AWS Management Console）
-- AWS 命令​​行工具（AWS Command Line Tools, CLI）
-- AWS 开发工具包（AWS Software Development Kits, SDK）
-
-- IAM Credentials Report (account-level)
-    - a report that lists all your account's users and the status of their various credentials
-
-- IAM Access Advisor (user-level)
-    - Access advisor shows the service permissions granted to a user and when those services were last accessed.
-    - You can use this information to revise your policies
-
-### Organization
-
-AWS Organizations
-- 在一个中心位置整合和管理多个 AWS 账户
-- 使用服务控制策略 (Service control policies, SCPs) **集中控制组织中所有账户**的权限
-- SCP 可以应用于以下身份和资源：
-    - 单个成员账户
-    - 组织单位（OU）
-
-### 合规性
-
-AWS Artifact：
-- 按需访问 AWS 安全性与合规性报告
-- 审核、接受并管理与 AWS 签订的协议
-- 允许客户下载 **AWS SOC** 和 **PCI** 报告
-- AWS 账户所有者可以从此处获得其账户中所有用户的列表，包括其 AWS 凭证的状态
-
-AWS Certificate Manager (ACM)：
-- 提供服务器证书
-- 快速购买和部署 SSL/TLS 证书
-- 可以使用 ACM 或 IAM 来存储和部署服务器证书
-
-Ref: [Getting credential reports for your AWS account - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html)
-
-### 拒绝服务攻击
-
-AWS Shield：
-- 标准：阻挡DDoS
-- 高级：阻挡、诊断、检测、缓解DDoS
-
-### 其他安全服务
-
-- 加密密钥 AWS Key Management Service (AWS **KMS**)：使客户能够轻松创建和控制用于**加密操作的密钥**（eg. MFA）
-- 访问秘钥：访问密钥是可用于签署对 AWS 的**编程请求**（CLI, API）的长期凭证
-- 网络应用程序防火墙 AWS WAF：监控进入 Web 应用程序的网络请求的服务
-- *自动化安全性评估 Amazon Inspector*：检查应用程序的安全漏洞以及偏离最佳实践的情况的服务
-- 智能威胁检测 Amazon GuardDuty
-
-## 联网
-
-### 网关和连接
-
-互联网网关：
-- 将 VPC 连接到互联网
-
-Amazon Virtual Private Cloud (Amazon VPC)：
-- 在 AWS 云中预置出隔离的部分。在这个隔离的部分中，您可以在自己定义的虚拟网络中启动各种资源
-- 子网是 VPC 的一部分，可以包含 Amazon EC2 实例等资源
-- 客户可以**完全控制** VPC 虚拟网络环境，也就是所有管理和配置细节
-
-AWS Direct Connect：
-- 在数据中心和 VPC 之间建立专用私有连接
-- 可以降低网络成本，同时增加通过网络传输的带宽
-
-AWS Transit Gateway：
-- 网络中转中心：每个网络只需连接到 Transit Gateway，而无需连接到其他所有网络
-- 简化 VPC 之间的连接管理：每个 VPC 只需连接到 Transit Gateway 而不必连接到其他所有 VPC
-
-### 子网和网络访问控制列表
-
-子网：
-- 是一个用于将资源归为一组的独立区域
-- 是 VPC 的一部分
-- 可以是公有子网，也可以是私有子网
-
-网络访问控制列表 (ACL)：
-- 网络访问控制列表 (ACL) 是一种虚拟防火墙，用于在**子网**级别控制入站和出站流量
-- 默认允许所有入站和出站流量，并检查所有出入白名单与黑名单是否放行
-- 无状态数据包筛选
-
-安全组：
-- 安全组是一种虚拟防火墙，用于控制 **Amazon EC2 实例**的入站和出站流量
-- 默认拒绝所有入站流量，并允许所有出站流量
-- 有状态数据包筛选
-
-### 全球联网
-
-Amazon Route 53：
-- 是一项 DNS Web 服务
-- 是管理域名的 DNS 记录
-- 可以对 Amazon EC2 实例、 Web 服务器和其他资源执行**健康检查**
-- 配置运行状况检查以仅将流量路由到运行状况良好的端点
-- 通过多种路由类型管理全球应用程序流量（跨区域）。
-
 ## 存储和数据库
-
-summary:
-- 
 
 ### 实例存储 & EBS
 
@@ -355,10 +369,11 @@ summary:
 Amazon Elastic Block Store (Amazon EBS)：
 - 块级存储：适用于数据库和动态网站，**非计算服务**
 - **单个**可用区中
-- 高读写需求、持久保存数据
-- 生命周期独立：即使停止或终止 Amazon EC2 实例，挂载的 EBS 卷上的所有数据仍然可用
+- 高读写需求、需要频繁和精细更新的数据、持久保存数据
+- 生命周期独立：即使停止或终止 Amazon EC2 实例，挂载的 EBS 卷上的所有数据仍然可用（仍然继续付费）
 - 使用量付费
 - **Amazon RDS 数据库实例使用的主要存储服务是 EBS**
+- 一个卷只能附加到**一个**计算资源
 
 Amazon EBS 快照：
 - 增量备份
@@ -373,7 +388,7 @@ Ref:
 对象存储 Amazon Simple Storage Service (Amazon S3)：
 - Amazon S3 是一种对象存储，用于存储和检索来自任何地方的任意数量的数据
 - Amazon S3 可以上传任何类型的文件 ，例如图片、视频、文本文件等
-- Amazon S3 储任意数量的对象，但每个对象都有大小限制。单个 Amazon S3 对象的大小范围可以从最小 0 字节到最大 5 TB
+- Amazon S3 存储的**数据总量**和**对象数量**不受限制，但每个对象都有大小限制。单个 Amazon S3 对象的大小范围可以从最小 0 字节到最大 5 TB
 - 提供 99.999999999% 的耐用性
 - 为实际使用量付费（**批量折扣**）
 
@@ -446,7 +461,7 @@ Amazon Relational Database Service (Amazon RDS)
 ### Amazon DynamoDB
 
 Amazon DynamoDB
-- 是一项键值数据库服务（**非结构化**）。
+- 是一项键值对和文档数据库服务（**非结构化 / 非存储服务**）。
 - **无（实例）服务器架构**
 - **低延迟**：可以在任意规模实现不超过 10 毫秒的延迟
 - **自动扩展容量**
@@ -465,6 +480,10 @@ AWS Database Migration Service (AWS DMS)
 
 ### 其他DB
 
+Amazon ElastiCache：
+- 提供内存数据库存储服务
+- 提高 web 应用程序性能
+
 AWS Storage Gateway：
 - **混合**存储服务，可让**本地**应用程序无缝使用 AWS 云存储
 - 可以使用该服务进行备份和归档、灾难恢复、云数据处理、存储分层和迁移
@@ -481,16 +500,13 @@ Amazon Neptune：
 
 - 实时监控 AWS 基础设施和资源
 - 查看指标和图形以监控资源的性能
-- 配置自动操作和警报来响应指标
-
-AWS CloudTrail：
-- 自动检测异常账户活动
-- 为治理、**合规性**和风险审计提供了很好的资源
+- 配置自动操作和**警报**来响应指标
 
 ### AWS CloudTrail
 
-- 跟踪整个 AWS 基础设施中的用户活动和 API 请求
+- 自动检测异常账户活动
 - 筛选日志以帮助执行操作分析和故障排除
+- 为治理、**合规性**和风险审计提供了很好的资源
 
 ### AWS Trusted Advisor
 
@@ -533,7 +549,7 @@ AWS X-Ray：
 - 使用越多，折扣越多
 
 工具 & 服务：
-- AWS 定价计算器
+- AWS 定价计算器：AWS 定价计算器只是一种根据您的预期使用情况估算每月 AWS 账单的工具（估算用）
 - 账单控制面板（AWS Billing Dashboard）：查看 AWS 账单的详细信息，但无法设置警报
 - 整合账单：在组织的账户中共享批量折扣定价、Savings Plans 和预留实例
 - AWS 预算：在服务使用量超出您定义的阈值时接收提醒
@@ -572,6 +588,11 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
 - 安全组数：免费使用
 - **托管区域数**：不是免费的，但它们与 Amazon EC2 成本无关。托管区域是 Amazon Route 53 成本的因素之一
 
+影响 Lambda 成本：
+- 计算时间消耗
+- 函数的请求数
+- x 存储消耗、卷数：Lambda 不是存储服务。它是一种运行应用程序的计算服务
+
 影响整体成本因素：
 - 计算费用（compute charges）
 - 数据传出费用（data transfer out charges）
@@ -582,8 +603,8 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
 - 配置的 IAM 角色数量（The number of IAM roles provisioned）：IAM 及其所有功能均可免费使用
 
 影响 S3 定价四个因素：
-- 存储在 S3 上的数据总量（以 GB 为单位）（Total amount of data (in GB) stored on S3）
-- 存储类（S3 Standard、S3 Intelligent-Tiering、S3 Standard-Infrequent Access、S3 One Zone-IA、S3 Glacier 或 S3 Glacier Deep Archive）（Storage class (S3 Standard, S3 Intelligent-Tiering, S3 Standard-Infrequent Access, S3 One Zone-IA, S3 Glacier, or S3 Glacier Deep Archive)）
+- 存储在 S3 上的数据总量（以 GB 为单位）
+- 存储类（S3 Standard、S3 Intelligent-Tiering、S3 Standard-Infrequent Access、S3 One Zone-IA、S3 Glacier 或 S3 Glacier Deep Archive）
 - 从 S3 传出 AWS 的数据量（Amount of data transferred out of AWS from S3）
 - 对 S3 的请求数（Number of requests to S3）
 
@@ -598,6 +619,17 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
     - 快照存储基于您的数据在 Amazon S3 中消耗的空间量
     - 由于 Amazon EBS 不保存空块，因此快照大小可能会大大小于您的卷大小
     - 复制 EBS 快照是根据跨区域传输的数据量收费的
+
+降低 EBS 成本：
+- 删除未附加的 EBS 卷：当 EC2 实例停止或终止时，附加的 EBS 卷**不会自动删除，并且会继续产生费用**，因为它们仍在运行
+- 调整大小或更改 EBS 卷类型：识别未充分利用的卷并缩小它们的大小或更改卷类型
+- 删除过时的 Amazon EBS 快照：将其删除以降低存储成本
+- x 使用预留：Amazon EBS 中没有独立于 Amazon EC2 的预留（reservations）
+
+影响 CloudCront 成本：
+- 请求数
+- 流量分布
+- x 实例类型：实例类型是影响 Amazon EC2 成本而非 Amazon CloudFront 成本的因素
 
 ### AWS Support 计划
 
@@ -632,6 +664,10 @@ Ref: [Amazon EC2实例价格_EC2虚拟云服务器托管价格 - AWS云服务](h
     - 仅适用于 AWS Enterprise 或 Enterprise On-Ramp 支持计划
     - 专门处理企业账户的 AWS **计费和账户**专家
 
+基于 AWS Trusted Advisor 不同的支持计划：
+- 仅提供访问6 项核心安全检查：基本、开发
+- 所有115 项 检查：业务、企业
+
 其他：
 - AWS Professional Services：帮助客户实现他们期望的业务成果
 - Amazon Connect：是一种基于云的联络中心解决方案。Amazon Connect 可让您轻松设置和管理客户联络中心，并提供任何规模的可靠客户互动
@@ -642,6 +678,14 @@ Ref:
 ### AWS Marketplace
 
 是一种数字目录，其中包含独立软件供应商提供的上千款软件产品。您可以使用 AWS Marketplace 查找、测试和购买在 AWS 上运行的软件
+
+优势：
+- 它通过**灵活的定价选项**和多种部署方法简化了软件许可和采购。灵活的定价选项包括免费试用、每小时、每月、每年、多年和 BYOL。
+- 客户只需点击几下即可**快速启动预配置软件**，并选择 AMI 和 SaaS 格式以及其他格式的软件解决方案。
+- 它确保**定期扫描产品**以查找已知漏洞、恶意软件、默认密码和其他与安全相关的问题。
+
+不正确：
+- 提供在 AWS 或*任何其他云供应商上*运行的软件解决方案：AWS Marketplace 提供**仅在 AWS 上运行的软件**解决方案
 
 ### AWS Health Dashboard
 
@@ -714,9 +758,9 @@ AWS Service Catalog：
 - 帮助现一致的治理、快速部署，以及满足合规性要求
 
 AWS Config：
-- 发现现有和已删除的 AWS 资源
+- 发现现有和已删除的 AWS 资源，并随时深入了解资源的配置详细信息
 - 确定您对规则的整体合规性
-- 并随时深入了解资源的配置详细信息
+- 无法用于**监控或设置 CPU 使用阈值**
 
 AWS Cloud9：
 - 基于云的集成开发环境 (IDE)，只要浏览器即可编写、运行和调试代码
@@ -757,7 +801,7 @@ Amazon Simple Email Service (Amazon SES)：
 - EFS
 - S3
 - 除 Amazon Aurora 之外的 RDS
-- DynamoDB（无实例）
+-  DynamoDB（无服务）
     
 不能自动扩展：
 - EBS
@@ -767,9 +811,18 @@ Amazon Simple Email Service (Amazon SES)：
 - AWS Lambda
 - AWS Fargate
 - AWS DynamoDB
+- AWS Neptune
 
 可以用作计算资源：
 - EC2
 - Lambda
+
+会自动跨多可用区备份复制数据：
+- Amazon Aurora
+- S3
+
+免费：
+- AWS 公告（AWS Bulletins）
+- AWS 安全博客（AWS Security Blog）
 
 ---
