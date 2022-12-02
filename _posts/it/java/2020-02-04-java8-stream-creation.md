@@ -551,6 +551,7 @@ Output:
 Ref:
 - [Java 8 Stream.iterate examples – Mkyong.com](https://mkyong.com/java8/java-8-stream-iterate-examples/){:target="_blank"}
 - [Java Streams - Stream.iterate()](http://www.java2s.com/Tutorials/Java_Streams/Tutorial/Streams/Stream_iterate_.htm){:target="_blank"}
+- [Streams in Java - Scaler Topics](https://www.scaler.com/topics/java/streams-in-java/)
 
 ## Stream of Primitives
 
