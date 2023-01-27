@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS - Cloud Practitioner Essentials (Official)
+title: AWS - Cloud Practitioner Essentials Detail (Official)
 category: operations
 tags: [aws]
 ---
