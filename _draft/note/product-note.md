@@ -1,3 +1,9 @@
+---
+layout: post
+title: 产品管理概论
+category: course
+tags: [pm]
+---
 
 ## 产品管理概论
 
@@ -107,3 +113,5 @@
 - [学习指南｜如何自学成为产品经理 \| 人人都是产品经理](http://www.woshipm.com/pmd/892079.html)
 - [程序员如何锻炼自己的产品思维 - Yemilice - 博客园](https://www.cnblogs.com/Yemilice/p/11617318.html)
 - [想转行产品的你，是否具备产品思维？ \| 人人都是产品经理](http://www.woshipm.com/pmd/707299.html)
+
+---
