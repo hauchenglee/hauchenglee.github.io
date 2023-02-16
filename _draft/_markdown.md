@@ -8,6 +8,80 @@ There's actually a lot more to Markdown than this. See the official [introductio
 [4]: http://daringfireball.net/projects/markdown/basics
 [5]: http://daringfireball.net/projects/markdown/syntax
 
+## Table
+
+### table 1
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+### table 2
+
+<table>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th colspan="2">水平merge</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4">垂直merge</td>
+            <td rowspan="2">需要冒號設定數值</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan="2">L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
+
+|--|--|--|--|--|--|--|--|
+|♜ |  |♝ |♛ |♚ |♝ |♞ |♜ |
+|  |♟ |♟ |♟ |  |♟ |♟ |♟ |
+|♟ |  |♞ |  |  |  |  |  |
+|  |♗ |  |  |♟ |  |  |  |
+|  |  |  |  |♙ |  |  |  |
+|  |  |  |  |  |♘ |  |  |
+|♙ |♙ |♙ |♙ |  |♙ |♙ |♙ |
+|♖ |♘ |♗ |♕ |♔ |  |  |♖ |
+
 ## Link
 
 URLs can be made in a handful of ways:
@@ -139,86 +213,12 @@ terminal
 
 http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/
 
-## Table
-
-### table 1
-
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-
-### table 2
-
-<table>
-    <thead>
-        <tr>
-            <th>Layer 1</th>
-            <th colspan="2">水平merge</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="4">垂直merge</td>
-            <td rowspan="2">需要冒號設定數值</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan="2">L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
-    </tbody>
-</table>
-
-|--|--|--|--|--|--|--|--|
-|♜ |  |♝ |♛ |♚ |♝ |♞ |♜ |
-|  |♟ |♟ |♟ |  |♟ |♟ |♟ |
-|♟ |  |♞ |  |  |  |  |  |
-|  |♗ |  |  |♟ |  |  |  |
-|  |  |  |  |♙ |  |  |  |
-|  |  |  |  |  |♘ |  |  |
-|♙ |♙ |♙ |♙ |  |♙ |♙ |♙ |
-|♖ |♘ |♗ |♕ |♔ |  |  |♖ |
-
 ## Boxs
 
 
 
-## footnote
+## Others
 
-
+‘Cascadia Code’, Calibri, Consolas, 楷体, 微软雅黑
 
 ---
