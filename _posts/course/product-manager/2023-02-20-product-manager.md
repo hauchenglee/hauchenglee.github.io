@@ -2,7 +2,7 @@
 layout: post
 title: Product Manager
 category: course
-tags: [product-manager]
+tags: [product-manager, private]
 ---
 
 ## 产品思维
@@ -106,7 +106,7 @@ tags: [product-manager]
     - 替代的竞争者：解决相同核心问题的产品，但他的角度或交付方式都不相同
 - 可用工具：
     - [Crunchbase: Discover innovative companies and the people behind them](https://www.crunchbase.com/)
-    - [Monitoring and Social Media Management | Manage your Brand Online](https://mention.com/en/)
+    - [Monitoring and Social Media Management \| Manage your Brand Online](https://mention.com/en/)
 
 ### 商业需求文档 BRD
 
