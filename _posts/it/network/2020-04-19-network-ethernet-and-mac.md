@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - Ethernet & MAC
-category: network
+category: it-operations
 tags: [network]
 ---
 
