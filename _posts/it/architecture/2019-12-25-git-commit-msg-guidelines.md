@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git - Commit Message Guidelines 提交消息準則
-category: operations
+category: architecture
 tags: [git]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Network - Router
-category: tech
-tags: [tech]
+category: it-operations
+tags: [network]
 ---
 
 ## Definition

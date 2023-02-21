@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Network - HTTP
-category: tech
-tags: [tech]
+category: it-operations
+tags: [network]
 ---
 
 ## HTTP Tutorial

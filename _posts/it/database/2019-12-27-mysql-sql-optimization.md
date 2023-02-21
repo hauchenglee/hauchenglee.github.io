@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MySQL - SQL Optimizing 優化
-category: database
+category: it-operations
 tags: [database]
 ---
 

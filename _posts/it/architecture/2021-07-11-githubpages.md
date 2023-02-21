@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Pages
-category: operations
+category: architecture
 tags: [git, private]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MySQL - SQL Basic 基礎
-category: database
+category: it-operations
 tags: [database]
 ---
 

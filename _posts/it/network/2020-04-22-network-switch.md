@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Network - Switch
-category: tech
-tags: [tech]
+category: it-operations
+tags: [network]
 ---
+
+[簡單分享一下路由器和分享器的差別 - Mobile01](https://www.mobile01.com/topicdetail.php?f=507&t=1631479)
 
 ## Device
 
