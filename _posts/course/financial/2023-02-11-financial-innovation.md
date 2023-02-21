@@ -2,7 +2,7 @@
 layout: post
 title: 金融創新
 category: course
-tags: [pm]
+tags: [financial]
 ---
 
 ## 金融科技的發展
