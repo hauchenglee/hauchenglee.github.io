@@ -1,11 +1,15 @@
 ---
 layout: post
-title: 产品经理入门
+title: Product Manager
 category: course
-tags: [pm]
+tags: [product-manager]
 ---
 
 ## 产品思维
+
+![](https://hauchenglee.github.io/assets/images/course/product-manager/pm-diagram.png)
+
+技术 vs 产品
 
 <table>
     <thead>
@@ -30,7 +34,11 @@ tags: [pm]
     </tbody>
 </table>
 
-## 可行性评估 BRD
+一个产品经理的完整工作流程：
+
+![](https://hauchenglee.github.io/assets/images/course/product-manager/pm-workflow.jpg)
+
+## 可行性评估
 
 - 最短时间
 - 最小成本

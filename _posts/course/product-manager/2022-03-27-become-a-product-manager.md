@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Become a Product Manager
+title: Become a Product Manager (Udemy)
 category: course
-tags: [pm]
+tags: [product-manager]
 ---
 
 ## 产品管理概论
