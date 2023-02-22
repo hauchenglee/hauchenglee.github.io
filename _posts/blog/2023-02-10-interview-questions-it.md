@@ -76,6 +76,8 @@ abstract
 
 值传递。Java 中只有值传递，对于对象参数，值的内容是对象的引用。
 
+[methods - Is Java "pass-by-reference" or "pass-by-value"? - Stack Overflow](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value?page=1&tab=scoredesc#tab-top)
+
 ### static
 
 - 唯一值：靜態的意思，可以用來宣告一個函數或者變數，當被宣告為`static`時，它就具有唯一值的概念，永遠只佔著那一組記憶體空間，不管該類別被new幾個`object`，該值永遠都會是一樣
@@ -140,7 +142,7 @@ public boolean add(E e) {
 允许将向量视为堆栈：
 - `push`, `pop`, `peek()`
 
-https://juejin.cn/post/7101613196594642952
+[Java集合类：map、set、list、queue、stack的特点与用法 - 掘金](https://juejin.cn/post/7101613196594642952)
 
 ### 如何实现多线程
 
