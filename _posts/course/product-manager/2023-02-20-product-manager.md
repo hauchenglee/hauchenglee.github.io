@@ -2,7 +2,7 @@
 layout: post
 title: Product Manager
 category: course
-tags: [product-manager, private]
+tags: [product-manager]
 ---
 
 ## 产品思维
@@ -11,17 +11,17 @@ tags: [product-manager, private]
 
 技术 vs 产品
 
-<table>
+<table style="width:100%">
     <thead>
         <tr>
-            <th>技术</th>
-            <th>产品</th>
+            <th style="width:50%">技术</th>
+            <th style="width:50%">产品</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>技术至上（如何实践）</td>
-            <td>用户价值、商业价值（使用感受、好不好用）</td>
+            <td>用户价值（使用感受）</td>
         </tr>
         <tr>
             <td>How to fix</td>
@@ -46,7 +46,7 @@ tags: [product-manager, private]
 
 ### 前期调研
 
-五个面向：
+<span style="font-weight:bold; font-style:italic; text-decoration:underline;">五个面向</span>：
 - 人：
     - 用户画像（特征、认知、行为、收入、决策、期望心理 Kano 模型）
     - 目标客户（核心用户）
@@ -68,7 +68,7 @@ tags: [product-manager, private]
     - 大环境（PEST分析法）
     - 资源能力：人脉、资本、其他资源
 
-用户需求来源：
+<span style="font-weight:bold; font-style:italic; text-decoration:underline;">用户需求来源</span>：
 - EMUC：
     - E：employee 员工
     - M：metrics 指标数据
@@ -86,11 +86,11 @@ tags: [product-manager, private]
     - 成为用户并参与设计
     - 如果有点儿闲钱，还有点时间，但又找不到商机， 最好的办法就是去闹市、电梯、小区人流量最高的那个大门口，端杯茶，静静的听人们抱怨。
 
-满足真正的用户需求：
+<span style="font-weight:bold; font-style:italic; text-decoration:underline;">满足真正的用户需求</span>：
  - 找到核心痛点，而不是试图让问题适合解决方案。【这能实际解决问题吗？】
  - 并不是每个要求都是适合的。【会不会有意想不到的副作用？】
 
-竞品和市场分析：
+<span style="font-weight:bold; font-style:italic; text-decoration:underline;">竞品和市场分析</span>：
 - 市场规模：
     - 自上而下：通过整个市场的规模来估计你的份额（可能会在估算时过于乐观）
     - 自下而上：通过考虑当前同类产品的销售情况，估算我可以捕获多少这些销售额（更准确）
