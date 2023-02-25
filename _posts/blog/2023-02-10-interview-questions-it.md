@@ -2,7 +2,7 @@
 layout: post
 title: 面試題（IT）
 category: blog
-tags: [diary]
+tags: [note]
 ---
 
 ## Java Basic

@@ -2,7 +2,7 @@
 layout: post
 title: The beginning of the side hustle life
 category: blog
-tags: [diary, private]
+tags: [note, private]
 ---
 
 ## 前言
