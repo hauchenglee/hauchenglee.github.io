@@ -136,5 +136,6 @@ tags: [product-manager, private]
 PRD
 - [值得产品经理收藏的PRD文档范例 - 知乎](https://zhuanlan.zhihu.com/p/455896839)
 - [【SOP不藏私】系列＃EP1「連猴子也會的PRD指南」](https://medium.com/as-a-product-designer/sop-ep01-prd-3c6d33880c34)
+- [用Axure做一个产品需求文档（PRD）模板 \| 人人都是产品经理](https://www.woshipm.com/rp/3488031.html)
 
 ---
