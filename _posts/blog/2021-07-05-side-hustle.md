@@ -255,6 +255,11 @@ tags: [note, private]
     - 进修课程
     - 主办活动
 
+商机：
+- [一年营业额超4亿，我抓住了“躺平”背后的百亿商机｜后窗 | 投中网](https://www.chinaventure.com.cn/news/80-20210618-362765.html)
+- [Portmento市調活動資訊網](https://www.portmento.com.tw/outside/index.php)
+
+
 ## 运营
 
 - 如何运营，做好把人留住（Retention）

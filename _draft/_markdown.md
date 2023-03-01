@@ -151,6 +151,10 @@ Ref:
 
 ![](https://hauchenglee.github.io/assets/images//)
 
+## Text
+
+<span style="font-weight:bold; font-style:italic; text-decoration:underline;">粗体、斜体、下划线</span>
+
 ## Reference
 
 > data
