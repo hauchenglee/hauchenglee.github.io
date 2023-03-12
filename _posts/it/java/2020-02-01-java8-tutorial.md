@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Tutorial
-category: java
+category: it
 tags: [java]
 ---
 

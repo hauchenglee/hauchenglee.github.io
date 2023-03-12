@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Deadlock 死鎖
-category: java
+category: it
 tags: [java]
 ---
 

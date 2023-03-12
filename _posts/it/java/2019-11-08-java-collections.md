@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Collections 集合
-category: java
+category: it
 tags: [java]
 ---
 

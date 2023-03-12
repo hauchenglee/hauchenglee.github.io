@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Method Reference 方法參考
-category: java
+category: it
 tags: [java]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Java Contents
 subtitle: Talk is cheap, show me your code
-category: java
+category: it
 tags: [java]
 ---
 

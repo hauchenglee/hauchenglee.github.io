@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Exception 異常處理
-category: java
+category: it
 tags: [java]
 ---
 

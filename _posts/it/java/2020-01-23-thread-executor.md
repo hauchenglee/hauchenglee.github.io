@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Executor 框架
-category: java
+category: it
 tags: [java]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Livelock 活鎖
-category: java
+category: it
 tags: [java]
 ---
 

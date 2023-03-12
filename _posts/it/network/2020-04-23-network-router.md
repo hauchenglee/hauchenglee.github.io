@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - Router
-category: it-operations
+category: it
 tags: [network]
 ---
 

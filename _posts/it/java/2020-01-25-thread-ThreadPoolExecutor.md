@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - ThreadPoolExecutor
-category: java
+category: it
 tags: [java]
 ---
 

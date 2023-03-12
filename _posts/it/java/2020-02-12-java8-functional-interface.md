@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Functional Interface 函數式接口
-category: java
+category: it
 tags: [java]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Stream Creation 建立Stream流
-category: java
+category: it
 tags: [java]
 ---
 

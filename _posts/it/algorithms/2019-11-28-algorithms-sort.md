@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms - 排序
-category: algorithms
+category: it
 tags: [algorithms]
 ---
 

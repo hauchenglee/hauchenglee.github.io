@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Publication and Escape 對象的發佈與逸出
-category: java
+category: it
 tags: [java]
 ---
 

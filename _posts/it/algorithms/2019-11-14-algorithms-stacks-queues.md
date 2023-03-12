@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms - Stacks and Queues
-category: algorithms
+category: it
 tags: [algorithms]
 ---
 

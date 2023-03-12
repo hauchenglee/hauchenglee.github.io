@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms - Binary Search Tree 二叉查找樹
-category: algorithms
+category: it
 tags: [algorithms]
 ---
 

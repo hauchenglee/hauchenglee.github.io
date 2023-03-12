@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - HTTP
-category: it-operations
+category: it
 tags: [network]
 ---
 

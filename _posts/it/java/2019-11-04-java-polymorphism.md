@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Polymorphism 多態
-category: java
+category: it
 tags: [java]
 ---
 

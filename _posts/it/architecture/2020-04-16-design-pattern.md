@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design Pattern 設計模式
-category: architecture
+category: it
 tags: [design-pattern]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Encapsulation 封裝
-category: java
+category: it
 tags: [java]
 ---
 

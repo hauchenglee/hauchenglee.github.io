@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - 基礎語法
-category: java
+category: it
 tags: [java]
 ---
 

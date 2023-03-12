@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web Server & App Server Compare 兩者比較
-category: java
+category: it
 tags: [java]
 ---
 

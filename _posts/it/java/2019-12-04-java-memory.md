@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Memory Allocation 內存分配
-category: java
+category: it
 tags: [java]
 ---
 

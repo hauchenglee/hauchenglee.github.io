@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - IP
-category: it-operations
+category: it
 tags: [network]
 ---
 

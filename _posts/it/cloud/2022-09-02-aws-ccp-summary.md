@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AWS - CCP Summary
-category: it-operations
+category: it
 tags: [aws]
 ---
 

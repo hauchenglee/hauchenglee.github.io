@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot - jar & war
-category: spring
+category: it
 tags: [spring-boot]
 ---
 

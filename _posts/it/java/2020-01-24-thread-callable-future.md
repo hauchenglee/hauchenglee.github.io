@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Callable & Future
-category: java
+category: it
 tags: [java]
 ---
 

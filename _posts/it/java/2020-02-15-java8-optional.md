@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Optional
-category: java
+category: it
 tags: [java]
 ---
 

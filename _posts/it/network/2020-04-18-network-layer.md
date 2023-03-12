@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network Layer 網絡七層模型
-category: it-operations
+category: it
 tags: [network]
 ---
 

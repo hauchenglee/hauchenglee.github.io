@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - Broadcast 廣播
-category: it-operations
+category: it
 tags: [network]
 ---
 

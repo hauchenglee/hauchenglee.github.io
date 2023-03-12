@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network - TCP / UDP
-category: it-operations
+category: it
 tags: [network]
 ---
 

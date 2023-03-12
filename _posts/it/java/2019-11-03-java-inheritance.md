@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Inheritance 繼承
-category: java
+category: it
 tags: [java]
 ---
 

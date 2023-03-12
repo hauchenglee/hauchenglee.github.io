@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Synchronization 線程同步機制
-category: java
+category: it
 tags: [java]
 ---
 

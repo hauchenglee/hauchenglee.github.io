@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Starvation 飢餓
-category: java
+category: it
 tags: [java]
 ---
 

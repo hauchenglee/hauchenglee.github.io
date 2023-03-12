@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java 8 - Default Method 預設方法
-category: java
+category: it
 tags: [java]
 ---
 

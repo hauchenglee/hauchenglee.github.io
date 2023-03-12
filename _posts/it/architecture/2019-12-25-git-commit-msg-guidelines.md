@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Git - Commit Message Guidelines 提交消息準則
-category: architecture
-tags: [git]
+category: it
+tags: [design-pattern]
 ---
 
 ```console

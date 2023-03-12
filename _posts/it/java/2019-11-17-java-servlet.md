@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Servlet
-category: java
+category: it
 tags: [java]
 ---
 

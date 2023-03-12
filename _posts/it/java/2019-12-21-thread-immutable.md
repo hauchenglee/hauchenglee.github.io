@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Immutable Objects 對象不可改變性
-category: java
+category: it
 tags: [java]
 ---
 

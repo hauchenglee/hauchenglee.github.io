@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot - Application Properties
-category: spring
+category: it
 tags: [spring-boot]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Executors 線程池
-category: java
+category: it
 tags: [java]
 ---
 

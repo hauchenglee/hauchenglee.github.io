@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Concurrency 並發編程
-category: java
+category: it
 tags: [java]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Github Pages
-category: architecture
-tags: [git, private]
+category: it
+tags: [note]
 ---
 
 ## Introduction

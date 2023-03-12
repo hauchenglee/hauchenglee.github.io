@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Thread Objects 線程對象
-category: java
+category: it
 tags: [java]
 ---
 

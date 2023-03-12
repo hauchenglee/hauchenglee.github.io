@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms - 時間複雜度
-category: algorithms
+category: it
 tags: [algorithms]
 ---
 

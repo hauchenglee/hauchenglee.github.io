@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot Exception Collations Summary for Myself
-category: spring
+category: it
 tags: [spring-boot]
 ---
 
