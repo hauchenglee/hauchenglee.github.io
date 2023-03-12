@@ -137,5 +137,11 @@ PRD
 - [值得产品经理收藏的PRD文档范例 - 知乎](https://zhuanlan.zhihu.com/p/455896839)
 - [【SOP不藏私】系列＃EP1「連猴子也會的PRD指南」](https://medium.com/as-a-product-designer/sop-ep01-prd-3c6d33880c34)
 - [用Axure做一个产品需求文档（PRD）模板 \| 人人都是产品经理](https://www.woshipm.com/rp/3488031.html)
+- [用Axure制作产品需求文档PRD的一个实例 – Axure中文学习网](https://www.axure.com.cn/2841)
+
+流程图：
+- [从0设计App（6）：根据流程图4步解决原型稿、交互稿 \| 人人都是产品经理](https://www.woshipm.com/pd/3904788.html)
+- [5.1 原型设计 - 页面流程图 - 疯子110 - 博客园](https://www.cnblogs.com/telwanggs/p/10876027.html)
+
 
 ---
