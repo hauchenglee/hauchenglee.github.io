@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Product Manager Basic
+title: Product Manager 01 Basic
 category: blog
 tags: [product-manager, private]
 ---
@@ -127,11 +127,7 @@ tags: [product-manager, private]
 - [如何做需求分析？ - 知乎](https://www.zhihu.com/question/20407032)
     - [如何做需求分析？ 黑马产品经理​ - 知乎](https://www.zhihu.com/question/20407032/answer/2794287878)
     - [如何做需求分析？ 知群​ - 知乎](https://www.zhihu.com/question/20407032/answer/2542494890)
-
-文档撰写：
-- [BRD、MRD、PRD文档的区别 - 简书](https://www.jianshu.com/p/e06076dd92f6)
-- [【IoT】 产品设计：BRD、MRD、PRD详解（一）_产品人卫朋的博客-CSDN博客_产品brd](https://blog.csdn.net/liwei16611/article/details/106444789)
-- [如何写商业需求文档（BRD）？ - 简书](https://www.jianshu.com/p/d6b1ac666460)
+- [产品经理必知的15种思维模型 - 知乎](https://zhuanlan.zhihu.com/p/519329651)
 
 PRD
 - [值得产品经理收藏的PRD文档范例 - 知乎](https://zhuanlan.zhihu.com/p/455896839)

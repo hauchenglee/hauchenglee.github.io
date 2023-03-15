@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Product Manager 03 产品设计
+title: Product Manager 03 產品設計
 category: course
-tags: [product-manager]
+tags: [product-manager, private]
 ---
 
 
