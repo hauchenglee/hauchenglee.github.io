@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 隨筆 - 平庸
+title: Diary - 平庸
 category: blog
 tags: [diary]
 ---

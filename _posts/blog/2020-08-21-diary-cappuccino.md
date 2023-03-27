@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 隨筆 - 卡布奇諾
+title: Diary - 卡布奇諾
 category: blog
 tags: [diary]
 ---
