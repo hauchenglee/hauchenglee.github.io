@@ -2,7 +2,7 @@
 layout: post
 title: 一個寂寞的故事
 category: blog
-tags: [diary, private]
+tags: [story]
 ---
 
 這是日記。
