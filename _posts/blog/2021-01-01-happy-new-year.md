@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 新年快乐
+title: Happy New Year 2021
 category: blog
 tags: [diary, private]
 ---

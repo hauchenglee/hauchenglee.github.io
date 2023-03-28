@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The beginning of the side hustle life
+title: Side Hustle Life
 category: blog
 tags: [note, private]
 ---
