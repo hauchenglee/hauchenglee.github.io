@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diary - 社交
+title: Diary - My Nature
 category: blog
 tags: [diary, private]
 ---
