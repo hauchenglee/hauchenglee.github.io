@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diary - 回避型依恋 & 我
+title: Diary - 回避型依恋
 category: blog
 tags: [diary, private]
 ---
