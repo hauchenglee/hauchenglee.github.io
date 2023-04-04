@@ -2,7 +2,7 @@
 layout: post
 title: Product Manager 02 需求分析
 category: course
-tags: [product-manager, private]
+tags: [product-manager]
 ---
 
 ## 需求分析前言
