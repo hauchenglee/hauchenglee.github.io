@@ -17,7 +17,7 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          // color: #fff;
+          color: $grey-color;
           transition: 0.1s color;
         }
 
@@ -28,7 +28,7 @@ html {
 
           .menu-icon {
             > svg {
-              fill: $white-color;
+              fill: $grey-color;
             }
           }
         }
