@@ -17,7 +17,7 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          color: $grey-color;
+          color: #828282; // feat. yat.scss $grey-color
           transition: 0.1s color;
         }
 
@@ -28,7 +28,7 @@ html {
 
           .menu-icon {
             > svg {
-              fill: $grey-color;
+              fill: #828282;  // feat. yat.scss $grey-color
             }
           }
         }
