@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diary - 2023-04-05
+title: Diary - Line Chat
 category: blog
 tags: [diary, private]
 ---
