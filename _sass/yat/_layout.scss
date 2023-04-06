@@ -2,14 +2,6 @@
  * Animation for transparent header
  */
 html {
-  &[data-theme="dark"]  {
-    &[data-scroll-status='top'] {
-      .site-brand-inner, .page-link {
-        color: $header-text-color;
-        transition: 0.1s color;
-      }
-    }
-  }
   &[data-header-transparent] {
     header.site-header {
       position: fixed;
@@ -27,6 +19,15 @@ html {
         .site-brand-inner, .page-link {
           color: $grey-color; // feat. yat.scss $grey-color
           transition: 0.1s color;
+        }
+
+        &[data-theme="dark"]  {
+          &[data-scroll-status='top'] {
+            .site-brand-inner, .page-link {
+              color: $header-text-color;
+              transition: 0.1s color;
+            }
+          }
         }
 
         @include media-query($on-laptop) {
