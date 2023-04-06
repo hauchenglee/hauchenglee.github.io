@@ -21,15 +21,6 @@ html {
           transition: 0.1s color;
         }
 
-        &[data-theme="dark"]  {
-          &[data-scroll-status='top'] {
-            .site-brand-inner, .page-link {
-              color: $header-text-color;
-              transition: 0.1s color;
-            }
-          }
-        }
-
         @include media-query($on-laptop) {
           .page-link {
             color: $header-text-color;
@@ -50,6 +41,15 @@ html {
 
       .site-footer-inner {
         border-top: solid 1px #eee;
+      }
+    }
+  }
+
+  &[data-theme="dark"]  {
+    &[data-scroll-status='top'] {
+      .site-brand-inner, .page-link {
+        color: $header-text-color;
+        transition: 0.1s color;
       }
     }
   }
