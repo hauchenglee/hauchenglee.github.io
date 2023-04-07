@@ -2,7 +2,7 @@
 layout: post
 title: Diary - My Nature
 category: blog
-tags: [diary, private]
+tags: [diary]
 ---
 
 > 如果要說親疏遠近，我想我永遠的距離是疏遠，這不是故作姿態，而是這樣符合我的性格。
