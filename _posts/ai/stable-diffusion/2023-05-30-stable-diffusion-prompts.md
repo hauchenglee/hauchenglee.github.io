@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stable-diffusion Prompts
+title: Stable Diffusion Prompts
 category: blog
 tags: [ai, stable-diffusion]
 ---

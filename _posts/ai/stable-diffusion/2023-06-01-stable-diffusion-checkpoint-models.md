@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stable-diffusion Checkpoint Models
+title: Stable Diffusion Checkpoint Models
 category: blog
 tags: [ai, stable-diffusion]
 ---

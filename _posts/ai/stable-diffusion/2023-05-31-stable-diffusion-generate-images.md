@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stable-diffusion Generate Image
+title: Stable Diffusion Generate Image
 category: blog
 tags: [ai, stable-diffusion]
 ---

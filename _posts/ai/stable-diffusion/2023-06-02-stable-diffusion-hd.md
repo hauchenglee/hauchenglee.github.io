@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stable-diffusion High Definition
+title: Stable Diffusion High Definition
 category: blog
 tags: [ai, stable-diffusion]
 ---
