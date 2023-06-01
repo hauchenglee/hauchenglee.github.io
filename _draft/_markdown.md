@@ -8,6 +8,8 @@ There's actually a lot more to Markdown than this. See the official [introductio
 [4]: http://daringfireball.net/projects/markdown/basics
 [5]: http://daringfireball.net/projects/markdown/syntax
 
+Another: [Extended Syntax \| Markdown Guide](https://www.markdownguide.org/extended-syntax/)
+
 ## Table
 
 ### table 1
@@ -72,6 +74,20 @@ There's actually a lot more to Markdown than this. See the official [introductio
     </tbody>
 </table>
 
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
 |--|--|--|--|--|--|--|--|
 |♜ |  |♝ |♛ |♚ |♝ |♞ |♜ |
 |  |♟ |♟ |♟ |  |♟ |♟ |♟ |
@@ -99,6 +115,20 @@ URLs can be made in a handful of ways:
 target blank: (not recommend)
 
 [](){:target="_blank"}
+
+## footnote
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
 
 ## video
 
