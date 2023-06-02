@@ -2,7 +2,7 @@
 layout: post
 title: 回家
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 回家

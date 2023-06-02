@@ -2,7 +2,7 @@
 layout: post
 title: 鏡像
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 鏡像

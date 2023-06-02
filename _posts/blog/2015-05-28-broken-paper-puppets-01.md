@@ -2,7 +2,7 @@
 layout: post
 title: 《斷了線的紙偶》 01
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 噹噹的鐘聲在校園裡來回擺盪，聲音清脆而悠場，代表著活力、青春。很自然，似乎沒什麼違和感。

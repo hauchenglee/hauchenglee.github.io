@@ -1,8 +1,8 @@
 ---
 layout: post
-title: FW - 算命
+title: 算命
 category: blog
-tags: [diary, forward]
+tags: [diary]
 ---
 
 占卜之所以准，是因為我們從來不會想去改變過去<br>

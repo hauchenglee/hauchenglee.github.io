@@ -2,7 +2,7 @@
 layout: post
 title: 月光下的歌聲
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 夜幕降臨，無數的小星星玩起了捉迷藏，藏在那幽藍的天空中，一眨一眨地，彷彿在邀請人們到無垠的天空中去遨遊。

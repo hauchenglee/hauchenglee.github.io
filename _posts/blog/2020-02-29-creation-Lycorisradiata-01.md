@@ -2,7 +2,7 @@
 layout: post
 title: Lycoris Radiata 01
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 episode one 花落.

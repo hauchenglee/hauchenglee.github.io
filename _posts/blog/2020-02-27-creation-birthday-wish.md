@@ -2,7 +2,7 @@
 layout: post
 title: 生日願望
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 生日願望
