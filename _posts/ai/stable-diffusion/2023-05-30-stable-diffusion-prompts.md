@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stable Diffusion Prompts
-category: blog
+category: AI
 tags: [ai, stable-diffusion]
 ---
 

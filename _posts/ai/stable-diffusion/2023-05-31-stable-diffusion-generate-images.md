@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stable Diffusion Generate Image
-category: blog
+category: AI
 tags: [ai, stable-diffusion]
 ---
 
@@ -21,6 +21,9 @@ tags: [ai, stable-diffusion]
 
 - 骰子：設置-1，每次隨機生成全新圖像
 - 循環按鈕：設置上一張生成圖的種子值
+- 反推提示詞：
+  - CLIP
+  - DeepBooru (v)
 
 ### 圖生圖拓展應用
 

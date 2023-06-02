@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stable Diffusion Checkpoint Models
-category: blog
+category: AI
 tags: [ai, stable-diffusion]
 ---
 
