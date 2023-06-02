@@ -2,7 +2,7 @@
 layout: post
 title: Product Manager 01 Basic
 category: blog
-tags: [product-manager]
+tags: [pm]
 ---
 
 ## 產品經理

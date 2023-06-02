@@ -2,7 +2,7 @@
 layout: post
 title: 計算機概論
 category: it
-tags: [cs]
+tags: [computer-science]
 ---
 
 ## 數字系統

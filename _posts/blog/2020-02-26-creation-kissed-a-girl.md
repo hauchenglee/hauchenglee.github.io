@@ -2,7 +2,7 @@
 layout: post
 title: 吻一個女孩
 category: blog
-tags: [story]
+tags: [literature]
 ---
 
 吻一個女孩
