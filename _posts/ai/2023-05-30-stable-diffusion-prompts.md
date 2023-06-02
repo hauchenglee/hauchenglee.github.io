@@ -93,18 +93,4 @@ tags: [ai, stable-diffusion]
 2. 藉助工具
 3. 抄作業
 
-## Reference
-
-教程：
-- [课程学习资料链接：Stable Diffusion 零基础入门课学习资料汇总 - 幕布](https://mubu.com/doc/_2As4DSE4m)
-
-提示詞：
-- [全网最全的AI绘画提示词网站，看这一篇就够了！_办公软件_什么值得买](https://post.smzdm.com/p/all0mv3p/)
-- [AI绘画提示词生成器 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=1101)
-- [AI词汇加速器 AcceleratorI Prompt](https://ai.dawnmark.cn/)
-
-參考：
-- [Discover and Generate AI Art \| OpenArt](https://openart.ai/)
-- [Arthub.ai: Discover, Upload and Share AI Generated Art](https://arthub.ai/)
-
 ---
