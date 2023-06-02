@@ -24,11 +24,6 @@ tags: [ai, stable-diffusion]
 - ckpt 3-7GB
 - safetensor 1-2GB
 
-## 模型下載渠道分析
-
-- [Hugging Face – The AI community building the future.](https://huggingface.co/)
-- [Civitai \| Stable Diffusion models, embeddings, LoRAs and more](https://civitai.com/)
-
 ## 模型分類
 
 ### 二次元模型

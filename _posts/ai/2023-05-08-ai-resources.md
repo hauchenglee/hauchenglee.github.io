@@ -7,6 +7,9 @@ tags: [ai]
 
 ## ChatGPT
 
+OpenAI
+- [API Reference - OpenAI API](https://platform.openai.com/docs/api-reference/chat/create)
+
 ChatGPT in Java
 - [Using OpenAI ChatGPT API with Java: A comprehensive guide \| by Manpreet Singh \| Medium](https://manpreetsinghdor.medium.com/openai-chatgpt-api-with-java-a-comprehensive-guide-45b77402315)
 
