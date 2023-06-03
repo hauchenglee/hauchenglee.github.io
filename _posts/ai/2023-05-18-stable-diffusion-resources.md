@@ -7,8 +7,12 @@ tags: [ai, stable-diffusion]
 
 ## 教程
 
+嗶哩嗶哩
 - [B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 \| SD WebUI 保姆级攻略_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1As4y127HW/)
 - [课程学习资料链接：Stable Diffusion 零基础入门课学习资料汇总 - 幕布](https://mubu.com/doc/_2As4DSE4m)
+
+知乎
+- [Stable Diffusion 新手入门手册 - 知乎](https://zhuanlan.zhihu.com/p/619120794)
 
 各參數/設置解釋
 - [stable diffusion webui如何工作以及采样方法的对比 - 知乎](https://zhuanlan.zhihu.com/p/612572004)
@@ -28,17 +32,6 @@ tags: [ai, stable-diffusion]
 模型推薦
 - [Stable diffusion 有哪些不错的模型？ - 知乎](https://www.zhihu.com/question/597629253)
 
-Embeddings
-- [CharTurner - Character Turnaround helper for 1.5 AND 2.1! - CharTurner V2 - For 1.5 \| Stable Diffusion Textual Inversion \| Civitai](https://civitai.com/models/3036/charturner-character-turnaround-helper-for-15-and-21)
-- [EasyNegative - EasyNegative \| Stable Diffusion Textual Inversion \| Civitai](https://civitai.com/models/7808/easynegative) → 基於counterfeit訓練，作者測試對大多數二次元模型都有效
-- [Deep Negative V1.x - V1 75T \| Stable Diffusion Textual Inversion \| Civitai](https://civitai.com/models/4629?modelVersionId=5637) → 針對真人模型訓練
-
-Hypernetwork
-- Q版: [[Toru8P] Waven Chibi Style - wavenchibi v1.0b \| Stable Diffusion Hypernetwork \| Civitai](https://civitai.com/models/4379/toru8p-waven-chibi-style)
-- 雕塑: [Dantion Marble Statues Hypernetwork - 1.0 \| Stable Diffusion Hypernetwork \| Civitai](https://civitai.com/models/3810/dantion-marble-statues-hypernetwork)
-- 像素: [[LuisaP] Pixel art Hypernetwork - v1\| Stable Diffusion Hypernetwork \| Civitai](https://civitai.com/models/3962/luisap-pixel-art-hypernetwork)
-- 抽象: [[LuisaP]Abstract Painting - abstract version \| Stable Diffusion Hypernetwork \| Civitai](https://civitai.com/models/4853?modelVersionId=5579)
-
 ## 訓練
 
 - [(训练篇) Stable Diffusion训练方法对比 - 知乎](https://zhuanlan.zhihu.com/p/610628741)
@@ -47,6 +40,7 @@ Hypernetwork
 ## 插件
 
 ControlNet
+- [AI绘画新突破-ControlNet精准控图 - 知乎](https://zhuanlan.zhihu.com/p/607139523)
 - [ControlNet Merging Trick : r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11bz352/controlnet_merging_trick/)
 
 其他推薦
@@ -58,6 +52,9 @@ ControlNet
 靈感參考
 - [Discover and Generate AI Art \| OpenArt](https://openart.ai/)
 - [Arthub.ai: Discover, Upload and Share AI Generated Art](https://arthub.ai/)
+
+部署
+- [轻松部署你自己的 Stable Diffusion 云服务 - 知乎](https://zhuanlan.zhihu.com/p/569663856)
 
 商業應用
 - [Stable Diffusion的十个脑洞 - 知乎](https://zhuanlan.zhihu.com/p/571808038)

@@ -34,12 +34,11 @@ tags: [ai, stable-diffusion]
 - Dreamlike Diffusion: 歐美風
 
 其他也推薦的：
-- 深淵橘
+- AbyssOrange
 - DreamShaper
-- Meina Mix
-- Cetus Mix
-- Pastel Mix
-- DalcefoPainting
+- MeinaMix
+- Cetus-Mix
+- Pastel-Mix
 
 關鍵詞：
 - illustration
@@ -55,7 +54,7 @@ tags: [ai, stable-diffusion]
 模型：
 - Deliberate
 - Realistic Version
-- L.O.F.I
+- LOFI
 
 關鍵詞：
 - photography
@@ -67,7 +66,7 @@ tags: [ai, stable-diffusion]
 ### 2.5D模型
 
 模型：
-- Never Ending Dream (NED)
+- NeverEnding Dream (NED)
 - Protogen (Realistic)
 - 国风3 (GuoFeng3) 
 
