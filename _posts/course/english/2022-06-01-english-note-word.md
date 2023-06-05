@@ -2,7 +2,7 @@
 layout: post
 title: English Grammar System - word
 category: course
-tags: [english, private]
+tags: [english]
 ---
 
 ## 数量词

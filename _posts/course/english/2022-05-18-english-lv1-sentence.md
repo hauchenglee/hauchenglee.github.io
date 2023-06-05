@@ -2,7 +2,7 @@
 layout: post
 title: English Grammar System - Elementary Sentence Patterns
 category: course
-tags: [english, private]
+tags: [english]
 ---
 
 ## 句子成分

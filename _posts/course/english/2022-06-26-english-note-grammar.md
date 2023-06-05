@@ -2,7 +2,7 @@
 layout: post
 title: English Grammar System - grammar
 category: course
-tags: [english, private]
+tags: [english]
 ---
 
 ## summary
