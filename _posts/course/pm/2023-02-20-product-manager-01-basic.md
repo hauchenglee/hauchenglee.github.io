@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Product Manager 01 Basic
-category: blog
+category: course
 tags: [pm]
 ---
 
