@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 【阅读】别做正常的傻瓜
+title: Reading - 别做正常的傻瓜
 category: blog
-tags: [reading, private]
+tags: [note, private]
 ---
 
 ## 前言

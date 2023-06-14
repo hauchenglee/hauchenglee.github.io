@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 训练
-category: fitness
-tags: [fitness, nutrition]
+category: health
+tags: [fitness]
 ---
 
 ## 人体能量系统

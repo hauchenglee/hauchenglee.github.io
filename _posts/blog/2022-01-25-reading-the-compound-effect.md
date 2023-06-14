@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 【reading】 複利效應
+title: Reading - 複利效應
 category: blog
-tags: [reading, private]
+tags: [note, private]
 ---
 
 ![](https://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/081/42/0010814286.jpg&v=5c63f1ab&w=348&h=348)

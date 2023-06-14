@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 健身 - 概念与入门
-category: fitness
-tags: [fitness]
+category: health
+tags: [fitness, nutrition]
 ---
 
 ## 工具篇

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 营养学
-category: fitness
-tags: [fitness, nutrition]
+category: health
+tags: [nutrition]
 ---
 
 ## 概论

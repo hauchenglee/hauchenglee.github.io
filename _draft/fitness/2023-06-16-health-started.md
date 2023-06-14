@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 健身 - 概念与入门
-category: fitness
+category: health
 tags: [fitness]
 ---
 
@@ -47,6 +47,16 @@ https://today.line.me/tw/v2/article/GmQor8
 
 ## 了解自己身体的各项数据
 
+### 基础数据
+
+
+
+
+### BMI、BMR、TDEE
+
+
+
+
 ### 客户评估
 
 初始的客户评估是设计健康有效的健身计划重要组成部分。在培训客户时，许多的健身教练常常会忽略而直接进入锻炼的计划，却没有深入了解客户的背景或体格能力等任何事情。可以想象，这并不理想。
@@ -60,18 +70,5 @@ https://today.line.me/tw/v2/article/GmQor8
 2. 健康状况评估
 3. 一般体能评估
 4. 最大重量评估
-
-### 基础数据
-
-
-
-
-### BMI、BMR、TDEE
-
-
-
-
-
-
 
 ---
