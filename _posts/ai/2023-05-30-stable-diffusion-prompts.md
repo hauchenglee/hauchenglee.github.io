@@ -60,7 +60,7 @@ tags: [ai, stable-diffusion]
 
 套括號：
 - 圓括號 `(((white flower)))` → 1.1 * 1.1 * 1.1
-- 大括號 `{{{white flower}}}` → 1.05 * 1.05 * 1.05
+- 大括號 `{ { {white flower} } }` → 1.05 * 1.05 * 1.05
 - 方括號 `[[[white flower]]]` → 0.9 * 0.9 * 0.9
 
 權重安全值：1 +- 0.5

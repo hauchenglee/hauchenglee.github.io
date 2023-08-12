@@ -16,6 +16,7 @@ tags: [ai, stable-diffusion]
 
 各參數/設置解釋
 - [stable diffusion webui如何工作以及采样方法的对比 - 知乎](https://zhuanlan.zhihu.com/p/612572004)
+- [室内/建筑关键词中英文对照表 - 飞书云文档](https://d36mqghu8a.feishu.cn/sheets/NnnwsdcCKh3dpgt88kCcQsc8nIe)
 
 ## 提示詞
 
@@ -42,6 +43,7 @@ tags: [ai, stable-diffusion]
 ControlNet
 - [AI绘画新突破-ControlNet精准控图 - 知乎](https://zhuanlan.zhihu.com/p/607139523)
 - [ControlNet Merging Trick : r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/11bz352/controlnet_merging_trick/)
+- [MORE MADNESS!! Controlnet blend composition (Color, Light, style, etc) : r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/comments/115dr9r/more_madness_controlnet_blend_composition_color/)
 
 其他推薦
 - Segment Anything GroundingDINO: [换装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Vh411F7Zn/)
@@ -59,5 +61,6 @@ ControlNet
 商業應用
 - [Stable Diffusion的十个脑洞 - 知乎](https://zhuanlan.zhihu.com/p/571808038)
 - [Stable Diffusion从小白玩法到商业变现 - 知乎](https://zhuanlan.zhihu.com/p/622656367)
+- [🐼Stable Diffusion 电商系列 第1集 更换腿部 知识点：用局部重绘配合controlnet实现假人换装 AI绘画电商服装类应用系列 - YouTube](https://www.youtube.com/watch?v=Ug82vu7Ns2s)
 
 ---
