@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 算命
+title: Diary - Fortune
 category: blog
 tags: [diary]
 ---
